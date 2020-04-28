@@ -1,0 +1,2459 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,400,700|Montserrat:700,300|Open+Sans:700,800,600,400');
+
+
+.provisorio {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 2059px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.provisorio .rectangle {
+  background-color    : rgba(46, 50, 67, 1.0);
+  bottom              : -990px;
+  height              : 967px;
+  width               : calc(100.00% + 96px);
+  position            : absolute;
+  margin              : 0;
+  left                : -48px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .panel {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 148px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .panel .panel2 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 148px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .panel .panel2 .panel21 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 148px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .panel .tokilogo {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 15px;
+  height              : 81px;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : calc(50.00% - 98px);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.provisorio .panel .tokilogo {
+  pointer-events      : auto;
+}
+.provisorio .panel .tokilogo:hover {
+  transform           : translate(0, -10px);
+}
+.provisorio .panel .tokilogo .tokilogo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 81px;
+  width               : 196px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .panel .tokilogo .tokilogo1 .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 81px;
+  width               : 195px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 427px;
+  width               : calc(100.00% - 70px);
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 427px;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .criadoreslogoout {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 34px;
+  width               : 327px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .criadoreslogoout .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 34px;
+  width               : 327px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .criadoreslogoout .logocriadoresout {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 34px;
+  width               : 317px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .criadoreslogoout .logocriadoresout .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 33px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .criadoreslogoout .logocriadoresout .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .criadoreslogoout .logocriadoresout .shape2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .criadoreslogoout .logocriadoresout .shape3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 67px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .criadoreslogoout .logocriadoresout .shape4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 99px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .criadoreslogoout .logocriadoresout .shape5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 33px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 129px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .criadoreslogoout .logocriadoresout .shape6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 163px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .criadoreslogoout .logocriadoresout .shape7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 191px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .criadoreslogoout .logocriadoresout .shape8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 33px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 214px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .criadoreslogoout .logocriadoresout .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 240px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .criadoreslogoout .logocriadoresout .shape9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 240px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .criadoreslogoout .logocriadoresout .shape10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 29px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 253px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .criadoreslogoout .logocriadoresout .shape11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 253px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .criadoreslogoout .logocriadoresout .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 23px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 305px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .criadoreslogoout .logocriadoresout .path21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 29px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 285px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .criadoreslogoout .logocriadoresout .shape12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 30px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 285px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .criadoreslogoout .logocriadoresout .shape13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 29px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 302px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .criadoreslogoout .logocriadoresout .shape14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 30px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 302px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 70px;
+  height              : 11px;
+  width               : calc(100.00% - 10px);
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .headerbuttons {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 213px;
+  top                 : 0px;
+  height              : 52px;
+  width               : 293px;
+  position            : absolute;
+  margin              : 0;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .headerbuttons .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 52px;
+  width               : 293px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .headerbuttons .aboutbutton {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 245px;
+  top                 : 0px;
+  height              : 50px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .headerbuttons .aboutbutton .aboutbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .headerbuttons .pricesbutton {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 128px;
+  top                 : 0px;
+  height              : 50px;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 106px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .headerbuttons .pricesbutton .pricesbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .headerbuttons .contactbutton {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : 50px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 224px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .headerbuttons .contactbutton .contactbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 28px;
+  height              : 411px;
+  width               : 276px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .shopgroup {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 157px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.provisorio .headermenu .menu .user .shopgroup {
+  pointer-events      : auto;
+}
+.provisorio .headermenu .menu .user .shopgroup:hover {
+  transform           : translate(0, -5px);
+}
+.provisorio .headermenu .menu .user .shopgroup .shopgroup1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 32px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .shopgroup .shopgroup1 .shop2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 23px;
+  width               : calc(0.45% + 20px);
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .shopgroup .shopgroup1 .shop2 .shape15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 23px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .shopgroup .shopgroup1 .shop2 .shape16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 23px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .shopgroup .shopgroup1 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : calc(0.36% + 16px);
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .shopgroup .shopgroup1 .group .quantity2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .shopgroup .shopgroup1 .a14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 14px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .shopgroup .shopgroup1 .a14 .a1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 9.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.provisorio .headermenu .menu .user .profile {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 408px;
+  width               : 276px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .profileicon {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 10.14%;
+  top                 : 0px;
+  height              : 5.15%;
+  width               : 7.61%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.provisorio .headermenu .menu .user .profile .profileicon {
+  pointer-events      : auto;
+}
+.provisorio .headermenu .menu .user .profile .profileicon:hover {
+  transform           : translate(0, -5px);
+}
+.provisorio .headermenu .menu .user .profile .profileicon .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.38%;
+  height              : 95.24%;
+  width               : 95.24%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.38%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .profileicon .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.38%;
+  height              : 95.24%;
+  width               : 95.24%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.38%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -1.45%;
+  top                 : 7.35%;
+  height              : 281px;
+  width               : 221px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .editprofile {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4.98%;
+  height              : 23.84%;
+  width               : 96.38%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.81%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .editprofile .rectangle11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0.75%;
+  height              : 98.51%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .editprofile .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37.31%;
+  height              : 25.37%;
+  width               : 56.81%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.29%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .editprofile .group2 .editarperfil {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.83%;
+  top                 : calc(50.00% - 8px);
+  height              : 16px;
+  width               : 63.64%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.7);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .editprofile .group2 .icchevron {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(90deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .editprofile .group2 .icchevron .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .editprofile .group2 .icchevron .shape2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34.21%;
+  height              : 31.58%;
+  width               : 72.73%;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.64%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .wishlist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28.83%;
+  height              : 23.84%;
+  width               : 96.38%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.81%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .wishlist .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0.75%;
+  height              : 98.51%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .wishlist .group21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35.82%;
+  height              : 25.37%;
+  width               : 76.53%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.29%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .wishlist .group21 .favoritos {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.61%;
+  top                 : calc(50.00% - 8px);
+  height              : 16px;
+  width               : 73.01%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.7);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .wishlist .group21 .icchevron1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(90deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .wishlist .group21 .icchevron1 .rectangle4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .wishlist .group21 .icchevron1 .shape3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34.21%;
+  height              : 31.58%;
+  width               : 72.73%;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.64%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .orderhistory {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 23.84%;
+  height              : 23.84%;
+  width               : 96.38%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.81%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .orderhistory .rectangle5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0.75%;
+  height              : 98.51%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .orderhistory .group22 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37.31%;
+  height              : 25.37%;
+  width               : 80.28%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.29%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .orderhistory .group22 .hist363rico {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.58%;
+  top                 : calc(50.00% - 8px);
+  height              : 16px;
+  width               : 74.27%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.7);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .orderhistory .group22 .icchevron2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -2px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(90deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .orderhistory .group22 .icchevron2 .rectangle6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .orderhistory .group22 .icchevron2 .shape4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34.21%;
+  height              : 31.58%;
+  width               : 72.73%;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.64%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .akunbankcopy {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 1.78%;
+  height              : 23.84%;
+  width               : 96.38%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.81%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .akunbankcopy .rectangle7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0.75%;
+  height              : 98.51%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .akunbankcopy .group23 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37.31%;
+  height              : 25.37%;
+  width               : 72.77%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.29%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .akunbankcopy .group23 .cart365es {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.65%;
+  top                 : calc(50.00% - 8px);
+  height              : 16px;
+  width               : 71.61%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.7);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .akunbankcopy .group23 .icchevron3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -2px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(90deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .akunbankcopy .group23 .icchevron3 .rectangle8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .menu1 .akunbankcopy .group23 .icchevron3 .shape5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34.21%;
+  height              : 31.58%;
+  width               : 72.73%;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.64%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .cadastro {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : -1.47%;
+  height              : 94.12%;
+  width               : 102.90%;
+  position            : absolute;
+  margin              : 0;
+  left                : -1.45%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.provisorio .headermenu .menu .user .profile .cadastro .bglogintocontinue {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .cadastro .email {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 5.28%;
+  top                 : 21.09%;
+  height              : 13.28%;
+  width               : 86.97%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .cadastro .email .rectangle1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  bottom              : 0px;
+  height              : 62.75%;
+  box-sizing          : border-box;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(46, 50, 67, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .cadastro .email .email1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.96%;
+  height              : 16px;
+  width               : 32.39%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(46, 50, 67, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.provisorio .headermenu .menu .user .profile .cadastro .email .accountmailmailco {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 15.69%;
+  height              : 14px;
+  width               : 87.45%;
+  position            : absolute;
+  margin              : 0;
+  left                : 6.28%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 0.5);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.provisorio .headermenu .menu .user .profile .cadastro .password {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 5.28%;
+  top                 : 37.76%;
+  height              : 13.28%;
+  width               : 86.97%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .cadastro .password .rectangle1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  bottom              : 0px;
+  height              : 62.75%;
+  box-sizing          : border-box;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(46, 50, 67, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .cadastro .password .image1 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 15.69%;
+  height              : 14px;
+  width               : 80.97%;
+  position            : absolute;
+  margin              : 0;
+  left                : 6.48%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(151, 151, 151, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.provisorio .headermenu .menu .user .profile .cadastro .password .senha {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 33.60%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(46, 50, 67, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.provisorio .headermenu .menu .user .profile .cadastro .ctabuttonprimary {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 5.28%;
+  bottom              : 28.39%;
+  height              : 8.33%;
+  width               : 86.97%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .cadastro .ctabuttonprimary .rectangle2 {
+  background-color    : rgba(116, 191, 187, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .cadastro .ctabuttonprimary .entrar {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 12.50%;
+  height              : 21px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.provisorio .headermenu .menu .user .profile .cadastro .rememberme {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 5.28%;
+  bottom              : 41.15%;
+  height              : 3.39%;
+  width               : 86.97%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .cadastro .rememberme .icchecked {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 13px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .cadastro .rememberme .lembreme {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.40%;
+  bottom              : 0px;
+  height              : 84.62%;
+  width               : 89.88%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(97, 97, 97, 0.7);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.provisorio .headermenu .menu .user .profile .cadastro .esqueceuasenha {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 23.24%;
+  bottom              : 19.79%;
+  height              : 3.91%;
+  width               : 51.41%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(97, 97, 97, 0.7);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.provisorio .headermenu .menu .user .profile .cadastro .esqueceuasenha .span1 {
+  
+}
+.provisorio .headermenu .menu .user .profile .cadastro .esqueceuasenha .span2 {
+  color               : rgba(77, 91, 182, 1.0);
+}
+.provisorio .headermenu .menu .user .profile .cadastro .welcometologin {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 5.28%;
+  top                 : 4.17%;
+  height              : 15.36%;
+  width               : 86.97%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .cadastro .welcometologin .kurir {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(46, 50, 67, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.provisorio .headermenu .menu .user .profile .cadastro .welcometologin .preenchaseuemail {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 1.69%;
+  height              : 47.46%;
+  width               : 89.88%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 8.0px;
+  color               : rgba(95, 95, 95, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.provisorio .headermenu .menu .user .profile .cadastro .signin {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 5.28%;
+  bottom              : 9.64%;
+  height              : 8.33%;
+  width               : 86.97%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .cadastro .signin .rectangle3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  box-sizing          : border-box;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(46, 50, 67, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .headermenu .menu .user .profile .cadastro .signin .cadastrese {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 11px);
+  height              : 21px;
+  width               : 99.60%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.20%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(46, 50, 67, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.provisorio .containsservicesui {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 120px;
+  height              : 1768px;
+  width               : 1370px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .sliderbannercopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : calc(100.00% - 1249px);
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .sliderbannercopy2 .rectangle1 {
+  background-color    : rgba(116, 191, 187, 1.0);
+  top                 : 0px;
+  height              : 519px;
+  width               : 1370px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 15px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .sliderbannercopy2 .bullet {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : 10px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1215px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .sliderbannercopy2 .bullet .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .sliderbannercopy2 .bullet .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .sliderbannercopy2 .bullet .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .group2copy {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 844px;
+  top                 : 189px;
+  height              : 172px;
+  width               : 457px;
+  position            : absolute;
+  margin              : 0;
+  left                : 69px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .group2copy .welcometologin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .group2copy .welcometologin .algointeressanteaqui {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(46, 50, 67, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.provisorio .containsservicesui .group2copy .welcometologin .detalhesucintamente {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(95, 95, 95, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.provisorio .containsservicesui .barradepesquisacopy {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 1090px;
+  top                 : 13px;
+  height              : 34px;
+  width               : 221px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .barradepesquisacopy .barradepesquisa {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 34px;
+  width               : 221px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .barradepesquisacopy .barradepesquisa .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 33px;
+  width               : 221px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .barradepesquisacopy .barradepesquisa .group3 .rectangle1 {
+  background-color    : rgba(0, 0, 0, 0.1);
+  top                 : 0px;
+  height              : 33px;
+  width               : 221px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 7px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .barradepesquisacopy .barradepesquisa .group3 .icsearch {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 13px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .barradepesquisacopy .barradepesquisa .group3 .icsearch .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 13px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .barradepesquisacopy .barradepesquisa .group3 .icsearch .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 11px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .panel1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 398px;
+  height              : 150px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .panel1 .panel2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 150px;
+  width               : 1370px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .panel1 .comprarbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 69px;
+  width               : 285px;
+  position            : absolute;
+  margin              : 0;
+  left                : 988px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .panel1 .comprarbutton .button {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 284px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .panel1 .comprarbutton .button .button2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 67px;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.provisorio .containsservicesui .panel1 .comprarbutton .button .button2 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 62px;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .panel1 .comprarbutton .button .button2 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 67px;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .panel1 .comprarbutton .button .shop {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 27px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 49px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .panel1 .comprarbutton .button .shop .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .panel1 .comprarbutton .button .shop .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .panel1 .comprarbutton .button .addtocard {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : 26px;
+  width               : 185px;
+  position            : absolute;
+  margin              : 0;
+  left                : 99px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .panel1 .comprarbutton .button .addtocard .comprar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : auto;
+  width               : 185px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.provisorio .containsservicesui .panel1 .price {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 87px;
+  height              : 30px;
+  width               : 275px;
+  position            : absolute;
+  margin              : 0;
+  left                : 97px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .panel1 .price .a1510 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 143px;
+  position            : absolute;
+  margin              : 0;
+  left                : 131px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .panel1 .price .a1510 .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(183, 197, 169, 1.0);
+  text-align          : left;
+  line-height         : 28.0px;
+}
+.provisorio .containsservicesui .panel1 .price .a1510 .a15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : 49px;
+  position            : absolute;
+  margin              : 0;
+  left                : 43px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 28.0px;
+}
+.provisorio .containsservicesui .panel1 .price .a1510 .a10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : auto;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.provisorio .containsservicesui .panel1 .price .price2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 17px;
+  width               : 80px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.25;
+}
+.provisorio .containsservicesui .panel1 .price .price2 .pre347o {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 80px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.provisorio .containsservicesui .content {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 586px;
+  height              : calc(100.00% - 586px);
+  width               : calc(100.00% - 137px);
+  position            : absolute;
+  margin              : 0;
+  left                : 69px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 353px;
+  width               : 397px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container .title {
+  background-color    : rgba(128, 127, 131, 1.0);
+  top                 : 268px;
+  height              : 32px;
+  width               : 272px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container .detail {
+  background-color    : rgba(0, 132, 138, 1.0);
+  top                 : 310px;
+  height              : 16px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container .detail1 {
+  background-color    : rgba(217, 217, 217, 1.0);
+  top                 : 336px;
+  height              : 16px;
+  width               : 340px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container .picture {
+  background-color    : rgba(116, 191, 187, 1.0);
+  top                 : 0px;
+  height              : 257px;
+  width               : 397px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 353px;
+  width               : 397px;
+  position            : absolute;
+  margin              : 0;
+  left                : 418px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container1 .title {
+  background-color    : rgba(128, 127, 131, 1.0);
+  top                 : 268px;
+  height              : 32px;
+  width               : 340px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container1 .detail {
+  background-color    : rgba(0, 132, 138, 1.0);
+  top                 : 310px;
+  height              : 16px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container1 .detail1 {
+  background-color    : rgba(217, 217, 217, 1.0);
+  top                 : 336px;
+  height              : 16px;
+  width               : 340px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container1 .picture {
+  background-color    : rgba(116, 191, 187, 1.0);
+  top                 : 0px;
+  height              : 257px;
+  width               : 397px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 353px;
+  width               : 397px;
+  position            : absolute;
+  margin              : 0;
+  left                : 836px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container2 .title {
+  background-color    : rgba(128, 127, 131, 1.0);
+  top                 : 268px;
+  height              : 32px;
+  width               : 340px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container2 .detail {
+  background-color    : rgba(0, 132, 138, 1.0);
+  top                 : 310px;
+  height              : 16px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container2 .detail1 {
+  background-color    : rgba(217, 217, 217, 1.0);
+  top                 : 336px;
+  height              : 16px;
+  width               : 272px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container2 .picture {
+  background-color    : rgba(116, 191, 187, 1.0);
+  top                 : 0px;
+  height              : 257px;
+  width               : 397px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 414px;
+  height              : 353px;
+  width               : 397px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container3 .title {
+  background-color    : rgba(128, 127, 131, 1.0);
+  top                 : 268px;
+  height              : 32px;
+  width               : 340px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container3 .detail {
+  background-color    : rgba(0, 132, 138, 1.0);
+  top                 : 310px;
+  height              : 16px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container3 .detail1 {
+  background-color    : rgba(217, 217, 217, 1.0);
+  top                 : 337px;
+  height              : 16px;
+  width               : 272px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container3 .picture {
+  background-color    : rgba(116, 191, 187, 1.0);
+  top                 : 0px;
+  height              : 257px;
+  width               : 397px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 414px;
+  height              : 353px;
+  width               : 397px;
+  position            : absolute;
+  margin              : 0;
+  left                : 418px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container4 .title {
+  background-color    : rgba(128, 127, 131, 1.0);
+  top                 : 268px;
+  height              : 32px;
+  width               : 272px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container4 .detail {
+  background-color    : rgba(0, 132, 138, 1.0);
+  top                 : 310px;
+  height              : 16px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container4 .detail1 {
+  background-color    : rgba(217, 217, 217, 1.0);
+  top                 : 337px;
+  height              : 16px;
+  width               : 340px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container4 .picture {
+  background-color    : rgba(116, 191, 187, 1.0);
+  top                 : 0px;
+  height              : 257px;
+  width               : 397px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 414px;
+  height              : 353px;
+  width               : 397px;
+  position            : absolute;
+  margin              : 0;
+  left                : 836px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container5 .title {
+  background-color    : rgba(128, 127, 131, 1.0);
+  top                 : 268px;
+  height              : 32px;
+  width               : 272px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container5 .detail {
+  background-color    : rgba(0, 132, 138, 1.0);
+  top                 : 310px;
+  height              : 16px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container5 .detail1 {
+  background-color    : rgba(217, 217, 217, 1.0);
+  top                 : 337px;
+  height              : 16px;
+  width               : 272px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container5 .picture {
+  background-color    : rgba(116, 191, 187, 1.0);
+  top                 : 0px;
+  height              : 257px;
+  width               : 397px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 829px;
+  height              : 353px;
+  width               : 397px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container6 .title {
+  background-color    : rgba(128, 127, 131, 1.0);
+  top                 : 268px;
+  height              : 32px;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container6 .detail {
+  background-color    : rgba(0, 132, 138, 1.0);
+  top                 : 310px;
+  height              : 16px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container6 .detail1 {
+  background-color    : rgba(223, 223, 223, 1.0);
+  top                 : 336px;
+  height              : 16px;
+  width               : 361px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container6 .picture {
+  background-color    : rgba(116, 191, 187, 1.0);
+  top                 : 0px;
+  height              : 257px;
+  width               : 397px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 829px;
+  height              : 353px;
+  width               : 397px;
+  position            : absolute;
+  margin              : 0;
+  left                : 418px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container7 .title {
+  background-color    : rgba(128, 127, 131, 1.0);
+  top                 : 268px;
+  height              : 32px;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container7 .detail {
+  background-color    : rgba(0, 132, 138, 1.0);
+  top                 : 310px;
+  height              : 16px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container7 .detail1 {
+  background-color    : rgba(223, 223, 223, 1.0);
+  top                 : 336px;
+  height              : 16px;
+  width               : 361px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container7 .picture {
+  background-color    : rgba(116, 191, 187, 1.0);
+  top                 : 0px;
+  height              : 257px;
+  width               : 397px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 829px;
+  height              : 353px;
+  width               : 397px;
+  position            : absolute;
+  margin              : 0;
+  left                : 836px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container8 .title {
+  background-color    : rgba(128, 127, 131, 1.0);
+  top                 : 268px;
+  height              : 32px;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container8 .detail {
+  background-color    : rgba(0, 132, 138, 1.0);
+  top                 : 310px;
+  height              : 16px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container8 .detail1 {
+  background-color    : rgba(223, 223, 223, 1.0);
+  top                 : 336px;
+  height              : 16px;
+  width               : 361px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.provisorio .containsservicesui .content .container8 .picture {
+  background-color    : rgba(116, 191, 187, 1.0);
+  top                 : 0px;
+  height              : 257px;
+  width               : 397px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}

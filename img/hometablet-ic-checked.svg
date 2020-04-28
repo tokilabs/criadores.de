@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="19px" viewBox="0 0 24 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <desc>Created with Sketch.</desc>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic-checked">
+            <rect id="Rectangle" fill="#4D5BB6" x="0" y="0" width="23.5171793" height="19" rx="5"></rect>
+            <g id="checked" transform="translate(5.344813, 5.181818)" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M5.38415777,10.3636364 C5.08051223,10.3636364 4.77655101,10.2521711 4.54491474,10.0290718 L0.347717466,5.98962064 C-0.115905822,5.54342203 -0.115905822,4.82011307 0.347717466,4.37391445 C0.811340755,3.92771583 1.56289592,3.92771583 2.02651921,4.37391445 L5.38415777,7.6053606 L12.9389936,0.33459833 C13.4026169,-0.11146526 14.1543474,-0.111600288 14.6176551,0.33459833 C15.0814186,0.780796949 15.0814186,1.50427469 14.6176551,1.95030452 L6.22357618,10.0290718 C5.99176454,10.2520361 5.68794362,10.3636364 5.38415777,10.3636364 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>
