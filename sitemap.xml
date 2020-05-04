@@ -6,33 +6,48 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>http://lively-sky-2193.animaapp.io/</loc>
-  <lastmod>2020-04-28</lastmod>
+  <loc>http://criadores.de/</loc>
+  <lastmod>2020-05-04</lastmod>
 </url>
 
 <url>
-  <loc>http://lively-sky-2193.animaapp.io/contato</loc>
-  <lastmod>2020-04-28</lastmod>
+  <loc>http://criadores.de/contato</loc>
+  <lastmod>2020-05-04</lastmod>
 </url>
 
 <url>
-  <loc>http://lively-sky-2193.animaapp.io/sobre</loc>
-  <lastmod>2020-04-28</lastmod>
+  <loc>http://criadores.de/cadastro</loc>
+  <lastmod>2020-05-04</lastmod>
 </url>
 
 <url>
-  <loc>http://lively-sky-2193.animaapp.io/precos</loc>
-  <lastmod>2020-04-28</lastmod>
+  <loc>http://criadores.de/sobre</loc>
+  <lastmod>2020-05-04</lastmod>
 </url>
 
 <url>
-  <loc>http://lively-sky-2193.animaapp.io/provisorio</loc>
-  <lastmod>2020-04-28</lastmod>
+  <loc>http://criadores.de/conteudo</loc>
+  <lastmod>2020-05-04</lastmod>
 </url>
 
 <url>
-  <loc>http://lively-sky-2193.animaapp.io/home</loc>
-  <lastmod>2020-04-28</lastmod>
+  <loc>http://criadores.de/precos</loc>
+  <lastmod>2020-05-04</lastmod>
+</url>
+
+<url>
+  <loc>http://criadores.de/audiovisual</loc>
+  <lastmod>2020-05-04</lastmod>
+</url>
+
+<url>
+  <loc>http://criadores.de/programa</loc>
+  <lastmod>2020-05-04</lastmod>
+</url>
+
+<url>
+  <loc>http://criadores.de/index</loc>
+  <lastmod>2020-05-04</lastmod>
 </url>
 
 </urlset>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500,400,700|Montserrat:700,300|Open+Sans:700,800,600,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,400,700,900,100,300|Open+Sans:600,400,700,800|Roboto+Slab:400|Montserrat:700,300');
 
 
 .sobre {
@@ -25,6 +25,9 @@ div {
 }
 .anima-full-height-a {
   height              : 100%;
+}
+textarea:focus, input:focus {
+  outline             : none;
 }
 div {
   -webkit-text-size-adjust: none;
@@ -113,10 +116,292 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu {
+.sobre .sobrenosgroup {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : 1px;
+  height              : 100%;
+  width               : 1230px;
+  margin-right        : -1px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.sobre .sobrenosgroup-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 130px;
+  align-items         : center;
+  height              : 642px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.sobre .sobrenosgroup-layout-container > * {
+  pointer-events      : auto;
+}
+.sobre .sobrenosgroup .title {
   background-color    : rgba(255,255,255,0.0);
   top                 : 20px;
-  height              : 427px;
+  height              : 130px;
+  width               : 464px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.sobre .sobrenosgroup .title .sobren323s {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -14px;
+  height              : auto;
+  width               : 464px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 48.0px;
+  color               : rgba(66, 70, 75, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.1px;
+  line-height         : 34.0px;
+}
+.sobre .sobrenosgroup .title .prazer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 72px;
+  height              : auto;
+  width               : 283px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 48.0px;
+  color               : rgba(66, 70, 75, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.1px;
+  line-height         : 57.0px;
+}
+.sobre .sobrenosgroup .textoleft {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : calc(100.00% - 409px);
+  width               : 558px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.sobre .sobrenosgroup .textoleft .escrevaaquiumtext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : 558px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(138, 140, 142, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.25px;
+  line-height         : 19.0px;
+}
+.sobre .sobrenosgroup .textoleft .sucintoebemaprese {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 56px;
+  height              : auto;
+  width               : 558px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(138, 140, 142, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.25px;
+  line-height         : 19.0px;
+}
+.sobre .sobrenosgroup .textoleft .viemosaquisomosu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 111px;
+  height              : auto;
+  width               : 558px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(138, 140, 142, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.25px;
+  line-height         : 19.0px;
+}
+.sobre .sobrenosgroup .textoleft .quet352macessoanos {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 166px;
+  height              : auto;
+  width               : 558px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(138, 140, 142, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.25px;
+  line-height         : 19.0px;
+}
+.sobre .sobrenosgroup .caixadetexto {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 233px;
+  height              : 433px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.sobre .sobrenosgroup .caixadetexto .dialogbg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 433px;
+  width               : 1230px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.sobre .sobrenosgroup .caixadetexto .buttons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 291px;
+  height              : 94px;
+  width               : 1182px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.sobre .sobrenosgroup .caixadetexto .buttons .bounds {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 93px;
+  width               : 1182px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.sobre .sobrenosgroup .caixadetexto .buttons .moreinfo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 69px;
+  width               : 174px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.sobre .sobrenosgroup .caixadetexto .buttons .moreinfo .buttonbounds {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 174px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.sobre .sobrenosgroup .caixadetexto .nossahist323ria {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 53px;
+  height              : auto;
+  width               : 341px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(116, 191, 187, 1.0);
+  text-align          : left;
+  line-height         : 28.0px;
+}
+.sobre .sobrenosgroup .caixadetexto .loremipsumdolorsi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 122px;
+  height              : auto;
+  width               : 387px;
+  position            : absolute;
+  margin              : 0;
+  left                : 223px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 0.54);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.sobre .sobrenosgroup .caixadetexto .loremipsumdolorsi1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 122px;
+  height              : auto;
+  width               : 379px;
+  position            : absolute;
+  margin              : 0;
+  left                : 727px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 0.54);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.sobre .headermenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : 415px;
   width               : calc(100.00% - 70px);
   position            : absolute;
   margin              : 0;
@@ -127,7 +412,7 @@ div {
 .sobre .headermenu .menu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 427px;
+  height              : 415px;
   width               : 100%;
   position            : relative;
   margin              : 0;
@@ -137,7 +422,7 @@ div {
 }
 .sobre .headermenu .menu .criadoreslogoout {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 24px;
+  top                 : 0px;
   height              : 34px;
   width               : 327px;
   position            : absolute;
@@ -369,8 +654,8 @@ div {
 }
 .sobre .headermenu .menu .path2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 70px;
-  height              : 11px;
+  top                 : 46px;
+  height              : 2px;
   width               : calc(100.00% - 10px);
   position            : absolute;
   margin              : 0;
@@ -378,285 +663,70 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .headerbuttons {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 213px;
-  top                 : 0px;
-  height              : 52px;
-  width               : 293px;
-  position            : absolute;
-  margin              : 0;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.sobre .headermenu .menu .headerbuttons .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 52px;
-  width               : 293px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.sobre .headermenu .menu .headerbuttons .aboutbutton {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 245px;
-  top                 : 0px;
-  height              : 50px;
-  width               : 48px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.sobre .headermenu .menu .headerbuttons .aboutbutton .aboutbutton1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 48px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.sobre .headermenu .menu .headerbuttons .pricesbutton {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 128px;
-  top                 : 0px;
-  height              : 50px;
-  width               : 59px;
-  position            : absolute;
-  margin              : 0;
-  left                : 106px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.sobre .headermenu .menu .headerbuttons .pricesbutton .pricesbutton1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 59px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.sobre .headermenu .menu .headerbuttons .contactbutton {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 0px;
-  height              : 50px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : 224px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.sobre .headermenu .menu .headerbuttons .contactbutton .contactbutton1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
 .sobre .headermenu .menu .user {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
-  top                 : 28px;
-  height              : 411px;
-  width               : 276px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.sobre .headermenu .menu .user .shopgroup {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 25px;
-  width               : 32px;
-  position            : absolute;
-  margin              : 0;
-  left                : 157px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.sobre .headermenu .menu .user .shopgroup {
-  pointer-events      : auto;
-}
-.sobre .headermenu .menu .user .shopgroup:hover {
-  transform           : translate(0, -5px);
-}
-.sobre .headermenu .menu .user .shopgroup .shopgroup1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 25px;
-  width               : 32px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.sobre .headermenu .menu .user .shopgroup .shopgroup1 .shop2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : 23px;
-  width               : calc(0.45% + 20px);
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.sobre .headermenu .menu .user .shopgroup .shopgroup1 .shop2 .shape15 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 20px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.sobre .headermenu .menu .user .shopgroup .shopgroup1 .shop2 .shape16 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 20px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.sobre .headermenu .menu .user .shopgroup .shopgroup1 .group1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : calc(0.36% + 16px);
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.sobre .headermenu .menu .user .shopgroup .shopgroup1 .group1 .quantity2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 36px;
-  width               : 36px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.sobre .headermenu .menu .user .shopgroup .shopgroup1 .a14 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 14px;
-  width               : 7px;
-  position            : absolute;
-  margin              : 0;
-  left                : 20px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.sobre .headermenu .menu .user .shopgroup .shopgroup1 .a14 .a1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : auto;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 9.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 13.0px;
-}
-.sobre .headermenu .menu .user .profile {
-  background-color    : rgba(255,255,255,0.0);
   top                 : 7px;
   height              : 408px;
   width               : 276px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .profileicon {
+.sobre .shopgroup {
   background-color    : rgba(255,255,255,0.0);
-  right               : 10.14%;
-  top                 : 0px;
-  height              : 5.15%;
-  width               : 7.61%;
+  right               : 115px;
+  top                 : 42px;
+  height              : 84px;
+  width               : 270px;
   position            : absolute;
   margin              : 0;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
 }
-.sobre .headermenu .menu .user .profile .profileicon {
+.sobre .shopgroup {
   pointer-events      : auto;
 }
-.sobre .headermenu .menu .user .profile .profileicon:hover {
+.sobre .shopgroup:hover {
   transform           : translate(0, -5px);
 }
-.sobre .headermenu .menu .user .profile .profileicon .shape {
+.sobre .shopgroup .background {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2.38%;
-  height              : 95.24%;
-  width               : 95.24%;
+  top                 : 0px;
+  height              : 84px;
+  width               : 270px;
   position            : absolute;
   margin              : 0;
-  left                : 2.38%;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .profileicon .shape1 {
+.sobre .shopgroup .shopgroup1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2.38%;
-  height              : 95.24%;
-  width               : 95.24%;
+  right               : 7px;
+  top                 : 6px;
+  height              : 76px;
+  width               : 262px;
   position            : absolute;
   margin              : 0;
-  left                : 2.38%;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 {
+.sobre .shopgroup .shopgroup1 .shop2 {
   background-color    : rgba(255,255,255,0.0);
-  right               : -1.45%;
-  top                 : 7.35%;
-  height              : 281px;
-  width               : 221px;
+  right               : 10px;
+  top                 : 0px;
+  height              : 23px;
+  width               : 21px;
   position            : absolute;
   margin              : 0;
   transform           : rotate(0deg);
-  opacity             : 0.0;
+  opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .rectangle1 {
+.sobre .shopgroup .shopgroup1 .shop2 .shape15 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -667,7 +737,183 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .editprofile {
+.sobre .shopgroup .shopgroup1 .shop2 .shape16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.sobre .shopgroup .shopgroup1 .group {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : 12px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.sobre .shopgroup .shopgroup1 .group .quantity2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.sobre .shopgroup .shopgroup1 .a14 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 2px;
+  top                 : 0px;
+  height              : 13px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.sobre .shopgroup .shopgroup1 .a14 .a1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 7px);
+  height              : 13px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 9.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.sobre .shopgroup .shopgroup1 .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 5px;
+  top                 : 35px;
+  height              : 37px;
+  width               : 257px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.sobre .shopgroup .shopgroup1 .shoptext {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 16px;
+  top                 : 43px;
+  height              : 33px;
+  width               : 234px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.5px;
+  line-height         : 17.0px;
+}
+.sobre .profile {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 35px;
+  top                 : 51px;
+  height              : 408px;
+  width               : 276px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.sobre .profile .profile1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 408px;
+  width               : 276px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.sobre .profile .profile1 .profileicon {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 28px;
+  top                 : 0px;
+  height              : 21px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.sobre .profile .profile1 .profileicon {
+  pointer-events      : auto;
+}
+.sobre .profile .profile1 .profileicon:hover {
+  transform           : translate(0, -5px);
+}
+.sobre .profile .profile1 .profileicon .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.38%;
+  height              : 95.24%;
+  width               : 95.24%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.38%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.sobre .profile .profile1 .profileicon .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.38%;
+  height              : 95.24%;
+  width               : 95.24%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.38%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.sobre .profile .profile1 .menu {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -1.45%;
+  top                 : 7.35%;
+  height              : 281px;
+  width               : 221px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.sobre .profile .profile1 .menu .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.sobre .profile .profile1 .menu .editprofile {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4.98%;
   height              : 23.84%;
@@ -678,7 +924,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .editprofile .rectangle11 {
+.sobre .profile .profile1 .menu .editprofile .rectangle11 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0.75%;
   height              : 98.51%;
@@ -689,7 +935,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .editprofile .group2 {
+.sobre .profile .profile1 .menu .editprofile .group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 37.31%;
   height              : 25.37%;
@@ -700,7 +946,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .editprofile .group2 .editarperfil {
+.sobre .profile .profile1 .menu .editprofile .group2 .editarperfil {
   background-color    : rgba(255,255,255,0.0);
   right               : 0.83%;
   top                 : calc(50.00% - 8px);
@@ -718,7 +964,7 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.sobre .headermenu .menu .user .profile .menu1 .editprofile .group2 .icchevron {
+.sobre .profile .profile1 .menu .editprofile .group2 .icchevron {
   background-color    : rgba(255,255,255,0.0);
   top                 : -1px;
   height              : 19px;
@@ -729,7 +975,7 @@ div {
   transform           : rotate(90deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .editprofile .group2 .icchevron .rectangle2 {
+.sobre .profile .profile1 .menu .editprofile .group2 .icchevron .rectangle2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 19px;
@@ -740,7 +986,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .editprofile .group2 .icchevron .shape2 {
+.sobre .profile .profile1 .menu .editprofile .group2 .icchevron .shape2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 34.21%;
   height              : 31.58%;
@@ -751,7 +997,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .wishlist {
+.sobre .profile .profile1 .menu .wishlist {
   background-color    : rgba(255,255,255,0.0);
   top                 : 28.83%;
   height              : 23.84%;
@@ -762,7 +1008,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .wishlist .rectangle3 {
+.sobre .profile .profile1 .menu .wishlist .rectangle3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0.75%;
   height              : 98.51%;
@@ -773,7 +1019,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .wishlist .group21 {
+.sobre .profile .profile1 .menu .wishlist .group21 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 35.82%;
   height              : 25.37%;
@@ -784,7 +1030,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .wishlist .group21 .favoritos {
+.sobre .profile .profile1 .menu .wishlist .group21 .favoritos {
   background-color    : rgba(255,255,255,0.0);
   right               : 0.61%;
   top                 : calc(50.00% - 8px);
@@ -802,7 +1048,7 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.sobre .headermenu .menu .user .profile .menu1 .wishlist .group21 .icchevron1 {
+.sobre .profile .profile1 .menu .wishlist .group21 .icchevron1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -1px;
   height              : 19px;
@@ -813,7 +1059,7 @@ div {
   transform           : rotate(90deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .wishlist .group21 .icchevron1 .rectangle4 {
+.sobre .profile .profile1 .menu .wishlist .group21 .icchevron1 .rectangle4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 19px;
@@ -824,7 +1070,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .wishlist .group21 .icchevron1 .shape3 {
+.sobre .profile .profile1 .menu .wishlist .group21 .icchevron1 .shape3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 34.21%;
   height              : 31.58%;
@@ -835,7 +1081,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .orderhistory {
+.sobre .profile .profile1 .menu .orderhistory {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 23.84%;
   height              : 23.84%;
@@ -846,7 +1092,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .orderhistory .rectangle5 {
+.sobre .profile .profile1 .menu .orderhistory .rectangle5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0.75%;
   height              : 98.51%;
@@ -857,7 +1103,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .orderhistory .group22 {
+.sobre .profile .profile1 .menu .orderhistory .group22 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 37.31%;
   height              : 25.37%;
@@ -868,7 +1114,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .orderhistory .group22 .hist363rico {
+.sobre .profile .profile1 .menu .orderhistory .group22 .hist363rico {
   background-color    : rgba(255,255,255,0.0);
   right               : 0.58%;
   top                 : calc(50.00% - 8px);
@@ -886,7 +1132,7 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.sobre .headermenu .menu .user .profile .menu1 .orderhistory .group22 .icchevron2 {
+.sobre .profile .profile1 .menu .orderhistory .group22 .icchevron2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -2px;
   height              : 19px;
@@ -897,7 +1143,7 @@ div {
   transform           : rotate(90deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .orderhistory .group22 .icchevron2 .rectangle6 {
+.sobre .profile .profile1 .menu .orderhistory .group22 .icchevron2 .rectangle6 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 19px;
@@ -908,7 +1154,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .orderhistory .group22 .icchevron2 .shape4 {
+.sobre .profile .profile1 .menu .orderhistory .group22 .icchevron2 .shape4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 34.21%;
   height              : 31.58%;
@@ -919,7 +1165,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .akunbankcopy {
+.sobre .profile .profile1 .menu .akunbankcopy {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 1.78%;
   height              : 23.84%;
@@ -930,7 +1176,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .akunbankcopy .rectangle7 {
+.sobre .profile .profile1 .menu .akunbankcopy .rectangle7 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0.75%;
   height              : 98.51%;
@@ -941,7 +1187,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .akunbankcopy .group23 {
+.sobre .profile .profile1 .menu .akunbankcopy .group23 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 37.31%;
   height              : 25.37%;
@@ -952,7 +1198,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .akunbankcopy .group23 .cart365es {
+.sobre .profile .profile1 .menu .akunbankcopy .group23 .cart365es {
   background-color    : rgba(255,255,255,0.0);
   right               : 0.65%;
   top                 : calc(50.00% - 8px);
@@ -970,7 +1216,7 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.sobre .headermenu .menu .user .profile .menu1 .akunbankcopy .group23 .icchevron3 {
+.sobre .profile .profile1 .menu .akunbankcopy .group23 .icchevron3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -2px;
   height              : 19px;
@@ -981,7 +1227,7 @@ div {
   transform           : rotate(90deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .akunbankcopy .group23 .icchevron3 .rectangle8 {
+.sobre .profile .profile1 .menu .akunbankcopy .group23 .icchevron3 .rectangle8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 19px;
@@ -992,7 +1238,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .menu1 .akunbankcopy .group23 .icchevron3 .shape5 {
+.sobre .profile .profile1 .menu .akunbankcopy .group23 .icchevron3 .shape5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 34.21%;
   height              : 31.58%;
@@ -1003,7 +1249,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .cadastro {
+.sobre .profile .profile1 .cadastro {
   background-color    : rgba(255,255,255,0.0);
   bottom              : -1.47%;
   height              : 94.12%;
@@ -1014,7 +1260,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
-.sobre .headermenu .menu .user .profile .cadastro .bglogintocontinue {
+.sobre .profile .profile1 .cadastro .bglogintocontinue {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -1025,18 +1271,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .cadastro .email {
+.sobre .profile .profile1 .cadastro .email {
   background-color    : rgba(255,255,255,0.0);
-  right               : 5.28%;
-  top                 : 21.09%;
-  height              : 13.28%;
-  width               : 86.97%;
+  top                 : 79px;
+  height              : 51px;
+  width               : calc(100.00% - 29px);
   position            : absolute;
   margin              : 0;
+  left                : 18px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .cadastro .email .rectangle1 {
+.sobre .profile .profile1 .cadastro .email .rectangle1 {
   background-color    : rgba(255, 255, 255, 1.0);
   bottom              : 0px;
   height              : 62.75%;
@@ -1052,7 +1298,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .cadastro .email .email1 {
+.sobre .profile .profile1 .cadastro .email .email1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1.96%;
   height              : 16px;
@@ -1070,7 +1316,7 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.sobre .headermenu .menu .user .profile .cadastro .email .accountmailmailco {
+.sobre .profile .profile1 .cadastro .email .accountmailmailco {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 15.69%;
   height              : 14px;
@@ -1087,19 +1333,25 @@ div {
   color               : rgba(0, 0, 0, 0.5);
   text-align          : left;
   line-height         : 14.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
 }
-.sobre .headermenu .menu .user .profile .cadastro .password {
+.sobre .profile .profile1 .cadastro .email .accountmailmailco::placeholder {
+  color               : rgba(0, 0, 0, 0.3);
+}
+.sobre .profile .profile1 .cadastro .password {
   background-color    : rgba(255,255,255,0.0);
-  right               : 5.28%;
-  top                 : 37.76%;
-  height              : 13.28%;
-  width               : 86.97%;
+  top                 : 143px;
+  height              : 51px;
+  width               : calc(100.00% - 29px);
   position            : absolute;
   margin              : 0;
+  left                : 18px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .cadastro .password .rectangle1 {
+.sobre .profile .profile1 .cadastro .password .rectangle1 {
   background-color    : rgba(255, 255, 255, 1.0);
   bottom              : 0px;
   height              : 62.75%;
@@ -1115,7 +1367,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .cadastro .password .image1 {
+.sobre .profile .profile1 .cadastro .password .image1 {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 15.69%;
   height              : 14px;
@@ -1132,8 +1384,14 @@ div {
   color               : rgba(151, 151, 151, 1.0);
   text-align          : left;
   line-height         : 14.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
 }
-.sobre .headermenu .menu .user .profile .cadastro .password .senha {
+.sobre .profile .profile1 .cadastro .password .image1::placeholder {
+  color               : rgba(151, 151, 151, 0.6);
+}
+.sobre .profile .profile1 .cadastro .password .senha {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 16px;
@@ -1151,18 +1409,18 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.sobre .headermenu .menu .user .profile .cadastro .ctabuttonprimary {
+.sobre .profile .profile1 .cadastro .ctabuttonprimary {
   background-color    : rgba(255,255,255,0.0);
-  right               : 5.28%;
-  bottom              : 28.39%;
-  height              : 8.33%;
-  width               : 86.97%;
+  bottom              : 103px;
+  height              : 32px;
+  width               : calc(100.00% - 29px);
   position            : absolute;
   margin              : 0;
+  left                : 18px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .cadastro .ctabuttonprimary .rectangle2 {
+.sobre .profile .profile1 .cadastro .ctabuttonprimary .rectangle2 {
   background-color    : rgba(116, 191, 187, 1.0);
   top                 : 0px;
   height              : 100%;
@@ -1174,7 +1432,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .cadastro .ctabuttonprimary .entrar {
+.sobre .profile .profile1 .cadastro .ctabuttonprimary .entrar {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 12.50%;
   height              : 21px;
@@ -1192,21 +1450,21 @@ div {
   text-align          : center;
   line-height         : 21.0px;
 }
-.sobre .headermenu .menu .user .profile .cadastro .rememberme {
+.sobre .profile .profile1 .cadastro .rememberme {
   background-color    : rgba(255,255,255,0.0);
-  right               : 5.28%;
-  bottom              : 41.15%;
-  height              : 3.39%;
-  width               : 86.97%;
+  bottom              : 152px;
+  height              : 17px;
+  width               : calc(100.00% - 29px);
   position            : absolute;
   margin              : 0;
+  left                : 18px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .cadastro .rememberme .icchecked {
+.sobre .profile .profile1 .cadastro .rememberme .icchecked {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 13px;
+  height              : 17px;
   width               : 17px;
   position            : absolute;
   margin              : 0;
@@ -1214,11 +1472,11 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .cadastro .rememberme .lembreme {
+.sobre .profile .profile1 .cadastro .rememberme .lembreme {
   background-color    : rgba(255,255,255,0.0);
-  right               : 0.40%;
+  right               : 0px;
   bottom              : 0px;
-  height              : 84.62%;
+  height              : 82.35%;
   width               : 89.88%;
   position            : absolute;
   margin              : 0;
@@ -1232,14 +1490,14 @@ div {
   text-align          : left;
   line-height         : 14.0px;
 }
-.sobre .headermenu .menu .user .profile .cadastro .esqueceuasenha {
+.sobre .profile .profile1 .cadastro .esqueceuasenha {
   background-color    : rgba(255,255,255,0.0);
-  right               : 23.24%;
-  bottom              : 19.79%;
-  height              : 3.91%;
-  width               : 51.41%;
+  bottom              : 70px;
+  height              : auto;
+  width               : calc(100.00% - 130px);
   position            : absolute;
   margin              : 0;
+  left                : 68px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Roboto", Helvetica, Arial, serif;
@@ -1250,24 +1508,24 @@ div {
   text-align          : center;
   line-height         : 14.0px;
 }
-.sobre .headermenu .menu .user .profile .cadastro .esqueceuasenha .span1 {
+.sobre .profile .profile1 .cadastro .esqueceuasenha .span1 {
   
 }
-.sobre .headermenu .menu .user .profile .cadastro .esqueceuasenha .span2 {
+.sobre .profile .profile1 .cadastro .esqueceuasenha .span2 {
   color               : rgba(77, 91, 182, 1.0);
 }
-.sobre .headermenu .menu .user .profile .cadastro .welcometologin {
+.sobre .profile .profile1 .cadastro .welcometologin {
   background-color    : rgba(255,255,255,0.0);
-  right               : 5.28%;
-  top                 : 4.17%;
-  height              : 15.36%;
-  width               : 86.97%;
+  top                 : 14px;
+  height              : 59px;
+  width               : calc(100.00% - 29px);
   position            : absolute;
   margin              : 0;
+  left                : 18px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .cadastro .welcometologin .kurir {
+.sobre .profile .profile1 .cadastro .welcometologin .kurir {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -1285,7 +1543,7 @@ div {
   text-align          : left;
   line-height         : 24.0px;
 }
-.sobre .headermenu .menu .user .profile .cadastro .welcometologin .preenchaseuemail {
+.sobre .profile .profile1 .cadastro .welcometologin .preenchaseuemail {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 1.69%;
   height              : 47.46%;
@@ -1303,18 +1561,18 @@ div {
   text-align          : left;
   line-height         : 14.0px;
 }
-.sobre .headermenu .menu .user .profile .cadastro .signin {
+.sobre .profile .profile1 .cadastro .signin {
   background-color    : rgba(255,255,255,0.0);
-  right               : 5.28%;
-  bottom              : 9.64%;
-  height              : 8.33%;
-  width               : 86.97%;
+  bottom              : 31px;
+  height              : 32px;
+  width               : calc(100.00% - 29px);
   position            : absolute;
   margin              : 0;
+  left                : 18px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .cadastro .signin .rectangle3 {
+.sobre .profile .profile1 .cadastro .signin .rectangle3 {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 100%;
@@ -1330,7 +1588,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .headermenu .menu .user .profile .cadastro .signin .cadastrese {
+.sobre .profile .profile1 .cadastro .signin .cadastrese {
   background-color    : rgba(255,255,255,0.0);
   top                 : calc(50.00% - 11px);
   height              : 21px;
@@ -1348,273 +1606,97 @@ div {
   text-align          : center;
   line-height         : 21.0px;
 }
-.sobre .group {
+.sobre .headerbuttons {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 120px;
-  height              : 642px;
-  width               : 1229px;
-  position            : absolute;
-  margin              : 0;
-  left                : 104px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.sobre .group .yellowsweetpeppers {
-  background-color    : rgba(255,255,255,0.0);
+  right               : 248px;
   top                 : 20px;
-  height              : 130px;
-  width               : 464px;
+  height              : 52px;
+  width               : 293px;
   position            : absolute;
   margin              : 0;
-  left                : 24px;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .group .yellowsweetpeppers .sobren323s {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -14px;
-  height              : auto;
-  width               : 464px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 48.0px;
-  color               : rgba(66, 70, 75, 1.0);
-  text-align          : left;
-  letter-spacing      : -0.1px;
-  line-height         : 34.0px;
-}
-.sobre .group .yellowsweetpeppers .prazer {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 72px;
-  height              : auto;
-  width               : 283px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 48.0px;
-  color               : rgba(66, 70, 75, 1.0);
-  text-align          : left;
-  letter-spacing      : -0.1px;
-  line-height         : 57.0px;
-}
-.sobre .group .withtheirsweetrobustflavorandbrightcolorroastedbellpeppersarecommoningredientsinpizzassaladssaucesandmultipleappetizers {
+.sobre .headerbuttons .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 185px;
-  width               : 558px;
-  position            : absolute;
-  margin              : 0;
-  left                : 647px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.sobre .group .withtheirsweetrobustflavorandbrightcolorroastedbellpeppersarecommoningredientsinpizzassaladssaucesandmultipleappetizers .escrevaaquiumtext {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : auto;
-  width               : 558px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(138, 140, 142, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.25px;
-  line-height         : 19.0px;
-}
-.sobre .group .withtheirsweetrobustflavorandbrightcolorroastedbellpeppersarecommoningredientsinpizzassaladssaucesandmultipleappetizers .sucintoebemaprese {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 56px;
-  height              : auto;
-  width               : 558px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(138, 140, 142, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.25px;
-  line-height         : 19.0px;
-}
-.sobre .group .withtheirsweetrobustflavorandbrightcolorroastedbellpeppersarecommoningredientsinpizzassaladssaucesandmultipleappetizers .viemosaquisomosu {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 111px;
-  height              : auto;
-  width               : 558px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(138, 140, 142, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.25px;
-  line-height         : 19.0px;
-}
-.sobre .group .withtheirsweetrobustflavorandbrightcolorroastedbellpeppersarecommoningredientsinpizzassaladssaucesandmultipleappetizers .quet352macessoanos {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 166px;
-  height              : auto;
-  width               : 558px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(138, 140, 142, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.25px;
-  line-height         : 19.0px;
-}
-.sobre .group .dialog {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 209px;
-  height              : 433px;
-  width               : 1229px;
+  height              : 52px;
+  width               : 293px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .group .dialog .dialogbg {
+.sobre .headerbuttons .aboutbutton {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 245px;
+  top                 : 0px;
+  height              : 50px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.sobre .headerbuttons .aboutbutton .aboutbutton1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 433px;
-  width               : 1229px;
+  height              : 50px;
+  width               : 48px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .group .dialog .buttons {
+.sobre .headerbuttons .pricesbutton {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 291px;
-  height              : 94px;
-  width               : 1181px;
+  right               : 128px;
+  top                 : 0px;
+  height              : 50px;
+  width               : 59px;
   position            : absolute;
   margin              : 0;
-  left                : 24px;
+  left                : 106px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .group .dialog .buttons .bounds {
+.sobre .headerbuttons .pricesbutton .pricesbutton1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 93px;
-  width               : 1181px;
+  height              : 50px;
+  width               : 59px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .group .dialog .buttons .moreinfo {
+.sobre .headerbuttons .contactbutton {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
-  height              : 69px;
-  width               : 174px;
+  right               : 0px;
+  top                 : 0px;
+  height              : 50px;
+  width               : 69px;
   position            : absolute;
   margin              : 0;
-  left                : 30px;
+  left                : 224px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.sobre .group .dialog .buttons .moreinfo .buttonbounds {
+.sobre .headerbuttons .contactbutton .contactbutton1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 68px;
-  width               : 173px;
-  position            : relative;
+  height              : 50px;
+  width               : 69px;
+  position            : absolute;
   margin              : 0;
   left                : 0px;
-  border-radius       : 2px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.sobre .group .dialog .nossahist323ria {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 53px;
-  height              : auto;
-  width               : 341px;
-  position            : absolute;
-  margin              : 0;
-  left                : 68px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 20.0px;
-  color               : rgba(116, 191, 187, 1.0);
-  text-align          : left;
-  line-height         : 28.0px;
-}
-.sobre .group .dialog .loremipsumdolorsi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 122px;
-  height              : auto;
-  width               : 387px;
-  position            : absolute;
-  margin              : 0;
-  left                : 223px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 0.54);
-  text-align          : justify;
-  line-height         : 24.0px;
-}
-.sobre .group .dialog .loremipsumdolorsi1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 122px;
-  height              : auto;
-  width               : 379px;
-  position            : absolute;
-  margin              : 0;
-  left                : 726px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 0.54);
-  text-align          : justify;
-  line-height         : 24.0px;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
