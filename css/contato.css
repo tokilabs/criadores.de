@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500,400,700,900,100,300|Montserrat:300,700|Open+Sans:700,800,600,400|Roboto+Slab:400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,400,700,900,100,300|Open+Sans:700,800,600,400|Roboto+Slab:400|Montserrat:300,700');
 
 
-.bp4-contatomobile {
+.bp2-contatolq {
   width               : 100%;
-  min-width           : 556px;
+  min-width           : 1024px;
   height              : 100vh;
-  min-height          : 963px;
+  min-height          : 695px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -17,10 +17,21 @@
 div {
   -webkit-text-size-adjust: none;
 }
-.bp4-contatomobile .bp4-panel {
+.bp2-contatolq .bp2-rectangle {
+  background-color    : rgba(46, 50, 67, 1.0);
+  bottom              : -990px;
+  height              : 967px;
+  width               : calc(100.00% + 96px);
+  position            : absolute;
+  margin              : 0;
+  left                : -48px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-panel {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 20px;
-  height              : 119px;
+  bottom              : 0px;
+  height              : 148px;
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -28,10 +39,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-panel .bp4-panel2 {
+.bp2-contatolq .bp2-panel .bp2-panel2 {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 23px;
-  height              : 96px;
+  bottom              : 0px;
+  height              : 148px;
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -39,10 +50,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
-.bp4-contatomobile .bp4-panel .bp4-panel2 .bp4-panel21 {
+.bp2-contatolq .bp2-panel .bp2-panel2 .bp2-panel21 {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 0px;
-  height              : 96px;
+  height              : 148px;
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -50,9 +61,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-panel .bp4-tokilogo {
+.bp2-contatolq .bp2-panel .bp2-tokilogo {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 0px;
+  bottom              : 15px;
   height              : 81px;
   width               : 196px;
   position            : absolute;
@@ -62,13 +73,13 @@ div {
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
 }
-.bp4-contatomobile .bp4-panel .bp4-tokilogo {
+.bp2-contatolq .bp2-panel .bp2-tokilogo {
   pointer-events      : auto;
 }
-.bp4-contatomobile .bp4-panel .bp4-tokilogo:hover {
+.bp2-contatolq .bp2-panel .bp2-tokilogo:hover {
   transform           : translate(0, -10px);
 }
-.bp4-contatomobile .bp4-panel .bp4-tokilogo .bp4-tokilogo1 {
+.bp2-contatolq .bp2-panel .bp2-tokilogo .bp2-tokilogo1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 81px;
@@ -79,7 +90,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-panel .bp4-tokilogo .bp4-tokilogo1 .bp4-bitmap {
+.bp2-contatolq .bp2-panel .bp2-tokilogo .bp2-tokilogo1 .bp2-bitmap {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 81px;
@@ -90,271 +101,275 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermenu {
+.bp2-contatolq .bp2-headermenu {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 35px;
-  height              : 49px;
-  width               : calc(100.00% - 16px);
+  top                 : 40px;
+  height              : 56px;
+  width               : calc(100.00% - 75px);
   position            : absolute;
   margin              : 0;
-  left                : 8px;
+  left                : 35px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout {
+.bp2-contatolq .bp2-headermenu .bp2-menu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 29px;
-  width               : 278px;
+  height              : 56px;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 34px;
+  width               : 327px;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
+  left                : 0px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
 }
-.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout {
-  pointer-events      : auto;
-}
-.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout:hover {
-  transform           : translate(5px, 0);
-}
-.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-background {
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 29px;
-  width               : 278px;
+  height              : 34px;
+  width               : 327px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout {
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 29px;
-  width               : 269px;
+  height              : 34px;
+  width               : 317px;
   position            : absolute;
   margin              : 0;
-  left                : 4px;
+  left                : 5px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape {
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
-  height              : 28px;
+  height              : 33px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 67px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 99px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 33px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 129px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 163px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
   width               : 25px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 191px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape1 {
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
-  height              : 27px;
-  width               : 23px;
-  position            : absolute;
-  margin              : 0;
-  left                : 25px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 27px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 49px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 27px;
-  width               : 28px;
-  position            : absolute;
-  margin              : 0;
-  left                : 57px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 27px;
+  height              : 33px;
   width               : 26px;
   position            : absolute;
   margin              : 0;
-  left                : 85px;
+  left                : 214px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape5 {
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-path {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 28px;
-  width               : 28px;
+  top                 : 12px;
+  height              : 10px;
+  width               : 10px;
   position            : absolute;
   margin              : 0;
-  left                : 110px;
+  left                : 240px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape6 {
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape9 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 27px;
-  width               : 23px;
+  top                 : 11px;
+  height              : 10px;
+  width               : 10px;
   position            : absolute;
   margin              : 0;
-  left                : 139px;
+  left                : 240px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape7 {
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape10 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 27px;
-  width               : 21px;
+  top                 : 3px;
+  height              : 29px;
+  width               : 29px;
   position            : absolute;
   margin              : 0;
-  left                : 162px;
+  left                : 253px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape8 {
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape11 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 28px;
+  top                 : 2px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 253px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 23px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 305px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-path21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 29px;
   width               : 22px;
   position            : absolute;
   margin              : 0;
-  left                : 182px;
+  left                : 285px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-path {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 8px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 205px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape9 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 9px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 204px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape10 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 25px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0;
-  left                : 216px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape11 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 25px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0;
-  left                : 215px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-path1 {
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape12 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
-  height              : 19px;
-  width               : 9px;
+  height              : 30px;
+  width               : 23px;
   position            : absolute;
   margin              : 0;
-  left                : 260px;
+  left                : 285px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-path21 {
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 29px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 302px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape14 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
-  height              : 25px;
-  width               : 19px;
+  height              : 30px;
+  width               : 15px;
   position            : absolute;
   margin              : 0;
-  left                : 243px;
+  left                : 302px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape12 {
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-path2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 25px;
-  width               : 19px;
+  top                 : 54px;
+  height              : 2px;
+  width               : 100%;
   position            : absolute;
   margin              : 0;
-  left                : 242px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape13 {
+.bp2-contatolq .bp2-shopgroup {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 25px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 257px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape14 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 25px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 257px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermenu .bp4-path2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 35px;
-  height              : 11px;
-  width               : calc(100.00% - 2px);
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0.999999165535deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-shopgroup {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 80px;
-  top                 : 30px;
+  right               : 115px;
+  top                 : 50px;
   height              : 84px;
   width               : 270px;
   position            : absolute;
@@ -364,13 +379,13 @@ div {
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
 }
-.bp4-contatomobile .bp4-shopgroup {
+.bp2-contatolq .bp2-shopgroup {
   pointer-events      : auto;
 }
-.bp4-contatomobile .bp4-shopgroup:hover {
+.bp2-contatolq .bp2-shopgroup:hover {
   transform           : translate(0, -5px);
 }
-.bp4-contatomobile .bp4-shopgroup .bp4-background {
+.bp2-contatolq .bp2-shopgroup .bp2-background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 84px;
@@ -381,7 +396,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-shopgroup .bp4-shopgroup1 {
+.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 {
   background-color    : rgba(255,255,255,0.0);
   right               : 7px;
   top                 : 6px;
@@ -392,7 +407,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-shopgroup .bp4-shopgroup1 .bp4-shop2 {
+.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-shop2 {
   background-color    : rgba(255,255,255,0.0);
   right               : 10px;
   top                 : 0px;
@@ -403,7 +418,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-shopgroup .bp4-shopgroup1 .bp4-shop2 .bp4-shape15 {
+.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-shop2 .bp2-shape15 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -414,7 +429,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-shopgroup .bp4-shopgroup1 .bp4-shop2 .bp4-shape16 {
+.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-shop2 .bp2-shape16 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -425,7 +440,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-shopgroup .bp4-shopgroup1 .bp4-group {
+.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-group {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
   top                 : 0px;
@@ -436,7 +451,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-shopgroup .bp4-shopgroup1 .bp4-group .bp4-quantity2 {
+.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-group .bp2-quantity2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -447,7 +462,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-shopgroup .bp4-shopgroup1 .bp4-a14 {
+.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-a14 {
   background-color    : rgba(255,255,255,0.0);
   right               : 2px;
   top                 : 0px;
@@ -458,7 +473,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-shopgroup .bp4-shopgroup1 .bp4-a14 .bp4-a1 {
+.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-a14 .bp2-a1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : calc(50.00% - 7px);
   height              : 13px;
@@ -476,7 +491,7 @@ div {
   text-align          : left;
   line-height         : 13.0px;
 }
-.bp4-contatomobile .bp4-shopgroup .bp4-shopgroup1 .bp4-rectangle {
+.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-rectangle1 {
   background-color    : rgba(255,255,255,0.0);
   right               : 5px;
   top                 : 35px;
@@ -487,7 +502,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
-.bp4-contatomobile .bp4-shopgroup .bp4-shopgroup1 .bp4-shoptext {
+.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-shoptext {
   background-color    : rgba(255,255,255,0.0);
   right               : 16px;
   top                 : 43px;
@@ -506,10 +521,10 @@ div {
   letter-spacing      : 0.5px;
   line-height         : 17.0px;
 }
-.bp4-contatomobile .bp4-profile {
+.bp2-contatolq .bp2-profile {
   background-color    : rgba(255,255,255,0.0);
-  right               : 5px;
-  top                 : 40px;
+  right               : 35px;
+  top                 : 57px;
   height              : 408px;
   width               : 276px;
   position            : absolute;
@@ -517,7 +532,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 {
+.bp2-contatolq .bp2-profile .bp2-profile1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 408px;
@@ -528,7 +543,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-profileicon {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-profileicon {
   background-color    : rgba(255,255,255,0.0);
   right               : 28px;
   top                 : 0px;
@@ -540,13 +555,13 @@ div {
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-profileicon {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-profileicon {
   pointer-events      : auto;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-profileicon:hover {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-profileicon:hover {
   transform           : translate(0, -5px);
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-profileicon .bp4-shape {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-profileicon .bp2-shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2.38%;
   height              : 95.24%;
@@ -557,7 +572,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-profileicon .bp4-shape1 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-profileicon .bp2-shape1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2.38%;
   height              : 95.24%;
@@ -568,7 +583,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu {
   background-color    : rgba(255,255,255,0.0);
   right               : -1.45%;
   top                 : 7.35%;
@@ -579,7 +594,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-rectangle {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-rectangle1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -590,7 +605,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-editprofile {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4.98%;
   height              : 23.84%;
@@ -601,7 +616,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-editprofile .bp4-rectangle1 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-rectangle11 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0.75%;
   height              : 98.51%;
@@ -612,7 +627,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-editprofile .bp4-group2 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 37.31%;
   height              : 25.37%;
@@ -623,7 +638,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-editprofile .bp4-group2 .bp4-editarperfil {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-editarperfil {
   background-color    : rgba(255,255,255,0.0);
   right               : 0.83%;
   top                 : calc(50.00% - 8px);
@@ -641,7 +656,7 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-editprofile .bp4-group2 .bp4-icchevron {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-icchevron {
   background-color    : rgba(255,255,255,0.0);
   top                 : -1px;
   height              : 19px;
@@ -652,7 +667,7 @@ div {
   transform           : rotate(90deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-editprofile .bp4-group2 .bp4-icchevron .bp4-rectangle2 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-icchevron .bp2-rectangle2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 19px;
@@ -663,7 +678,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-editprofile .bp4-group2 .bp4-icchevron .bp4-shape2 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-icchevron .bp2-shape2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 34.21%;
   height              : 31.58%;
@@ -674,7 +689,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-wishlist {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist {
   background-color    : rgba(255,255,255,0.0);
   top                 : 28.83%;
   height              : 23.84%;
@@ -685,7 +700,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-wishlist .bp4-rectangle3 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-rectangle3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0.75%;
   height              : 98.51%;
@@ -696,7 +711,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-wishlist .bp4-group21 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 35.82%;
   height              : 25.37%;
@@ -707,7 +722,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-wishlist .bp4-group21 .bp4-favoritos {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-favoritos {
   background-color    : rgba(255,255,255,0.0);
   right               : 0.61%;
   top                 : calc(50.00% - 8px);
@@ -725,7 +740,7 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-wishlist .bp4-group21 .bp4-icchevron1 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-icchevron1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -1px;
   height              : 19px;
@@ -736,7 +751,7 @@ div {
   transform           : rotate(90deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-wishlist .bp4-group21 .bp4-icchevron1 .bp4-rectangle4 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-icchevron1 .bp2-rectangle4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 19px;
@@ -747,7 +762,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-wishlist .bp4-group21 .bp4-icchevron1 .bp4-shape3 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-icchevron1 .bp2-shape3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 34.21%;
   height              : 31.58%;
@@ -758,7 +773,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-orderhistory {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 23.84%;
   height              : 23.84%;
@@ -769,7 +784,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-orderhistory .bp4-rectangle5 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-rectangle5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0.75%;
   height              : 98.51%;
@@ -780,7 +795,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-orderhistory .bp4-group22 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 37.31%;
   height              : 25.37%;
@@ -791,7 +806,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-orderhistory .bp4-group22 .bp4-hist363rico {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-hist363rico {
   background-color    : rgba(255,255,255,0.0);
   right               : 0.58%;
   top                 : calc(50.00% - 8px);
@@ -809,7 +824,7 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-orderhistory .bp4-group22 .bp4-icchevron2 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-icchevron2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -2px;
   height              : 19px;
@@ -820,7 +835,7 @@ div {
   transform           : rotate(90deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-orderhistory .bp4-group22 .bp4-icchevron2 .bp4-rectangle6 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-icchevron2 .bp2-rectangle6 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 19px;
@@ -831,7 +846,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-orderhistory .bp4-group22 .bp4-icchevron2 .bp4-shape4 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-icchevron2 .bp2-shape4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 34.21%;
   height              : 31.58%;
@@ -842,7 +857,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-akunbankcopy {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 1.78%;
   height              : 23.84%;
@@ -853,7 +868,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-akunbankcopy .bp4-rectangle7 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-rectangle7 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0.75%;
   height              : 98.51%;
@@ -864,7 +879,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-akunbankcopy .bp4-group23 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 37.31%;
   height              : 25.37%;
@@ -875,7 +890,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-akunbankcopy .bp4-group23 .bp4-cart365es {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-cart365es {
   background-color    : rgba(255,255,255,0.0);
   right               : 0.65%;
   top                 : calc(50.00% - 8px);
@@ -893,7 +908,7 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-akunbankcopy .bp4-group23 .bp4-icchevron3 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-icchevron3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -2px;
   height              : 19px;
@@ -904,7 +919,7 @@ div {
   transform           : rotate(90deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-akunbankcopy .bp4-group23 .bp4-icchevron3 .bp4-rectangle8 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-icchevron3 .bp2-rectangle8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 19px;
@@ -915,7 +930,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-akunbankcopy .bp4-group23 .bp4-icchevron3 .bp4-shape5 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-icchevron3 .bp2-shape5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 34.21%;
   height              : 31.58%;
@@ -926,7 +941,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro {
   background-color    : rgba(255,255,255,0.0);
   bottom              : -1.47%;
   height              : 94.12%;
@@ -937,7 +952,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-bglogintocontinue {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-bglogintocontinue {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -948,7 +963,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-email {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email {
   background-color    : rgba(255,255,255,0.0);
   top                 : 79px;
   height              : 51px;
@@ -959,7 +974,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-email .bp4-rectangle {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-rectangle1 {
   background-color    : rgba(255, 255, 255, 1.0);
   bottom              : 0px;
   height              : 62.75%;
@@ -975,7 +990,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-email .bp4-email1 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-email1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1.96%;
   height              : 16px;
@@ -993,7 +1008,7 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-email .bp4-accountmailmailco {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-accountmailmailco {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 15.69%;
   height              : 14px;
@@ -1014,10 +1029,10 @@ div {
   resize              : none;
   padding             : 0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-email .bp4-accountmailmailco::placeholder {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-accountmailmailco::placeholder {
   color               : rgba(0, 0, 0, 0.3);
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-password {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password {
   background-color    : rgba(255,255,255,0.0);
   top                 : 143px;
   height              : 51px;
@@ -1028,7 +1043,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-password .bp4-rectangle1 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-rectangle1 {
   background-color    : rgba(255, 255, 255, 1.0);
   bottom              : 0px;
   height              : 62.75%;
@@ -1044,7 +1059,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-password .bp4-image1 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-image1 {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 15.69%;
   height              : 14px;
@@ -1065,10 +1080,10 @@ div {
   resize              : none;
   padding             : 0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-password .bp4-image1::placeholder {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-image1::placeholder {
   color               : rgba(151, 151, 151, 0.6);
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-password .bp4-senha {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-senha {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 16px;
@@ -1086,7 +1101,7 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-ctabuttonprimary {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-ctabuttonprimary {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 103px;
   height              : 32px;
@@ -1097,7 +1112,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-ctabuttonprimary .bp4-rectangle2 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-ctabuttonprimary .bp2-rectangle2 {
   background-color    : rgba(116, 191, 187, 1.0);
   top                 : 0px;
   height              : 100%;
@@ -1109,7 +1124,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-ctabuttonprimary .bp4-entrar {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-ctabuttonprimary .bp2-entrar {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 12.50%;
   height              : 21px;
@@ -1127,7 +1142,7 @@ div {
   text-align          : center;
   line-height         : 21.0px;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-rememberme {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-rememberme {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 152px;
   height              : 17px;
@@ -1138,7 +1153,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-rememberme .bp4-icchecked {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-rememberme .bp2-icchecked {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 17px;
@@ -1149,7 +1164,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-rememberme .bp4-lembreme {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-rememberme .bp2-lembreme {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
   bottom              : 0px;
@@ -1167,7 +1182,7 @@ div {
   text-align          : left;
   line-height         : 14.0px;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-esqueceuasenha {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-esqueceuasenha {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 70px;
   height              : auto;
@@ -1185,13 +1200,13 @@ div {
   text-align          : center;
   line-height         : 14.0px;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-esqueceuasenha .bp4-span1 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-esqueceuasenha .bp2-span1 {
   
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-esqueceuasenha .bp4-span2 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-esqueceuasenha .bp2-span2 {
   color               : rgba(77, 91, 182, 1.0);
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-welcometologin {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-welcometologin {
   background-color    : rgba(255,255,255,0.0);
   top                 : 14px;
   height              : 59px;
@@ -1202,7 +1217,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-welcometologin .bp4-kurir {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-welcometologin .bp2-kurir {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -1220,7 +1235,7 @@ div {
   text-align          : left;
   line-height         : 24.0px;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-welcometologin .bp4-preenchaseuemail {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-welcometologin .bp2-preenchaseuemail {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 1.69%;
   height              : 47.46%;
@@ -1238,7 +1253,7 @@ div {
   text-align          : left;
   line-height         : 14.0px;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-signin {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-signin {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 31px;
   height              : 32px;
@@ -1249,7 +1264,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-signin .bp4-rectangle3 {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-signin .bp2-rectangle3 {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 100%;
@@ -1265,7 +1280,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-signin .bp4-cadastrese {
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-signin .bp2-cadastrese {
   background-color    : rgba(255,255,255,0.0);
   top                 : calc(50.00% - 11px);
   height              : 21px;
@@ -1283,451 +1298,107 @@ div {
   text-align          : center;
   line-height         : 21.0px;
 }
-.bp4-contatomobile .bp4-menutabmobile {
+.bp2-contatolq .bp2-headerbuttons {
   background-color    : rgba(255,255,255,0.0);
-  right               : 55px;
-  top                 : 35px;
-  height              : 120px;
-  width               : 453px;
+  right               : 248px;
+  top                 : 20px;
+  height              : 52px;
+  width               : 293px;
   position            : absolute;
   margin              : 0;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab {
+.bp2-contatolq .bp2-headerbuttons .bp2-background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 120px;
-  width               : 453px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-lines {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 100px;
-  top                 : 5px;
-  height              : 22px;
-  width               : 28px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-lines {
-  pointer-events      : auto;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-lines:hover {
-  transform           : rotate(30deg);
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-lines .bp4-linecopy5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 13.64%;
-  width               : 100%;
+  height              : 52px;
+  width               : 293px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-lines .bp4-linecopy4 {
+.bp2-contatolq .bp2-headerbuttons .bp2-aboutbutton {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 245px;
+  top                 : 0px;
+  height              : 50px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headerbuttons .bp2-aboutbutton .bp2-aboutbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headerbuttons .bp2-pricesbutton {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 128px;
+  top                 : 0px;
+  height              : 50px;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 106px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headerbuttons .bp2-pricesbutton .bp2-pricesbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headerbuttons .bp2-contactbutton {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
-  bottom              : 0px;
-  height              : 13.64%;
-  width               : 82.14%;
+  top                 : 0px;
+  height              : 50px;
+  width               : 69px;
   position            : absolute;
   margin              : 0;
+  left                : 224px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-lines .bp4-linecopy3 {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 43.18%;
-  height              : 13.64%;
-  width               : 89.29%;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-lines .bp4-line {
+.bp2-contatolq .bp2-headerbuttons .bp2-contactbutton .bp2-contactbutton1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 13.64%;
-  width               : 100%;
+  height              : 50px;
+  width               : 69px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-lines .bp4-linecopy2 {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  bottom              : 0px;
-  height              : 13.64%;
-  width               : 82.14%;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-lines .bp4-linecopy {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 43.18%;
-  height              : 13.64%;
-  width               : 89.29%;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 35px;
-  height              : 90px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.89;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-rectangle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 311px;
-  top                 : 24px;
-  height              : 41px;
-  width               : 128px;
-  position            : absolute;
-  margin              : 0;
-  left                : 15px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile {
-  pointer-events      : auto;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile:hover {
-  transform           : translate(0, -5px);
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile .bp4-rectanglecopy {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile .bp4-aboutbutton {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2.08%;
-  height              : 58.33%;
-  width               : 94.07%;
-  position            : absolute;
-  margin              : 0;
-  left                : 2.96%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile .bp4-aboutbutton .bp4-aboutbutton1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile .bp4-aboutbutton .bp4-aboutbutton1 .bp4-sobre {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -14.29%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(65, 70, 75, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile .bp4-aboutbutton .bp4-aboutbutton1 .bp4-sobre1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -10.71%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(138, 140, 142, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile .bp4-aboutbutton .bp4-aboutbutton1 .bp4-ballsellection {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 10.71%;
-  width               : 12.60%;
-  position            : absolute;
-  margin              : 0;
-  left                : 43.70%;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile .bp4-aboutbutton .bp4-aboutbutton1 .bp4-background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 163px;
-  top                 : 25px;
-  height              : 40px;
-  width               : 128px;
-  position            : absolute;
-  margin              : 0;
-  left                : 163px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile {
-  pointer-events      : auto;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile:hover {
-  transform           : translate(0, -5px);
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile .bp4-rectanglecopy2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile .bp4-pricesbutton {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4.17%;
-  height              : 56.25%;
-  width               : 94.07%;
-  position            : absolute;
-  margin              : 0;
-  left                : 2.96%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile .bp4-pricesbutton .bp4-pricesbutton1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile .bp4-pricesbutton .bp4-pricesbutton1 .bp4-pre347os {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -14.81%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(65, 70, 75, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile .bp4-pricesbutton .bp4-pricesbutton1 .bp4-pre347os1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -14.81%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(138, 140, 142, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile .bp4-pricesbutton .bp4-pricesbutton1 .bp4-background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 15px;
-  top                 : 25px;
-  height              : 40px;
-  width               : 128px;
-  position            : absolute;
-  margin              : 0;
-  left                : 311px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile {
-  pointer-events      : auto;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile:hover {
-  transform           : translate(0, -5px);
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile .bp4-rectanglecopy3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile .bp4-contactbutton {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4.17%;
-  height              : 56.25%;
-  width               : 94.07%;
-  position            : absolute;
-  margin              : 0;
-  left                : 2.96%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile .bp4-contactbutton .bp4-contactbutton1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile .bp4-contactbutton .bp4-contactbutton1 .bp4-contato {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -14.81%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(65, 70, 75, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile .bp4-contactbutton .bp4-contactbutton1 .bp4-contato1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -14.81%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(138, 140, 142, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile .bp4-contactbutton .bp4-contactbutton1 .bp4-background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-a404copy2 {
+.bp2-contatolq .bp2-a404 {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 655px;
-  width               : 537px;
+  height              : 465px;
+  width               : 809px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-a404copy2-layout-container {
+.bp2-contatolq .bp2-a404-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 0;
@@ -1740,37 +1411,37 @@ div {
   display             : flex;
   left                : 0;
 }
-.bp4-contatomobile .bp4-a404copy2-layout-container > * {
+.bp2-contatolq .bp2-a404-layout-container > * {
   pointer-events      : auto;
 }
-.bp4-contatomobile .bp4-a404copy2 .bp4-button {
+.bp2-contatolq .bp2-a404 .bp2-button {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 551px;
-  height              : 104px;
-  width               : 264px;
+  top                 : 398px;
+  height              : 67px;
+  width               : 398px;
   position            : absolute;
   margin              : 0;
-  left                : 137px;
+  left                : 206px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-a404copy2 .bp4-button .bp4-background {
+.bp2-contatolq .bp2-a404 .bp2-button .bp2-background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 104px;
-  width               : 264px;
+  height              : 67px;
+  width               : 398px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-a404copy2 .bp4-button .bp4-u5bb9u5668u6837u5f0f {
+.bp2-contatolq .bp2-a404 .bp2-button .bp2-u5bb9u5668u6837u5f0f {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 104px;
-  width               : 264px;
+  height              : 67px;
+  width               : 398px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1779,11 +1450,11 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-a404copy2 .bp4-button .bp4-u5bb9u5668u6837u5f0f .bp4-mask {
+.bp2-contatolq .bp2-a404 .bp2-button .bp2-u5bb9u5668u6837u5f0f .bp2-mask {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 104px;
-  width               : 264px;
+  height              : 67px;
+  width               : 398px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1791,44 +1462,44 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-a404copy2 .bp4-button .bp4-u5bb9u5668u6837u5f0f .bp4-u21b3ud83cudfa8u80ccu666f {
+.bp2-contatolq .bp2-a404 .bp2-button .bp2-u5bb9u5668u6837u5f0f .bp2-u21b3ud83cudfa8u80ccu666f {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 104px;
-  width               : 264px;
+  height              : 67px;
+  width               : 398px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-a404copy2 .bp4-button .bp4-u5bb9u5668u6837u5f0f .bp4-u21b3ud83cudfa8u80ccu666f .bp4-base {
+.bp2-contatolq .bp2-a404 .bp2-button .bp2-u5bb9u5668u6837u5f0f .bp2-u21b3ud83cudfa8u80ccu666f .bp2-base {
   background-color    : rgba(24, 151, 242, 1.0);
   top                 : 0px;
-  height              : 104px;
-  width               : 264px;
+  height              : 67px;
+  width               : 398px;
   position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-a404copy2 .bp4-button .bp4-u6587u5b57u6837u5f0f {
+.bp2-contatolq .bp2-a404 .bp2-button .bp2-u6587u5b57u6837u5f0f {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 40px;
+  top                 : 22px;
   height              : 24px;
-  width               : 200px;
+  width               : 334px;
   position            : absolute;
   margin              : 0;
   left                : 32px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-a404copy2 .bp4-button .bp4-u6587u5b57u6837u5f0f .bp4-u21b3u270fufe0fcontent {
+.bp2-contatolq .bp2-a404 .bp2-button .bp2-u6587u5b57u6837u5f0f .bp2-u21b3u270fufe0fcontent {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
-  width               : 200px;
+  width               : 334px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1842,22 +1513,22 @@ div {
   text-align          : center;
   line-height         : 24.0px;
 }
-.bp4-contatomobile .bp4-a404copy2 .bp4-a16pxregularcenterwhitecopy3 {
+.bp2-contatolq .bp2-a404 .bp2-a16pxregularcenterwhitecopy3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 417px;
+  top                 : 312px;
   height              : 32px;
-  width               : 537px;
+  width               : 809px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-a404copy2 .bp4-a16pxregularcenterwhitecopy3 .bp4-u21b3u270fufe0fcontent {
+.bp2-contatolq .bp2-a404 .bp2-a16pxregularcenterwhitecopy3 .bp2-u21b3u270fufe0fcontent {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
-  width               : 537px;
+  width               : 809px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1871,22 +1542,22 @@ div {
   text-align          : center;
   line-height         : 32.0px;
 }
-.bp4-contatomobile .bp4-a404copy2 .bp4-a16pxregularcenterwhitecopy31 {
+.bp2-contatolq .bp2-a404 .bp2-a16pxregularcenterwhitecopy31 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 344px;
+  top                 : 265px;
   height              : 32px;
-  width               : 537px;
+  width               : 809px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-a404copy2 .bp4-a16pxregularcenterwhitecopy31 .bp4-u21b3u270fufe0fcontent {
+.bp2-contatolq .bp2-a404 .bp2-a16pxregularcenterwhitecopy31 .bp2-u21b3u270fufe0fcontent {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
-  width               : 537px;
+  width               : 809px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1900,11 +1571,11 @@ div {
   text-align          : center;
   line-height         : 32.0px;
 }
-.bp4-contatomobile .bp4-a404copy2 .bp4-a404 {
+.bp2-contatolq .bp2-a404 .bp2-a4041 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
-  width               : 537px;
+  width               : 809px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -4062,11 +3733,11 @@ div {
   word-break          : break-all;
   word-break          : break-word;
 }
-.bp2-contatolq {
+.bp4-contatomobile {
   width               : 100%;
-  min-width           : 1024px;
+  min-width           : 556px;
   height              : 100vh;
-  min-height          : 695px;
+  min-height          : 963px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -4078,21 +3749,10 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.bp2-contatolq .bp2-rectangle {
-  background-color    : rgba(46, 50, 67, 1.0);
-  bottom              : -990px;
-  height              : 967px;
-  width               : calc(100.00% + 96px);
-  position            : absolute;
-  margin              : 0;
-  left                : -48px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-panel {
+.bp4-contatomobile .bp4-panel {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 0px;
-  height              : 148px;
+  bottom              : 20px;
+  height              : 119px;
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -4100,10 +3760,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-panel .bp2-panel2 {
+.bp4-contatomobile .bp4-panel .bp4-panel2 {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 0px;
-  height              : 148px;
+  bottom              : 23px;
+  height              : 96px;
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -4111,10 +3771,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
-.bp2-contatolq .bp2-panel .bp2-panel2 .bp2-panel21 {
+.bp4-contatomobile .bp4-panel .bp4-panel2 .bp4-panel21 {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 0px;
-  height              : 148px;
+  height              : 96px;
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -4122,9 +3782,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-panel .bp2-tokilogo {
+.bp4-contatomobile .bp4-panel .bp4-tokilogo {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 15px;
+  bottom              : 0px;
   height              : 81px;
   width               : 196px;
   position            : absolute;
@@ -4134,13 +3794,13 @@ div {
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
 }
-.bp2-contatolq .bp2-panel .bp2-tokilogo {
+.bp4-contatomobile .bp4-panel .bp4-tokilogo {
   pointer-events      : auto;
 }
-.bp2-contatolq .bp2-panel .bp2-tokilogo:hover {
+.bp4-contatomobile .bp4-panel .bp4-tokilogo:hover {
   transform           : translate(0, -10px);
 }
-.bp2-contatolq .bp2-panel .bp2-tokilogo .bp2-tokilogo1 {
+.bp4-contatomobile .bp4-panel .bp4-tokilogo .bp4-tokilogo1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 81px;
@@ -4151,7 +3811,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-panel .bp2-tokilogo .bp2-tokilogo1 .bp2-bitmap {
+.bp4-contatomobile .bp4-panel .bp4-tokilogo .bp4-tokilogo1 .bp4-bitmap {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 81px;
@@ -4162,275 +3822,271 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-headermenu {
+.bp4-contatomobile .bp4-headermenu {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 40px;
-  height              : 56px;
-  width               : calc(100.00% - 75px);
+  top                 : 35px;
+  height              : 49px;
+  width               : calc(100.00% - 16px);
   position            : absolute;
   margin              : 0;
-  left                : 35px;
+  left                : 8px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-headermenu .bp2-menu {
+.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 56px;
-  width               : 100%;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 34px;
-  width               : 327px;
+  height              : 29px;
+  width               : 278px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
 }
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-background {
+.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout {
+  pointer-events      : auto;
+}
+.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout:hover {
+  transform           : translate(5px, 0);
+}
+.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 34px;
-  width               : 327px;
+  height              : 29px;
+  width               : 278px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout {
+.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 34px;
-  width               : 317px;
+  height              : 29px;
+  width               : 269px;
   position            : absolute;
   margin              : 0;
-  left                : 5px;
+  left                : 4px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape {
+.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
-  height              : 33px;
-  width               : 29px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 32px;
-  width               : 27px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 32px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 58px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 32px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 32px;
-  width               : 31px;
-  position            : absolute;
-  margin              : 0;
-  left                : 99px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 33px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 129px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 32px;
-  width               : 27px;
-  position            : absolute;
-  margin              : 0;
-  left                : 163px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 32px;
+  height              : 28px;
   width               : 25px;
   position            : absolute;
   margin              : 0;
-  left                : 191px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 33px;
-  width               : 26px;
-  position            : absolute;
-  margin              : 0;
-  left                : 214px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-path {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 10px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 240px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape9 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 10px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 240px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape10 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 29px;
-  width               : 29px;
-  position            : absolute;
-  margin              : 0;
-  left                : 253px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape11 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 30px;
-  width               : 30px;
-  position            : absolute;
-  margin              : 0;
-  left                : 253px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-path1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 23px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 305px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-path21 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 29px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 285px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape12 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 30px;
-  width               : 23px;
-  position            : absolute;
-  margin              : 0;
-  left                : 285px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape13 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 29px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 302px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape14 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 30px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 302px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-path2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 54px;
-  height              : 2px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-shopgroup {
+.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape1 {
   background-color    : rgba(255,255,255,0.0);
-  right               : 115px;
-  top                 : 50px;
+  top                 : 1px;
+  height              : 27px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 27px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 49px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 27px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 27px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 85px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 110px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 27px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 139px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 27px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 162px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 28px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 182px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 8px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 205px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 9px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 204px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 216px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 215px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 260px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-path21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 25px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 243px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 25px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 242px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 25px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 257px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermenu .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 25px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 257px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermenu .bp4-path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 11px;
+  width               : calc(100.00% - 2px);
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0.999999165535deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-shopgroup {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 80px;
+  top                 : 30px;
   height              : 84px;
   width               : 270px;
   position            : absolute;
@@ -4440,13 +4096,13 @@ div {
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
 }
-.bp2-contatolq .bp2-shopgroup {
+.bp4-contatomobile .bp4-shopgroup {
   pointer-events      : auto;
 }
-.bp2-contatolq .bp2-shopgroup:hover {
+.bp4-contatomobile .bp4-shopgroup:hover {
   transform           : translate(0, -5px);
 }
-.bp2-contatolq .bp2-shopgroup .bp2-background {
+.bp4-contatomobile .bp4-shopgroup .bp4-background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 84px;
@@ -4457,7 +4113,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 {
+.bp4-contatomobile .bp4-shopgroup .bp4-shopgroup1 {
   background-color    : rgba(255,255,255,0.0);
   right               : 7px;
   top                 : 6px;
@@ -4468,7 +4124,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-shop2 {
+.bp4-contatomobile .bp4-shopgroup .bp4-shopgroup1 .bp4-shop2 {
   background-color    : rgba(255,255,255,0.0);
   right               : 10px;
   top                 : 0px;
@@ -4479,7 +4135,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-shop2 .bp2-shape15 {
+.bp4-contatomobile .bp4-shopgroup .bp4-shopgroup1 .bp4-shop2 .bp4-shape15 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -4490,7 +4146,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-shop2 .bp2-shape16 {
+.bp4-contatomobile .bp4-shopgroup .bp4-shopgroup1 .bp4-shop2 .bp4-shape16 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -4501,7 +4157,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-group {
+.bp4-contatomobile .bp4-shopgroup .bp4-shopgroup1 .bp4-group {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
   top                 : 0px;
@@ -4512,7 +4168,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-group .bp2-quantity2 {
+.bp4-contatomobile .bp4-shopgroup .bp4-shopgroup1 .bp4-group .bp4-quantity2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -4523,7 +4179,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-a14 {
+.bp4-contatomobile .bp4-shopgroup .bp4-shopgroup1 .bp4-a14 {
   background-color    : rgba(255,255,255,0.0);
   right               : 2px;
   top                 : 0px;
@@ -4534,7 +4190,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-a14 .bp2-a1 {
+.bp4-contatomobile .bp4-shopgroup .bp4-shopgroup1 .bp4-a14 .bp4-a1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : calc(50.00% - 7px);
   height              : 13px;
@@ -4552,7 +4208,7 @@ div {
   text-align          : left;
   line-height         : 13.0px;
 }
-.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-rectangle1 {
+.bp4-contatomobile .bp4-shopgroup .bp4-shopgroup1 .bp4-rectangle {
   background-color    : rgba(255,255,255,0.0);
   right               : 5px;
   top                 : 35px;
@@ -4563,7 +4219,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
-.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-shoptext {
+.bp4-contatomobile .bp4-shopgroup .bp4-shopgroup1 .bp4-shoptext {
   background-color    : rgba(255,255,255,0.0);
   right               : 16px;
   top                 : 43px;
@@ -4582,10 +4238,10 @@ div {
   letter-spacing      : 0.5px;
   line-height         : 17.0px;
 }
-.bp2-contatolq .bp2-profile {
+.bp4-contatomobile .bp4-profile {
   background-color    : rgba(255,255,255,0.0);
-  right               : 35px;
-  top                 : 57px;
+  right               : 5px;
+  top                 : 40px;
   height              : 408px;
   width               : 276px;
   position            : absolute;
@@ -4593,7 +4249,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 408px;
@@ -4604,7 +4260,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-profileicon {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-profileicon {
   background-color    : rgba(255,255,255,0.0);
   right               : 28px;
   top                 : 0px;
@@ -4616,13 +4272,13 @@ div {
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-profileicon {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-profileicon {
   pointer-events      : auto;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-profileicon:hover {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-profileicon:hover {
   transform           : translate(0, -5px);
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-profileicon .bp2-shape {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-profileicon .bp4-shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2.38%;
   height              : 95.24%;
@@ -4633,7 +4289,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-profileicon .bp2-shape1 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-profileicon .bp4-shape1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2.38%;
   height              : 95.24%;
@@ -4644,7 +4300,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu {
   background-color    : rgba(255,255,255,0.0);
   right               : -1.45%;
   top                 : 7.35%;
@@ -4655,7 +4311,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-rectangle1 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -4666,7 +4322,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-editprofile {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4.98%;
   height              : 23.84%;
@@ -4677,7 +4333,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-rectangle11 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-editprofile .bp4-rectangle1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0.75%;
   height              : 98.51%;
@@ -4688,7 +4344,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-editprofile .bp4-group2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 37.31%;
   height              : 25.37%;
@@ -4699,7 +4355,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-editarperfil {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-editprofile .bp4-group2 .bp4-editarperfil {
   background-color    : rgba(255,255,255,0.0);
   right               : 0.83%;
   top                 : calc(50.00% - 8px);
@@ -4717,7 +4373,7 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-icchevron {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-editprofile .bp4-group2 .bp4-icchevron {
   background-color    : rgba(255,255,255,0.0);
   top                 : -1px;
   height              : 19px;
@@ -4728,7 +4384,7 @@ div {
   transform           : rotate(90deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-icchevron .bp2-rectangle2 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-editprofile .bp4-group2 .bp4-icchevron .bp4-rectangle2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 19px;
@@ -4739,7 +4395,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-icchevron .bp2-shape2 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-editprofile .bp4-group2 .bp4-icchevron .bp4-shape2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 34.21%;
   height              : 31.58%;
@@ -4750,7 +4406,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-wishlist {
   background-color    : rgba(255,255,255,0.0);
   top                 : 28.83%;
   height              : 23.84%;
@@ -4761,7 +4417,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-rectangle3 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-wishlist .bp4-rectangle3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0.75%;
   height              : 98.51%;
@@ -4772,7 +4428,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-wishlist .bp4-group21 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 35.82%;
   height              : 25.37%;
@@ -4783,7 +4439,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-favoritos {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-wishlist .bp4-group21 .bp4-favoritos {
   background-color    : rgba(255,255,255,0.0);
   right               : 0.61%;
   top                 : calc(50.00% - 8px);
@@ -4801,7 +4457,7 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-icchevron1 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-wishlist .bp4-group21 .bp4-icchevron1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -1px;
   height              : 19px;
@@ -4812,7 +4468,7 @@ div {
   transform           : rotate(90deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-icchevron1 .bp2-rectangle4 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-wishlist .bp4-group21 .bp4-icchevron1 .bp4-rectangle4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 19px;
@@ -4823,7 +4479,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-icchevron1 .bp2-shape3 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-wishlist .bp4-group21 .bp4-icchevron1 .bp4-shape3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 34.21%;
   height              : 31.58%;
@@ -4834,7 +4490,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-orderhistory {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 23.84%;
   height              : 23.84%;
@@ -4845,7 +4501,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-rectangle5 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-orderhistory .bp4-rectangle5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0.75%;
   height              : 98.51%;
@@ -4856,7 +4512,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-orderhistory .bp4-group22 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 37.31%;
   height              : 25.37%;
@@ -4867,7 +4523,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-hist363rico {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-orderhistory .bp4-group22 .bp4-hist363rico {
   background-color    : rgba(255,255,255,0.0);
   right               : 0.58%;
   top                 : calc(50.00% - 8px);
@@ -4885,7 +4541,7 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-icchevron2 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-orderhistory .bp4-group22 .bp4-icchevron2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -2px;
   height              : 19px;
@@ -4896,7 +4552,7 @@ div {
   transform           : rotate(90deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-icchevron2 .bp2-rectangle6 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-orderhistory .bp4-group22 .bp4-icchevron2 .bp4-rectangle6 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 19px;
@@ -4907,7 +4563,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-icchevron2 .bp2-shape4 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-orderhistory .bp4-group22 .bp4-icchevron2 .bp4-shape4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 34.21%;
   height              : 31.58%;
@@ -4918,7 +4574,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-akunbankcopy {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 1.78%;
   height              : 23.84%;
@@ -4929,7 +4585,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-rectangle7 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-akunbankcopy .bp4-rectangle7 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0.75%;
   height              : 98.51%;
@@ -4940,7 +4596,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-akunbankcopy .bp4-group23 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 37.31%;
   height              : 25.37%;
@@ -4951,7 +4607,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-cart365es {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-akunbankcopy .bp4-group23 .bp4-cart365es {
   background-color    : rgba(255,255,255,0.0);
   right               : 0.65%;
   top                 : calc(50.00% - 8px);
@@ -4969,7 +4625,7 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-icchevron3 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-akunbankcopy .bp4-group23 .bp4-icchevron3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -2px;
   height              : 19px;
@@ -4980,7 +4636,7 @@ div {
   transform           : rotate(90deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-icchevron3 .bp2-rectangle8 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-akunbankcopy .bp4-group23 .bp4-icchevron3 .bp4-rectangle8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 19px;
@@ -4991,7 +4647,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-icchevron3 .bp2-shape5 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-menu .bp4-akunbankcopy .bp4-group23 .bp4-icchevron3 .bp4-shape5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 34.21%;
   height              : 31.58%;
@@ -5002,7 +4658,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro {
   background-color    : rgba(255,255,255,0.0);
   bottom              : -1.47%;
   height              : 94.12%;
@@ -5013,7 +4669,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-bglogintocontinue {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-bglogintocontinue {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -5024,7 +4680,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-email {
   background-color    : rgba(255,255,255,0.0);
   top                 : 79px;
   height              : 51px;
@@ -5035,7 +4691,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-rectangle1 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-email .bp4-rectangle {
   background-color    : rgba(255, 255, 255, 1.0);
   bottom              : 0px;
   height              : 62.75%;
@@ -5051,7 +4707,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-email1 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-email .bp4-email1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1.96%;
   height              : 16px;
@@ -5069,7 +4725,7 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-accountmailmailco {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-email .bp4-accountmailmailco {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 15.69%;
   height              : 14px;
@@ -5090,10 +4746,10 @@ div {
   resize              : none;
   padding             : 0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-accountmailmailco::placeholder {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-email .bp4-accountmailmailco::placeholder {
   color               : rgba(0, 0, 0, 0.3);
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-password {
   background-color    : rgba(255,255,255,0.0);
   top                 : 143px;
   height              : 51px;
@@ -5104,7 +4760,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-rectangle1 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-password .bp4-rectangle1 {
   background-color    : rgba(255, 255, 255, 1.0);
   bottom              : 0px;
   height              : 62.75%;
@@ -5120,7 +4776,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-image1 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-password .bp4-image1 {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 15.69%;
   height              : 14px;
@@ -5141,10 +4797,10 @@ div {
   resize              : none;
   padding             : 0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-image1::placeholder {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-password .bp4-image1::placeholder {
   color               : rgba(151, 151, 151, 0.6);
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-senha {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-password .bp4-senha {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 16px;
@@ -5162,7 +4818,7 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-ctabuttonprimary {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-ctabuttonprimary {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 103px;
   height              : 32px;
@@ -5173,7 +4829,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-ctabuttonprimary .bp2-rectangle2 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-ctabuttonprimary .bp4-rectangle2 {
   background-color    : rgba(116, 191, 187, 1.0);
   top                 : 0px;
   height              : 100%;
@@ -5185,7 +4841,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-ctabuttonprimary .bp2-entrar {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-ctabuttonprimary .bp4-entrar {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 12.50%;
   height              : 21px;
@@ -5203,7 +4859,7 @@ div {
   text-align          : center;
   line-height         : 21.0px;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-rememberme {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-rememberme {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 152px;
   height              : 17px;
@@ -5214,7 +4870,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-rememberme .bp2-icchecked {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-rememberme .bp4-icchecked {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 17px;
@@ -5225,7 +4881,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-rememberme .bp2-lembreme {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-rememberme .bp4-lembreme {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
   bottom              : 0px;
@@ -5243,7 +4899,7 @@ div {
   text-align          : left;
   line-height         : 14.0px;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-esqueceuasenha {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-esqueceuasenha {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 70px;
   height              : auto;
@@ -5261,13 +4917,13 @@ div {
   text-align          : center;
   line-height         : 14.0px;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-esqueceuasenha .bp2-span1 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-esqueceuasenha .bp4-span1 {
   
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-esqueceuasenha .bp2-span2 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-esqueceuasenha .bp4-span2 {
   color               : rgba(77, 91, 182, 1.0);
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-welcometologin {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-welcometologin {
   background-color    : rgba(255,255,255,0.0);
   top                 : 14px;
   height              : 59px;
@@ -5278,7 +4934,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-welcometologin .bp2-kurir {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-welcometologin .bp4-kurir {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 24px;
@@ -5296,7 +4952,7 @@ div {
   text-align          : left;
   line-height         : 24.0px;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-welcometologin .bp2-preenchaseuemail {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-welcometologin .bp4-preenchaseuemail {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 1.69%;
   height              : 47.46%;
@@ -5314,7 +4970,7 @@ div {
   text-align          : left;
   line-height         : 14.0px;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-signin {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-signin {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 31px;
   height              : 32px;
@@ -5325,7 +4981,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-signin .bp2-rectangle3 {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-signin .bp4-rectangle3 {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 100%;
@@ -5341,7 +4997,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-signin .bp2-cadastrese {
+.bp4-contatomobile .bp4-profile .bp4-profile1 .bp4-cadastro .bp4-signin .bp4-cadastrese {
   background-color    : rgba(255,255,255,0.0);
   top                 : calc(50.00% - 11px);
   height              : 21px;
@@ -5359,107 +5015,451 @@ div {
   text-align          : center;
   line-height         : 21.0px;
 }
-.bp2-contatolq .bp2-headerbuttons {
+.bp4-contatomobile .bp4-menutabmobile {
   background-color    : rgba(255,255,255,0.0);
-  right               : 248px;
-  top                 : 20px;
-  height              : 52px;
-  width               : 293px;
+  right               : 55px;
+  top                 : 35px;
+  height              : 120px;
+  width               : 453px;
   position            : absolute;
   margin              : 0;
-  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-headerbuttons .bp2-background {
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 52px;
-  width               : 293px;
+  height              : 120px;
+  width               : 453px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-lines {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 100px;
+  top                 : 5px;
+  height              : 22px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-lines {
+  pointer-events      : auto;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-lines:hover {
+  transform           : rotate(30deg);
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-lines .bp4-linecopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 13.64%;
+  width               : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-headerbuttons .bp2-aboutbutton {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 245px;
-  top                 : 0px;
-  height              : 50px;
-  width               : 48px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headerbuttons .bp2-aboutbutton .bp2-aboutbutton1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 48px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headerbuttons .bp2-pricesbutton {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 128px;
-  top                 : 0px;
-  height              : 50px;
-  width               : 59px;
-  position            : absolute;
-  margin              : 0;
-  left                : 106px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headerbuttons .bp2-pricesbutton .bp2-pricesbutton1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 59px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headerbuttons .bp2-contactbutton {
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-lines .bp4-linecopy4 {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
-  top                 : 0px;
-  height              : 50px;
-  width               : 69px;
+  bottom              : 0px;
+  height              : 13.64%;
+  width               : 82.14%;
   position            : absolute;
   margin              : 0;
-  left                : 224px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-headerbuttons .bp2-contactbutton .bp2-contactbutton1 {
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-lines .bp4-linecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 43.18%;
+  height              : 13.64%;
+  width               : 89.29%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-lines .bp4-line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 50px;
-  width               : 69px;
+  height              : 13.64%;
+  width               : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-a404 {
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-lines .bp4-linecopy2 {
   background-color    : rgba(255,255,255,0.0);
-  position            : relative;
-  height              : 465px;
-  width               : 809px;
+  right               : 0px;
+  bottom              : 0px;
+  height              : 13.64%;
+  width               : 82.14%;
+  position            : absolute;
+  margin              : 0;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-a404-layout-container {
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-lines .bp4-linecopy {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 43.18%;
+  height              : 13.64%;
+  width               : 89.29%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 90px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.89;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 311px;
+  top                 : 24px;
+  height              : 41px;
+  width               : 128px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile {
+  pointer-events      : auto;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile:hover {
+  transform           : translate(0, -5px);
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile .bp4-rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile .bp4-aboutbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.08%;
+  height              : 58.33%;
+  width               : 94.07%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.96%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile .bp4-aboutbutton .bp4-aboutbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile .bp4-aboutbutton .bp4-aboutbutton1 .bp4-sobre {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : -14.29%;
+  height              : 19px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 800;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(65, 70, 75, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile .bp4-aboutbutton .bp4-aboutbutton1 .bp4-sobre1 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : -10.71%;
+  height              : 19px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(138, 140, 142, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile .bp4-aboutbutton .bp4-aboutbutton1 .bp4-ballsellection {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 10.71%;
+  width               : 12.60%;
+  position            : absolute;
+  margin              : 0;
+  left                : 43.70%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile .bp4-aboutbutton .bp4-aboutbutton1 .bp4-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 163px;
+  top                 : 25px;
+  height              : 40px;
+  width               : 128px;
+  position            : absolute;
+  margin              : 0;
+  left                : 163px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile {
+  pointer-events      : auto;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile:hover {
+  transform           : translate(0, -5px);
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile .bp4-rectanglecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile .bp4-pricesbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4.17%;
+  height              : 56.25%;
+  width               : 94.07%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.96%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile .bp4-pricesbutton .bp4-pricesbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile .bp4-pricesbutton .bp4-pricesbutton1 .bp4-pre347os {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : -14.81%;
+  height              : 19px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 800;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(65, 70, 75, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile .bp4-pricesbutton .bp4-pricesbutton1 .bp4-pre347os1 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : -14.81%;
+  height              : 19px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(138, 140, 142, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile .bp4-pricesbutton .bp4-pricesbutton1 .bp4-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 15px;
+  top                 : 25px;
+  height              : 40px;
+  width               : 128px;
+  position            : absolute;
+  margin              : 0;
+  left                : 311px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile {
+  pointer-events      : auto;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile:hover {
+  transform           : translate(0, -5px);
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile .bp4-rectanglecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile .bp4-contactbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4.17%;
+  height              : 56.25%;
+  width               : 94.07%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.96%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile .bp4-contactbutton .bp4-contactbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile .bp4-contactbutton .bp4-contactbutton1 .bp4-contato {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : -14.81%;
+  height              : 19px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 800;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(65, 70, 75, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile .bp4-contactbutton .bp4-contactbutton1 .bp4-contato1 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : -14.81%;
+  height              : 19px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(138, 140, 142, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.bp4-contatomobile .bp4-menutabmobile .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile .bp4-contactbutton .bp4-contactbutton1 .bp4-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-a404copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 655px;
+  width               : 537px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-a404copy2-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 0;
@@ -5472,37 +5472,37 @@ div {
   display             : flex;
   left                : 0;
 }
-.bp2-contatolq .bp2-a404-layout-container > * {
+.bp4-contatomobile .bp4-a404copy2-layout-container > * {
   pointer-events      : auto;
 }
-.bp2-contatolq .bp2-a404 .bp2-button {
+.bp4-contatomobile .bp4-a404copy2 .bp4-button {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 398px;
-  height              : 67px;
-  width               : 398px;
+  top                 : 551px;
+  height              : 104px;
+  width               : 264px;
   position            : absolute;
   margin              : 0;
-  left                : 206px;
+  left                : 137px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-a404 .bp2-button .bp2-background {
+.bp4-contatomobile .bp4-a404copy2 .bp4-button .bp4-background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 67px;
-  width               : 398px;
+  height              : 104px;
+  width               : 264px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-a404 .bp2-button .bp2-u5bb9u5668u6837u5f0f {
+.bp4-contatomobile .bp4-a404copy2 .bp4-button .bp4-u5bb9u5668u6837u5f0f {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 67px;
-  width               : 398px;
+  height              : 104px;
+  width               : 264px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -5511,11 +5511,11 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-a404 .bp2-button .bp2-u5bb9u5668u6837u5f0f .bp2-mask {
+.bp4-contatomobile .bp4-a404copy2 .bp4-button .bp4-u5bb9u5668u6837u5f0f .bp4-mask {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 67px;
-  width               : 398px;
+  height              : 104px;
+  width               : 264px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -5523,44 +5523,44 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-a404 .bp2-button .bp2-u5bb9u5668u6837u5f0f .bp2-u21b3ud83cudfa8u80ccu666f {
+.bp4-contatomobile .bp4-a404copy2 .bp4-button .bp4-u5bb9u5668u6837u5f0f .bp4-u21b3ud83cudfa8u80ccu666f {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 67px;
-  width               : 398px;
+  height              : 104px;
+  width               : 264px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-a404 .bp2-button .bp2-u5bb9u5668u6837u5f0f .bp2-u21b3ud83cudfa8u80ccu666f .bp2-base {
+.bp4-contatomobile .bp4-a404copy2 .bp4-button .bp4-u5bb9u5668u6837u5f0f .bp4-u21b3ud83cudfa8u80ccu666f .bp4-base {
   background-color    : rgba(24, 151, 242, 1.0);
   top                 : 0px;
-  height              : 67px;
-  width               : 398px;
+  height              : 104px;
+  width               : 264px;
   position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-a404 .bp2-button .bp2-u6587u5b57u6837u5f0f {
+.bp4-contatomobile .bp4-a404copy2 .bp4-button .bp4-u6587u5b57u6837u5f0f {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 22px;
+  top                 : 40px;
   height              : 24px;
-  width               : 334px;
+  width               : 200px;
   position            : absolute;
   margin              : 0;
   left                : 32px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-a404 .bp2-button .bp2-u6587u5b57u6837u5f0f .bp2-u21b3u270fufe0fcontent {
+.bp4-contatomobile .bp4-a404copy2 .bp4-button .bp4-u6587u5b57u6837u5f0f .bp4-u21b3u270fufe0fcontent {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
-  width               : 334px;
+  width               : 200px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -5574,22 +5574,22 @@ div {
   text-align          : center;
   line-height         : 24.0px;
 }
-.bp2-contatolq .bp2-a404 .bp2-a16pxregularcenterwhitecopy3 {
+.bp4-contatomobile .bp4-a404copy2 .bp4-a16pxregularcenterwhitecopy3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 312px;
+  top                 : 417px;
   height              : 32px;
-  width               : 809px;
+  width               : 537px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-a404 .bp2-a16pxregularcenterwhitecopy3 .bp2-u21b3u270fufe0fcontent {
+.bp4-contatomobile .bp4-a404copy2 .bp4-a16pxregularcenterwhitecopy3 .bp4-u21b3u270fufe0fcontent {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
-  width               : 809px;
+  width               : 537px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -5603,22 +5603,22 @@ div {
   text-align          : center;
   line-height         : 32.0px;
 }
-.bp2-contatolq .bp2-a404 .bp2-a16pxregularcenterwhitecopy31 {
+.bp4-contatomobile .bp4-a404copy2 .bp4-a16pxregularcenterwhitecopy31 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 265px;
+  top                 : 344px;
   height              : 32px;
-  width               : 809px;
+  width               : 537px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-a404 .bp2-a16pxregularcenterwhitecopy31 .bp2-u21b3u270fufe0fcontent {
+.bp4-contatomobile .bp4-a404copy2 .bp4-a16pxregularcenterwhitecopy31 .bp4-u21b3u270fufe0fcontent {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
-  width               : 809px;
+  width               : 537px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -5632,11 +5632,11 @@ div {
   text-align          : center;
   line-height         : 32.0px;
 }
-.bp2-contatolq .bp2-a404 .bp2-a4041 {
+.bp4-contatomobile .bp4-a404copy2 .bp4-a404 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
-  width               : 809px;
+  width               : 537px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6048,8 +6048,8 @@ div {
 .bp1-contato .bp1-headermenu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 44px;
-  height              : 415px;
-  width               : 1370px;
+  height              : 48px;
+  width               : 1365px;
   position            : absolute;
   margin              : 0;
   left                : 35px;
@@ -6059,7 +6059,7 @@ div {
 .bp1-contato .bp1-headermenu .bp1-menu {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 415px;
+  height              : 48px;
   width               : 100%;
   position            : relative;
   margin              : 0;
@@ -6307,17 +6307,6 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 5px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp1-contato .bp1-headermenu .bp1-menu .bp1-user {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 7px;
-  height              : 408px;
-  width               : 276px;
-  position            : absolute;
-  margin              : 0;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
