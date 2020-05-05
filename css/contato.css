@@ -1,1710 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500,400,700,900,100,300|Open+Sans:700,800,600,400|Roboto+Slab:400|Montserrat:300,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,700,900,100,300,400|Open+Sans:700,800,600,400|Roboto+Slab:400|Montserrat:300,700');
 
 
-.bp2-contatolq {
-  width               : 100%;
-  min-width           : 1024px;
-  height              : 100vh;
-  min-height          : 695px;
-  position            : relative;
-  overflow            : hidden;
-  margin              : 0px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color    : rgba(255, 255, 255, 1.0);
-  opacity             : 1.0;
-}
-div {
-  -webkit-text-size-adjust: none;
-}
-.bp2-contatolq .bp2-rectangle {
-  background-color    : rgba(46, 50, 67, 1.0);
-  bottom              : -990px;
-  height              : 967px;
-  width               : calc(100.00% + 96px);
-  position            : absolute;
-  margin              : 0;
-  left                : -48px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-panel {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 0px;
-  height              : 148px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-panel .bp2-panel2 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 0px;
-  height              : 148px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp2-contatolq .bp2-panel .bp2-panel2 .bp2-panel21 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 0px;
-  height              : 148px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-panel .bp2-tokilogo {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 15px;
-  height              : 81px;
-  width               : 196px;
-  position            : absolute;
-  margin              : 0;
-  left                : calc(50.00% - 98px);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp2-contatolq .bp2-panel .bp2-tokilogo {
-  pointer-events      : auto;
-}
-.bp2-contatolq .bp2-panel .bp2-tokilogo:hover {
-  transform           : translate(0, -10px);
-}
-.bp2-contatolq .bp2-panel .bp2-tokilogo .bp2-tokilogo1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 81px;
-  width               : 196px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-panel .bp2-tokilogo .bp2-tokilogo1 .bp2-bitmap {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 81px;
-  width               : 195px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 40px;
-  height              : 56px;
-  width               : calc(100.00% - 75px);
-  position            : absolute;
-  margin              : 0;
-  left                : 35px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 56px;
-  width               : 100%;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 34px;
-  width               : 327px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 34px;
-  width               : 327px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 34px;
-  width               : 317px;
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 33px;
-  width               : 29px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 32px;
-  width               : 27px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 32px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 58px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 32px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 67px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 32px;
-  width               : 31px;
-  position            : absolute;
-  margin              : 0;
-  left                : 99px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 33px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 129px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 32px;
-  width               : 27px;
-  position            : absolute;
-  margin              : 0;
-  left                : 163px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 32px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0;
-  left                : 191px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 33px;
-  width               : 26px;
-  position            : absolute;
-  margin              : 0;
-  left                : 214px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-path {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 10px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 240px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape9 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 10px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 240px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape10 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 29px;
-  width               : 29px;
-  position            : absolute;
-  margin              : 0;
-  left                : 253px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape11 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 30px;
-  width               : 30px;
-  position            : absolute;
-  margin              : 0;
-  left                : 253px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-path1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 23px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 305px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-path21 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 29px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 285px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape12 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 30px;
-  width               : 23px;
-  position            : absolute;
-  margin              : 0;
-  left                : 285px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape13 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 29px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 302px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape14 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 30px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 302px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-path2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 54px;
-  height              : 2px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-shopgroup {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 115px;
-  top                 : 50px;
-  height              : 84px;
-  width               : 270px;
-  position            : absolute;
-  margin              : 0;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp2-contatolq .bp2-shopgroup {
-  pointer-events      : auto;
-}
-.bp2-contatolq .bp2-shopgroup:hover {
-  transform           : translate(0, -5px);
-}
-.bp2-contatolq .bp2-shopgroup .bp2-background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 84px;
-  width               : 270px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 7px;
-  top                 : 6px;
-  height              : 76px;
-  width               : 262px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-shop2 {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 10px;
-  top                 : 0px;
-  height              : 23px;
-  width               : 21px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-shop2 .bp2-shape15 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-shop2 .bp2-shape16 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-group {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 0px;
-  height              : 12px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-group .bp2-quantity2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-a14 {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 2px;
-  top                 : 0px;
-  height              : 13px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-a14 .bp2-a1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : calc(50.00% - 7px);
-  height              : 13px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 9.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 13.0px;
-}
-.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-rectangle1 {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 5px;
-  top                 : 35px;
-  height              : 37px;
-  width               : 257px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-shoptext {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 16px;
-  top                 : 43px;
-  height              : 33px;
-  width               : 234px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.5px;
-  line-height         : 17.0px;
-}
-.bp2-contatolq .bp2-profile {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 35px;
-  top                 : 57px;
-  height              : 408px;
-  width               : 276px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 408px;
-  width               : 276px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-profileicon {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 28px;
-  top                 : 0px;
-  height              : 21px;
-  width               : 21px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-profileicon {
-  pointer-events      : auto;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-profileicon:hover {
-  transform           : translate(0, -5px);
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-profileicon .bp2-shape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2.38%;
-  height              : 95.24%;
-  width               : 95.24%;
-  position            : absolute;
-  margin              : 0;
-  left                : 2.38%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-profileicon .bp2-shape1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2.38%;
-  height              : 95.24%;
-  width               : 95.24%;
-  position            : absolute;
-  margin              : 0;
-  left                : 2.38%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu {
-  background-color    : rgba(255,255,255,0.0);
-  right               : -1.45%;
-  top                 : 7.35%;
-  height              : 281px;
-  width               : 221px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-rectangle1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4.98%;
-  height              : 23.84%;
-  width               : 96.38%;
-  position            : absolute;
-  margin              : 0;
-  left                : 1.81%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-rectangle11 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0.75%;
-  height              : 98.51%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 37.31%;
-  height              : 25.37%;
-  width               : 56.81%;
-  position            : absolute;
-  margin              : 0;
-  left                : 3.29%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-editarperfil {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0.83%;
-  top                 : calc(50.00% - 8px);
-  height              : 16px;
-  width               : 63.64%;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(0, 0, 0, 0.7);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-icchevron {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -1px;
-  height              : 19px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(90deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-icchevron .bp2-rectangle2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 19px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-icchevron .bp2-shape2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 34.21%;
-  height              : 31.58%;
-  width               : 72.73%;
-  position            : absolute;
-  margin              : 0;
-  left                : 13.64%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 28.83%;
-  height              : 23.84%;
-  width               : 96.38%;
-  position            : absolute;
-  margin              : 0;
-  left                : 1.81%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-rectangle3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0.75%;
-  height              : 98.51%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 35.82%;
-  height              : 25.37%;
-  width               : 76.53%;
-  position            : absolute;
-  margin              : 0;
-  left                : 3.29%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-favoritos {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0.61%;
-  top                 : calc(50.00% - 8px);
-  height              : 16px;
-  width               : 73.01%;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(0, 0, 0, 0.7);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-icchevron1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -1px;
-  height              : 19px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(90deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-icchevron1 .bp2-rectangle4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 19px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-icchevron1 .bp2-shape3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 34.21%;
-  height              : 31.58%;
-  width               : 72.73%;
-  position            : absolute;
-  margin              : 0;
-  left                : 13.64%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 23.84%;
-  height              : 23.84%;
-  width               : 96.38%;
-  position            : absolute;
-  margin              : 0;
-  left                : 1.81%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-rectangle5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0.75%;
-  height              : 98.51%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 37.31%;
-  height              : 25.37%;
-  width               : 80.28%;
-  position            : absolute;
-  margin              : 0;
-  left                : 3.29%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-hist363rico {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0.58%;
-  top                 : calc(50.00% - 8px);
-  height              : 16px;
-  width               : 74.27%;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(0, 0, 0, 0.7);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-icchevron2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -2px;
-  height              : 19px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(90deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-icchevron2 .bp2-rectangle6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 19px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-icchevron2 .bp2-shape4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 34.21%;
-  height              : 31.58%;
-  width               : 72.73%;
-  position            : absolute;
-  margin              : 0;
-  left                : 13.64%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 1.78%;
-  height              : 23.84%;
-  width               : 96.38%;
-  position            : absolute;
-  margin              : 0;
-  left                : 1.81%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-rectangle7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0.75%;
-  height              : 98.51%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 37.31%;
-  height              : 25.37%;
-  width               : 72.77%;
-  position            : absolute;
-  margin              : 0;
-  left                : 3.29%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-cart365es {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0.65%;
-  top                 : calc(50.00% - 8px);
-  height              : 16px;
-  width               : 71.61%;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(0, 0, 0, 0.7);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-icchevron3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -2px;
-  height              : 19px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(90deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-icchevron3 .bp2-rectangle8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 19px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-icchevron3 .bp2-shape5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 34.21%;
-  height              : 31.58%;
-  width               : 72.73%;
-  position            : absolute;
-  margin              : 0;
-  left                : 13.64%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -1.47%;
-  height              : 94.12%;
-  width               : 102.90%;
-  position            : absolute;
-  margin              : 0;
-  left                : -1.45%;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-bglogintocontinue {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 79px;
-  height              : 51px;
-  width               : calc(100.00% - 29px);
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-rectangle1 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  bottom              : 0px;
-  height              : 62.75%;
-  box-sizing          : border-box;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 10px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(46, 50, 67, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-email1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1.96%;
-  height              : 16px;
-  width               : 32.39%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-accountmailmailco {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 15.69%;
-  height              : 14px;
-  width               : 87.45%;
-  position            : absolute;
-  margin              : 0;
-  left                : 6.28%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(0, 0, 0, 0.5);
-  text-align          : left;
-  line-height         : 14.0px;
-  border              : 0;
-  resize              : none;
-  padding             : 0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-accountmailmailco::placeholder {
-  color               : rgba(0, 0, 0, 0.3);
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 143px;
-  height              : 51px;
-  width               : calc(100.00% - 29px);
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-rectangle1 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  bottom              : 0px;
-  height              : 62.75%;
-  box-sizing          : border-box;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 10px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(46, 50, 67, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-image1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 15.69%;
-  height              : 14px;
-  width               : 80.97%;
-  position            : absolute;
-  margin              : 0;
-  left                : 6.48%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(151, 151, 151, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-  border              : 0;
-  resize              : none;
-  padding             : 0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-image1::placeholder {
-  color               : rgba(151, 151, 151, 0.6);
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-senha {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 33.60%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-ctabuttonprimary {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 103px;
-  height              : 32px;
-  width               : calc(100.00% - 29px);
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-ctabuttonprimary .bp2-rectangle2 {
-  background-color    : rgba(116, 191, 187, 1.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 10px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-ctabuttonprimary .bp2-entrar {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 12.50%;
-  height              : 21px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 21.0px;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-rememberme {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 152px;
-  height              : 17px;
-  width               : calc(100.00% - 29px);
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-rememberme .bp2-icchecked {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 17px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-rememberme .bp2-lembreme {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  bottom              : 0px;
-  height              : 82.35%;
-  width               : 89.88%;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(97, 97, 97, 0.7);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-esqueceuasenha {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 70px;
-  height              : auto;
-  width               : calc(100.00% - 130px);
-  position            : absolute;
-  margin              : 0;
-  left                : 68px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(97, 97, 97, 0.7);
-  text-align          : center;
-  line-height         : 14.0px;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-esqueceuasenha .bp2-span1 {
-  
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-esqueceuasenha .bp2-span2 {
-  color               : rgba(77, 91, 182, 1.0);
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-welcometologin {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
-  height              : 59px;
-  width               : calc(100.00% - 29px);
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-welcometologin .bp2-kurir {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
-  line-height         : 24.0px;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-welcometologin .bp2-preenchaseuemail {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 1.69%;
-  height              : 47.46%;
-  width               : 89.88%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 8.0px;
-  color               : rgba(95, 95, 95, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-signin {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 31px;
-  height              : 32px;
-  width               : calc(100.00% - 29px);
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-signin .bp2-rectangle3 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 100%;
-  box-sizing          : border-box;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 10px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(46, 50, 67, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-signin .bp2-cadastrese {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : calc(50.00% - 11px);
-  height              : 21px;
-  width               : 99.60%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0.20%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 18.0px;
-  color               : rgba(46, 50, 67, 1.0);
-  text-align          : center;
-  line-height         : 21.0px;
-}
-.bp2-contatolq .bp2-headerbuttons {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 248px;
-  top                 : 20px;
-  height              : 52px;
-  width               : 293px;
-  position            : absolute;
-  margin              : 0;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headerbuttons .bp2-background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 52px;
-  width               : 293px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headerbuttons .bp2-aboutbutton {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 245px;
-  top                 : 0px;
-  height              : 50px;
-  width               : 48px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headerbuttons .bp2-aboutbutton .bp2-aboutbutton1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 48px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headerbuttons .bp2-pricesbutton {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 128px;
-  top                 : 0px;
-  height              : 50px;
-  width               : 59px;
-  position            : absolute;
-  margin              : 0;
-  left                : 106px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headerbuttons .bp2-pricesbutton .bp2-pricesbutton1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 59px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headerbuttons .bp2-contactbutton {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 0px;
-  height              : 50px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : 224px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-headerbuttons .bp2-contactbutton .bp2-contactbutton1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-a404 {
-  background-color    : rgba(255,255,255,0.0);
-  position            : relative;
-  height              : 465px;
-  width               : 809px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-a404-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 0;
-  align-items         : center;
-  height              : 100%;
-  width               : 100%;
-  justify-content     : center;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp2-contatolq .bp2-a404-layout-container > * {
-  pointer-events      : auto;
-}
-.bp2-contatolq .bp2-a404 .bp2-button {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 398px;
-  height              : 67px;
-  width               : 398px;
-  position            : absolute;
-  margin              : 0;
-  left                : 206px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-a404 .bp2-button .bp2-background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 67px;
-  width               : 398px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-a404 .bp2-button .bp2-u5bb9u5668u6837u5f0f {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 67px;
-  width               : 398px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 4px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-a404 .bp2-button .bp2-u5bb9u5668u6837u5f0f .bp2-mask {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 67px;
-  width               : 398px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-a404 .bp2-button .bp2-u5bb9u5668u6837u5f0f .bp2-u21b3ud83cudfa8u80ccu666f {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 67px;
-  width               : 398px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-a404 .bp2-button .bp2-u5bb9u5668u6837u5f0f .bp2-u21b3ud83cudfa8u80ccu666f .bp2-base {
-  background-color    : rgba(24, 151, 242, 1.0);
-  top                 : 0px;
-  height              : 67px;
-  width               : 398px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-a404 .bp2-button .bp2-u6587u5b57u6837u5f0f {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 22px;
-  height              : 24px;
-  width               : 334px;
-  position            : absolute;
-  margin              : 0;
-  left                : 32px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-a404 .bp2-button .bp2-u6587u5b57u6837u5f0f .bp2-u21b3u270fufe0fcontent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 334px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 24.0px;
-}
-.bp2-contatolq .bp2-a404 .bp2-a16pxregularcenterwhitecopy3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 312px;
-  height              : 32px;
-  width               : 809px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-a404 .bp2-a16pxregularcenterwhitecopy3 .bp2-u21b3u270fufe0fcontent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 809px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 20.0px;
-  color               : rgba(58, 61, 63, 1.0);
-  text-align          : center;
-  line-height         : 32.0px;
-}
-.bp2-contatolq .bp2-a404 .bp2-a16pxregularcenterwhitecopy31 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 265px;
-  height              : 32px;
-  width               : 809px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-contatolq .bp2-a404 .bp2-a16pxregularcenterwhitecopy31 .bp2-u21b3u270fufe0fcontent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 809px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 24.0px;
-  color               : rgba(58, 61, 63, 1.0);
-  text-align          : center;
-  line-height         : 32.0px;
-}
-.bp2-contatolq .bp2-a404 .bp2-a4041 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 809px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Montserrat", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 200.0px;
-  color               : rgba(74, 73, 74, 1.0);
-  text-align          : center;
-  line-height         : 244.0px;
-}
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
-}
-.anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-}
-.anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
-}
-@-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-.anima-component-wrapper,
-.anima-component-wrapper * {
-  pointer-events      : none;
-}
-.anima-component-wrapper a *,
-.anima-component-wrapper a,
-.anima-component-wrapper input,
-.anima-component-wrapper video,
-.anima-component-wrapper iframe,
-.anima-listeners-active,
-.anima-listeners-active * {
-  pointer-events      : auto;
-}
-.anima-hidden,
-.anima-hidden * {
-  visibility          : hidden;
-  pointer-events      : none;
-}
-.anima-smart-layers-pointers,
-.anima-smart-layers-pointers * {
-  pointer-events      : auto;
-  visibility          : visible;
-}
-.anima-component-wrapper.anima-not-ready,
-.anima-component-wrapper.anima-not-ready * {
-  visibility          : hidden !important;
-}
-.anima-listeners-active-click,
-.anima-listeners-active-click * {
-  cursor              : pointer;
-}
-.anima-word-break {
-  overflow-wrap       : break-word;
-  word-wrap           : break-word;
-  word-break          : break-all;
-  word-break          : break-word;
-}
 .bp3-contatotablet {
   width               : 100%;
   min-width           : 768px;
@@ -3604,6 +1900,1710 @@ div {
   top                 : 0px;
   height              : auto;
   width               : 746px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 200.0px;
+  color               : rgba(74, 73, 74, 1.0);
+  text-align          : center;
+  line-height         : 244.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.bp2-contatolq {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 695px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-contatolq .bp2-rectangle {
+  background-color    : rgba(46, 50, 67, 1.0);
+  bottom              : -990px;
+  height              : 967px;
+  width               : calc(100.00% + 96px);
+  position            : absolute;
+  margin              : 0;
+  left                : -48px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-panel {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 148px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-panel .bp2-panel2 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 148px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-contatolq .bp2-panel .bp2-panel2 .bp2-panel21 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 148px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-panel .bp2-tokilogo {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 15px;
+  height              : 81px;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : calc(50.00% - 98px);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-contatolq .bp2-panel .bp2-tokilogo {
+  pointer-events      : auto;
+}
+.bp2-contatolq .bp2-panel .bp2-tokilogo:hover {
+  transform           : translate(0, -10px);
+}
+.bp2-contatolq .bp2-panel .bp2-tokilogo .bp2-tokilogo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 81px;
+  width               : 196px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-panel .bp2-tokilogo .bp2-tokilogo1 .bp2-bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 81px;
+  width               : 195px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : 56px;
+  width               : calc(100.00% - 75px);
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 34px;
+  width               : 327px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 34px;
+  width               : 327px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 34px;
+  width               : 317px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 33px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 67px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 99px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 33px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 129px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 163px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 191px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 33px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 214px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 240px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 240px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 29px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 253px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 253px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 23px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 305px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-path21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 29px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 285px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 30px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 285px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 29px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 302px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 30px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 302px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headermenu .bp2-menu .bp2-path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 54px;
+  height              : 2px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-shopgroup {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 115px;
+  top                 : 50px;
+  height              : 84px;
+  width               : 270px;
+  position            : absolute;
+  margin              : 0;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-contatolq .bp2-shopgroup {
+  pointer-events      : auto;
+}
+.bp2-contatolq .bp2-shopgroup:hover {
+  transform           : translate(0, -5px);
+}
+.bp2-contatolq .bp2-shopgroup .bp2-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 84px;
+  width               : 270px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 7px;
+  top                 : 6px;
+  height              : 76px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-shop2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 10px;
+  top                 : 0px;
+  height              : 23px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-shop2 .bp2-shape15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-shop2 .bp2-shape16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-group {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : 12px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-group .bp2-quantity2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-a14 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 2px;
+  top                 : 0px;
+  height              : 13px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-a14 .bp2-a1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 7px);
+  height              : 13px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 9.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 5px;
+  top                 : 35px;
+  height              : 37px;
+  width               : 257px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-contatolq .bp2-shopgroup .bp2-shopgroup1 .bp2-shoptext {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 16px;
+  top                 : 43px;
+  height              : 33px;
+  width               : 234px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.5px;
+  line-height         : 17.0px;
+}
+.bp2-contatolq .bp2-profile {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 35px;
+  top                 : 57px;
+  height              : 408px;
+  width               : 276px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 408px;
+  width               : 276px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-profileicon {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 28px;
+  top                 : 0px;
+  height              : 21px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-profileicon {
+  pointer-events      : auto;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-profileicon:hover {
+  transform           : translate(0, -5px);
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-profileicon .bp2-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.38%;
+  height              : 95.24%;
+  width               : 95.24%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.38%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-profileicon .bp2-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.38%;
+  height              : 95.24%;
+  width               : 95.24%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.38%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -1.45%;
+  top                 : 7.35%;
+  height              : 281px;
+  width               : 221px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4.98%;
+  height              : 23.84%;
+  width               : 96.38%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.81%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-rectangle11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0.75%;
+  height              : 98.51%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37.31%;
+  height              : 25.37%;
+  width               : 56.81%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.29%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-editarperfil {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.83%;
+  top                 : calc(50.00% - 8px);
+  height              : 16px;
+  width               : 63.64%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.7);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-icchevron {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(90deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-icchevron .bp2-rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-icchevron .bp2-shape2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34.21%;
+  height              : 31.58%;
+  width               : 72.73%;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.64%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28.83%;
+  height              : 23.84%;
+  width               : 96.38%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.81%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0.75%;
+  height              : 98.51%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35.82%;
+  height              : 25.37%;
+  width               : 76.53%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.29%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-favoritos {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.61%;
+  top                 : calc(50.00% - 8px);
+  height              : 16px;
+  width               : 73.01%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.7);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-icchevron1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(90deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-icchevron1 .bp2-rectangle4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-icchevron1 .bp2-shape3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34.21%;
+  height              : 31.58%;
+  width               : 72.73%;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.64%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 23.84%;
+  height              : 23.84%;
+  width               : 96.38%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.81%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-rectangle5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0.75%;
+  height              : 98.51%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37.31%;
+  height              : 25.37%;
+  width               : 80.28%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.29%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-hist363rico {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.58%;
+  top                 : calc(50.00% - 8px);
+  height              : 16px;
+  width               : 74.27%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.7);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-icchevron2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -2px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(90deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-icchevron2 .bp2-rectangle6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-icchevron2 .bp2-shape4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34.21%;
+  height              : 31.58%;
+  width               : 72.73%;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.64%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 1.78%;
+  height              : 23.84%;
+  width               : 96.38%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.81%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-rectangle7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0.75%;
+  height              : 98.51%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37.31%;
+  height              : 25.37%;
+  width               : 72.77%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.29%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-cart365es {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.65%;
+  top                 : calc(50.00% - 8px);
+  height              : 16px;
+  width               : 71.61%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.7);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-icchevron3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -2px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(90deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-icchevron3 .bp2-rectangle8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-icchevron3 .bp2-shape5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34.21%;
+  height              : 31.58%;
+  width               : 72.73%;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.64%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : -1.47%;
+  height              : 94.12%;
+  width               : 102.90%;
+  position            : absolute;
+  margin              : 0;
+  left                : -1.45%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-bglogintocontinue {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 79px;
+  height              : 51px;
+  width               : calc(100.00% - 29px);
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-rectangle1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  bottom              : 0px;
+  height              : 62.75%;
+  box-sizing          : border-box;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(46, 50, 67, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-email1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.96%;
+  height              : 16px;
+  width               : 32.39%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(46, 50, 67, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-accountmailmailco {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 15.69%;
+  height              : 14px;
+  width               : 87.45%;
+  position            : absolute;
+  margin              : 0;
+  left                : 6.28%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 0.5);
+  text-align          : left;
+  line-height         : 14.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-accountmailmailco::placeholder {
+  color               : rgba(0, 0, 0, 0.3);
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 143px;
+  height              : 51px;
+  width               : calc(100.00% - 29px);
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-rectangle1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  bottom              : 0px;
+  height              : 62.75%;
+  box-sizing          : border-box;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(46, 50, 67, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-image1 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 15.69%;
+  height              : 14px;
+  width               : 80.97%;
+  position            : absolute;
+  margin              : 0;
+  left                : 6.48%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(151, 151, 151, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-image1::placeholder {
+  color               : rgba(151, 151, 151, 0.6);
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-senha {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 33.60%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(46, 50, 67, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-ctabuttonprimary {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 103px;
+  height              : 32px;
+  width               : calc(100.00% - 29px);
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-ctabuttonprimary .bp2-rectangle2 {
+  background-color    : rgba(116, 191, 187, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-ctabuttonprimary .bp2-entrar {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 12.50%;
+  height              : 21px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-rememberme {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 152px;
+  height              : 17px;
+  width               : calc(100.00% - 29px);
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-rememberme .bp2-icchecked {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-rememberme .bp2-lembreme {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  bottom              : 0px;
+  height              : 82.35%;
+  width               : 89.88%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(97, 97, 97, 0.7);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-esqueceuasenha {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 70px;
+  height              : auto;
+  width               : calc(100.00% - 130px);
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(97, 97, 97, 0.7);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-esqueceuasenha .bp2-span1 {
+  
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-esqueceuasenha .bp2-span2 {
+  color               : rgba(77, 91, 182, 1.0);
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-welcometologin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 59px;
+  width               : calc(100.00% - 29px);
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-welcometologin .bp2-kurir {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(46, 50, 67, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-welcometologin .bp2-preenchaseuemail {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 1.69%;
+  height              : 47.46%;
+  width               : 89.88%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 8.0px;
+  color               : rgba(95, 95, 95, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-signin {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 31px;
+  height              : 32px;
+  width               : calc(100.00% - 29px);
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-signin .bp2-rectangle3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  box-sizing          : border-box;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(46, 50, 67, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-signin .bp2-cadastrese {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 11px);
+  height              : 21px;
+  width               : 99.60%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.20%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(46, 50, 67, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp2-contatolq .bp2-headerbuttons {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 248px;
+  top                 : 20px;
+  height              : 52px;
+  width               : 293px;
+  position            : absolute;
+  margin              : 0;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headerbuttons .bp2-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 52px;
+  width               : 293px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headerbuttons .bp2-aboutbutton {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 245px;
+  top                 : 0px;
+  height              : 50px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headerbuttons .bp2-aboutbutton .bp2-aboutbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headerbuttons .bp2-pricesbutton {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 128px;
+  top                 : 0px;
+  height              : 50px;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 106px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headerbuttons .bp2-pricesbutton .bp2-pricesbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headerbuttons .bp2-contactbutton {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : 50px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 224px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headerbuttons .bp2-contactbutton .bp2-contactbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-a404 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 465px;
+  width               : 809px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-a404-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-contatolq .bp2-a404-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-contatolq .bp2-a404 .bp2-button {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 398px;
+  height              : 67px;
+  width               : 398px;
+  position            : absolute;
+  margin              : 0;
+  left                : 206px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-a404 .bp2-button .bp2-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 67px;
+  width               : 398px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-a404 .bp2-button .bp2-u5bb9u5668u6837u5f0f {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 67px;
+  width               : 398px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-a404 .bp2-button .bp2-u5bb9u5668u6837u5f0f .bp2-mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 67px;
+  width               : 398px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-a404 .bp2-button .bp2-u5bb9u5668u6837u5f0f .bp2-u21b3ud83cudfa8u80ccu666f {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 67px;
+  width               : 398px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-a404 .bp2-button .bp2-u5bb9u5668u6837u5f0f .bp2-u21b3ud83cudfa8u80ccu666f .bp2-base {
+  background-color    : rgba(24, 151, 242, 1.0);
+  top                 : 0px;
+  height              : 67px;
+  width               : 398px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-a404 .bp2-button .bp2-u6587u5b57u6837u5f0f {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 22px;
+  height              : 24px;
+  width               : 334px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-a404 .bp2-button .bp2-u6587u5b57u6837u5f0f .bp2-u21b3u270fufe0fcontent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 334px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.bp2-contatolq .bp2-a404 .bp2-a16pxregularcenterwhitecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 312px;
+  height              : 32px;
+  width               : 809px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-a404 .bp2-a16pxregularcenterwhitecopy3 .bp2-u21b3u270fufe0fcontent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 809px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(58, 61, 63, 1.0);
+  text-align          : center;
+  line-height         : 32.0px;
+}
+.bp2-contatolq .bp2-a404 .bp2-a16pxregularcenterwhitecopy31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 265px;
+  height              : 32px;
+  width               : 809px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-a404 .bp2-a16pxregularcenterwhitecopy31 .bp2-u21b3u270fufe0fcontent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 809px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(58, 61, 63, 1.0);
+  text-align          : center;
+  line-height         : 32.0px;
+}
+.bp2-contatolq .bp2-a404 .bp2-a4041 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 809px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -5861,14 +5861,27 @@ div {
 }
 .bp1-contato .bp1-a404 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 127px;
+  position            : relative;
   height              : 553px;
   width               : 702px;
-  position            : absolute;
-  margin              : 0;
-  left                : 369px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+}
+.bp1-contato .bp1-a404-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-contato .bp1-a404-layout-container > * {
+  pointer-events      : auto;
 }
 .bp1-contato .bp1-a404 .bp1-button {
   background-color    : rgba(255,255,255,0.0);
@@ -6047,27 +6060,16 @@ div {
 }
 .bp1-contato .bp1-headermenu {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 44px;
+  top                 : 40px;
   height              : 48px;
-  width               : 1365px;
+  width               : calc(100.00% - 70px);
   position            : absolute;
   margin              : 0;
   left                : 35px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-headermenu .bp1-menu {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 48px;
-  width               : 100%;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp1-contato .bp1-headermenu .bp1-menu .bp1-criadoreslogoout {
+.bp1-contato .bp1-headermenu .bp1-criadoreslogoout {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 34px;
@@ -6079,7 +6081,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-headermenu .bp1-menu .bp1-criadoreslogoout .bp1-background {
+.bp1-contato .bp1-headermenu .bp1-criadoreslogoout .bp1-background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 34px;
@@ -6090,7 +6092,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-headermenu .bp1-menu .bp1-criadoreslogoout .bp1-logocriadoresout {
+.bp1-contato .bp1-headermenu .bp1-criadoreslogoout .bp1-logocriadoresout {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 34px;
@@ -6101,7 +6103,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-headermenu .bp1-menu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape {
+.bp1-contato .bp1-headermenu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 33px;
@@ -6112,7 +6114,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-headermenu .bp1-menu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape1 {
+.bp1-contato .bp1-headermenu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 32px;
@@ -6123,7 +6125,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-headermenu .bp1-menu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape2 {
+.bp1-contato .bp1-headermenu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 32px;
@@ -6134,7 +6136,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-headermenu .bp1-menu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape3 {
+.bp1-contato .bp1-headermenu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 32px;
@@ -6145,7 +6147,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-headermenu .bp1-menu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape4 {
+.bp1-contato .bp1-headermenu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 32px;
@@ -6156,7 +6158,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-headermenu .bp1-menu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape5 {
+.bp1-contato .bp1-headermenu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 33px;
@@ -6167,7 +6169,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-headermenu .bp1-menu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape6 {
+.bp1-contato .bp1-headermenu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape6 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 32px;
@@ -6178,7 +6180,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-headermenu .bp1-menu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape7 {
+.bp1-contato .bp1-headermenu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape7 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 32px;
@@ -6189,7 +6191,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-headermenu .bp1-menu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape8 {
+.bp1-contato .bp1-headermenu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 33px;
@@ -6200,7 +6202,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-headermenu .bp1-menu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-path {
+.bp1-contato .bp1-headermenu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-path {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : 10px;
@@ -6211,7 +6213,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-headermenu .bp1-menu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape9 {
+.bp1-contato .bp1-headermenu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape9 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : 10px;
@@ -6222,7 +6224,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-headermenu .bp1-menu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape10 {
+.bp1-contato .bp1-headermenu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape10 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 29px;
@@ -6233,7 +6235,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-headermenu .bp1-menu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape11 {
+.bp1-contato .bp1-headermenu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape11 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 30px;
@@ -6244,7 +6246,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-headermenu .bp1-menu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-path1 {
+.bp1-contato .bp1-headermenu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-path1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 23px;
@@ -6255,7 +6257,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-headermenu .bp1-menu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-path21 {
+.bp1-contato .bp1-headermenu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-path21 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 29px;
@@ -6266,7 +6268,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-headermenu .bp1-menu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape12 {
+.bp1-contato .bp1-headermenu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape12 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 30px;
@@ -6277,7 +6279,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-headermenu .bp1-menu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape13 {
+.bp1-contato .bp1-headermenu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape13 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 29px;
@@ -6288,7 +6290,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-headermenu .bp1-menu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape14 {
+.bp1-contato .bp1-headermenu .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape14 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 30px;
@@ -6299,11 +6301,11 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-headermenu .bp1-menu .bp1-path2 {
+.bp1-contato .bp1-headermenu .bp1-path2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 46px;
   height              : 2px;
-  width               : calc(100.00% - 10px);
+  width               : calc(100.00% - 5px);
   position            : absolute;
   margin              : 0;
   left                : 5px;
