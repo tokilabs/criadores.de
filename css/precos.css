@@ -1,2472 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500,700,900,100,300,400|Open+Sans:700,800,600,400|Roboto+Slab:400|Montserrat:300,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,400,700,900,100,300|Montserrat:300,700|Open+Sans:700,800,600,400|Roboto+Slab:400');
 
 
-.bp2-precotablet {
-  width               : 100%;
-  min-width           : 768px;
-  height              : 100vh;
-  min-height          : 1110px;
-  position            : relative;
-  overflow            : hidden;
-  margin              : 0px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color    : rgba(255, 255, 255, 1.0);
-  opacity             : 1.0;
-}
-div {
-  -webkit-text-size-adjust: none;
-}
-.bp2-precotablet .bp2-panel {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 0px;
-  height              : 148px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-panel .bp2-panel2 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 0px;
-  height              : 148px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp2-precotablet .bp2-panel .bp2-panel2 .bp2-panel21 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 0px;
-  height              : 148px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-panel .bp2-tokilogo {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 15px;
-  height              : 81px;
-  width               : 196px;
-  position            : absolute;
-  margin              : 0;
-  left                : calc(50.00% - 98px);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp2-precotablet .bp2-panel .bp2-tokilogo {
-  pointer-events      : auto;
-}
-.bp2-precotablet .bp2-panel .bp2-tokilogo:hover {
-  transform           : translate(0, -10px);
-}
-.bp2-precotablet .bp2-panel .bp2-tokilogo .bp2-tokilogo1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 81px;
-  width               : 196px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-panel .bp2-tokilogo .bp2-tokilogo1 .bp2-bitmap {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 81px;
-  width               : 195px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-headermenu {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 40px;
-  height              : 55px;
-  width               : calc(100.00% - 22px);
-  position            : absolute;
-  margin              : 0;
-  left                : 11px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 29px;
-  width               : 278px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout {
-  pointer-events      : auto;
-}
-.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout:hover {
-  transform           : translate(5px, 0);
-}
-.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 29px;
-  width               : 278px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 29px;
-  width               : 269px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 28px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 27px;
-  width               : 23px;
-  position            : absolute;
-  margin              : 0;
-  left                : 25px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 27px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 49px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 27px;
-  width               : 28px;
-  position            : absolute;
-  margin              : 0;
-  left                : 57px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 27px;
-  width               : 26px;
-  position            : absolute;
-  margin              : 0;
-  left                : 85px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 28px;
-  width               : 28px;
-  position            : absolute;
-  margin              : 0;
-  left                : 110px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 27px;
-  width               : 23px;
-  position            : absolute;
-  margin              : 0;
-  left                : 139px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 27px;
-  width               : 21px;
-  position            : absolute;
-  margin              : 0;
-  left                : 162px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 28px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 182px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-path {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 8px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 205px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape9 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
-  height              : 9px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 204px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape10 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 25px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0;
-  left                : 216px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape11 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 25px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0;
-  left                : 215px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-path1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 19px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 260px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-path21 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 25px;
-  width               : 19px;
-  position            : absolute;
-  margin              : 0;
-  left                : 243px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape12 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 25px;
-  width               : 19px;
-  position            : absolute;
-  margin              : 0;
-  left                : 242px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape13 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 25px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 257px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape14 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 25px;
-  width               : 13px;
-  position            : absolute;
-  margin              : 0;
-  left                : 257px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-headermenu .bp2-path2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 36px;
-  height              : 14px;
-  width               : calc(100.00% - 2px);
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  transform           : rotate(0.999999523163deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 123px;
-  height              : 875px;
-  width               : calc(100.00% - 22px);
-  position            : absolute;
-  margin              : 0;
-  left                : 11px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-sliderbanner {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 327px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-sliderbanner .bp2-bannerbrand {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 0px;
-  height              : 91.44%;
-  width               : 99.46%;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-sliderbanner .bp2-bannerdesign {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0.61%;
-  height              : 90.52%;
-  width               : 99.46%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-sliderbanner .bp2-bannerprogramming {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 0.92%;
-  height              : 91.44%;
-  width               : 98.93%;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-sliderbanner .bp2-bullet {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 0px;
-  height              : 5.50%;
-  width               : 13.00%;
-  position            : absolute;
-  margin              : 0;
-  left                : 43.50%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-sliderbanner .bp2-bullet .bp2-oval {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 17px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-sliderbanner .bp2-bullet .bp2-oval1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 17px;
-  position            : absolute;
-  margin              : 0;
-  left                : 41px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-sliderbanner .bp2-bullet .bp2-oval2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 17px;
-  position            : absolute;
-  margin              : 0;
-  left                : 81px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-sliderbanner .bp2-vamoscriarprograma {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6.12%;
-  height              : 24.16%;
-  width               : 23.46%;
-  position            : absolute;
-  margin              : 0;
-  left                : 5.50%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Montserrat", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 36.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 56.0px;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-sliderbanner .bp2-vamoscriarconteudos {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 28.13%;
-  height              : 24.46%;
-  width               : 23.46%;
-  position            : absolute;
-  margin              : 0;
-  left                : 5.50%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Montserrat", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 36.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 56.0px;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-sliderbanner .bp2-vamoscriarconteudoscopy {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 17.13%;
-  height              : 30.58%;
-  width               : 23.46%;
-  position            : absolute;
-  margin              : 0;
-  left                : 5.50%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Montserrat", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 36.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 56.0px;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-packservices {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 616px;
-  height              : 259px;
-  width               : 772px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-group2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 232px;
-  position            : absolute;
-  margin              : 0;
-  left                : 19px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-group2 .bp2-pacotesdeservi307os {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : auto;
-  width               : 231px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 18px;
-  height              : 241px;
-  width               : 266px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card .bp2-rectangle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 241px;
-  width               : 266px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card .bp2-rectangle1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 122px;
-  width               : 228px;
-  position            : absolute;
-  margin              : 0;
-  left                : 19px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card .bp2-identidadevisualma {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 153px;
-  height              : auto;
-  width               : 190px;
-  position            : absolute;
-  margin              : 0;
-  left                : 36px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(0, 0, 0, 0.5);
-  text-align          : left;
-  line-height         : 20.0px;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card .bp2-rp11000000 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 186px;
-  height              : auto;
-  width               : 160px;
-  position            : absolute;
-  margin              : 0;
-  left                : 36px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(77, 91, 182, 1.0);
-  text-align          : left;
-  line-height         : 20.0px;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 18px;
-  height              : 241px;
-  width               : 266px;
-  position            : absolute;
-  margin              : 0;
-  left                : 253px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card1 .bp2-rectangle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 241px;
-  width               : 266px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card1 .bp2-rectangle1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 122px;
-  width               : 228px;
-  position            : absolute;
-  margin              : 0;
-  left                : 19px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card1 .bp2-siteresponsivomais {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 153px;
-  height              : auto;
-  width               : 190px;
-  position            : absolute;
-  margin              : 0;
-  left                : 36px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(0, 0, 0, 0.5);
-  text-align          : left;
-  line-height         : 20.0px;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card1 .bp2-rp11000000 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 186px;
-  height              : auto;
-  width               : 160px;
-  position            : absolute;
-  margin              : 0;
-  left                : 36px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(77, 91, 182, 1.0);
-  text-align          : left;
-  line-height         : 20.0px;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 18px;
-  height              : 241px;
-  width               : 266px;
-  position            : absolute;
-  margin              : 0;
-  left                : 506px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card2 .bp2-rectangle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 241px;
-  width               : 266px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card2 .bp2-rectangle1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 16px;
-  height              : 122px;
-  width               : 228px;
-  position            : absolute;
-  margin              : 0;
-  left                : 19px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card2 .bp2-manuten347343odecontas {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 153px;
-  height              : auto;
-  width               : 190px;
-  position            : absolute;
-  margin              : 0;
-  left                : 36px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(0, 0, 0, 0.5);
-  text-align          : left;
-  line-height         : 20.0px;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card2 .bp2-rp11000000 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 186px;
-  height              : auto;
-  width               : 160px;
-  position            : absolute;
-  margin              : 0;
-  left                : 36px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(77, 91, 182, 1.0);
-  text-align          : left;
-  line-height         : 20.0px;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-categories {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 352px;
-  height              : 218px;
-  width               : calc(100.00% - 18px);
-  position            : absolute;
-  margin              : 0;
-  left                : 8px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-categorias {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : auto;
-  width               : 158px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catavisualgroup {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 49px;
-  height              : 169px;
-  width               : 224px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catavisualgroup {
-  pointer-events      : auto;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catavisualgroup:hover {
-  transform           : scale(1.1);
-}
-.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catavisualgroup .bp2-categavisual {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catavisualgroup .bp2-categavisual .bp2-categavisual1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catavisualgroup .bp2-rectangle {
-  background-color    : rgba(101, 143, 192, 1.0);
-  bottom              : 0px;
-  height              : 20.12%;
-  width               : 99.55%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0.22%;
-  border-radius       : 15px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catavisualgroup .bp2-hovertext {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 2.37%;
-  height              : 28px;
-  width               : 60.71%;
-  position            : absolute;
-  margin              : 0;
-  left                : 19.64%;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 24.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 28.0px;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catprogrammgroup {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 46px;
-  height              : 171px;
-  width               : 224px;
-  position            : absolute;
-  margin              : 0;
-  left                : calc(50.00% - 112px);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catprogrammgroup {
-  pointer-events      : auto;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catprogrammgroup:hover {
-  transform           : scale(1.1);
-}
-.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catprogrammgroup .bp2-categprogramm {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 98.83%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catprogrammgroup .bp2-categprogramm .bp2-categprogramm1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catprogrammgroup .bp2-rectanglecopy {
-  background-color    : rgba(101, 143, 192, 1.0);
-  bottom              : 0px;
-  height              : 19.88%;
-  width               : 99.55%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0.22%;
-  border-radius       : 15px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catprogrammgroup .bp2-hovertextcopy {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 1.75%;
-  height              : 28px;
-  width               : 60.71%;
-  position            : absolute;
-  margin              : 0;
-  left                : 19.64%;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 24.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 28.0px;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catcontaingroup {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 46px;
-  height              : 171px;
-  width               : 224px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catcontaingroup {
-  pointer-events      : auto;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catcontaingroup:hover {
-  transform           : scale(1.1);
-}
-.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catcontaingroup .bp2-categcontain {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 98.83%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catcontaingroup .bp2-categcontain .bp2-categcontain1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catcontaingroup .bp2-rectanglecopy2 {
-  background-color    : rgba(101, 143, 192, 1.0);
-  bottom              : 0px;
-  height              : 19.88%;
-  width               : 99.55%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0.22%;
-  border-radius       : 15px;
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-}
-.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catcontaingroup .bp2-hovertextcopy2 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 1.75%;
-  height              : 28px;
-  width               : 60.71%;
-  position            : absolute;
-  margin              : 0;
-  left                : 19.64%;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 24.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 28.0px;
-}
-.bp2-precotablet .bp2-profile {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 20px;
-  top                 : 49px;
-  height              : 408px;
-  width               : 276px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 408px;
-  width               : 276px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-profileicon {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 28px;
-  top                 : 0px;
-  height              : 21px;
-  width               : 21px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-profileicon {
-  pointer-events      : auto;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-profileicon:hover {
-  transform           : translate(0, -5px);
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-profileicon .bp2-shape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2.38%;
-  height              : 95.24%;
-  width               : 95.24%;
-  position            : absolute;
-  margin              : 0;
-  left                : 2.38%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-profileicon .bp2-shape1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2.38%;
-  height              : 95.24%;
-  width               : 95.24%;
-  position            : absolute;
-  margin              : 0;
-  left                : 2.38%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu {
-  background-color    : rgba(255,255,255,0.0);
-  right               : -1.45%;
-  top                 : 7.35%;
-  height              : 281px;
-  width               : 221px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-rectangle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4.98%;
-  height              : 23.84%;
-  width               : 96.38%;
-  position            : absolute;
-  margin              : 0;
-  left                : 1.81%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-rectangle1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0.75%;
-  height              : 98.51%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 37.31%;
-  height              : 25.37%;
-  width               : 56.81%;
-  position            : absolute;
-  margin              : 0;
-  left                : 3.29%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-editarperfil {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0.83%;
-  top                 : calc(50.00% - 8px);
-  height              : 16px;
-  width               : 63.64%;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(0, 0, 0, 0.7);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-icchevron {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -1px;
-  height              : 19px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(90deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-icchevron .bp2-rectangle2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 19px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-icchevron .bp2-shape2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 34.21%;
-  height              : 31.58%;
-  width               : 72.73%;
-  position            : absolute;
-  margin              : 0;
-  left                : 13.64%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 28.83%;
-  height              : 23.84%;
-  width               : 96.38%;
-  position            : absolute;
-  margin              : 0;
-  left                : 1.81%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-rectangle3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0.75%;
-  height              : 98.51%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 35.82%;
-  height              : 25.37%;
-  width               : 76.53%;
-  position            : absolute;
-  margin              : 0;
-  left                : 3.29%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-favoritos {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0.61%;
-  top                 : calc(50.00% - 8px);
-  height              : 16px;
-  width               : 73.01%;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(0, 0, 0, 0.7);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-icchevron1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -1px;
-  height              : 19px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(90deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-icchevron1 .bp2-rectangle4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 19px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-icchevron1 .bp2-shape3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 34.21%;
-  height              : 31.58%;
-  width               : 72.73%;
-  position            : absolute;
-  margin              : 0;
-  left                : 13.64%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 23.84%;
-  height              : 23.84%;
-  width               : 96.38%;
-  position            : absolute;
-  margin              : 0;
-  left                : 1.81%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-rectangle5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0.75%;
-  height              : 98.51%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 37.31%;
-  height              : 25.37%;
-  width               : 80.28%;
-  position            : absolute;
-  margin              : 0;
-  left                : 3.29%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-hist363rico {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0.58%;
-  top                 : calc(50.00% - 8px);
-  height              : 16px;
-  width               : 74.27%;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(0, 0, 0, 0.7);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-icchevron2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -2px;
-  height              : 19px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(90deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-icchevron2 .bp2-rectangle6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 19px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-icchevron2 .bp2-shape4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 34.21%;
-  height              : 31.58%;
-  width               : 72.73%;
-  position            : absolute;
-  margin              : 0;
-  left                : 13.64%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 1.78%;
-  height              : 23.84%;
-  width               : 96.38%;
-  position            : absolute;
-  margin              : 0;
-  left                : 1.81%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-rectangle7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0.75%;
-  height              : 98.51%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 37.31%;
-  height              : 25.37%;
-  width               : 72.77%;
-  position            : absolute;
-  margin              : 0;
-  left                : 3.29%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-cart365es {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0.65%;
-  top                 : calc(50.00% - 8px);
-  height              : 16px;
-  width               : 71.61%;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(0, 0, 0, 0.7);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-icchevron3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -2px;
-  height              : 19px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 4px;
-  transform           : rotate(90deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-icchevron3 .bp2-rectangle8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 19px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-icchevron3 .bp2-shape5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 34.21%;
-  height              : 31.58%;
-  width               : 72.73%;
-  position            : absolute;
-  margin              : 0;
-  left                : 13.64%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -1.47%;
-  height              : 94.12%;
-  width               : 102.90%;
-  position            : absolute;
-  margin              : 0;
-  left                : -1.45%;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-bglogintocontinue {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 79px;
-  height              : 51px;
-  width               : calc(100.00% - 29px);
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-rectangle {
-  background-color    : rgba(255, 255, 255, 1.0);
-  bottom              : 0px;
-  height              : 62.75%;
-  box-sizing          : border-box;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 10px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(46, 50, 67, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-email1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1.96%;
-  height              : 16px;
-  width               : 32.39%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-accountmailmailco {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 15.69%;
-  height              : 14px;
-  width               : 87.45%;
-  position            : absolute;
-  margin              : 0;
-  left                : 6.28%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(0, 0, 0, 0.5);
-  text-align          : left;
-  line-height         : 14.0px;
-  border              : 0;
-  resize              : none;
-  padding             : 0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-accountmailmailco::placeholder {
-  color               : rgba(0, 0, 0, 0.3);
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 143px;
-  height              : 51px;
-  width               : calc(100.00% - 29px);
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-rectangle1 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  bottom              : 0px;
-  height              : 62.75%;
-  box-sizing          : border-box;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 10px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(46, 50, 67, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-image1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 15.69%;
-  height              : 14px;
-  width               : 80.97%;
-  position            : absolute;
-  margin              : 0;
-  left                : 6.48%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(151, 151, 151, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-  border              : 0;
-  resize              : none;
-  padding             : 0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-image1::placeholder {
-  color               : rgba(151, 151, 151, 0.6);
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-senha {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 16px;
-  width               : 33.60%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-ctabuttonprimary {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 103px;
-  height              : 32px;
-  width               : calc(100.00% - 29px);
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-ctabuttonprimary .bp2-rectangle2 {
-  background-color    : rgba(116, 191, 187, 1.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 10px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-ctabuttonprimary .bp2-entrar {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 12.50%;
-  height              : 21px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 18.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 21.0px;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-rememberme {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 152px;
-  height              : 17px;
-  width               : calc(100.00% - 29px);
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-rememberme .bp2-icchecked {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 17px;
-  width               : 17px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-rememberme .bp2-lembreme {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  bottom              : 0px;
-  height              : 82.35%;
-  width               : 89.88%;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(97, 97, 97, 0.7);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-esqueceuasenha {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 70px;
-  height              : auto;
-  width               : calc(100.00% - 130px);
-  position            : absolute;
-  margin              : 0;
-  left                : 68px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(97, 97, 97, 0.7);
-  text-align          : center;
-  line-height         : 14.0px;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-esqueceuasenha .bp2-span1 {
-  
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-esqueceuasenha .bp2-span2 {
-  color               : rgba(77, 91, 182, 1.0);
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-welcometologin {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
-  height              : 59px;
-  width               : calc(100.00% - 29px);
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-welcometologin .bp2-kurir {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 24px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
-  line-height         : 24.0px;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-welcometologin .bp2-preenchaseuemail {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 1.69%;
-  height              : 47.46%;
-  width               : 89.88%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 8.0px;
-  color               : rgba(95, 95, 95, 1.0);
-  text-align          : left;
-  line-height         : 14.0px;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-signin {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 31px;
-  height              : 32px;
-  width               : calc(100.00% - 29px);
-  position            : absolute;
-  margin              : 0;
-  left                : 18px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-signin .bp2-rectangle3 {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 100%;
-  box-sizing          : border-box;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 10px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(46, 50, 67, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-signin .bp2-cadastrese {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : calc(50.00% - 11px);
-  height              : 21px;
-  width               : 99.60%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0.20%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Roboto", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 18.0px;
-  color               : rgba(46, 50, 67, 1.0);
-  text-align          : center;
-  line-height         : 21.0px;
-}
-.bp2-precotablet .bp2-shopgroup {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 101px;
-  top                 : 39px;
-  height              : 84px;
-  width               : 270px;
-  position            : absolute;
-  margin              : 0;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-shopgroup .bp2-background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 84px;
-  width               : 270px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-shopgroup .bp2-shopgroup1 {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 7px;
-  top                 : 6px;
-  height              : 76px;
-  width               : 262px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-shopgroup .bp2-shopgroup1 .bp2-shop2 {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 10px;
-  top                 : 0px;
-  height              : 23px;
-  width               : 21px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-shopgroup .bp2-shopgroup1 .bp2-shop2 .bp2-shape15 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-shopgroup .bp2-shopgroup1 .bp2-shop2 .bp2-shape16 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-shopgroup .bp2-shopgroup1 .bp2-group {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 0px;
-  height              : 12px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-shopgroup .bp2-shopgroup1 .bp2-group .bp2-quantity2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-shopgroup .bp2-shopgroup1 .bp2-a14 {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 2px;
-  top                 : 0px;
-  height              : 13px;
-  width               : 6px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-shopgroup .bp2-shopgroup1 .bp2-a14 .bp2-a1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : calc(50.00% - 7px);
-  height              : 13px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 9.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 13.0px;
-}
-.bp2-precotablet .bp2-shopgroup .bp2-shopgroup1 .bp2-rectangle {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 5px;
-  top                 : 35px;
-  height              : 37px;
-  width               : 257px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp2-precotablet .bp2-shopgroup .bp2-shopgroup1 .bp2-shoptext {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 16px;
-  top                 : 43px;
-  height              : 33px;
-  width               : 234px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.5px;
-  line-height         : 17.0px;
-}
-.bp2-precotablet .bp2-menutabmobile {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 81px;
-  top                 : 42px;
-  height              : 120px;
-  width               : 453px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 120px;
-  width               : 453px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-lines {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 100px;
-  top                 : 5px;
-  height              : 22px;
-  width               : 28px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-lines {
-  pointer-events      : auto;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-lines:hover {
-  transform           : rotate(30deg);
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-lines .bp2-linecopy5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 13.64%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-lines .bp2-linecopy4 {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  bottom              : 0px;
-  height              : 13.64%;
-  width               : 82.14%;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-lines .bp2-linecopy3 {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 43.18%;
-  height              : 13.64%;
-  width               : 89.29%;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-lines .bp2-line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 13.64%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-lines .bp2-linecopy2 {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  bottom              : 0px;
-  height              : 13.64%;
-  width               : 82.14%;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-lines .bp2-linecopy {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 43.18%;
-  height              : 13.64%;
-  width               : 89.29%;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 35px;
-  height              : 90px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.89;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-rectangle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-aboutbuttongroupmobile {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 311px;
-  top                 : 24px;
-  height              : 41px;
-  width               : 128px;
-  position            : absolute;
-  margin              : 0;
-  left                : 15px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-aboutbuttongroupmobile {
-  pointer-events      : auto;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-aboutbuttongroupmobile:hover {
-  transform           : translate(0, -5px);
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-aboutbuttongroupmobile .bp2-rectanglecopy {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-aboutbuttongroupmobile .bp2-aboutbutton {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2.08%;
-  height              : 58.33%;
-  width               : 94.07%;
-  position            : absolute;
-  margin              : 0;
-  left                : 2.96%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-aboutbuttongroupmobile .bp2-aboutbutton .bp2-aboutbutton1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-aboutbuttongroupmobile .bp2-aboutbutton .bp2-aboutbutton1 .bp2-sobre {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -14.29%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(65, 70, 75, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-aboutbuttongroupmobile .bp2-aboutbutton .bp2-aboutbutton1 .bp2-sobre1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -10.71%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(138, 140, 142, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-aboutbuttongroupmobile .bp2-aboutbutton .bp2-aboutbutton1 .bp2-ballsellection {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 10.71%;
-  width               : 12.60%;
-  position            : absolute;
-  margin              : 0;
-  left                : 43.70%;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-aboutbuttongroupmobile .bp2-aboutbutton .bp2-aboutbutton1 .bp2-background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-pricesbuttongroupmobile {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 163px;
-  top                 : 25px;
-  height              : 40px;
-  width               : 128px;
-  position            : absolute;
-  margin              : 0;
-  left                : 163px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-pricesbuttongroupmobile {
-  pointer-events      : auto;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-pricesbuttongroupmobile:hover {
-  transform           : translate(0, -5px);
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-pricesbuttongroupmobile .bp2-rectanglecopy2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-pricesbuttongroupmobile .bp2-pricesbutton {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4.17%;
-  height              : 56.25%;
-  width               : 94.07%;
-  position            : absolute;
-  margin              : 0;
-  left                : 2.96%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-pricesbuttongroupmobile .bp2-pricesbutton .bp2-pricesbutton1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-pricesbuttongroupmobile .bp2-pricesbutton .bp2-pricesbutton1 .bp2-pre347os {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -14.81%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(65, 70, 75, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-pricesbuttongroupmobile .bp2-pricesbutton .bp2-pricesbutton1 .bp2-pre347os1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -14.81%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(138, 140, 142, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-pricesbuttongroupmobile .bp2-pricesbutton .bp2-pricesbutton1 .bp2-background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-contactbuttongroupmobile {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 15px;
-  top                 : 25px;
-  height              : 40px;
-  width               : 128px;
-  position            : absolute;
-  margin              : 0;
-  left                : 311px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-contactbuttongroupmobile {
-  pointer-events      : auto;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-contactbuttongroupmobile:hover {
-  transform           : translate(0, -5px);
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-contactbuttongroupmobile .bp2-rectanglecopy3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-contactbuttongroupmobile .bp2-contactbutton {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4.17%;
-  height              : 56.25%;
-  width               : 94.07%;
-  position            : absolute;
-  margin              : 0;
-  left                : 2.96%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-contactbuttongroupmobile .bp2-contactbutton .bp2-contactbutton1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-contactbuttongroupmobile .bp2-contactbutton .bp2-contactbutton1 .bp2-contato {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -14.81%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(65, 70, 75, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-contactbuttongroupmobile .bp2-contactbutton .bp2-contactbutton1 .bp2-contato1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -14.81%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(138, 140, 142, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-contactbuttongroupmobile .bp2-contactbutton .bp2-contactbutton1 .bp2-background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
-}
-.anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-}
-.anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
-}
-@-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-.anima-component-wrapper,
-.anima-component-wrapper * {
-  pointer-events      : none;
-}
-.anima-component-wrapper a *,
-.anima-component-wrapper a,
-.anima-component-wrapper input,
-.anima-component-wrapper video,
-.anima-component-wrapper iframe,
-.anima-listeners-active,
-.anima-listeners-active * {
-  pointer-events      : auto;
-}
-.anima-hidden,
-.anima-hidden * {
-  visibility          : hidden;
-  pointer-events      : none;
-}
-.anima-smart-layers-pointers,
-.anima-smart-layers-pointers * {
-  pointer-events      : auto;
-  visibility          : visible;
-}
-.anima-component-wrapper.anima-not-ready,
-.anima-component-wrapper.anima-not-ready * {
-  visibility          : hidden !important;
-}
-.anima-listeners-active-click,
-.anima-listeners-active-click * {
-  cursor              : pointer;
-}
-.anima-word-break {
-  overflow-wrap       : break-word;
-  word-wrap           : break-word;
-  word-break          : break-all;
-  word-break          : break-word;
-}
 .bp3-precomobile {
   width               : 100%;
   min-width           : 556px;
@@ -4407,6 +1941,18 @@ div {
   width               : 453px;
   position            : absolute;
   margin              : 0;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-precomobile .bp3-menutabmobile .bp3-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 453px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4415,7 +1961,7 @@ div {
   top                 : 0px;
   height              : 120px;
   width               : 453px;
-  position            : relative;
+  position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
@@ -4423,10 +1969,10 @@ div {
 }
 .bp3-precomobile .bp3-menutabmobile .bp3-menutab .bp3-lines {
   background-color    : rgba(255,255,255,0.0);
-  right               : 100px;
-  top                 : 5px;
-  height              : 22px;
-  width               : 28px;
+  right               : 97px;
+  top                 : 0px;
+  height              : 23px;
+  width               : 27px;
   position            : absolute;
   margin              : 0;
   transform           : rotate(0deg);
@@ -4441,65 +1987,87 @@ div {
 }
 .bp3-precomobile .bp3-menutabmobile .bp3-menutab .bp3-lines .bp3-linecopy5 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 13.64%;
-  width               : 100%;
+  top                 : 8.70%;
+  height              : 4.35%;
+  width               : 88.89%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 1.0;
+  opacity             : 0.0;
 }
 .bp3-precomobile .bp3-menutabmobile .bp3-menutab .bp3-lines .bp3-linecopy4 {
   background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  bottom              : 0px;
-  height              : 13.64%;
-  width               : 82.14%;
+  right               : 11.11%;
+  bottom              : 8.70%;
+  height              : 4.35%;
+  width               : 70.37%;
   position            : absolute;
   margin              : 0;
   transform           : rotate(0deg);
-  opacity             : 1.0;
+  opacity             : 0.0;
 }
 .bp3-precomobile .bp3-menutabmobile .bp3-menutab .bp3-lines .bp3-linecopy3 {
   background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 43.18%;
-  height              : 13.64%;
-  width               : 89.29%;
+  top                 : 47.83%;
+  height              : 4.35%;
+  width               : 77.78%;
   position            : absolute;
   margin              : 0;
+  left                : 11.11%;
   transform           : rotate(0deg);
-  opacity             : 1.0;
+  opacity             : 0.0;
 }
 .bp3-precomobile .bp3-menutabmobile .bp3-menutab .bp3-lines .bp3-line {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 13.64%;
-  width               : 100%;
+  top                 : 8.70%;
+  height              : 4.35%;
+  width               : 88.89%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 1.0;
+  opacity             : 0.0;
 }
 .bp3-precomobile .bp3-menutabmobile .bp3-menutab .bp3-lines .bp3-linecopy2 {
   background-color    : rgba(255,255,255,0.0);
+  right               : 11.11%;
+  bottom              : 8.70%;
+  height              : 4.35%;
+  width               : 70.37%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp3-precomobile .bp3-menutabmobile .bp3-menutab .bp3-lines .bp3-linecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47.83%;
+  height              : 4.35%;
+  width               : 77.78%;
+  position            : absolute;
+  margin              : 0;
+  left                : 11.11%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp3-precomobile .bp3-menutabmobile .bp3-menutab .bp3-lines .bp3-menu {
+  background-color    : rgba(255,255,255,0.0);
   right               : 0px;
-  bottom              : 0px;
-  height              : 13.64%;
-  width               : 82.14%;
+  top                 : 0px;
+  height              : 100%;
+  width               : 92.59%;
   position            : absolute;
   margin              : 0;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp3-precomobile .bp3-menutabmobile .bp3-menutab .bp3-lines .bp3-linecopy {
+.bp3-precomobile .bp3-menutabmobile .bp3-menutab .bp3-lines .bp3-menucopy {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
-  top                 : 43.18%;
-  height              : 13.64%;
-  width               : 89.29%;
+  top                 : 0px;
+  height              : 100%;
+  width               : 92.59%;
   position            : absolute;
   margin              : 0;
   transform           : rotate(0deg);
@@ -4508,7 +2076,7 @@ div {
 .bp3-precomobile .bp3-menutabmobile .bp3-menutab .bp3-recmenutabopened {
   background-color    : rgba(255,255,255,0.0);
   top                 : 35px;
-  height              : 90px;
+  height              : 85px;
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -4626,7 +2194,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
-.bp3-precomobile .bp3-menutabmobile .bp3-menutab .bp3-recmenutabopened .bp3-aboutbuttongroupmobile .bp3-aboutbutton .bp3-aboutbutton1 .bp3-background {
+.bp3-precomobile .bp3-menutabmobile .bp3-menutab .bp3-recmenutabopened .bp3-aboutbuttongroupmobile .bp3-aboutbutton .bp3-aboutbutton1 .bp3-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -4725,7 +2293,7 @@ div {
   text-align          : center;
   line-height         : 19.0px;
 }
-.bp3-precomobile .bp3-menutabmobile .bp3-menutab .bp3-recmenutabopened .bp3-pricesbuttongroupmobile .bp3-pricesbutton .bp3-pricesbutton1 .bp3-background {
+.bp3-precomobile .bp3-menutabmobile .bp3-menutab .bp3-recmenutabopened .bp3-pricesbuttongroupmobile .bp3-pricesbutton .bp3-pricesbutton1 .bp3-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -4824,7 +2392,2507 @@ div {
   text-align          : center;
   line-height         : 19.0px;
 }
-.bp3-precomobile .bp3-menutabmobile .bp3-menutab .bp3-recmenutabopened .bp3-contactbuttongroupmobile .bp3-contactbutton .bp3-contactbutton1 .bp3-background {
+.bp3-precomobile .bp3-menutabmobile .bp3-menutab .bp3-recmenutabopened .bp3-contactbuttongroupmobile .bp3-contactbutton .bp3-contactbutton1 .bp3-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.bp2-precotablet {
+  width               : 100%;
+  min-width           : 768px;
+  height              : 100vh;
+  min-height          : 1110px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-precotablet .bp2-panel {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 148px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-panel .bp2-panel2 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 148px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-precotablet .bp2-panel .bp2-panel2 .bp2-panel21 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 148px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-panel .bp2-tokilogo {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 15px;
+  height              : 81px;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : calc(50.00% - 98px);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-precotablet .bp2-panel .bp2-tokilogo {
+  pointer-events      : auto;
+}
+.bp2-precotablet .bp2-panel .bp2-tokilogo:hover {
+  transform           : translate(0, -10px);
+}
+.bp2-precotablet .bp2-panel .bp2-tokilogo .bp2-tokilogo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 81px;
+  width               : 196px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-panel .bp2-tokilogo .bp2-tokilogo1 .bp2-bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 81px;
+  width               : 195px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-headermenu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : 55px;
+  width               : calc(100.00% - 22px);
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 278px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout {
+  pointer-events      : auto;
+}
+.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout:hover {
+  transform           : translate(5px, 0);
+}
+.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 278px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 269px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 28px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 27px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 27px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 49px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 27px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 27px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 85px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 110px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 27px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 139px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 27px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 162px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 28px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 182px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 8px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 205px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 9px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 204px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 216px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 215px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 19px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 260px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-path21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 25px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 243px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 25px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 242px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 25px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 257px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-headermenu .bp2-criadoreslogoout .bp2-logocriadoresout .bp2-shape14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 25px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 257px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-headermenu .bp2-path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 14px;
+  width               : calc(100.00% - 2px);
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0.999999523163deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 123px;
+  height              : 875px;
+  width               : calc(100.00% - 22px);
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-sliderbanner {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 327px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-sliderbanner .bp2-bannerbrand {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : 91.44%;
+  width               : 99.46%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-sliderbanner .bp2-bannerdesign {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0.61%;
+  height              : 90.52%;
+  width               : 99.46%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-sliderbanner .bp2-bannerprogramming {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0.92%;
+  height              : 91.44%;
+  width               : 98.93%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-sliderbanner .bp2-bullet {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 5.50%;
+  width               : 13.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 43.50%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-sliderbanner .bp2-bullet .bp2-oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-sliderbanner .bp2-bullet .bp2-oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-sliderbanner .bp2-bullet .bp2-oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-sliderbanner .bp2-vamoscriarprograma {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6.12%;
+  height              : 24.16%;
+  width               : 23.46%;
+  position            : absolute;
+  margin              : 0;
+  left                : 5.50%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 36.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 56.0px;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-sliderbanner .bp2-vamoscriarconteudos {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28.13%;
+  height              : 24.46%;
+  width               : 23.46%;
+  position            : absolute;
+  margin              : 0;
+  left                : 5.50%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 36.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 56.0px;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-sliderbanner .bp2-vamoscriarconteudoscopy {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 17.13%;
+  height              : 30.58%;
+  width               : 23.46%;
+  position            : absolute;
+  margin              : 0;
+  left                : 5.50%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 36.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 56.0px;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-packservices {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 616px;
+  height              : 259px;
+  width               : 772px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 232px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-group2 .bp2-pacotesdeservi307os {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : 231px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(46, 50, 67, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 241px;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card .bp2-rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 241px;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card .bp2-rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 122px;
+  width               : 228px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card .bp2-identidadevisualma {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 153px;
+  height              : auto;
+  width               : 190px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.5);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card .bp2-rp11000000 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 186px;
+  height              : auto;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(77, 91, 182, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 241px;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 253px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card1 .bp2-rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 241px;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card1 .bp2-rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 122px;
+  width               : 228px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card1 .bp2-siteresponsivomais {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 153px;
+  height              : auto;
+  width               : 190px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.5);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card1 .bp2-rp11000000 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 186px;
+  height              : auto;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(77, 91, 182, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 241px;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 506px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card2 .bp2-rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 241px;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card2 .bp2-rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 122px;
+  width               : 228px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card2 .bp2-manuten347343odecontas {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 153px;
+  height              : auto;
+  width               : 190px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.5);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-packservices .bp2-card2 .bp2-rp11000000 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 186px;
+  height              : auto;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(77, 91, 182, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-categories {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 352px;
+  height              : 218px;
+  width               : calc(100.00% - 18px);
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-categorias {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : 158px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(46, 50, 67, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catavisualgroup {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 49px;
+  height              : 169px;
+  width               : 224px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catavisualgroup {
+  pointer-events      : auto;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catavisualgroup:hover {
+  transform           : scale(1.1);
+}
+.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catavisualgroup .bp2-categavisual {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catavisualgroup .bp2-categavisual .bp2-categavisual1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catavisualgroup .bp2-rectangle {
+  background-color    : rgba(101, 143, 192, 1.0);
+  bottom              : 0px;
+  height              : 20.12%;
+  width               : 99.55%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.22%;
+  border-radius       : 15px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catavisualgroup .bp2-hovertext {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 2.37%;
+  height              : 28px;
+  width               : 60.71%;
+  position            : absolute;
+  margin              : 0;
+  left                : 19.64%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 28.0px;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catprogrammgroup {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 46px;
+  height              : 171px;
+  width               : 224px;
+  position            : absolute;
+  margin              : 0;
+  left                : calc(50.00% - 112px);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catprogrammgroup {
+  pointer-events      : auto;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catprogrammgroup:hover {
+  transform           : scale(1.1);
+}
+.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catprogrammgroup .bp2-categprogramm {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 98.83%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catprogrammgroup .bp2-categprogramm .bp2-categprogramm1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catprogrammgroup .bp2-rectanglecopy {
+  background-color    : rgba(101, 143, 192, 1.0);
+  bottom              : 0px;
+  height              : 19.88%;
+  width               : 99.55%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.22%;
+  border-radius       : 15px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catprogrammgroup .bp2-hovertextcopy {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 1.75%;
+  height              : 28px;
+  width               : 60.71%;
+  position            : absolute;
+  margin              : 0;
+  left                : 19.64%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 28.0px;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catcontaingroup {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 46px;
+  height              : 171px;
+  width               : 224px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catcontaingroup {
+  pointer-events      : auto;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catcontaingroup:hover {
+  transform           : scale(1.1);
+}
+.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catcontaingroup .bp2-categcontain {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 98.83%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catcontaingroup .bp2-categcontain .bp2-categcontain1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catcontaingroup .bp2-rectanglecopy2 {
+  background-color    : rgba(101, 143, 192, 1.0);
+  bottom              : 0px;
+  height              : 19.88%;
+  width               : 99.55%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.22%;
+  border-radius       : 15px;
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+}
+.bp2-precotablet .bp2-precosbottons .bp2-categories .bp2-catcontaingroup .bp2-hovertextcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 1.75%;
+  height              : 28px;
+  width               : 60.71%;
+  position            : absolute;
+  margin              : 0;
+  left                : 19.64%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 28.0px;
+}
+.bp2-precotablet .bp2-profile {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 20px;
+  top                 : 49px;
+  height              : 408px;
+  width               : 276px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 408px;
+  width               : 276px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-profileicon {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 28px;
+  top                 : 0px;
+  height              : 21px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-profileicon {
+  pointer-events      : auto;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-profileicon:hover {
+  transform           : translate(0, -5px);
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-profileicon .bp2-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.38%;
+  height              : 95.24%;
+  width               : 95.24%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.38%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-profileicon .bp2-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.38%;
+  height              : 95.24%;
+  width               : 95.24%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.38%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu {
+  background-color    : rgba(255,255,255,0.0);
+  right               : -1.45%;
+  top                 : 7.35%;
+  height              : 281px;
+  width               : 221px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4.98%;
+  height              : 23.84%;
+  width               : 96.38%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.81%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0.75%;
+  height              : 98.51%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37.31%;
+  height              : 25.37%;
+  width               : 56.81%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.29%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-editarperfil {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.83%;
+  top                 : calc(50.00% - 8px);
+  height              : 16px;
+  width               : 63.64%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.7);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-icchevron {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(90deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-icchevron .bp2-rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-editprofile .bp2-group2 .bp2-icchevron .bp2-shape2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34.21%;
+  height              : 31.58%;
+  width               : 72.73%;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.64%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28.83%;
+  height              : 23.84%;
+  width               : 96.38%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.81%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0.75%;
+  height              : 98.51%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35.82%;
+  height              : 25.37%;
+  width               : 76.53%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.29%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-favoritos {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.61%;
+  top                 : calc(50.00% - 8px);
+  height              : 16px;
+  width               : 73.01%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.7);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-icchevron1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(90deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-icchevron1 .bp2-rectangle4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-wishlist .bp2-group21 .bp2-icchevron1 .bp2-shape3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34.21%;
+  height              : 31.58%;
+  width               : 72.73%;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.64%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 23.84%;
+  height              : 23.84%;
+  width               : 96.38%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.81%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-rectangle5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0.75%;
+  height              : 98.51%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37.31%;
+  height              : 25.37%;
+  width               : 80.28%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.29%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-hist363rico {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.58%;
+  top                 : calc(50.00% - 8px);
+  height              : 16px;
+  width               : 74.27%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.7);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-icchevron2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -2px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(90deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-icchevron2 .bp2-rectangle6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-orderhistory .bp2-group22 .bp2-icchevron2 .bp2-shape4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34.21%;
+  height              : 31.58%;
+  width               : 72.73%;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.64%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 1.78%;
+  height              : 23.84%;
+  width               : 96.38%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.81%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-rectangle7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0.75%;
+  height              : 98.51%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37.31%;
+  height              : 25.37%;
+  width               : 72.77%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.29%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-cart365es {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0.65%;
+  top                 : calc(50.00% - 8px);
+  height              : 16px;
+  width               : 71.61%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.7);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-icchevron3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -2px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  transform           : rotate(90deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-icchevron3 .bp2-rectangle8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-menu .bp2-akunbankcopy .bp2-group23 .bp2-icchevron3 .bp2-shape5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34.21%;
+  height              : 31.58%;
+  width               : 72.73%;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.64%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : -1.47%;
+  height              : 94.12%;
+  width               : 102.90%;
+  position            : absolute;
+  margin              : 0;
+  left                : -1.45%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-bglogintocontinue {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 79px;
+  height              : 51px;
+  width               : calc(100.00% - 29px);
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  bottom              : 0px;
+  height              : 62.75%;
+  box-sizing          : border-box;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(46, 50, 67, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-email1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1.96%;
+  height              : 16px;
+  width               : 32.39%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(46, 50, 67, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-accountmailmailco {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 15.69%;
+  height              : 14px;
+  width               : 87.45%;
+  position            : absolute;
+  margin              : 0;
+  left                : 6.28%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 0.5);
+  text-align          : left;
+  line-height         : 14.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-email .bp2-accountmailmailco::placeholder {
+  color               : rgba(0, 0, 0, 0.3);
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 143px;
+  height              : 51px;
+  width               : calc(100.00% - 29px);
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-rectangle1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  bottom              : 0px;
+  height              : 62.75%;
+  box-sizing          : border-box;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(46, 50, 67, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-image1 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 15.69%;
+  height              : 14px;
+  width               : 80.97%;
+  position            : absolute;
+  margin              : 0;
+  left                : 6.48%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(151, 151, 151, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-image1::placeholder {
+  color               : rgba(151, 151, 151, 0.6);
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-password .bp2-senha {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 33.60%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(46, 50, 67, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-ctabuttonprimary {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 103px;
+  height              : 32px;
+  width               : calc(100.00% - 29px);
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-ctabuttonprimary .bp2-rectangle2 {
+  background-color    : rgba(116, 191, 187, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-ctabuttonprimary .bp2-entrar {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 12.50%;
+  height              : 21px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-rememberme {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 152px;
+  height              : 17px;
+  width               : calc(100.00% - 29px);
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-rememberme .bp2-icchecked {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-rememberme .bp2-lembreme {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  bottom              : 0px;
+  height              : 82.35%;
+  width               : 89.88%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(97, 97, 97, 0.7);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-esqueceuasenha {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 70px;
+  height              : auto;
+  width               : calc(100.00% - 130px);
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(97, 97, 97, 0.7);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-esqueceuasenha .bp2-span1 {
+  
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-esqueceuasenha .bp2-span2 {
+  color               : rgba(77, 91, 182, 1.0);
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-welcometologin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 59px;
+  width               : calc(100.00% - 29px);
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-welcometologin .bp2-kurir {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(46, 50, 67, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-welcometologin .bp2-preenchaseuemail {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 1.69%;
+  height              : 47.46%;
+  width               : 89.88%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 8.0px;
+  color               : rgba(95, 95, 95, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-signin {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 31px;
+  height              : 32px;
+  width               : calc(100.00% - 29px);
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-signin .bp2-rectangle3 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  box-sizing          : border-box;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(46, 50, 67, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-profile .bp2-profile1 .bp2-cadastro .bp2-signin .bp2-cadastrese {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 11px);
+  height              : 21px;
+  width               : 99.60%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.20%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(46, 50, 67, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp2-precotablet .bp2-shopgroup {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 101px;
+  top                 : 39px;
+  height              : 84px;
+  width               : 270px;
+  position            : absolute;
+  margin              : 0;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-shopgroup .bp2-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 84px;
+  width               : 270px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-shopgroup .bp2-shopgroup1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 7px;
+  top                 : 6px;
+  height              : 76px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-shopgroup .bp2-shopgroup1 .bp2-shop2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 10px;
+  top                 : 0px;
+  height              : 23px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-shopgroup .bp2-shopgroup1 .bp2-shop2 .bp2-shape15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-shopgroup .bp2-shopgroup1 .bp2-shop2 .bp2-shape16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-shopgroup .bp2-shopgroup1 .bp2-group {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : 12px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-shopgroup .bp2-shopgroup1 .bp2-group .bp2-quantity2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-shopgroup .bp2-shopgroup1 .bp2-a14 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 2px;
+  top                 : 0px;
+  height              : 13px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-shopgroup .bp2-shopgroup1 .bp2-a14 .bp2-a1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 7px);
+  height              : 13px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 9.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.bp2-precotablet .bp2-shopgroup .bp2-shopgroup1 .bp2-rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 5px;
+  top                 : 35px;
+  height              : 37px;
+  width               : 257px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-precotablet .bp2-shopgroup .bp2-shopgroup1 .bp2-shoptext {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 16px;
+  top                 : 43px;
+  height              : 33px;
+  width               : 234px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.5px;
+  line-height         : 17.0px;
+}
+.bp2-precotablet .bp2-menutabmobile {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 81px;
+  top                 : 42px;
+  height              : 120px;
+  width               : 453px;
+  position            : absolute;
+  margin              : 0;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 453px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 453px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-lines {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 97px;
+  top                 : 0px;
+  height              : 23px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-lines {
+  pointer-events      : auto;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-lines:hover {
+  transform           : rotate(30deg);
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-lines .bp2-linecopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8.70%;
+  height              : 4.35%;
+  width               : 88.89%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-lines .bp2-linecopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 11.11%;
+  bottom              : 8.70%;
+  height              : 4.35%;
+  width               : 70.37%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-lines .bp2-linecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47.83%;
+  height              : 4.35%;
+  width               : 77.78%;
+  position            : absolute;
+  margin              : 0;
+  left                : 11.11%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-lines .bp2-line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8.70%;
+  height              : 4.35%;
+  width               : 88.89%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-lines .bp2-linecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 11.11%;
+  bottom              : 8.70%;
+  height              : 4.35%;
+  width               : 70.37%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-lines .bp2-linecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47.83%;
+  height              : 4.35%;
+  width               : 77.78%;
+  position            : absolute;
+  margin              : 0;
+  left                : 11.11%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-lines .bp2-menu {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : 100%;
+  width               : 92.59%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-lines .bp2-menucopy {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : 100%;
+  width               : 92.59%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 85px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.89;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-aboutbuttongroupmobile {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 311px;
+  top                 : 24px;
+  height              : 41px;
+  width               : 128px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-aboutbuttongroupmobile {
+  pointer-events      : auto;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-aboutbuttongroupmobile:hover {
+  transform           : translate(0, -5px);
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-aboutbuttongroupmobile .bp2-rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-aboutbuttongroupmobile .bp2-aboutbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2.08%;
+  height              : 58.33%;
+  width               : 94.07%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.96%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-aboutbuttongroupmobile .bp2-aboutbutton .bp2-aboutbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-aboutbuttongroupmobile .bp2-aboutbutton .bp2-aboutbutton1 .bp2-sobre {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : -14.29%;
+  height              : 19px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 800;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(65, 70, 75, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-aboutbuttongroupmobile .bp2-aboutbutton .bp2-aboutbutton1 .bp2-sobre1 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : -10.71%;
+  height              : 19px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(138, 140, 142, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-aboutbuttongroupmobile .bp2-aboutbutton .bp2-aboutbutton1 .bp2-ballsellection {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 10.71%;
+  width               : 12.60%;
+  position            : absolute;
+  margin              : 0;
+  left                : 43.70%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-aboutbuttongroupmobile .bp2-aboutbutton .bp2-aboutbutton1 .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-pricesbuttongroupmobile {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 163px;
+  top                 : 25px;
+  height              : 40px;
+  width               : 128px;
+  position            : absolute;
+  margin              : 0;
+  left                : 163px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-pricesbuttongroupmobile {
+  pointer-events      : auto;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-pricesbuttongroupmobile:hover {
+  transform           : translate(0, -5px);
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-pricesbuttongroupmobile .bp2-rectanglecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-pricesbuttongroupmobile .bp2-pricesbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4.17%;
+  height              : 56.25%;
+  width               : 94.07%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.96%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-pricesbuttongroupmobile .bp2-pricesbutton .bp2-pricesbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-pricesbuttongroupmobile .bp2-pricesbutton .bp2-pricesbutton1 .bp2-pre347os {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : -14.81%;
+  height              : 19px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 800;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(65, 70, 75, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-pricesbuttongroupmobile .bp2-pricesbutton .bp2-pricesbutton1 .bp2-pre347os1 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : -14.81%;
+  height              : 19px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(138, 140, 142, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-pricesbuttongroupmobile .bp2-pricesbutton .bp2-pricesbutton1 .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-contactbuttongroupmobile {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 15px;
+  top                 : 25px;
+  height              : 40px;
+  width               : 128px;
+  position            : absolute;
+  margin              : 0;
+  left                : 311px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-contactbuttongroupmobile {
+  pointer-events      : auto;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-contactbuttongroupmobile:hover {
+  transform           : translate(0, -5px);
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-contactbuttongroupmobile .bp2-rectanglecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-contactbuttongroupmobile .bp2-contactbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4.17%;
+  height              : 56.25%;
+  width               : 94.07%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.96%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-contactbuttongroupmobile .bp2-contactbutton .bp2-contactbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-contactbuttongroupmobile .bp2-contactbutton .bp2-contactbutton1 .bp2-contato {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : -14.81%;
+  height              : 19px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 800;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(65, 70, 75, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-contactbuttongroupmobile .bp2-contactbutton .bp2-contactbutton1 .bp2-contato1 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : -14.81%;
+  height              : 19px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(138, 140, 142, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.bp2-precotablet .bp2-menutabmobile .bp2-menutab .bp2-recmenutabopened .bp2-contactbuttongroupmobile .bp2-contactbutton .bp2-contactbutton1 .bp2-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
