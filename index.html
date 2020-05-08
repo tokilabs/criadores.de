@@ -13,6 +13,30 @@
     </head>
     <body style="margin: 0;
  background: rgba(255, 255, 255, 1.0);">
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCoOYhqls1rJtW2DH0R2Suf32_P5fZ3dHQ",
+    authDomain: "criadores-b8998.firebaseapp.com",
+    databaseURL: "https://criadores-b8998.firebaseio.com",
+    projectId: "criadores-b8998",
+    storageBucket: "criadores-b8998.appspot.com",
+    messagingSenderId: "949964734987",
+    appId: "1:949964734987:web:dd7b980c075510decf3d0e",
+    measurementId: "G-WYVF9RLTRK"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<script src= 'index.js'></script>
         <input id="anPageName" name="page" type="hidden" value="index"/>
         <form action="form1" class="bp3-hometablet anima-word-break " method="post" name="form1">
             <img alt="Image" anima-src="./img/hometablet-wave.png" class="bp3-wave" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
@@ -6870,12 +6894,12 @@
                                 <div class="bp4-email1">
                                     E-mail
                                 </div>
-                                <input class="bp4-accountmailmailco" name="accountmailmailco" placeholder="account_mail@mail.com" required="" type="email"/>
+                                <input class="bp4-accountmailmailco" name="accountmailmailco" placeholder="account_mail@mail.com" required="" type="email" id="email_field"/>
                             </div>
                             <div class="bp4-password">
                                 <div class="bp4-rectangle1">
                                 </div>
-                                <input class="bp4-image1" name="image1" placeholder="*****************" required="" type="password"/>
+                                <input class="bp4-image1" name="image1" placeholder="*****************" required="" type="password" id="password_field"/>
                                 <div class="bp4-senha">
                                     Senha
                                 </div>
@@ -6884,7 +6908,7 @@
                                 <div class="bp4-ctabuttonprimary">
                                     <div class="bp4-rectangle2">
                                     </div>
-                                    <div class="bp4-entrar">
+                                    <div class="bp4-entrar" onclick= "login()">
                                         ENTRAR
                                     </div>
                                 </div>
