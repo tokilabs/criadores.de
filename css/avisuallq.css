@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500,400,700,900,100,300|Montserrat:300,700|Open+Sans:700,800,600,400|Roboto+Slab:400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,400,700,900,100,300|Montserrat:700,300|Open+Sans:700,800,600,400|Roboto+Slab:400');
 
 
 .bp2-avisuallq {
@@ -74,7 +74,7 @@ div {
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 1.0;
+  opacity             : 0.0;
 }
 .bp2-avisuallq .bp2-panel .bp2-tokilogo {
   background-color    : rgba(255,255,255,0.0);
@@ -3382,7 +3382,7 @@ div {
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 1.0;
+  opacity             : 0.0;
 }
 .bp3-avisualtablet .bp3-panel .bp3-tokilogo {
   background-color    : rgba(255,255,255,0.0);
@@ -7059,7 +7059,7 @@ div {
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 1.0;
+  opacity             : 0.0;
 }
 .bp4-avisualmobile .bp4-panel .bp4-tokilogo {
   background-color    : rgba(255,255,255,0.0);
@@ -10754,7 +10754,7 @@ div {
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
-  opacity             : 1.0;
+  opacity             : 0.0;
 }
 .bp1-audiovisual .bp1-panel .bp1-tokilogo {
   background-color    : rgba(255,255,255,0.0);
