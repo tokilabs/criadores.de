@@ -1,0 +1,914 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:900,500,700,100,300,400|Poppins:600|Open+Sans:800,600,700,400|Work+Sans:500|Montserrat:700,300');
+
+
+.cartwidget {
+  width               : 100%;
+  min-width           : auto;
+  height              : 100vh;
+  min-height          : 856px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255,255,255,0.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.cartwidget .backgroundcadastro {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 857px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .backgroundcadastro .asset10 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 856px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .backgroundcadastro .asset10 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 856px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.95;
+}
+.cartwidget .backgroundcadastro .asset9 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 1px;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+}
+.cartwidget .backgroundcadastro .asset9 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 855px;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.43;
+}
+.cartwidget .backgroundcadastro .asset9 .group .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 265px;
+  width               : calc(100.00% - 427px) auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 427px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .backgroundcadastro .asset9 .group .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 266px;
+  height              : 588px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .backgroundcadastro .asset8 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 62px;
+  height              : 795px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.37;
+}
+.cartwidget .backgroundcadastro .asset8 .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 795px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.15;
+}
+.cartwidget .backgroundcadastro .asset8 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 747px;
+  width               : calc(100.00% - 57px);
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .backgroundcadastro .asset7 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 84px;
+  height              : 356px;
+  width               : calc(100.00% - 58px);
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .backgroundcadastro .asset7 .path {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 356px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 25px;
+  height              : 770px;
+  width               : 1393px;
+  position            : absolute;
+  margin              : 0;
+  left                : calc(50.00% - 697px);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : center;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 80px;
+  height              : auto;
+  width               : 1149px;
+  position            : relative;
+  margin              : 0;
+  left                : 119px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .carrinho {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 69px;
+  margin              : 0;
+  width               : 1151px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 42.0px;
+  color               : rgba(77, 91, 182, 1.0);
+  text-align          : center;
+  line-height         : 51.0px;
+}
+.cartwidget .cart .stackedgroup .cardempty {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : center;
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 33px 0 0 0;
+  width               : 1114px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 324px;
+  margin              : 0;
+  width               : 287px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 301px;
+  height              : 22px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 174px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 295px;
+  height              : 27px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 144px;
+  height              : 161px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 196px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 141px;
+  height              : 159px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 200px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 130px;
+  height              : 21px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 157px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 139px;
+  height              : 19px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 98px;
+  height              : 42px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 173px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 37px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 215px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : 108px;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 197px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47px;
+  height              : 102px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 174px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 37px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 203px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 33px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 201px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 9px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 220px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 55px;
+  height              : 65px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 198px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : 2px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 205px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 1px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 206px;
+  transform           : rotate(-19.8299999237deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 3px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 209px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 153px;
+  height              : 13px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 225px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 223px;
+  height              : 6px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 234px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path17 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 226px;
+  height              : 5px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 235px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path18 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 233px;
+  height              : 3px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 198px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path19 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 235px;
+  height              : 4px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 198px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path20 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 118px;
+  height              : 19px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 201px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 200px;
+  height              : 1px;
+  width               : 129px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(-1.50999999046deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle1 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 213px;
+  height              : 0px;
+  width               : 127px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle2 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 163px;
+  height              : 124px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 64px;
+  transform           : rotate(-88.8542404175deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle3 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 175px;
+  height              : 124px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  transform           : rotate(-87.5299987793deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle4 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 188px;
+  height              : 1px;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(-3.47000002861deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle5 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 211px;
+  height              : 1px;
+  width               : 83px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  transform           : rotate(-79.5199966431deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle6 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 213px;
+  height              : 1px;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 54px;
+  transform           : rotate(-79.1900024414deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle7 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 213px;
+  height              : 1px;
+  width               : 74px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  transform           : rotate(-78.2799987793deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle8 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 213px;
+  height              : 1px;
+  width               : 67px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  transform           : rotate(-79.4300003052deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle9 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 214px;
+  height              : 1px;
+  width               : 62px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(-79.1900024414deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle10 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 214px;
+  height              : 1px;
+  width               : 62px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(-79.5400009155deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle11 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 214px;
+  height              : 1px;
+  width               : 57px;
+  position            : absolute;
+  margin              : 0;
+  left                : -10px;
+  transform           : rotate(-80.6800003052deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 306px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 305px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 167px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 148px;
+  height              : 153px;
+  width               : 153px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path22 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 286px;
+  height              : 20px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 162px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path23 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 305px;
+  height              : 13px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 172px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path24 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 298px;
+  height              : 17px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .doronglagi .path25 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 165px;
+  height              : 92px;
+  width               : 142px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .cardempty .seucarrinhoest341va {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 31px 0 0 0;
+  width               : 974px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 32.0px;
+  color               : rgba(255, 84, 88, 1.0);
+  text-align          : center;
+  line-height         : 38.0px;
+}
+.cartwidget .cart .stackedgroup .cardempty .voc352precisaadicion {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 31px 0 0 0;
+  width               : 1116px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(56, 210, 224, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+.cartwidget .cart .stackedgroup .conferirpre347os {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 101px;
+  margin              : 33px 0 0 0;
+  width               : 352px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.cartwidget .cart .stackedgroup .conferirpre347os {
+  pointer-events      : auto;
+}
+.cartwidget .cart .stackedgroup .conferirpre347os:hover {
+  transform           : translate(10px, 0);
+}
+.cartwidget .cart .stackedgroup .conferirpre347os .buttonprice {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 101px;
+  width               : 352px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .conferirpre347os .buttonprice .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 101px;
+  width               : 352px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cart .stackedgroup .conferirpre347os .buttonprice .conferirpre307os {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 67px;
+  width               : 316px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 26.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.cartwidget .exit {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 34px;
+  top                 : 12px;
+  height              : 53px;
+  width               : 55px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.95;
+  transition          : all 0.2s ease-in-out;
+}
+.cartwidget .exit {
+  pointer-events      : auto;
+}
+.cartwidget .exit:hover {
+  transform           : scale(0.9);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-valign-text-middle {
+  display             : flex;
+  flex-direction      : column;
+  justify-content     : center;
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
