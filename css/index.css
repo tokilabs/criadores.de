@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:900,500,700,100,300,400|Poppins:600|Open+Sans:800,600,700,400|Work+Sans:500|Montserrat:700,300');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,400,700,900,100,300|Poppins:600,500|Open+Sans:700,800,600,400|Work+Sans:500|Montserrat:700,300');
 
 
 .anima-overlay {
@@ -9,11 +9,11 @@
   width               : 100%;
   height              : 100%;
 }
-.bp1-index {
+.bp4-homelq {
   width               : 100%;
-  min-width           : 1440px;
+  min-width           : 1024px;
   height              : 100vh;
-  min-height          : 856px;
+  min-height          : 695px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -22,25 +22,10 @@
   background-color    : rgba(255, 255, 255, 1.0);
   opacity             : 1.0;
 }
-a {
-  text-decoration     : none;
-}
 div {
   -webkit-text-size-adjust: none;
 }
-.anima-full-width-a {
-  width               : 100%;
-}
-.anima-full-height-a {
-  height              : 100%;
-}
-textarea:focus, input:focus {
-  outline             : none;
-}
-div {
-  -webkit-text-size-adjust: none;
-}
-.bp1-index .bp1-wave {
+.bp4-homelq .bp4-wave {
   background-color    : rgba(255,255,255,0.0);
   top                 : -574px;
   height              : calc(100.00% + 603px);
@@ -51,30 +36,32 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-wavecopy {
+.bp4-homelq .bp4-wavecopy {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -212px;
-  height              : calc(100.00% - 391px);
-  width               : calc(100.00% - 339px);
+  top                 : -130px;
+  height              : calc(100.00% - 320px);
+  width               : calc(100.00% - 240px);
   position            : absolute;
   margin              : 0;
-  left                : 467px;
+  left                : 368px;
   transform           : rotate(0deg);
   opacity             : 0.3;
 }
-.bp1-index .bp1-panel {
+.bp4-homelq .bp4-panel {
   background-color    : rgba(255,255,255,0.0);
-  position            : relative;
+  margin-left         : -8px;
   height              : 100%;
-  width               : 1440px;
+  width               : 270px;
+  margin-right        : 8px;
+  position            : relative;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-panel-layout-container {
+.bp4-homelq .bp4-panel-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   align-items         : center;
-  bottom              : 0.35%;
+  bottom              : 0px;
   height              : 97px;
   width               : 100%;
   position            : absolute;
@@ -82,32 +69,32 @@ div {
   display             : flex;
   left                : 0;
 }
-.bp1-index .bp1-panel-layout-container > * {
+.bp4-homelq .bp4-panel-layout-container > * {
   pointer-events      : auto;
 }
-.bp1-index .bp1-panel .bp1-panel2 {
+.bp4-homelq .bp4-panel .bp4-panel2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 13px;
   height              : 84px;
-  width               : 1440px;
+  width               : 270px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
-.bp1-index .bp1-panel .bp1-tokibutton {
+.bp4-homelq .bp4-panel .bp4-tokibutton {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 92px;
   width               : 243px;
   position            : absolute;
   margin              : 0;
-  left                : 601px;
+  left                : 14px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-panel .bp1-tokibutton .bp1-tokilogo {
+.bp4-homelq .bp4-panel .bp4-tokibutton .bp4-tokilogo {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 87px;
@@ -117,8 +104,15 @@ div {
   left                : 22px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
 }
-.bp1-index .bp1-panel .bp1-tokibutton .bp1-tokilogo .bp1-tokilogo1 {
+.bp4-homelq .bp4-panel .bp4-tokibutton .bp4-tokilogo {
+  pointer-events      : auto;
+}
+.bp4-homelq .bp4-panel .bp4-tokibutton .bp4-tokilogo:hover {
+  transform           : translate(0, -5px);
+}
+.bp4-homelq .bp4-panel .bp4-tokibutton .bp4-tokilogo .bp4-tokilogo1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 87px;
@@ -128,8 +122,15 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
 }
-.bp1-index .bp1-panel .bp1-tokibutton .bp1-tokilogo .bp1-tokilogo1 .bp1-bitmap {
+.bp4-homelq .bp4-panel .bp4-tokibutton .bp4-tokilogo .bp4-tokilogo1 {
+  pointer-events      : auto;
+}
+.bp4-homelq .bp4-panel .bp4-tokibutton .bp4-tokilogo .bp4-tokilogo1:hover {
+  transform           : translate(0, -5px);
+}
+.bp4-homelq .bp4-panel .bp4-tokibutton .bp4-tokilogo .bp4-tokilogo1 .bp4-bitmap {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 86px;
@@ -140,81 +141,79 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header {
+.bp4-homelq .bp4-headerlq {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 100%;
-  width               : 1380px;
-  overflow            : hidden;
+  width               : 976px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header-layout-container {
+.bp4-homelq .bp4-headerlq-layout-container {
   pointer-events      : none;
   flex-direction      : column;
-  top                 : 0px;
+  top                 : 20px;
   align-items         : center;
-  height              : 108px;
+  height              : 67px;
   width               : 100%;
   position            : absolute;
   margin              : 0;
   display             : flex;
   left                : 0;
 }
-.bp1-index .bp1-header-layout-container > * {
+.bp4-homelq .bp4-headerlq-layout-container > * {
   pointer-events      : auto;
 }
-.bp1-index .bp1-header .bp1-background {
+.bp4-homelq .bp4-headerlq .bp4-headergroup {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 108px;
-  width               : 1380px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  position            : relative;
+  height              : 100%;
+  width               : 976px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 23px;
-  height              : 64px;
-  width               : calc(100.00% - 15px);
-  position            : absolute;
-  margin              : 0;
-  left                : 8px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 {
-  display             : flex;
-  justify-content     : flex-start;
+.bp4-homelq .bp4-headerlq .bp4-headergroup-layout-container {
+  pointer-events      : none;
   flex-direction      : column;
-  align-items         : center;
-  background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : auto;
-  width               : 1353px;
+  align-items         : center;
+  height              : 67px;
+  width               : 100%;
   position            : relative;
   margin              : 0;
-  left                : 0px;
+  display             : flex;
+  left                : 0;
+}
+.bp4-homelq .bp4-headerlq .bp4-headergroup-layout-container > * {
+  pointer-events      : auto;
+}
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 65px;
+  height              : 2px;
+  width               : calc(100.00% - 5px);
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto {
   display             : flex;
   justify-content     : flex-start;
   flex-direction      : row;
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
-  position            : relative;
+  top                 : 0px;
   height              : 52px;
-  margin              : 0;
   width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 34px;
@@ -224,7 +223,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-background1 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 34px;
@@ -235,7 +234,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 34px;
@@ -246,7 +245,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 33px;
@@ -257,7 +256,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape1 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 32px;
@@ -268,18 +267,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape2 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 32px;
   width               : 10px;
   position            : absolute;
   margin              : 0;
-  left                : 58px;
+  left                : 57px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape3 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 32px;
@@ -290,7 +289,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape4 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 32px;
@@ -301,7 +300,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape5 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 33px;
@@ -312,7 +311,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape6 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape6 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 32px;
@@ -323,7 +322,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape7 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape7 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 32px;
@@ -334,7 +333,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape8 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 33px;
@@ -345,7 +344,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-path {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-path {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : 10px;
@@ -356,7 +355,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape9 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape9 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : 10px;
@@ -367,7 +366,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape10 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape10 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 29px;
@@ -378,7 +377,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape11 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape11 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 30px;
@@ -389,7 +388,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-path1 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-path1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 23px;
@@ -400,7 +399,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-path21 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-path21 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 29px;
@@ -411,7 +410,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape12 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape12 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 30px;
@@ -422,7 +421,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape13 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape13 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 29px;
@@ -433,7 +432,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape14 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape14 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 30px;
@@ -444,7 +443,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto {
   display             : flex;
   justify-content     : flex-start;
   flex-direction      : row;
@@ -452,12 +451,12 @@ div {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 52px;
-  margin              : 0 0 0 492px;
+  margin              : 0 0 0 179px;
   width               : auto;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 52px;
@@ -467,7 +466,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-background2 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-background2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 52px;
@@ -478,7 +477,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-aboutbutton {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-aboutbutton {
   background-color    : rgba(255,255,255,0.0);
   right               : 245px;
   top                 : 0px;
@@ -490,76 +489,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-aboutbutton .bp1-aboutbutton1 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-aboutbutton .bp4-aboutbutton1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-aboutbutton .bp1-aboutbutton1 .bp1-sobre {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 2.00%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(65, 70, 75, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-aboutbutton .bp1-aboutbutton1 .bp1-sobre1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 2.00%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(138, 140, 142, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-aboutbutton .bp1-aboutbutton1 .bp1-ballsellection {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 12.00%;
-  width               : 12.50%;
-  position            : absolute;
-  margin              : 0;
-  left                : 43.75%;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-aboutbutton .bp1-aboutbutton1 .bp1-background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
+  height              : 50px;
+  width               : 48px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-pricesbutton {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-pricesbutton {
   background-color    : rgba(255,255,255,0.0);
   right               : 128px;
   top                 : 0px;
@@ -571,65 +512,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-pricesbutton .bp1-pricesbutton1 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-pricesbutton .bp4-pricesbutton1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-pricesbutton .bp1-pricesbutton1 .bp1-pre347os {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 2.00%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(65, 70, 75, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-pricesbutton .bp1-pricesbutton1 .bp1-pre347os1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 2.00%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(138, 140, 142, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-pricesbutton .bp1-pricesbutton1 .bp1-background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
+  height              : 50px;
+  width               : 59px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-contactbutton {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-contactbutton {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
   top                 : 0px;
@@ -641,65 +535,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-contactbutton .bp1-contactbutton1 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-contactbutton .bp4-contactbutton1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-contactbutton .bp1-contactbutton1 .bp1-contato {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 2.00%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(65, 70, 75, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-contactbutton .bp1-contactbutton1 .bp1-contato1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 2.00%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(138, 140, 142, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-contactbutton .bp1-contactbutton1 .bp1-background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
+  height              : 50px;
+  width               : 69px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-rectangle {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-rectangle {
   background-color    : rgba(116, 191, 187, 1.0);
   top                 : 19px;
   height              : 7px;
@@ -711,7 +558,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 {
   display             : flex;
   justify-content     : flex-start;
   flex-direction      : row;
@@ -719,12 +566,12 @@ div {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 23px;
-  margin              : 0 0 0 112px;
+  margin              : 0 0 0 75px;
   width               : auto;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-shopgroup {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-shopgroup {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 23px;
@@ -734,13 +581,13 @@ div {
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-shopgroup {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-shopgroup {
   pointer-events      : auto;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-shopgroup:hover {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-shopgroup:hover {
   transform           : translate(0, -5px);
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-shopgroup .bp1-shop2 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-shopgroup .bp4-shop2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 23px;
@@ -751,7 +598,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-shopgroup .bp1-shop2 .bp1-shape15 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-shopgroup .bp4-shop2 .bp4-shape15 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 23px;
@@ -762,7 +609,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-shopgroup .bp1-shop2 .bp1-shape16 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-shopgroup .bp4-shop2 .bp4-shape16 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 23px;
@@ -773,7 +620,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-profileicon {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-profileicon {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 21px;
@@ -783,13 +630,13 @@ div {
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-profileicon {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-profileicon {
   pointer-events      : auto;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-profileicon:hover {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-profileicon:hover {
   
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-profileicon .bp1-shape {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-profileicon .bp4-shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 20px;
@@ -800,7 +647,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-profileicon .bp1-shape1 {
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-profileicon .bp4-shape1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 20px;
@@ -811,28 +658,19 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-path2 {
-  background-color    : rgba(255,255,255,0.0);
-  position            : relative;
-  height              : auto;
-  margin              : 10px 0 0 0;
-  width               : 1353px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp1-index .bp1-stackedgroup {
+.bp4-homelq .bp4-stackedgroup {
   display             : flex;
   justify-content     : flex-start;
   flex-direction      : row;
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 610px;
+  height              : 496px;
   width               : auto;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup-layout-container {
+.bp4-homelq .bp4-stackedgroup-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 0;
@@ -845,46 +683,46 @@ div {
   display             : flex;
   left                : 0;
 }
-.bp1-index .bp1-stackedgroup-layout-container > * {
+.bp4-homelq .bp4-stackedgroup-layout-container > * {
   pointer-events      : auto;
 }
-.bp1-index .bp1-stackedgroup .bp1-left {
+.bp4-homelq .bp4-stackedgroup .bp4-left {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 576px;
+  height              : 496px;
   margin              : 0;
-  width               : 433px;
+  width               : 392px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 576px;
+  height              : 496px;
   width               : 100%;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1-layout-container {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 0;
   height              : 100%;
-  width               : 433px;
+  width               : 392px;
   justify-content     : center;
   position            : relative;
   margin              : 0;
   display             : flex;
   left                : 0px;
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1-layout-container > * {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1-layout-container > * {
   pointer-events      : auto;
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-rectangle {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-rectangle {
   background-color    : rgba(77, 91, 182, 1.0);
-  top                 : 25px;
-  height              : 521px;
-  width               : 432px;
+  top                 : 22px;
+  height              : 449px;
+  width               : 372px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -892,22 +730,22 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.09;
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-oqvamoscriarhj {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-oqvamoscriarhj {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 205px;
-  width               : calc(100.00% - 1px);
+  height              : 177px;
+  width               : calc(100.00% - 16px);
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-rectangle1 {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-oqvamoscriarhj .bp4-rectangle1 {
   background-color    : rgba(0, 0, 0, 1.0);
   top                 : 0px;
-  height              : 205px;
-  width               : 432px;
+  height              : 177px;
+  width               : 376px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -915,69 +753,70 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.06;
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-oquevamos {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-oqvamoscriarhj .bp4-oquevamos {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 30px;
+  top                 : 31px;
   height              : auto;
-  width               : 374px;
+  width               : 338px;
   position            : absolute;
   margin              : 0;
-  left                : 41px;
+  left                : 37px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Montserrat", Helvetica, Arial, serif;
   font-weight         : 700;
   font-style          : normal;
-  font-size           : 48.0px;
+  font-size           : 41.0px;
   color               : rgba(116, 191, 187, 1.0);
   text-align          : left;
-  letter-spacing      : -0.1px;
+  letter-spacing      : -0.09px;
   line-height         : 34.0px;
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-criarhoje {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-oqvamoscriarhj .bp4-criarhoje {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 120px;
+  top                 : 107px;
   height              : auto;
-  width               : 304px;
+  width               : 275px;
   position            : absolute;
   margin              : 0;
-  left                : 41px;
+  left                : 37px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
-  font-size           : 48.0px;
+  font-size           : 41.0px;
   color               : rgba(116, 191, 187, 1.0);
   text-align          : left;
-  letter-spacing      : -0.1px;
-  line-height         : 58.0px;
+  letter-spacing      : -0.09px;
+  line-height         : 50.0px;
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-criadoresdescription {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-criadoresdescription {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
   bottom              : 0px;
-  height              : 244px;
-  width               : 410px;
+  height              : 210px;
+  width               : 353px;
   position            : absolute;
   margin              : 0;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-shadowcopy {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-criadoresdescription .bp4-shadowcopy {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 185px;
-  height              : 59px;
-  width               : 376px;
+  top                 : 159px;
+  height              : 51px;
+  width               : 324px;
   position            : absolute;
   margin              : 0;
-  left                : 17px;
+  left                : 15px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  filter              : blur(10px);
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-rectanglecopy {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-criadoresdescription .bp4-rectanglecopy {
   background-color    : rgba(254, 255, 254, 1.0);
   top                 : 0px;
-  height              : 214px;
-  width               : 410px;
+  height              : 184px;
+  width               : 353px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -985,33 +824,33 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-loremipsumdolorsi {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-criadoresdescription .bp4-loremipsumdolorsi {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 26px;
+  top                 : 13px;
   height              : auto;
-  width               : 371px;
+  width               : 320px;
   position            : absolute;
   margin              : 0;
-  left                : 21px;
+  left                : 18px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Montserrat", Helvetica, Arial, serif;
   font-weight         : 700;
   font-style          : normal;
-  font-size           : 16.0px;
+  font-size           : 14.0px;
   color               : rgba(138, 140, 142, 1.0);
   text-align          : left;
-  letter-spacing      : 0.25px;
-  line-height         : 19.0px;
+  letter-spacing      : 0.22px;
+  line-height         : 18.0px;
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-label1 {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-label1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 96px;
+  top                 : 64px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 295px;
+  left                : 244px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Roboto", Helvetica, Arial, serif;
@@ -1019,125 +858,126 @@ div {
   font-style          : normal;
   font-size           : 268.0px;
   color               : rgba(155, 184, 218, 0.11);
-  text-align          : justify;
+  text-align          : right;
   line-height         : 314.0px;
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 228px;
-  height              : 73px;
-  width               : 293px;
+  top                 : 196px;
+  height              : 63px;
+  width               : 253px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar .bp4-pesquisar1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 73px;
-  width               : 293px;
+  height              : 63px;
+  width               : 252px;
   position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar .bp4-pesquisar1 .bp4-backgroundcopy2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 73px;
-  width               : 293px;
+  height              : 63px;
+  width               : 252px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-shadow {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar .bp4-pesquisar1 .bp4-backgroundcopy2 .bp4-shadow {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 59px;
-  height              : 14px;
-  width               : 269px;
+  top                 : 51px;
+  height              : 12px;
+  width               : 231px;
   position            : absolute;
   margin              : 0;
-  left                : 12px;
+  left                : 10px;
   transform           : rotate(0deg);
   opacity             : 0.7;
+  filter: blur(5px);
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-rectangle1 {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar .bp4-pesquisar1 .bp4-backgroundcopy2 .bp4-rectangle1 {
   background-color    : rgba(254, 255, 254, 1.0);
   top                 : 0px;
-  height              : 66px;
-  width               : 293px;
+  height              : 57px;
+  width               : 252px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  border-radius       : 32px;
+  border-radius       : 28px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar .bp4-pesquisar1 .bp4-backgroundcopy2 .bp4-search {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 24px;
-  height              : 16px;
-  width               : 16px;
+  top                 : 21px;
+  height              : 14px;
+  width               : 14px;
   position            : absolute;
   margin              : 0;
-  left                : 249px;
+  left                : 214px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search .bp1-shape {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar .bp4-pesquisar1 .bp4-backgroundcopy2 .bp4-search .bp4-shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 13px;
-  width               : 13px;
+  height              : 11px;
+  width               : 11px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search .bp1-path {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar .bp4-pesquisar1 .bp4-backgroundcopy2 .bp4-search .bp4-path {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
-  height              : 4px;
-  width               : 4px;
+  height              : 3px;
+  width               : 3px;
   position            : absolute;
   margin              : 0;
   left                : 3px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search .bp1-path1 {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar .bp4-pesquisar1 .bp4-backgroundcopy2 .bp4-search .bp4-path1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
+  top                 : 10px;
   height              : 4px;
   width               : 4px;
   position            : absolute;
   margin              : 0;
-  left                : 11px;
+  left                : 10px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar .bp4-pesquisar1 .bp4-dropdownlist {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 21px;
+  top                 : 19px;
   height              : 28px;
-  width               : 207px;
+  width               : 178px;
   position            : absolute;
   margin              : 0;
-  left                : 29px;
+  left                : 25px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist .bp1-textpesquiseaqui {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar .bp4-pesquisar1 .bp4-dropdownlist .bp4-textpesquiseaqui {
   background-color    : rgba(255,255,255,0.0);
   top                 : -2px;
   height              : 30px;
-  width               : 207px;
+  width               : 178px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -1154,90 +994,71 @@ div {
   resize              : none;
   padding             : 0;
 }
-.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist .bp1-textpesquiseaqui::placeholder {
+.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar .bp4-pesquisar1 .bp4-dropdownlist .bp4-textpesquiseaqui::placeholder {
   color               : rgba(17, 28, 95, 0.6);
 }
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex {
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 610px;
-  margin              : 0 0 0 30px;
-  width               : 938px;
+  height              : 441px;
+  margin              : 0 0 0 10px;
+  width               : 597px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 {
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right {
   background-color    : rgba(255,255,255,0.0);
-  position            : relative;
-  height              : 610px;
+  min-width           : 514px;
+  height              : 419px;
+  max-height          : 489px;
   width               : 100%;
+  min-height          : 379px;
+  max-width           : 700px;
+  position            : relative;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1-layout-container {
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 0;
   height              : 100%;
-  width               : 938px;
+  width               : 580px;
   justify-content     : center;
-  position            : relative;
+  position            : absolute;
   margin              : 0;
   display             : flex;
-  left                : 0px;
+  left                : 4px;
 }
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1-layout-container > * {
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right-layout-container > * {
   pointer-events      : auto;
 }
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-rectangle {
-  background-color    : rgba(77, 91, 182, 1.0);
-  top                 : 0px;
-  height              : 610px;
-  width               : 912px;
-  position            : absolute;
-  margin              : 0;
-  left                : 26px;
-  border-radius       : 180px;
-  transform           : rotate(0deg);
-  opacity             : 0.1;
-}
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right {
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 609px;
-  width               : 904px;
+  height              : 90.21%;
+  width               : 65.00%;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-shape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 96.72%;
-  width               : 64.93%;
-  position            : absolute;
-  margin              : 0;
-  left                : 1.33%;
+  left                : 1.38%;
   transform           : rotate(0deg);
   opacity             : 0.5;
 }
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-containgroup {
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-containgroup {
   background-color    : rgba(255,255,255,0.0);
   right               : 3.10%;
-  bottom              : 0px;
-  height              : 87.03%;
-  width               : 87.06%;
+  bottom              : 0.48%;
+  height              : 87.59%;
+  width               : 87.07%;
   position            : absolute;
   margin              : 0;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-containgroup .bp1-containbanner {
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-containgroup .bp4-containbanner {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 85.09%;
+  top                 : 0.27%;
+  height              : 79.02%;
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -1245,7 +1066,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-containgroup .bp1-containbanner .bp1-containbanner1 {
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-containgroup .bp4-containbanner .bp4-containbanner1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -1256,10 +1077,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-containgroup .bp1-conte372do {
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-containgroup .bp4-conte372do {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 0px;
-  height              : 13.77%;
+  height              : 19.89%;
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -1274,95 +1095,44 @@ div {
   text-align          : center;
   line-height         : 73.0px;
 }
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-avisualgroup {
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-avisualgroup {
   background-color    : rgba(255,255,255,0.0);
-  right               : 1.44%;
-  bottom              : 0px;
-  height              : 83.58%;
-  width               : 88.72%;
+  right               : 1.55%;
+  bottom              : 0.24%;
+  height              : 84.49%;
+  width               : 88.62%;
   position            : absolute;
   margin              : 0;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-avisualgroup .bp1-avisualbanner {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 0px;
-  height              : 75.64%;
-  width               : 98.13%;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-avisualgroup .bp1-avisualbanner .bp1-avisualbanner1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 99.74%;
-  width               : 99.87%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-avisualgroup .bp1-avisual {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 0px;
-  height              : 14.34%;
-  width               : 98.00%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Montserrat", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 60.0px;
-  color               : rgba(101, 143, 192, 1.0);
-  text-align          : center;
-  line-height         : 73.0px;
-}
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-programmgroup {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  bottom              : 0px;
-  height              : 87.68%;
-  width               : 90.15%;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-programmgroup .bp1-programmingbanner {
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-avisualgroup .bp4-avisualbanner {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
   top                 : 0px;
-  height              : 79.21%;
-  width               : 98.16%;
+  height              : 69.77%;
+  width               : 98.25%;
   position            : absolute;
   margin              : 0;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-programmgroup .bp1-programmingbanner .bp1-programmingbanner1 {
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-avisualgroup .bp4-avisualbanner .bp4-avisualbanner1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
-  width               : 99.87%;
+  width               : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-programmgroup .bp1-programa {
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-avisualgroup .bp4-avisual {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 0px;
-  height              : 13.67%;
-  width               : 96.44%;
+  bottom              : 0.28%;
+  height              : 20.62%;
+  width               : 98.25%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1376,18 +1146,69 @@ div {
   text-align          : center;
   line-height         : 73.0px;
 }
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llball {
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-programmgroup {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 28.74%;
-  height              : 5.58%;
-  width               : 3.76%;
+  right               : 0px;
+  bottom              : 0.24%;
+  height              : 88.31%;
+  width               : 90.17%;
   position            : absolute;
   margin              : 0;
-  left                : 2.43%;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llball .bp1-a32 {
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-programmgroup .bp4-programmingbanner {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : 73.51%;
+  width               : 98.28%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-programmgroup .bp4-programmingbanner .bp4-programmingbanner1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 99.81%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-programmgroup .bp4-programa {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0.27%;
+  height              : 19.73%;
+  width               : 96.56%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 60.0px;
+  color               : rgba(101, 143, 192, 1.0);
+  text-align          : center;
+  line-height         : 73.0px;
+}
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-llball {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 33.17%;
+  height              : 5.25%;
+  width               : 3.79%;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.41%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-llball .bp4-a32 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -1398,29 +1219,29 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.15;
 }
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llball .bp1-a42 {
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-llball .bp4-a42 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 33.82%;
-  height              : 32.35%;
-  width               : 32.35%;
+  top                 : 34.09%;
+  height              : 31.82%;
+  width               : 31.82%;
   position            : absolute;
   margin              : 0;
-  left                : 33.82%;
+  left                : 34.09%;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llballcopy {
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-llballcopy {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 41.54%;
-  height              : 5.58%;
-  width               : 3.76%;
+  bottom              : 45.35%;
+  height              : 5.25%;
+  width               : 3.79%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llballcopy .bp1-a321 {
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-llballcopy .bp4-a321 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -1431,29 +1252,29 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.15;
 }
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llballcopy .bp1-a421 {
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-llballcopy .bp4-a421 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 33.82%;
-  height              : 32.35%;
-  width               : 32.35%;
+  top                 : 34.09%;
+  height              : 31.82%;
+  width               : 31.82%;
   position            : absolute;
   margin              : 0;
-  left                : 33.82%;
+  left                : 34.09%;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-selectedball {
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-selectedball {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 17.08%;
-  height              : 5.58%;
-  width               : 3.76%;
+  bottom              : 22.43%;
+  height              : 5.25%;
+  width               : 3.79%;
   position            : absolute;
   margin              : 0;
   left                : 7.41%;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-selectedball .bp1-a5 {
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-selectedball .bp4-a5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -1464,16 +1285,28 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.1;
 }
-.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-selectedball .bp1-a6 {
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-selectedball .bp4-a6 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 33.82%;
-  height              : 32.35%;
-  width               : 32.35%;
+  top                 : 34.09%;
+  height              : 31.82%;
+  width               : 31.82%;
   position            : absolute;
   margin              : 0;
-  left                : 33.82%;
+  left                : 34.09%;
   transform           : rotate(0deg);
   opacity             : 1.0;
+}
+.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-rectangle {
+  background-color    : rgba(77, 91, 182, 1.0);
+  top                 : 0px;
+  height              : 441px;
+  width               : 597px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 95px;
+  transform           : rotate(0deg);
+  opacity             : 0.09;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
@@ -1672,6 +1505,13 @@ div {
   left                : 22px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-hometablet .bp3-panel .bp3-tokibutton .bp3-tokilogo {
+  pointer-events      : auto;
+}
+.bp3-hometablet .bp3-panel .bp3-tokibutton .bp3-tokilogo:hover {
+  transform           : translate(0, -5px);
 }
 .bp3-hometablet .bp3-panel .bp3-tokibutton .bp3-tokilogo .bp3-tokilogo1 {
   background-color    : rgba(255,255,255,0.0);
@@ -1683,6 +1523,13 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-hometablet .bp3-panel .bp3-tokibutton .bp3-tokilogo .bp3-tokilogo1 {
+  pointer-events      : auto;
+}
+.bp3-hometablet .bp3-panel .bp3-tokibutton .bp3-tokilogo .bp3-tokilogo1:hover {
+  transform           : translate(0, -5px);
 }
 .bp3-hometablet .bp3-panel .bp3-tokibutton .bp3-tokilogo .bp3-tokilogo1 .bp3-bitmap {
   background-color    : rgba(255,255,255,0.0);
@@ -1699,7 +1546,8 @@ div {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 100%;
-  width               : 737px;
+  width               : 735px;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1718,11 +1566,22 @@ div {
 .bp3-hometablet .bp3-headertablet-layout-container > * {
   pointer-events      : auto;
 }
+.bp3-hometablet .bp3-headertablet .bp3-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 129px;
+  width               : 735px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
 .bp3-hometablet .bp3-headertablet .bp3-header {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 100%;
-  width               : 737px;
+  width               : 738px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1731,9 +1590,9 @@ div {
   flex-direction      : column;
   top                 : 0px;
   align-items         : center;
-  height              : 129px;
+  height              : 130px;
   width               : 100%;
-  position            : relative;
+  position            : absolute;
   margin              : 0;
   display             : flex;
   left                : 0;
@@ -1744,7 +1603,7 @@ div {
 .bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 129px;
+  height              : 130px;
   width               : 100%;
   position            : relative;
   margin              : 0;
@@ -1760,7 +1619,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
-  width               : 737px;
+  width               : 738px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -1770,16 +1629,16 @@ div {
 .bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup1 .bp3-stackedgroup2 {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 129px;
+  height              : 130px;
   margin              : 0;
-  width               : 735px;
+  width               : 738px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-criadoreslogoout {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : calc(1.56% + 32px);
+  height              : calc(1.55% + 32px);
   width               : 320px;
   position            : absolute;
   margin              : 0;
@@ -1788,7 +1647,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-criadoreslogoout .bp3-background {
+.bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-criadoreslogoout .bp3-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 34px;
@@ -2015,29 +1874,29 @@ div {
   align-items         : flex-start;
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
-  height              : 126px;
+  height              : 127px;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 121px;
+  left                : 175px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-headerbuttons {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 126px;
+  height              : 127px;
   margin              : 0;
-  width               : 473px;
+  width               : 474px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-headerbuttons .bp3-background {
+.bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-headerbuttons .bp3-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 126px;
-  width               : 473px;
+  height              : 127px;
+  width               : 474px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2047,11 +1906,11 @@ div {
 .bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-headerbuttons .bp3-menutab {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 111px;
-  width               : 444px;
+  height              : 112px;
+  width               : 445px;
   position            : absolute;
   margin              : 0;
-  left                : 29px;
+  left                : 30px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2080,18 +1939,18 @@ div {
   width               : 89.66%;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : -3.45%;
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
 .bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-headerbuttons .bp3-menutab .bp3-lines .bp3-linecopy4 {
   background-color    : rgba(255,255,255,0.0);
-  right               : 10.34%;
   bottom              : 12.00%;
   height              : 4.00%;
-  width               : 72.41%;
+  width               : 68.97%;
   position            : absolute;
   margin              : 0;
+  left                : 15.52%;
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
@@ -2102,7 +1961,7 @@ div {
   width               : 79.31%;
   position            : absolute;
   margin              : 0;
-  left                : 10.34%;
+  left                : 6.90%;
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
@@ -2113,18 +1972,18 @@ div {
   width               : 89.66%;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : -3.45%;
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
 .bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-headerbuttons .bp3-menutab .bp3-lines .bp3-linecopy2 {
   background-color    : rgba(255,255,255,0.0);
-  right               : 10.34%;
   bottom              : 12.00%;
   height              : 4.00%;
-  width               : 72.41%;
+  width               : 68.97%;
   position            : absolute;
   margin              : 0;
+  left                : 15.52%;
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
@@ -2135,29 +1994,29 @@ div {
   width               : 79.31%;
   position            : absolute;
   margin              : 0;
-  left                : 10.34%;
+  left                : 6.90%;
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
 .bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-headerbuttons .bp3-menutab .bp3-lines .bp3-menu {
   background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
   top                 : 2.00%;
   height              : 96.00%;
   width               : 89.66%;
   position            : absolute;
   margin              : 0;
+  left                : 5.17%;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-headerbuttons .bp3-menutab .bp3-lines .bp3-menucopy {
   background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
   top                 : 2.00%;
   height              : 96.00%;
   width               : 89.66%;
   position            : absolute;
   margin              : 0;
+  left                : 5.17%;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2168,8 +2027,8 @@ div {
   align-items         : flex-end;
   background-color    : rgba(255,255,255,0.0);
   bottom              : 0px;
-  height              : 43.24%;
-  width               : 96.85%;
+  height              : 42.86%;
+  width               : 96.63%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2227,7 +2086,7 @@ div {
 }
 .bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-aboutbuttongroupmobile .bp3-aboutbutton .bp3-aboutbutton1 .bp3-sobre {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : -14.29%;
+  bottom              : -10.71%;
   height              : 19px;
   width               : 100%;
   position            : absolute;
@@ -2272,7 +2131,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
-.bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-aboutbuttongroupmobile .bp3-aboutbutton .bp3-aboutbutton1 .bp3-background1 {
+.bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-aboutbuttongroupmobile .bp3-aboutbutton .bp3-aboutbutton1 .bp3-background2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -2334,7 +2193,7 @@ div {
 }
 .bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-pricesbuttongroupmobile .bp3-pricesbutton .bp3-pricesbutton1 .bp3-pre347os {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : -14.81%;
+  bottom              : -11.11%;
   height              : 19px;
   width               : 100%;
   position            : absolute;
@@ -2352,7 +2211,7 @@ div {
 }
 .bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-pricesbuttongroupmobile .bp3-pricesbutton .bp3-pricesbutton1 .bp3-pre347os1 {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : -14.81%;
+  bottom              : -11.11%;
   height              : 19px;
   width               : 100%;
   position            : absolute;
@@ -2368,7 +2227,7 @@ div {
   text-align          : center;
   line-height         : 19.0px;
 }
-.bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-pricesbuttongroupmobile .bp3-pricesbutton .bp3-pricesbutton1 .bp3-background1 {
+.bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-pricesbuttongroupmobile .bp3-pricesbutton .bp3-pricesbutton1 .bp3-background2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -2430,7 +2289,7 @@ div {
 }
 .bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-contactbuttongroupmobile .bp3-contactbutton .bp3-contactbutton1 .bp3-contato {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : -14.81%;
+  bottom              : -11.11%;
   height              : 19px;
   width               : 100%;
   position            : absolute;
@@ -2448,7 +2307,7 @@ div {
 }
 .bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-contactbuttongroupmobile .bp3-contactbutton .bp3-contactbutton1 .bp3-contato1 {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : -14.81%;
+  bottom              : -11.11%;
   height              : 19px;
   width               : 100%;
   position            : absolute;
@@ -2464,7 +2323,7 @@ div {
   text-align          : center;
   line-height         : 19.0px;
 }
-.bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-contactbuttongroupmobile .bp3-contactbutton .bp3-contactbutton1 .bp3-background1 {
+.bp3-hometablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-contactbuttongroupmobile .bp3-contactbutton .bp3-contactbutton1 .bp3-background2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -2483,7 +2342,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 23px;
-  margin              : 0 0 0 49px;
+  margin              : 0 0 0 21px;
   width               : auto;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -2541,7 +2400,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 21px;
-  margin              : 0 0 0 50px;
+  margin              : 0 0 0 25px;
   width               : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -2579,7 +2438,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : auto;
-  margin              : -60px 0 0 0;
+  margin              : -75px 0 0 0;
   width               : 737px;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -2723,8 +2582,7 @@ div {
   left                : 15px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  -webkit-filter      : blur(5px);
-  
+  filter              : blur(5px);
 }
 .bp3-hometablet .bp3-stackedgroup .bp3-left .bp3-left1 .bp3-criadoresdescription .bp3-rectanglecopy {
   background-color    : rgba(254, 255, 254, 1.0);
@@ -2818,6 +2676,7 @@ div {
   left                : 10px;
   transform           : rotate(0deg);
   opacity             : 0.7;
+  filter: blur(5px);
 }
 .bp3-hometablet .bp3-stackedgroup .bp3-left .bp3-left1 .bp3-pesquisar .bp3-pesquisar1 .bp3-backgroundcopy2 .bp3-rectangle1 {
   background-color    : rgba(254, 255, 254, 1.0);
@@ -3413,6 +3272,13 @@ div {
   left                : 23px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-homemobile .bp2-panel .bp2-tokibutton .bp2-tokilogo {
+  pointer-events      : auto;
+}
+.bp2-homemobile .bp2-panel .bp2-tokibutton .bp2-tokilogo:hover {
+  transform           : translate(0, -5px);
 }
 .bp2-homemobile .bp2-panel .bp2-tokibutton .bp2-tokilogo .bp2-tokilogo1 {
   background-color    : rgba(255,255,255,0.0);
@@ -3424,6 +3290,13 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-homemobile .bp2-panel .bp2-tokibutton .bp2-tokilogo .bp2-tokilogo1 {
+  pointer-events      : auto;
+}
+.bp2-homemobile .bp2-panel .bp2-tokibutton .bp2-tokilogo .bp2-tokilogo1:hover {
+  transform           : translate(0, -5px);
 }
 .bp2-homemobile .bp2-panel .bp2-tokibutton .bp2-tokilogo .bp2-tokilogo1 .bp2-bitmap {
   background-color    : rgba(255,255,255,0.0);
@@ -3859,7 +3732,7 @@ div {
   left                : 11px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  filter              : blur(5px);
+  filter: blur(10px);
 }
 .bp2-homemobile .bp2-left .bp2-left1 .bp2-criadoresdescription .bp2-rectanglecopy {
   background-color    : rgba(254, 255, 254, 1.0);
@@ -3953,6 +3826,7 @@ div {
   left                : 11px;
   transform           : rotate(0deg);
   opacity             : 0.7;
+  filter: blur(5px);
 }
 .bp2-homemobile .bp2-left .bp2-left1 .bp2-pesquisar .bp2-pesquisar1 .bp2-backgroundcopy2 .bp2-rectangle2 {
   background-color    : rgba(254, 255, 254, 1.0);
@@ -4929,7 +4803,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : auto;
-  margin              : -60px 0 0 0;
+  margin              : -75px 0 0 0;
   width               : 529px;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -5050,11 +4924,11 @@ div {
   word-break          : break-all;
   word-break          : break-word;
 }
-.bp4-homelq {
+.bp1-index {
   width               : 100%;
-  min-width           : 1024px;
+  min-width           : 1440px;
   height              : 100vh;
-  min-height          : 695px;
+  min-height          : 856px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -5063,10 +4937,25 @@ div {
   background-color    : rgba(255, 255, 255, 1.0);
   opacity             : 1.0;
 }
+a {
+  text-decoration     : none;
+}
 div {
   -webkit-text-size-adjust: none;
 }
-.bp4-homelq .bp4-wave {
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+textarea:focus, input:focus {
+  outline             : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-index .bp1-wave {
   background-color    : rgba(255,255,255,0.0);
   top                 : -574px;
   height              : calc(100.00% + 603px);
@@ -5077,28 +4966,26 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-wavecopy {
+.bp1-index .bp1-wavecopy {
   background-color    : rgba(255,255,255,0.0);
-  top                 : -130px;
-  height              : calc(100.00% - 320px);
-  width               : calc(100.00% - 240px);
+  top                 : -212px;
+  height              : calc(100.00% - 391px);
+  width               : calc(100.00% - 339px);
   position            : absolute;
   margin              : 0;
-  left                : 368px;
+  left                : 467px;
   transform           : rotate(0deg);
   opacity             : 0.3;
 }
-.bp4-homelq .bp4-panel {
+.bp1-index .bp1-panel {
   background-color    : rgba(255,255,255,0.0);
-  margin-left         : -8px;
-  height              : 100%;
-  width               : 270px;
-  margin-right        : 8px;
   position            : relative;
+  height              : 100%;
+  width               : 1440px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-panel-layout-container {
+.bp1-index .bp1-panel-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   align-items         : center;
@@ -5110,32 +4997,32 @@ div {
   display             : flex;
   left                : 0;
 }
-.bp4-homelq .bp4-panel-layout-container > * {
+.bp1-index .bp1-panel-layout-container > * {
   pointer-events      : auto;
 }
-.bp4-homelq .bp4-panel .bp4-panel2 {
+.bp1-index .bp1-panel .bp1-panel2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 13px;
   height              : 84px;
-  width               : 270px;
+  width               : 1440px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
-.bp4-homelq .bp4-panel .bp4-tokibutton {
+.bp1-index .bp1-panel .bp1-tokibutton {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 92px;
   width               : 243px;
   position            : absolute;
   margin              : 0;
-  left                : 14px;
+  left                : 601px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-panel .bp4-tokibutton .bp4-tokilogo {
+.bp1-index .bp1-panel .bp1-tokibutton .bp1-tokilogo {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 87px;
@@ -5145,8 +5032,15 @@ div {
   left                : 22px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
 }
-.bp4-homelq .bp4-panel .bp4-tokibutton .bp4-tokilogo .bp4-tokilogo1 {
+.bp1-index .bp1-panel .bp1-tokibutton .bp1-tokilogo {
+  pointer-events      : auto;
+}
+.bp1-index .bp1-panel .bp1-tokibutton .bp1-tokilogo:hover {
+  transform           : translate(0, -5px);
+}
+.bp1-index .bp1-panel .bp1-tokibutton .bp1-tokilogo .bp1-tokilogo1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 87px;
@@ -5156,8 +5050,15 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
 }
-.bp4-homelq .bp4-panel .bp4-tokibutton .bp4-tokilogo .bp4-tokilogo1 .bp4-bitmap {
+.bp1-index .bp1-panel .bp1-tokibutton .bp1-tokilogo .bp1-tokilogo1 {
+  pointer-events      : auto;
+}
+.bp1-index .bp1-panel .bp1-tokibutton .bp1-tokilogo .bp1-tokilogo1:hover {
+  transform           : translate(0, -5px);
+}
+.bp1-index .bp1-panel .bp1-tokibutton .bp1-tokilogo .bp1-tokilogo1 .bp1-bitmap {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 86px;
@@ -5168,79 +5069,81 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq {
+.bp1-index .bp1-header {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 100%;
-  width               : 976px;
+  width               : 1380px;
+  overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 20px;
-  align-items         : center;
-  height              : 67px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp4-homelq .bp4-headerlq-layout-container > * {
-  pointer-events      : auto;
-}
-.bp4-homelq .bp4-headerlq .bp4-headergroup {
-  background-color    : rgba(255,255,255,0.0);
-  position            : relative;
-  height              : 100%;
-  width               : 976px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-homelq .bp4-headerlq .bp4-headergroup-layout-container {
+.bp1-index .bp1-header-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 0px;
   align-items         : center;
-  height              : 67px;
+  height              : 108px;
   width               : 100%;
-  position            : relative;
+  position            : absolute;
   margin              : 0;
   display             : flex;
   left                : 0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup-layout-container > * {
+.bp1-index .bp1-header-layout-container > * {
   pointer-events      : auto;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-path2 {
+.bp1-index .bp1-header .bp1-background {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 65px;
-  height              : 2px;
-  width               : calc(100.00% - 5px);
+  top                 : 0px;
+  height              : 108px;
+  width               : 1380px;
   position            : absolute;
   margin              : 0;
-  left                : 5px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto {
+.bp1-index .bp1-header .bp1-headergroup {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 23px;
+  height              : 64px;
+  width               : calc(100.00% - 15px);
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : center;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 1353px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 {
   display             : flex;
   justify-content     : flex-start;
   flex-direction      : row;
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  position            : relative;
   height              : 52px;
-  width               : auto;
-  position            : absolute;
   margin              : 0;
-  left                : 1px;
+  width               : auto;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 34px;
@@ -5250,7 +5153,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-background {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 34px;
@@ -5261,7 +5164,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 34px;
@@ -5272,7 +5175,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 33px;
@@ -5283,7 +5186,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape1 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 32px;
@@ -5294,18 +5197,18 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape2 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 32px;
   width               : 10px;
   position            : absolute;
   margin              : 0;
-  left                : 57px;
+  left                : 58px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape3 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 32px;
@@ -5316,7 +5219,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape4 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 32px;
@@ -5327,7 +5230,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape5 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 33px;
@@ -5338,7 +5241,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape6 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape6 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 32px;
@@ -5349,7 +5252,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape7 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape7 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 32px;
@@ -5360,7 +5263,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape8 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 33px;
@@ -5371,7 +5274,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-path {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-path {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : 10px;
@@ -5382,7 +5285,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape9 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape9 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 11px;
   height              : 10px;
@@ -5393,7 +5296,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape10 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape10 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 29px;
@@ -5404,7 +5307,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape11 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape11 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 30px;
@@ -5415,7 +5318,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-path1 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-path1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
   height              : 23px;
@@ -5426,7 +5329,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-path21 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-path21 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 29px;
@@ -5437,7 +5340,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape12 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape12 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 30px;
@@ -5448,7 +5351,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape13 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape13 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 3px;
   height              : 29px;
@@ -5459,7 +5362,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape14 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-criadoreslogoout .bp1-logocriadoresout .bp1-shape14 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : 30px;
@@ -5470,7 +5373,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 {
   display             : flex;
   justify-content     : flex-start;
   flex-direction      : row;
@@ -5478,12 +5381,12 @@ div {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 52px;
-  margin              : 0 0 0 179px;
+  margin              : 0 0 0 492px;
   width               : auto;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 52px;
@@ -5493,7 +5396,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-background2 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-background2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 52px;
@@ -5504,7 +5407,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-aboutbutton {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-aboutbutton {
   background-color    : rgba(255,255,255,0.0);
   right               : 245px;
   top                 : 0px;
@@ -5516,7 +5419,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-aboutbutton .bp4-aboutbutton1 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-aboutbutton .bp1-aboutbutton1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -5527,7 +5430,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-aboutbutton .bp4-aboutbutton1 .bp4-sobre {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-aboutbutton .bp1-aboutbutton1 .bp1-sobre {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 2.00%;
   height              : 19px;
@@ -5545,7 +5448,7 @@ div {
   text-align          : center;
   line-height         : 19.0px;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-aboutbutton .bp4-aboutbutton1 .bp4-sobre1 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-aboutbutton .bp1-aboutbutton1 .bp1-sobre1 {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 2.00%;
   height              : 19px;
@@ -5563,7 +5466,7 @@ div {
   text-align          : center;
   line-height         : 19.0px;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-aboutbutton .bp4-aboutbutton1 .bp4-ballsellection {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-aboutbutton .bp1-aboutbutton1 .bp1-ballsellection {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 12.00%;
@@ -5574,7 +5477,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-aboutbutton .bp4-aboutbutton1 .bp4-background {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-aboutbutton .bp1-aboutbutton1 .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -5585,7 +5488,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-pricesbutton {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-pricesbutton {
   background-color    : rgba(255,255,255,0.0);
   right               : 128px;
   top                 : 0px;
@@ -5597,7 +5500,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-pricesbutton .bp4-pricesbutton1 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-pricesbutton .bp1-pricesbutton1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -5608,7 +5511,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-pricesbutton .bp4-pricesbutton1 .bp4-pre347os {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-pricesbutton .bp1-pricesbutton1 .bp1-pre347os {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 2.00%;
   height              : 19px;
@@ -5626,7 +5529,7 @@ div {
   text-align          : center;
   line-height         : 19.0px;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-pricesbutton .bp4-pricesbutton1 .bp4-pre347os1 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-pricesbutton .bp1-pricesbutton1 .bp1-pre347os1 {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 2.00%;
   height              : 19px;
@@ -5644,7 +5547,7 @@ div {
   text-align          : center;
   line-height         : 19.0px;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-pricesbutton .bp4-pricesbutton1 .bp4-background {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-pricesbutton .bp1-pricesbutton1 .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -5655,7 +5558,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-contactbutton {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-contactbutton {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
   top                 : 0px;
@@ -5667,7 +5570,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-contactbutton .bp4-contactbutton1 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-contactbutton .bp1-contactbutton1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -5678,7 +5581,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-contactbutton .bp4-contactbutton1 .bp4-contato {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-contactbutton .bp1-contactbutton1 .bp1-contato {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 2.00%;
   height              : 19px;
@@ -5696,7 +5599,7 @@ div {
   text-align          : center;
   line-height         : 19.0px;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-contactbutton .bp4-contactbutton1 .bp4-contato1 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-contactbutton .bp1-contactbutton1 .bp1-contato1 {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 2.00%;
   height              : 19px;
@@ -5714,7 +5617,7 @@ div {
   text-align          : center;
   line-height         : 19.0px;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-contactbutton .bp4-contactbutton1 .bp4-background {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-contactbutton .bp1-contactbutton1 .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -5725,7 +5628,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-headerbuttons .bp4-rectangle {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-headerbuttons .bp1-rectangle {
   background-color    : rgba(116, 191, 187, 1.0);
   top                 : 19px;
   height              : 7px;
@@ -5737,7 +5640,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 {
   display             : flex;
   justify-content     : flex-start;
   flex-direction      : row;
@@ -5745,12 +5648,12 @@ div {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 23px;
-  margin              : 0 0 0 75px;
+  margin              : 0 0 0 112px;
   width               : auto;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-shopgroup {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-shopgroup {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 23px;
@@ -5760,13 +5663,13 @@ div {
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-shopgroup {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-shopgroup {
   pointer-events      : auto;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-shopgroup:hover {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-shopgroup:hover {
   transform           : translate(0, -5px);
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-shopgroup .bp4-shop2 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-shopgroup .bp1-shop2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 23px;
@@ -5777,7 +5680,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-shopgroup .bp4-shop2 .bp4-shape15 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-shopgroup .bp1-shop2 .bp1-shape15 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 23px;
@@ -5788,7 +5691,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-shopgroup .bp4-shop2 .bp4-shape16 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-shopgroup .bp1-shop2 .bp1-shape16 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 23px;
@@ -5799,7 +5702,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-profileicon {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-profileicon {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 21px;
@@ -5809,13 +5712,13 @@ div {
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-profileicon {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-profileicon {
   pointer-events      : auto;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-profileicon:hover {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-profileicon:hover {
   
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-profileicon .bp4-shape {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-profileicon .bp1-shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 20px;
@@ -5826,7 +5729,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-profileicon .bp4-shape1 {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-profileicon .bp1-shape1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 20px;
@@ -5837,19 +5740,28 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup {
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-path2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 10px 0 0 0;
+  width               : 1353px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-index .bp1-stackedgroup {
   display             : flex;
   justify-content     : flex-start;
   flex-direction      : row;
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 496px;
+  height              : 610px;
   width               : auto;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup-layout-container {
+.bp1-index .bp1-stackedgroup-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 0;
@@ -5862,46 +5774,46 @@ div {
   display             : flex;
   left                : 0;
 }
-.bp4-homelq .bp4-stackedgroup-layout-container > * {
+.bp1-index .bp1-stackedgroup-layout-container > * {
   pointer-events      : auto;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left {
+.bp1-index .bp1-stackedgroup .bp1-left {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 496px;
+  height              : 576px;
   margin              : 0;
-  width               : 392px;
+  width               : 433px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 496px;
+  height              : 576px;
   width               : 100%;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1-layout-container {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 0;
   height              : 100%;
-  width               : 392px;
+  width               : 433px;
   justify-content     : center;
   position            : relative;
   margin              : 0;
   display             : flex;
   left                : 0px;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1-layout-container > * {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1-layout-container > * {
   pointer-events      : auto;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-rectangle {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-rectangle {
   background-color    : rgba(77, 91, 182, 1.0);
-  top                 : 22px;
-  height              : 449px;
-  width               : 372px;
+  top                 : 25px;
+  height              : 521px;
+  width               : 432px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -5909,22 +5821,22 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.09;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-oqvamoscriarhj {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-oqvamoscriarhj {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 177px;
-  width               : calc(100.00% - 16px);
+  height              : 205px;
+  width               : calc(100.00% - 1px);
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-oqvamoscriarhj .bp4-rectangle1 {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-rectangle1 {
   background-color    : rgba(0, 0, 0, 1.0);
   top                 : 0px;
-  height              : 177px;
-  width               : 376px;
+  height              : 205px;
+  width               : 432px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -5932,70 +5844,70 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.06;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-oqvamoscriarhj .bp4-oquevamos {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-oquevamos {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 31px;
+  top                 : 30px;
   height              : auto;
-  width               : 338px;
+  width               : 374px;
   position            : absolute;
   margin              : 0;
-  left                : 37px;
+  left                : 41px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Montserrat", Helvetica, Arial, serif;
   font-weight         : 700;
   font-style          : normal;
-  font-size           : 41.0px;
+  font-size           : 48.0px;
   color               : rgba(116, 191, 187, 1.0);
   text-align          : left;
-  letter-spacing      : -0.09px;
+  letter-spacing      : -0.1px;
   line-height         : 34.0px;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-oqvamoscriarhj .bp4-criarhoje {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-criarhoje {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 107px;
+  top                 : 120px;
   height              : auto;
-  width               : 275px;
+  width               : 304px;
   position            : absolute;
   margin              : 0;
-  left                : 37px;
+  left                : 41px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
-  font-size           : 41.0px;
+  font-size           : 48.0px;
   color               : rgba(116, 191, 187, 1.0);
   text-align          : left;
-  letter-spacing      : -0.09px;
-  line-height         : 50.0px;
+  letter-spacing      : -0.1px;
+  line-height         : 58.0px;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-criadoresdescription {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-criadoresdescription {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
   bottom              : 0px;
-  height              : 210px;
-  width               : 353px;
+  height              : 244px;
+  width               : 410px;
   position            : absolute;
   margin              : 0;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-criadoresdescription .bp4-shadowcopy {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-shadowcopy {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 159px;
-  height              : 51px;
-  width               : 324px;
+  top                 : 185px;
+  height              : 59px;
+  width               : 376px;
   position            : absolute;
   margin              : 0;
-  left                : 15px;
+  left                : 17px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  filter              : blur(10px);
+  filter: blur(5px);
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-criadoresdescription .bp4-rectanglecopy {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-rectanglecopy {
   background-color    : rgba(254, 255, 254, 1.0);
   top                 : 0px;
-  height              : 184px;
-  width               : 353px;
+  height              : 214px;
+  width               : 410px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6003,33 +5915,33 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-criadoresdescription .bp4-loremipsumdolorsi {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-loremipsumdolorsi {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 13px;
+  top                 : 26px;
   height              : auto;
-  width               : 320px;
+  width               : 371px;
   position            : absolute;
   margin              : 0;
-  left                : 18px;
+  left                : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Montserrat", Helvetica, Arial, serif;
   font-weight         : 700;
   font-style          : normal;
-  font-size           : 14.0px;
+  font-size           : 16.0px;
   color               : rgba(138, 140, 142, 1.0);
   text-align          : left;
-  letter-spacing      : 0.22px;
-  line-height         : 18.0px;
+  letter-spacing      : 0.25px;
+  line-height         : 19.0px;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-label1 {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-label1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 64px;
+  top                 : 96px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 244px;
+  left                : 295px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Roboto", Helvetica, Arial, serif;
@@ -6037,125 +5949,126 @@ div {
   font-style          : normal;
   font-size           : 268.0px;
   color               : rgba(155, 184, 218, 0.11);
-  text-align          : right;
+  text-align          : justify;
   line-height         : 314.0px;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 196px;
-  height              : 63px;
-  width               : 253px;
+  top                 : 228px;
+  height              : 73px;
+  width               : 293px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar .bp4-pesquisar1 {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 63px;
-  width               : 252px;
+  height              : 73px;
+  width               : 293px;
   position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar .bp4-pesquisar1 .bp4-backgroundcopy2 {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 63px;
-  width               : 252px;
+  height              : 73px;
+  width               : 293px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar .bp4-pesquisar1 .bp4-backgroundcopy2 .bp4-shadow {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-shadow {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 51px;
-  height              : 12px;
-  width               : 231px;
+  top                 : 59px;
+  height              : 14px;
+  width               : 269px;
   position            : absolute;
   margin              : 0;
-  left                : 10px;
+  left                : 12px;
   transform           : rotate(0deg);
   opacity             : 0.7;
+  filter: blur(5px);
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar .bp4-pesquisar1 .bp4-backgroundcopy2 .bp4-rectangle1 {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-rectangle1 {
   background-color    : rgba(254, 255, 254, 1.0);
   top                 : 0px;
-  height              : 57px;
-  width               : 252px;
+  height              : 66px;
+  width               : 293px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  border-radius       : 28px;
+  border-radius       : 32px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar .bp4-pesquisar1 .bp4-backgroundcopy2 .bp4-search {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 21px;
-  height              : 14px;
-  width               : 14px;
+  top                 : 24px;
+  height              : 16px;
+  width               : 16px;
   position            : absolute;
   margin              : 0;
-  left                : 214px;
+  left                : 249px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar .bp4-pesquisar1 .bp4-backgroundcopy2 .bp4-search .bp4-shape {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search .bp1-shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 11px;
-  width               : 11px;
+  height              : 13px;
+  width               : 13px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar .bp4-pesquisar1 .bp4-backgroundcopy2 .bp4-search .bp4-path {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search .bp1-path {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
-  height              : 3px;
-  width               : 3px;
+  height              : 4px;
+  width               : 4px;
   position            : absolute;
   margin              : 0;
   left                : 3px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar .bp4-pesquisar1 .bp4-backgroundcopy2 .bp4-search .bp4-path1 {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search .bp1-path1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 10px;
+  top                 : 11px;
   height              : 4px;
   width               : 4px;
   position            : absolute;
   margin              : 0;
-  left                : 10px;
+  left                : 11px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar .bp4-pesquisar1 .bp4-dropdownlist {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 19px;
+  top                 : 21px;
   height              : 28px;
-  width               : 178px;
+  width               : 207px;
   position            : absolute;
   margin              : 0;
-  left                : 25px;
+  left                : 29px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar .bp4-pesquisar1 .bp4-dropdownlist .bp4-textpesquiseaqui {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist .bp1-textpesquiseaqui {
   background-color    : rgba(255,255,255,0.0);
   top                 : -2px;
   height              : 30px;
-  width               : 178px;
+  width               : 207px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -6172,71 +6085,90 @@ div {
   resize              : none;
   padding             : 0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-left .bp4-left1 .bp4-pesquisar .bp4-pesquisar1 .bp4-dropdownlist .bp4-textpesquiseaqui::placeholder {
+.bp1-index .bp1-stackedgroup .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist .bp1-textpesquiseaqui::placeholder {
   color               : rgba(17, 28, 95, 0.6);
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 441px;
-  margin              : 0 0 0 10px;
-  width               : 597px;
+  height              : 610px;
+  margin              : 0 0 0 30px;
+  width               : 938px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 {
   background-color    : rgba(255,255,255,0.0);
-  min-width           : 514px;
-  height              : 419px;
-  max-height          : 489px;
+  position            : relative;
+  height              : 610px;
   width               : 100%;
-  min-height          : 379px;
-  max-width           : 700px;
-  position            : relative;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right-layout-container {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1-layout-container {
   pointer-events      : none;
   flex-direction      : column;
   top                 : 0;
   height              : 100%;
-  width               : 580px;
+  width               : 938px;
   justify-content     : center;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   display             : flex;
-  left                : 4px;
+  left                : 0px;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right-layout-container > * {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1-layout-container > * {
   pointer-events      : auto;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-shape {
-  background-color    : rgba(255,255,255,0.0);
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-rectangle {
+  background-color    : rgba(77, 91, 182, 1.0);
   top                 : 0px;
-  height              : 90.21%;
-  width               : 65.00%;
+  height              : 610px;
+  width               : 912px;
   position            : absolute;
   margin              : 0;
-  left                : 1.38%;
+  left                : 26px;
+  border-radius       : 180px;
+  transform           : rotate(0deg);
+  opacity             : 0.1;
+}
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 609px;
+  width               : 904px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 96.72%;
+  width               : 64.93%;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.33%;
   transform           : rotate(0deg);
   opacity             : 0.5;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-containgroup {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-containgroup {
   background-color    : rgba(255,255,255,0.0);
   right               : 3.10%;
-  bottom              : 0.48%;
-  height              : 87.59%;
-  width               : 87.07%;
+  bottom              : 0px;
+  height              : 87.03%;
+  width               : 87.06%;
   position            : absolute;
   margin              : 0;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-containgroup .bp4-containbanner {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-containgroup .bp1-containbanner {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0.27%;
-  height              : 79.02%;
+  top                 : 0px;
+  height              : 85.09%;
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -6244,7 +6176,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-containgroup .bp4-containbanner .bp4-containbanner1 {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-containgroup .bp1-containbanner .bp1-containbanner1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -6255,10 +6187,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-containgroup .bp4-conte372do {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-containgroup .bp1-conte372do {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 0px;
-  height              : 19.89%;
+  height              : 13.77%;
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -6273,44 +6205,44 @@ div {
   text-align          : center;
   line-height         : 73.0px;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-avisualgroup {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-avisualgroup {
   background-color    : rgba(255,255,255,0.0);
-  right               : 1.55%;
-  bottom              : 0.24%;
-  height              : 84.49%;
-  width               : 88.62%;
+  right               : 1.44%;
+  bottom              : 0px;
+  height              : 83.58%;
+  width               : 88.72%;
   position            : absolute;
   margin              : 0;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-avisualgroup .bp4-avisualbanner {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-avisualgroup .bp1-avisualbanner {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
   top                 : 0px;
-  height              : 69.77%;
-  width               : 98.25%;
+  height              : 75.64%;
+  width               : 98.13%;
   position            : absolute;
   margin              : 0;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-avisualgroup .bp4-avisualbanner .bp4-avisualbanner1 {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-avisualgroup .bp1-avisualbanner .bp1-avisualbanner1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 100%;
-  width               : 100%;
+  height              : 99.74%;
+  width               : 99.87%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-avisualgroup .bp4-avisual {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-avisualgroup .bp1-avisual {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 0.28%;
-  height              : 20.62%;
-  width               : 98.25%;
+  bottom              : 0px;
+  height              : 14.34%;
+  width               : 98.00%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6324,44 +6256,44 @@ div {
   text-align          : center;
   line-height         : 73.0px;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-programmgroup {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-programmgroup {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
-  bottom              : 0.24%;
-  height              : 88.31%;
-  width               : 90.17%;
+  bottom              : 0px;
+  height              : 87.68%;
+  width               : 90.15%;
   position            : absolute;
   margin              : 0;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-programmgroup .bp4-programmingbanner {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-programmgroup .bp1-programmingbanner {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
   top                 : 0px;
-  height              : 73.51%;
-  width               : 98.28%;
+  height              : 79.21%;
+  width               : 98.16%;
   position            : absolute;
   margin              : 0;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-programmgroup .bp4-programmingbanner .bp4-programmingbanner1 {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-programmgroup .bp1-programmingbanner .bp1-programmingbanner1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
-  width               : 99.81%;
+  width               : 99.87%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-programmgroup .bp4-programa {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-programmgroup .bp1-programa {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 0.27%;
-  height              : 19.73%;
-  width               : 96.56%;
+  bottom              : 0px;
+  height              : 13.67%;
+  width               : 96.44%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6375,18 +6307,18 @@ div {
   text-align          : center;
   line-height         : 73.0px;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-llball {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llball {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 33.17%;
-  height              : 5.25%;
-  width               : 3.79%;
+  bottom              : 28.74%;
+  height              : 5.58%;
+  width               : 3.76%;
   position            : absolute;
   margin              : 0;
-  left                : 2.41%;
+  left                : 2.43%;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-llball .bp4-a32 {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llball .bp1-a32 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -6397,29 +6329,29 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.15;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-llball .bp4-a42 {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llball .bp1-a42 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 34.09%;
-  height              : 31.82%;
-  width               : 31.82%;
+  top                 : 33.82%;
+  height              : 32.35%;
+  width               : 32.35%;
   position            : absolute;
   margin              : 0;
-  left                : 34.09%;
+  left                : 33.82%;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-llballcopy {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llballcopy {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 45.35%;
-  height              : 5.25%;
-  width               : 3.79%;
+  bottom              : 41.54%;
+  height              : 5.58%;
+  width               : 3.76%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-llballcopy .bp4-a321 {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llballcopy .bp1-a321 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -6430,29 +6362,29 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.15;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-llballcopy .bp4-a421 {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llballcopy .bp1-a421 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 34.09%;
-  height              : 31.82%;
-  width               : 31.82%;
+  top                 : 33.82%;
+  height              : 32.35%;
+  width               : 32.35%;
   position            : absolute;
   margin              : 0;
-  left                : 34.09%;
+  left                : 33.82%;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-selectedball {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-selectedball {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 22.43%;
-  height              : 5.25%;
-  width               : 3.79%;
+  bottom              : 17.08%;
+  height              : 5.58%;
+  width               : 3.76%;
   position            : absolute;
   margin              : 0;
   left                : 7.41%;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-selectedball .bp4-a5 {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-selectedball .bp1-a5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
@@ -6463,28 +6395,16 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.1;
 }
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-right .bp4-selectedball .bp4-a6 {
+.bp1-index .bp1-stackedgroup .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-selectedball .bp1-a6 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 34.09%;
-  height              : 31.82%;
-  width               : 31.82%;
+  top                 : 33.82%;
+  height              : 32.35%;
+  width               : 32.35%;
   position            : absolute;
   margin              : 0;
-  left                : 34.09%;
+  left                : 33.82%;
   transform           : rotate(0deg);
   opacity             : 1.0;
-}
-.bp4-homelq .bp4-stackedgroup .bp4-bannerrightgroup .bp4-rectangle {
-  background-color    : rgba(77, 91, 182, 1.0);
-  top                 : 0px;
-  height              : 441px;
-  width               : 597px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 95px;
-  transform           : rotate(0deg);
-  opacity             : 0.09;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {

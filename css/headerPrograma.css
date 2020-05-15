@@ -1,0 +1,846 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,400,700,900,100,300|Poppins:600,500|Open+Sans:700,800,600,400|Work+Sans:500|Montserrat:700,300');
+
+
+.anima-overlay {
+  position            : absolute;
+  opacity             : 0;
+  display             : none;
+  top                 : 0;
+  width               : 100%;
+  height              : 100%;
+}
+.headerprograma {
+  width               : 100%;
+  min-width           : 1365px;
+  height              : 100vh;
+  min-height          : 108px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+textarea:focus, input:focus {
+  outline             : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.headerprograma .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 108px;
+  width               : 1365px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 23px;
+  height              : 68px;
+  width               : calc(100.00% - 15px);
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : center;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 1352px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 56px;
+  margin              : 0;
+  width               : auto;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : calc(-0.24% + 56px);
+  margin              : 0;
+  width               : 256px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout .programlogo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 256px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout .programlogo .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 21px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout .programlogo .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 21px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout .programlogo .shape2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 22px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 105px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout .programlogo .shape3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 22px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 130px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout .programlogo .shape4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 21px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 157px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout .programlogo .shape5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 21px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 178px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout .programlogo .shape6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 21px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 204px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout .programlogo .shape7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 21px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 232px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout .programlogo .shape8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 30px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout .programlogo .shape9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 30px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout .programlogo .shape10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 30px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout .programlogo .shape11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 30px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout .programlogo .shape12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 107px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout .programlogo .shape13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 30px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 138px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout .programlogo .shape14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 30px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 177px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout .programlogo .shape15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 30px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 205px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout .programlogo .shape16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 30px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 232px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout .programlogo .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39px;
+  height              : 7px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout .programlogo .shape17 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 21px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout .programlogo .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 15px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 47px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout .programlogo .path21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 21px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .criadoreslogoout .programlogo .shape18 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 21px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 52px;
+  margin              : 0 0 0 580px;
+  width               : auto;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .headerbuttons {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 52px;
+  margin              : 0;
+  width               : 293px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .headerbuttons .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 52px;
+  width               : 293px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .headerbuttons .aboutbutton {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 245px;
+  top                 : 0px;
+  height              : 50px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .headerbuttons .aboutbutton .aboutbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .headerbuttons .aboutbutton .aboutbutton1 .sobre {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 2.00%;
+  height              : 19px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 800;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(65, 70, 75, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .headerbuttons .aboutbutton .aboutbutton1 .sobre1 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 2.00%;
+  height              : 19px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(138, 140, 142, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .headerbuttons .aboutbutton .aboutbutton1 .ballsellection {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 12.00%;
+  width               : 12.50%;
+  position            : absolute;
+  margin              : 0;
+  left                : 43.75%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .headerbuttons .aboutbutton .aboutbutton1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .headerbuttons .pricesbutton {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 128px;
+  top                 : 0px;
+  height              : 50px;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 106px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .headerbuttons .pricesbutton .pricesbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .headerbuttons .pricesbutton .pricesbutton1 .pre347os {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 2.00%;
+  height              : 19px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 800;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(65, 70, 75, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .headerbuttons .pricesbutton .pricesbutton1 .pre347os1 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 2.00%;
+  height              : 19px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(138, 140, 142, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .headerbuttons .pricesbutton .pricesbutton1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .headerbuttons .contactbutton {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : 50px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 224px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .headerbuttons .contactbutton .contactbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .headerbuttons .contactbutton .contactbutton1 .contato {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 2.00%;
+  height              : 19px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 800;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(65, 70, 75, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .headerbuttons .contactbutton .contactbutton1 .contato1 {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 2.00%;
+  height              : 19px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(138, 140, 142, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .headerbuttons .contactbutton .contactbutton1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .headerbuttons .rectangle {
+  background-color    : rgba(116, 191, 187, 1.0);
+  top                 : 19px;
+  height              : 7px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .stackedgroup3 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 23px;
+  margin              : 0 0 0 112px;
+  width               : auto;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .stackedgroup3 .shopgroup {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 23px;
+  margin              : 0;
+  width               : 21px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .stackedgroup3 .shopgroup {
+  pointer-events      : auto;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .stackedgroup3 .shopgroup:hover {
+  transform           : translate(0, -5px);
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .stackedgroup3 .shopgroup .shop2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 23px;
+  width               : 21px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .stackedgroup3 .shopgroup .shop2 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 23px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .stackedgroup3 .shopgroup .shop2 .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 23px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .stackedgroup3 .profileicon {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 21px;
+  margin              : 0 0 0 49px;
+  width               : 21px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .stackedgroup3 .profileicon {
+  pointer-events      : auto;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .stackedgroup3 .profileicon:hover {
+  
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .stackedgroup3 .profileicon .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .stackedgroup1 .stackedgroup2 .stackedgroup3 .profileicon .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.headerprograma .headergroup .stackedgroup .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 10px 0 0 0;
+  width               : 1352px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
