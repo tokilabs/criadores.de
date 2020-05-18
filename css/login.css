@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500,400,700,900,100,300|Poppins:600,500|Open+Sans:700,800,600,400|Work+Sans:500|Montserrat:700,300');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,700,900,100,300,400|Work+Sans:500|Open+Sans:800,600,400|Poppins:500,600|Montserrat:700,300');
 
 
 .login {
   width               : 100%;
-  min-width           : 100% auto;
+  min-width           : 1420px;
   height              : 100vh;
   min-height          : 856px;
   position            : relative;
