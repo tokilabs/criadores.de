@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500,700,900,100,300,400|Work+Sans:500|Open+Sans:800,600,400|Poppins:500,600|Montserrat:700,300');
+@import url('https://fonts.googleapis.com/css?family=Roboto:900,500,700,100,300,400|Poppins:600,500|Montserrat:700,300|Open+Sans:800,600,400|Work+Sans:500');
 
 
 .cartwidget {
   width               : 100%;
-  min-width           : 1440px;
+  min-width           : auto;
   height              : 100vh;
   min-height          : 856px;
   position            : relative;
@@ -31,8 +31,8 @@ div {
 }
 .cartwidget .backgroundcadastro {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 0px;
-  height              : 857px;
+  top                 : 0px;
+  height              : 100%;
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -42,8 +42,8 @@ div {
 }
 .cartwidget .backgroundcadastro .asset10 {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 0px;
-  height              : 856px;
+  top                 : 0px;
+  height              : 100%;
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -53,8 +53,8 @@ div {
 }
 .cartwidget .backgroundcadastro .asset10 .rectangle {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 0px;
-  height              : 856px;
+  top                 : 0px;
+  height              : 100%;
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -64,8 +64,8 @@ div {
 }
 .cartwidget .backgroundcadastro .asset9 {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 1px;
-  height              : 855px;
+  top                 : 1px;
+  height              : calc(100.00% - 2px);
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -76,7 +76,7 @@ div {
 .cartwidget .backgroundcadastro .asset9 .group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 855px;
+  height              : 100%;
   width               : 100%;
   position            : relative;
   margin              : 0;
@@ -86,19 +86,19 @@ div {
 }
 .cartwidget .backgroundcadastro .asset9 .group .path {
   background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
   top                 : 1px;
   height              : 265px;
-  width               : calc(99.99% - 427px);
+  width               : 1013px;
   position            : absolute;
   margin              : 0;
-  left                : 427px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .cartwidget .backgroundcadastro .asset9 .group .path1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 266px;
-  height              : 588px;
+  bottom              : 0px;
+  height              : 587px;
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -108,8 +108,8 @@ div {
 }
 .cartwidget .backgroundcadastro .asset8 {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 62px;
-  height              : 795px;
+  top                 : 0px;
+  height              : calc(100.00% - 62px);
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -120,7 +120,7 @@ div {
 .cartwidget .backgroundcadastro .asset8 .bitmap {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 795px;
+  height              : 100%;
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -131,7 +131,7 @@ div {
 .cartwidget .backgroundcadastro .asset8 .rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
-  height              : 726px;
+  height              : 725px;
   width               : calc(100.00% - 57px);
   position            : absolute;
   margin              : 0;
@@ -162,38 +162,87 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart {
+.cartwidget .cartgroup {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 25px;
-  height              : 770px;
-  width               : 1393px;
-  position            : absolute;
-  margin              : 0;
-  left                : calc(50.00% - 697px);
+  position            : relative;
+  height              : 733px;
+  width               : 1121px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup {
+.cartwidget .cartgroup-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.cartwidget .cartgroup-layout-container > * {
+  pointer-events      : auto;
+}
+.cartwidget .cartgroup .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 703px;
+  width               : 489px;
+  transform           : rotate(0deg);
+  opacity             : 0.87;
+}
+.cartwidget .cartgroup .rectangle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.cartwidget .cartgroup .rectangle-layout-container > * {
+  pointer-events      : auto;
+}
+.cartwidget .cartgroup .cart {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 27px;
+  height              : 690px;
+  width               : 1121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cartgroup .cart .stackedgroup {
   display             : flex;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
-  top                 : 80px;
+  top                 : 0px;
   height              : auto;
-  width               : 1149px;
+  width               : 1121px;
   position            : relative;
   margin              : 0;
-  left                : 119px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .carrinho {
+.cartwidget .cartgroup .cart .stackedgroup .carrinho {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 69px;
   margin              : 0;
-  width               : 1151px;
+  width               : 1123px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
@@ -202,7 +251,7 @@ div {
   text-align          : center;
   line-height         : 51.0px;
 }
-.cartwidget .cart .stackedgroup .cardempty {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty {
   display             : flex;
   justify-content     : flex-start;
   flex-direction      : column;
@@ -211,298 +260,298 @@ div {
   position            : relative;
   height              : auto;
   margin              : 33px 0 0 0;
-  width               : 1114px;
+  width               : 1086px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 324px;
+  height              : 323px;
   margin              : 0;
-  width               : 287px;
+  width               : 285px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 301px;
+  top                 : 300px;
   height              : 22px;
   width               : 43px;
-  position            : absolute;
-  margin              : 0;
-  left                : 174px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 295px;
-  height              : 27px;
-  width               : 43px;
-  position            : absolute;
-  margin              : 0;
-  left                : 244px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 144px;
-  height              : 161px;
-  width               : 30px;
-  position            : absolute;
-  margin              : 0;
-  left                : 196px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 141px;
-  height              : 159px;
-  width               : 78px;
-  position            : absolute;
-  margin              : 0;
-  left                : 200px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 130px;
-  height              : 21px;
-  width               : 23px;
-  position            : absolute;
-  margin              : 0;
-  left                : 157px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 139px;
-  height              : 19px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 160px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 98px;
-  height              : 42px;
-  width               : 31px;
   position            : absolute;
   margin              : 0;
   left                : 173px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path7 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 294px;
+  height              : 27px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 242px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 143px;
+  height              : 160px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 195px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 140px;
+  height              : 159px;
+  width               : 77px;
+  position            : absolute;
+  margin              : 0;
+  left                : 199px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 130px;
+  height              : 21px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 156px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 138px;
+  height              : 19px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 159px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 97px;
+  height              : 42px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 172px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path7 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 18px;
   height              : 37px;
   width               : 24px;
   position            : absolute;
   margin              : 0;
-  left                : 215px;
+  left                : 214px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path8 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path8 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 44px;
-  height              : 108px;
-  width               : 59px;
+  top                 : 43px;
+  height              : 107px;
+  width               : 58px;
   position            : absolute;
   margin              : 0;
-  left                : 197px;
+  left                : 195px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path9 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path9 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 47px;
-  height              : 102px;
+  height              : 101px;
   width               : 78px;
   position            : absolute;
   margin              : 0;
-  left                : 174px;
+  left                : 173px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path10 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path10 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 9px;
   height              : 37px;
   width               : 26px;
   position            : absolute;
   margin              : 0;
-  left                : 203px;
+  left                : 201px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path11 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path11 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 33px;
   width               : 35px;
   position            : absolute;
   margin              : 0;
-  left                : 201px;
+  left                : 200px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .oval {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .oval {
   background-color    : rgba(255,255,255,0.0);
   top                 : 19px;
   height              : 9px;
   width               : 6px;
   position            : absolute;
   margin              : 0;
-  left                : 220px;
+  left                : 219px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path12 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path12 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 55px;
-  height              : 65px;
+  height              : 64px;
   width               : 30px;
   position            : absolute;
   margin              : 0;
-  left                : 198px;
+  left                : 197px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path13 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path13 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 21px;
   height              : 2px;
   width               : 6px;
   position            : absolute;
   margin              : 0;
-  left                : 205px;
+  left                : 204px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .oval1 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .oval1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 24px;
   height              : 1px;
   width               : 3px;
   position            : absolute;
   margin              : 0;
-  left                : 206px;
+  left                : 205px;
   transform           : rotate(-19.8299999237deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path14 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path14 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
   height              : 3px;
   width               : 6px;
   position            : absolute;
   margin              : 0;
-  left                : 209px;
+  left                : 207px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path15 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path15 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 153px;
-  height              : 13px;
+  top                 : 152px;
+  height              : 14px;
   width               : 19px;
   position            : absolute;
   margin              : 0;
-  left                : 225px;
+  left                : 223px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path16 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path16 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 223px;
+  top                 : 222px;
   height              : 6px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
-  left                : 234px;
+  left                : 232px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path17 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path17 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 226px;
+  top                 : 225px;
   height              : 5px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 233px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path18 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 232px;
+  height              : 3px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
-  left                : 235px;
+  left                : 196px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path18 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path19 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 233px;
+  top                 : 234px;
   height              : 3px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 198px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path19 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 235px;
-  height              : 4px;
   width               : 7px;
   position            : absolute;
   margin              : 0;
-  left                : 198px;
+  left                : 196px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path20 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path20 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 118px;
-  height              : 19px;
+  top                 : 117px;
+  height              : 20px;
   width               : 34px;
   position            : absolute;
   margin              : 0;
-  left                : 201px;
+  left                : 199px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .rectangle12 {
   background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 200px;
+  top                 : 199px;
   height              : 1px;
-  width               : 129px;
+  width               : 128px;
   position            : absolute;
   margin              : 0;
   left                : 3px;
   transform           : rotate(-1.50999999046deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle1 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .rectangle1 {
   background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 213px;
+  top                 : 212px;
   height              : 0px;
-  width               : 127px;
+  width               : 126px;
   position            : absolute;
   margin              : 0;
   left                : 3px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle2 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .rectangle2 {
   background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 163px;
-  height              : 124px;
+  top                 : 162px;
+  height              : 123px;
   width               : 1px;
   position            : absolute;
   margin              : 0;
@@ -510,42 +559,42 @@ div {
   transform           : rotate(-88.8542404175deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle3 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .rectangle3 {
   background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 175px;
-  height              : 124px;
+  top                 : 174px;
+  height              : 123px;
   width               : 1px;
   position            : absolute;
   margin              : 0;
-  left                : 65px;
+  left                : 64px;
   transform           : rotate(-87.5299987793deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle4 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .rectangle4 {
   background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 188px;
+  top                 : 187px;
   height              : 1px;
-  width               : 134px;
+  width               : 133px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
   transform           : rotate(-3.47000002861deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle5 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .rectangle5 {
   background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 211px;
+  top                 : 210px;
   height              : 1px;
   width               : 83px;
   position            : absolute;
   margin              : 0;
-  left                : 70px;
+  left                : 69px;
   transform           : rotate(-79.5199966431deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle6 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .rectangle6 {
   background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 213px;
+  top                 : 212px;
   height              : 1px;
   width               : 79px;
   position            : absolute;
@@ -554,20 +603,20 @@ div {
   transform           : rotate(-79.1900024414deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle7 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .rectangle7 {
   background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 213px;
+  top                 : 212px;
   height              : 1px;
-  width               : 74px;
+  width               : 73px;
   position            : absolute;
   margin              : 0;
-  left                : 42px;
+  left                : 41px;
   transform           : rotate(-78.2799987793deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle8 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .rectangle8 {
   background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 213px;
+  top                 : 212px;
   height              : 1px;
   width               : 67px;
   position            : absolute;
@@ -576,31 +625,31 @@ div {
   transform           : rotate(-79.4300003052deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle9 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .rectangle9 {
   background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 214px;
+  top                 : 213px;
   height              : 1px;
-  width               : 62px;
+  width               : 61px;
   position            : absolute;
   margin              : 0;
   left                : 16px;
   transform           : rotate(-79.1900024414deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle10 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .rectangle10 {
   background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 214px;
+  top                 : 213px;
   height              : 1px;
-  width               : 62px;
+  width               : 61px;
   position            : absolute;
   margin              : 0;
   left                : 2px;
   transform           : rotate(-79.5400009155deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .rectangle11 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .rectangle11 {
   background-color    : rgba(0, 0, 0, 1.0);
-  top                 : 214px;
+  top                 : 213px;
   height              : 1px;
   width               : 57px;
   position            : absolute;
@@ -609,9 +658,9 @@ div {
   transform           : rotate(-80.6800003052deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .oval2 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .oval2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 306px;
+  top                 : 304px;
   height              : 18px;
   width               : 18px;
   position            : absolute;
@@ -620,78 +669,78 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .oval3 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .oval3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 305px;
+  top                 : 304px;
   height              : 18px;
   width               : 18px;
   position            : absolute;
   margin              : 0;
-  left                : 167px;
+  left                : 166px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path21 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path21 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 148px;
-  height              : 153px;
-  width               : 153px;
+  top                 : 147px;
+  height              : 152px;
+  width               : 152px;
   position            : absolute;
   margin              : 0;
   left                : 16px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path22 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path22 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 286px;
+  top                 : 285px;
   height              : 20px;
   width               : 18px;
   position            : absolute;
   margin              : 0;
-  left                : 162px;
+  left                : 161px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path23 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path23 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 305px;
+  top                 : 304px;
   height              : 13px;
   width               : 8px;
   position            : absolute;
   margin              : 0;
-  left                : 172px;
+  left                : 171px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path24 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path24 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 298px;
+  top                 : 297px;
   height              : 17px;
   width               : 9px;
   position            : absolute;
   margin              : 0;
-  left                : 34px;
+  left                : 33px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .doronglagi .path25 {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .doronglagi .path25 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 165px;
   height              : 92px;
-  width               : 142px;
+  width               : 141px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .cardempty .seucarrinhoest341va {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .seucarrinhoest341va {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : auto;
   margin              : 31px 0 0 0;
-  width               : 974px;
+  width               : 953px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Roboto", Helvetica, Arial, serif;
@@ -702,68 +751,68 @@ div {
   text-align          : center;
   line-height         : 38.0px;
 }
-.cartwidget .cart .stackedgroup .cardempty .voc352precisaadicion {
+.cartwidget .cartgroup .cart .stackedgroup .cardempty .voc352precisaadicion {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : auto;
   margin              : 31px 0 0 0;
-  width               : 1116px;
+  width               : 1088px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Roboto", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
   font-size           : 22.0px;
-  color               : rgba(56, 210, 224, 1.0);
+  color               : rgba(77, 91, 182, 1.0);
   text-align          : center;
   line-height         : 22.0px;
 }
-.cartwidget .cart .stackedgroup .conferirpre347os {
+.cartwidget .cartgroup .cart .stackedgroup .conferirpre347os {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 101px;
+  height              : 102px;
   margin              : 33px 0 0 0;
-  width               : 352px;
+  width               : 345px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
 }
-.cartwidget .cart .stackedgroup .conferirpre347os {
+.cartwidget .cartgroup .cart .stackedgroup .conferirpre347os {
   pointer-events      : auto;
 }
-.cartwidget .cart .stackedgroup .conferirpre347os:hover {
+.cartwidget .cartgroup .cart .stackedgroup .conferirpre347os:hover {
   transform           : translate(10px, 0);
 }
-.cartwidget .cart .stackedgroup .conferirpre347os .buttonprice {
+.cartwidget .cartgroup .cart .stackedgroup .conferirpre347os .buttonprice {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 101px;
-  width               : 352px;
+  height              : 102px;
+  width               : 345px;
   position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .conferirpre347os .buttonprice .rectangle {
+.cartwidget .cartgroup .cart .stackedgroup .conferirpre347os .buttonprice .rectangle1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 101px;
-  width               : 352px;
+  height              : 102px;
+  width               : 345px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.cartwidget .cart .stackedgroup .conferirpre347os .buttonprice .conferirpre307os {
+.cartwidget .cartgroup .cart .stackedgroup .conferirpre347os .buttonprice .conferirpre307os {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : 67px;
-  width               : 316px;
+  width               : 308px;
   position            : absolute;
   margin              : 0;
-  left                : 18px;
+  left                : 19px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Roboto", Helvetica, Arial, serif;
@@ -774,10 +823,10 @@ div {
   text-align          : center;
   line-height         : 30.0px;
 }
-.cartwidget .exit {
+.cartwidget .cartgroup .exit {
   background-color    : rgba(255,255,255,0.0);
-  right               : 20px;
-  top                 : 20px;
+  right               : 337px;
+  top                 : 5px;
   height              : 53px;
   width               : 55px;
   position            : absolute;
@@ -786,10 +835,10 @@ div {
   opacity             : 0.95;
   transition          : all 0.2s ease-in-out;
 }
-.cartwidget .exit {
+.cartwidget .cartgroup .exit {
   pointer-events      : auto;
 }
-.cartwidget .exit:hover {
+.cartwidget .cartgroup .exit:hover {
   transform           : scale(0.9);
 }
 /* .anima-animate-appear prefix for appear animations */
