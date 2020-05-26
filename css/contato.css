@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:900,500,700,100,300,400|Poppins:600,500|Montserrat:700,300|Open+Sans:800,600,400|Work+Sans:500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:900,500,700,100,300,400|Poppins:600,500|Montserrat:300,700|Open+Sans:600,400|Work+Sans:500');
 
 
 .anima-overlay {
@@ -8,1320 +8,6 @@
   top                 : 0;
   width               : 100%;
   height              : 100%;
-}
-.bp3-contatotablet {
-  width               : 100%;
-  min-width           : 768px;
-  height              : 100vh;
-  min-height          : 1024px;
-  position            : relative;
-  overflow            : hidden;
-  margin              : 0px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color    : rgba(255, 255, 255, 1.0);
-  opacity             : 1.0;
-}
-div {
-  -webkit-text-size-adjust: none;
-}
-.bp3-contatotablet .bp3-panel {
-  background-color    : rgba(255,255,255,0.0);
-  position            : relative;
-  height              : 100%;
-  width               : 768px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-panel-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  align-items         : center;
-  bottom              : 0px;
-  height              : 97px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp3-contatotablet .bp3-panel-layout-container > * {
-  pointer-events      : auto;
-}
-.bp3-contatotablet .bp3-panel .bp3-panel2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 13px;
-  height              : 84px;
-  width               : 768px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp3-contatotablet .bp3-panel .bp3-tokibutton {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 92px;
-  width               : 243px;
-  position            : absolute;
-  margin              : 0;
-  left                : 264px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-panel .bp3-tokibutton .bp3-tokilogo {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 87px;
-  width               : 197px;
-  position            : relative;
-  margin              : 0;
-  left                : 22px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp3-contatotablet .bp3-panel .bp3-tokibutton .bp3-tokilogo {
-  pointer-events      : auto;
-}
-.bp3-contatotablet .bp3-panel .bp3-tokibutton .bp3-tokilogo:hover {
-  transform           : translate(0, -5px);
-}
-.bp3-contatotablet .bp3-panel .bp3-tokibutton .bp3-tokilogo .bp3-tokilogo1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 87px;
-  width               : 197px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp3-contatotablet .bp3-panel .bp3-tokibutton .bp3-tokilogo .bp3-tokilogo1 {
-  pointer-events      : auto;
-}
-.bp3-contatotablet .bp3-panel .bp3-tokibutton .bp3-tokilogo .bp3-tokilogo1:hover {
-  transform           : translate(0, -5px);
-}
-.bp3-contatotablet .bp3-panel .bp3-tokibutton .bp3-tokilogo .bp3-tokilogo1 .bp3-bitmap {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 86px;
-  width               : 196px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-a404copy {
-  background-color    : rgba(255,255,255,0.0);
-  margin-right        : -1px;
-  position            : relative;
-  height              : 630px;
-  margin-left         : 1px;
-  width               : 746px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-a404copy-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 0;
-  align-items         : center;
-  height              : 100%;
-  width               : 100%;
-  justify-content     : center;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp3-contatotablet .bp3-a404copy-layout-container > * {
-  pointer-events      : auto;
-}
-.bp3-contatotablet .bp3-a404copy .bp3-button {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 531px;
-  height              : 99px;
-  width               : 367px;
-  position            : absolute;
-  margin              : 0;
-  left                : 190px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-a404copy .bp3-button .bp3-background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 99px;
-  width               : 367px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-a404copy .bp3-button .bp3-u5bb9u5668u6837u5f0f {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 99px;
-  width               : 367px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 4px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-a404copy .bp3-button .bp3-u5bb9u5668u6837u5f0f .bp3-mask {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 99px;
-  width               : 367px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 4px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-a404copy .bp3-button .bp3-u5bb9u5668u6837u5f0f .bp3-u21b3ud83cudfa8u80ccu666f {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 99px;
-  width               : 367px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-a404copy .bp3-button .bp3-u5bb9u5668u6837u5f0f .bp3-u21b3ud83cudfa8u80ccu666f .bp3-base {
-  background-color    : rgba(24, 151, 242, 1.0);
-  top                 : 0px;
-  height              : 99px;
-  width               : 367px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-a404copy .bp3-button .bp3-u6587u5b57u6837u5f0f {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 38px;
-  height              : 24px;
-  width               : 303px;
-  position            : absolute;
-  margin              : 0;
-  left                : 32px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-a404copy .bp3-button .bp3-u6587u5b57u6837u5f0f .bp3-u21b3u270fufe0fcontent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 303px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 24.0px;
-}
-.bp3-contatotablet .bp3-a404copy .bp3-a16pxregularcenterwhitecopy3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 403px;
-  height              : 32px;
-  width               : 746px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-a404copy .bp3-a16pxregularcenterwhitecopy3 .bp3-u21b3u270fufe0fcontent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 746px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 20.0px;
-  color               : rgba(58, 61, 63, 1.0);
-  text-align          : center;
-  line-height         : 32.0px;
-}
-.bp3-contatotablet .bp3-a404copy .bp3-a16pxregularcenterwhitecopy31 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 333px;
-  height              : 32px;
-  width               : 746px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-a404copy .bp3-a16pxregularcenterwhitecopy31 .bp3-u21b3u270fufe0fcontent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 746px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 24.0px;
-  color               : rgba(58, 61, 63, 1.0);
-  text-align          : center;
-  line-height         : 32.0px;
-}
-.bp3-contatotablet .bp3-a404copy .bp3-a404 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 746px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Montserrat", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 200.0px;
-  color               : rgba(74, 73, 74, 1.0);
-  text-align          : center;
-  line-height         : 244.0px;
-}
-.bp3-contatotablet .bp3-headertablet {
-  background-color    : rgba(255,255,255,0.0);
-  position            : relative;
-  height              : 100%;
-  width               : 735px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 20px;
-  align-items         : center;
-  height              : 129px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp3-contatotablet .bp3-headertablet-layout-container > * {
-  pointer-events      : auto;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 129px;
-  width               : 735px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 130px;
-  width               : 738px;
-  position            : absolute;
-  margin              : 0;
-  left                : calc(50.00% - 369px);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 130px;
-  width               : 100%;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : column;
-  align-items         : center;
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 738px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 {
-  background-color    : rgba(255,255,255,0.0);
-  position            : relative;
-  height              : 130px;
-  margin              : 0;
-  width               : 738px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-criadoreslogoout {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : calc(1.55% + 32px);
-  width               : 320px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-criadoreslogoout .bp3-background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 34px;
-  width               : 320px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-criadoreslogoout .bp3-logocriadoresout {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 34px;
-  width               : 310px;
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 33px;
-  width               : 28px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 32px;
-  width               : 27px;
-  position            : absolute;
-  margin              : 0;
-  left                : 29px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 32px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 56px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 32px;
-  width               : 33px;
-  position            : absolute;
-  margin              : 0;
-  left                : 65px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 32px;
-  width               : 30px;
-  position            : absolute;
-  margin              : 0;
-  left                : 97px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 33px;
-  width               : 32px;
-  position            : absolute;
-  margin              : 0;
-  left                : 126px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 32px;
-  width               : 27px;
-  position            : absolute;
-  margin              : 0;
-  left                : 159px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 32px;
-  width               : 24px;
-  position            : absolute;
-  margin              : 0;
-  left                : 186px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 33px;
-  width               : 25px;
-  position            : absolute;
-  margin              : 0;
-  left                : 210px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-path {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 10px;
-  width               : 9px;
-  position            : absolute;
-  margin              : 0;
-  left                : 235px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape9 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 10px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 235px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape10 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 29px;
-  width               : 28px;
-  position            : absolute;
-  margin              : 0;
-  left                : 248px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape11 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 30px;
-  width               : 29px;
-  position            : absolute;
-  margin              : 0;
-  left                : 248px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-path1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4px;
-  height              : 23px;
-  width               : 10px;
-  position            : absolute;
-  margin              : 0;
-  left                : 299px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-path21 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 29px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 279px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape12 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 30px;
-  width               : 22px;
-  position            : absolute;
-  margin              : 0;
-  left                : 279px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape13 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 29px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 295px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape14 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 30px;
-  width               : 15px;
-  position            : absolute;
-  margin              : 0;
-  left                : 295px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : row;
-  align-items         : flex-start;
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 127px;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 175px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons {
-  background-color    : rgba(255,255,255,0.0);
-  position            : relative;
-  height              : 127px;
-  margin              : 0;
-  width               : 474px;
-  overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 127px;
-  width               : 474px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 0px;
-  height              : 112px;
-  width               : 445px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-lines {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 0px;
-  height              : 25px;
-  width               : 29px;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-lines {
-  pointer-events      : auto;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-lines:hover {
-  transform           : rotate(30deg);
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-lines .bp3-linecopy5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8.00%;
-  height              : 4.00%;
-  width               : 89.66%;
-  position            : absolute;
-  margin              : 0;
-  left                : -3.45%;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-lines .bp3-linecopy4 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 12.00%;
-  height              : 4.00%;
-  width               : 68.97%;
-  position            : absolute;
-  margin              : 0;
-  left                : 15.52%;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-lines .bp3-linecopy3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 48.00%;
-  height              : 4.00%;
-  width               : 79.31%;
-  position            : absolute;
-  margin              : 0;
-  left                : 6.90%;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-lines .bp3-line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 8.00%;
-  height              : 4.00%;
-  width               : 89.66%;
-  position            : absolute;
-  margin              : 0;
-  left                : -3.45%;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-lines .bp3-linecopy2 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 12.00%;
-  height              : 4.00%;
-  width               : 68.97%;
-  position            : absolute;
-  margin              : 0;
-  left                : 15.52%;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-lines .bp3-linecopy {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 48.00%;
-  height              : 4.00%;
-  width               : 79.31%;
-  position            : absolute;
-  margin              : 0;
-  left                : 6.90%;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-lines .bp3-menu {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2.00%;
-  height              : 96.00%;
-  width               : 89.66%;
-  position            : absolute;
-  margin              : 0;
-  left                : 5.17%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-lines .bp3-menucopy {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2.00%;
-  height              : 96.00%;
-  width               : 89.66%;
-  position            : absolute;
-  margin              : 0;
-  left                : 5.17%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : row;
-  align-items         : flex-end;
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 0px;
-  height              : 42.86%;
-  width               : 96.63%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.89;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-aboutbuttongroupmobile {
-  background-color    : rgba(255,255,255,0.0);
-  position            : relative;
-  height              : 48px;
-  margin              : 0;
-  width               : 120px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-aboutbuttongroupmobile {
-  pointer-events      : auto;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-aboutbuttongroupmobile:hover {
-  transform           : translate(0, -5px);
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-aboutbuttongroupmobile .bp3-rectanglecopy {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-aboutbuttongroupmobile .bp3-aboutbutton {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2.08%;
-  height              : 58.33%;
-  width               : 93.33%;
-  position            : absolute;
-  margin              : 0;
-  left                : 3.33%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-aboutbuttongroupmobile .bp3-aboutbutton .bp3-aboutbutton1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-aboutbuttongroupmobile .bp3-aboutbutton .bp3-aboutbutton1 .bp3-sobre {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -10.71%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(65, 70, 75, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-aboutbuttongroupmobile .bp3-aboutbutton .bp3-aboutbutton1 .bp3-sobre1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -10.71%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(138, 140, 142, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-aboutbuttongroupmobile .bp3-aboutbutton .bp3-aboutbutton1 .bp3-ballsellection {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 10.71%;
-  width               : 12.50%;
-  position            : absolute;
-  margin              : 0;
-  left                : 43.75%;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-aboutbuttongroupmobile .bp3-aboutbutton .bp3-aboutbutton1 .bp3-background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-pricesbuttongroupmobile {
-  background-color    : rgba(255,255,255,0.0);
-  position            : relative;
-  height              : 48px;
-  margin              : 0 0 0 36px;
-  width               : 120px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-pricesbuttongroupmobile {
-  pointer-events      : auto;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-pricesbuttongroupmobile:hover {
-  transform           : translate(0, -5px);
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-pricesbuttongroupmobile .bp3-rectanglecopy2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-pricesbuttongroupmobile .bp3-pricesbutton {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4.17%;
-  height              : 56.25%;
-  width               : 93.33%;
-  position            : absolute;
-  margin              : 0;
-  left                : 3.33%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-pricesbuttongroupmobile .bp3-pricesbutton .bp3-pricesbutton1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-pricesbuttongroupmobile .bp3-pricesbutton .bp3-pricesbutton1 .bp3-pre347os {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -11.11%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(65, 70, 75, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-pricesbuttongroupmobile .bp3-pricesbutton .bp3-pricesbutton1 .bp3-pre347os1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -11.11%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(138, 140, 142, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-pricesbuttongroupmobile .bp3-pricesbutton .bp3-pricesbutton1 .bp3-background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-contactbuttongroupmobile {
-  background-color    : rgba(255,255,255,0.0);
-  position            : relative;
-  height              : 48px;
-  margin              : 0 0 0 36px;
-  width               : 120px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-contactbuttongroupmobile {
-  pointer-events      : auto;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-contactbuttongroupmobile:hover {
-  transform           : translate(0, -5px);
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-contactbuttongroupmobile .bp3-rectanglecopy3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-contactbuttongroupmobile .bp3-contactbutton {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 4.17%;
-  height              : 56.25%;
-  width               : 93.33%;
-  position            : absolute;
-  margin              : 0;
-  left                : 3.33%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-contactbuttongroupmobile .bp3-contactbutton .bp3-contactbutton1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-contactbuttongroupmobile .bp3-contactbutton .bp3-contactbutton1 .bp3-contato {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -11.11%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(65, 70, 75, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-contactbuttongroupmobile .bp3-contactbutton .bp3-contactbutton1 .bp3-contato1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -11.11%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(138, 140, 142, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-headerbuttons .bp3-menutab .bp3-recmenutabopened .bp3-contactbuttongroupmobile .bp3-contactbutton .bp3-contactbutton1 .bp3-background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : row;
-  align-items         : flex-start;
-  background-color    : rgba(255,255,255,0.0);
-  position            : relative;
-  height              : 23px;
-  margin              : 0 0 0 21px;
-  width               : auto;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-shopgroup {
-  background-color    : rgba(255,255,255,0.0);
-  position            : relative;
-  height              : 23px;
-  margin              : 0;
-  width               : 21px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-shopgroup {
-  pointer-events      : auto;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-shopgroup:hover {
-  transform           : translate(0, -5px);
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-shopgroup .bp3-shop2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 21px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-shopgroup .bp3-shop2 .bp3-shape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 21px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-shopgroup .bp3-shop2 .bp3-shape1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 21px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-profileicon {
-  background-color    : rgba(255,255,255,0.0);
-  position            : relative;
-  height              : 21px;
-  margin              : 0 0 0 25px;
-  width               : 21px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-profileicon {
-  pointer-events      : auto;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-profileicon:hover {
-  
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-profileicon .bp3-shape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 20px;
-  width               : 20px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-stackedgroup1 .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-profileicon .bp3-shape1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 20px;
-  width               : 20px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp3-contatotablet .bp3-headertablet .bp3-header .bp3-headergroup .bp3-stackedgroup .bp3-path2 {
-  background-color    : rgba(255,255,255,0.0);
-  position            : relative;
-  height              : auto;
-  margin              : -75px 0 0 0;
-  width               : 737px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
-}
-.anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-}
-.anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
-}
-@-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-.anima-component-wrapper,
-.anima-component-wrapper * {
-  pointer-events      : none;
-}
-.anima-component-wrapper a *,
-.anima-component-wrapper a,
-.anima-component-wrapper input,
-.anima-component-wrapper video,
-.anima-component-wrapper iframe,
-.anima-listeners-active,
-.anima-listeners-active * {
-  pointer-events      : auto;
-}
-.anima-hidden,
-.anima-hidden * {
-  visibility          : hidden;
-  pointer-events      : none;
-}
-.anima-smart-layers-pointers,
-.anima-smart-layers-pointers * {
-  pointer-events      : auto;
-  visibility          : visible;
-}
-.anima-component-wrapper.anima-not-ready,
-.anima-component-wrapper.anima-not-ready * {
-  visibility          : hidden !important;
-}
-.anima-listeners-active-click,
-.anima-listeners-active-click * {
-  cursor              : pointer;
-}
-.anima-word-break {
-  overflow-wrap       : break-word;
-  word-wrap           : break-word;
-  word-break          : break-all;
-  word-break          : break-word;
 }
 .bp2-contatolq {
   width               : 100%;
@@ -1633,7 +319,8 @@ div {
 .bp2-contatolq .bp2-headerlq {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 100%;
+  top                 : 20px;
+  height              : 67px;
   width               : 976px;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -1641,10 +328,11 @@ div {
 .bp2-contatolq .bp2-headerlq-layout-container {
   pointer-events      : none;
   flex-direction      : column;
-  top                 : 20px;
+  top                 : 0;
   align-items         : center;
-  height              : 67px;
+  height              : 100%;
   width               : 100%;
+  justify-content     : center;
   position            : absolute;
   margin              : 0;
   display             : flex;
@@ -1656,7 +344,7 @@ div {
 .bp2-contatolq .bp2-headerlq .bp2-headergroup {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 100%;
+  height              : 67px;
   width               : 976px;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -1664,10 +352,11 @@ div {
 .bp2-contatolq .bp2-headerlq .bp2-headergroup-layout-container {
   pointer-events      : none;
   flex-direction      : column;
-  top                 : 0px;
+  top                 : 0;
   align-items         : center;
-  height              : 67px;
+  height              : 100%;
   width               : 100%;
+  justify-content     : center;
   position            : relative;
   margin              : 0;
   display             : flex;
@@ -1694,7 +383,7 @@ div {
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 52px;
+  height              : 50px;
   width               : auto;
   position            : absolute;
   margin              : 0;
@@ -1939,7 +628,7 @@ div {
   align-items         : flex-end;
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 52px;
+  height              : 50px;
   margin              : 0 0 0 179px;
   width               : auto;
   transform           : rotate(0deg);
@@ -1948,17 +637,17 @@ div {
 .bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 52px;
+  height              : 50px;
   margin              : 0;
   width               : 293px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-background2 {
+.bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 52px;
+  height              : 50px;
   width               : 293px;
   position            : absolute;
   margin              : 0;
@@ -1977,13 +666,31 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-aboutbutton {
+  pointer-events      : auto;
+}
+.bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-aboutbutton:hover {
+  transform           : translate(0, -5px);
 }
 .bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-aboutbutton .bp2-aboutbutton1 {
   background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 20px);
+  height              : 39px;
+  width               : 50px;
+  position            : relative;
+  margin              : 0;
+  left                : calc(50.00% - 25px);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-aboutbutton .bp2-aboutbutton1 .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
-  width               : 100%;
-  position            : relative;
+  width               : calc(100.00% - 1px);
+  position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
@@ -1991,30 +698,12 @@ div {
 }
 .bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-aboutbutton .bp2-aboutbutton1 .bp2-sobre {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 2.00%;
+  bottom              : 0px;
   height              : 19px;
-  width               : 100%;
+  width               : 78.00%;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(65, 70, 75, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-aboutbutton .bp2-aboutbutton1 .bp2-sobre1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 2.00%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 11.00%;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Open Sans", Helvetica, Arial, serif;
@@ -2024,28 +713,6 @@ div {
   color               : rgba(138, 140, 142, 1.0);
   text-align          : center;
   line-height         : 19.0px;
-}
-.bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-aboutbutton .bp2-aboutbutton1 .bp2-ballsellection {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 12.00%;
-  width               : 12.50%;
-  position            : absolute;
-  margin              : 0;
-  left                : 43.75%;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-aboutbutton .bp2-aboutbutton1 .bp2-background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-pricesbutton {
   background-color    : rgba(255,255,255,0.0);
@@ -2058,13 +725,31 @@ div {
   left                : 106px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-pricesbutton {
+  pointer-events      : auto;
+}
+.bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-pricesbutton:hover {
+  transform           : translate(0, -5px);
 }
 .bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-pricesbutton .bp2-pricesbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 20px);
+  height              : 39px;
+  width               : 55px;
+  position            : relative;
+  margin              : 0;
+  left                : calc(50.00% - 28px);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-pricesbutton .bp2-pricesbutton1 .bp2-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
   width               : 100%;
-  position            : relative;
+  position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
@@ -2072,30 +757,12 @@ div {
 }
 .bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-pricesbutton .bp2-pricesbutton1 .bp2-pre347os {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 2.00%;
+  bottom              : 0px;
   height              : 19px;
-  width               : 100%;
+  width               : 81.82%;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(65, 70, 75, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-pricesbutton .bp2-pricesbutton1 .bp2-pre347os1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 2.00%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 9.09%;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Open Sans", Helvetica, Arial, serif;
@@ -2106,35 +773,35 @@ div {
   text-align          : center;
   line-height         : 19.0px;
 }
-.bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-pricesbutton .bp2-pricesbutton1 .bp2-background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
 .bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-contactbutton {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
   top                 : 0px;
   height              : 50px;
-  width               : 69px;
+  width               : 70px;
   position            : absolute;
   margin              : 0;
-  left                : 224px;
+  left                : 223px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-contactbutton .bp2-contactbutton1 {
   background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 20px);
+  height              : 39px;
+  width               : 65px;
+  position            : relative;
+  margin              : 0;
+  left                : calc(50.00% - 33px);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-contactbutton .bp2-contactbutton1 .bp2-background1 {
+  background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
-  width               : 100%;
-  position            : relative;
+  width               : calc(100.00% - 1px);
+  position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
@@ -2142,30 +809,12 @@ div {
 }
 .bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-contactbutton .bp2-contactbutton1 .bp2-contato {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 2.00%;
+  bottom              : 0px;
   height              : 19px;
-  width               : 100%;
+  width               : 83.08%;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(65, 70, 75, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-contactbutton .bp2-contactbutton1 .bp2-contato1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 2.00%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 8.46%;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Open Sans", Helvetica, Arial, serif;
@@ -2176,20 +825,9 @@ div {
   text-align          : center;
   line-height         : 19.0px;
 }
-.bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-contactbutton .bp2-contactbutton1 .bp2-background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
 .bp2-contatolq .bp2-headerlq .bp2-headergroup .bp2-stackedlogoto .bp2-buttonsheaderto .bp2-headerbuttons .bp2-rectangle {
   background-color    : rgba(116, 191, 187, 1.0);
-  top                 : 19px;
+  top                 : 8px;
   height              : 7px;
   width               : 48px;
   position            : absolute;
@@ -2296,6 +934,955 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.bp3-contatotablet {
+  width               : 100%;
+  min-width           : 768px;
+  height              : 100vh;
+  min-height          : 1024px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp3-contatotablet .bp3-panel {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 768px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-panel-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 0px;
+  height              : 97px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-contatotablet .bp3-panel-layout-container > * {
+  pointer-events      : auto;
+}
+.bp3-contatotablet .bp3-panel .bp3-panel2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 84px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp3-contatotablet .bp3-panel .bp3-tokibutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 92px;
+  width               : 243px;
+  position            : absolute;
+  margin              : 0;
+  left                : 264px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-panel .bp3-tokibutton .bp3-tokilogo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 87px;
+  width               : 197px;
+  position            : relative;
+  margin              : 0;
+  left                : 22px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-contatotablet .bp3-panel .bp3-tokibutton .bp3-tokilogo {
+  pointer-events      : auto;
+}
+.bp3-contatotablet .bp3-panel .bp3-tokibutton .bp3-tokilogo:hover {
+  transform           : translate(0, -5px);
+}
+.bp3-contatotablet .bp3-panel .bp3-tokibutton .bp3-tokilogo .bp3-tokilogo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 87px;
+  width               : 197px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-contatotablet .bp3-panel .bp3-tokibutton .bp3-tokilogo .bp3-tokilogo1 {
+  pointer-events      : auto;
+}
+.bp3-contatotablet .bp3-panel .bp3-tokibutton .bp3-tokilogo .bp3-tokilogo1:hover {
+  transform           : translate(0, -5px);
+}
+.bp3-contatotablet .bp3-panel .bp3-tokibutton .bp3-tokilogo .bp3-tokilogo1 .bp3-bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 86px;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-a404copy {
+  background-color    : rgba(255,255,255,0.0);
+  margin-right        : -1px;
+  position            : relative;
+  height              : 630px;
+  margin-left         : 1px;
+  width               : 746px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-a404copy-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-contatotablet .bp3-a404copy-layout-container > * {
+  pointer-events      : auto;
+}
+.bp3-contatotablet .bp3-a404copy .bp3-button {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 531px;
+  height              : 99px;
+  width               : 367px;
+  position            : absolute;
+  margin              : 0;
+  left                : 190px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-a404copy .bp3-button .bp3-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 99px;
+  width               : 367px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-a404copy .bp3-button .bp3-u5bb9u5668u6837u5f0f {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 99px;
+  width               : 367px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-a404copy .bp3-button .bp3-u5bb9u5668u6837u5f0f .bp3-mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 99px;
+  width               : 367px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-a404copy .bp3-button .bp3-u5bb9u5668u6837u5f0f .bp3-u21b3ud83cudfa8u80ccu666f {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 99px;
+  width               : 367px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-a404copy .bp3-button .bp3-u5bb9u5668u6837u5f0f .bp3-u21b3ud83cudfa8u80ccu666f .bp3-base {
+  background-color    : rgba(24, 151, 242, 1.0);
+  top                 : 0px;
+  height              : 99px;
+  width               : 367px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-a404copy .bp3-button .bp3-u6587u5b57u6837u5f0f {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 24px;
+  width               : 303px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-a404copy .bp3-button .bp3-u6587u5b57u6837u5f0f .bp3-u21b3u270fufe0fcontent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 303px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.bp3-contatotablet .bp3-a404copy .bp3-a16pxregularcenterwhitecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 403px;
+  height              : 32px;
+  width               : 746px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-a404copy .bp3-a16pxregularcenterwhitecopy3 .bp3-u21b3u270fufe0fcontent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 746px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(58, 61, 63, 1.0);
+  text-align          : center;
+  line-height         : 32.0px;
+}
+.bp3-contatotablet .bp3-a404copy .bp3-a16pxregularcenterwhitecopy31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 333px;
+  height              : 32px;
+  width               : 746px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-a404copy .bp3-a16pxregularcenterwhitecopy31 .bp3-u21b3u270fufe0fcontent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 746px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(58, 61, 63, 1.0);
+  text-align          : center;
+  line-height         : 32.0px;
+}
+.bp3-contatotablet .bp3-a404copy .bp3-a404 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 746px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 200.0px;
+  color               : rgba(74, 73, 74, 1.0);
+  text-align          : center;
+  line-height         : 244.0px;
+}
+.bp3-contatotablet .bp3-headertablet {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : center;
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  width               : 737px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 20px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-contatotablet .bp3-headertablet-layout-container > * {
+  pointer-events      : auto;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : center;
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 737px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 34px;
+  margin              : 0;
+  width               : auto;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 34px;
+  margin              : 0;
+  width               : auto;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-criadoreslogoout {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  margin              : 0;
+  width               : 320px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-criadoreslogoout .bp3-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 34px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-criadoreslogoout .bp3-logocriadoresout {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 34px;
+  width               : 310px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 33px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 97px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 33px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 126px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 159px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 32px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 186px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 33px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 210px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 10px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 235px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 235px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 29px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 248px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 30px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 248px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 23px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 299px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-path21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 29px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 279px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 30px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 279px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 29px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 295px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-criadoreslogoout .bp3-logocriadoresout .bp3-shape14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 30px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 295px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-headerbuttons {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 23px;
+  margin              : 0 0 0 240px;
+  width               : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-headerbuttons .bp3-menutab {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 23px;
+  width               : 27px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-headerbuttons .bp3-menutab .bp3-lines {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : 23px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-headerbuttons .bp3-menutab .bp3-lines .bp3-linecopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8.70%;
+  height              : 4.35%;
+  width               : 88.89%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-headerbuttons .bp3-menutab .bp3-lines .bp3-linecopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 11.11%;
+  bottom              : 8.70%;
+  height              : 4.35%;
+  width               : 70.37%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-headerbuttons .bp3-menutab .bp3-lines .bp3-linecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47.83%;
+  height              : 4.35%;
+  width               : 77.78%;
+  position            : absolute;
+  margin              : 0;
+  left                : 11.11%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-headerbuttons .bp3-menutab .bp3-lines .bp3-line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8.70%;
+  height              : 4.35%;
+  width               : 88.89%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-headerbuttons .bp3-menutab .bp3-lines .bp3-linecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 11.11%;
+  bottom              : 8.70%;
+  height              : 4.35%;
+  width               : 70.37%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-headerbuttons .bp3-menutab .bp3-lines .bp3-linecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47.83%;
+  height              : 4.35%;
+  width               : 77.78%;
+  position            : absolute;
+  margin              : 0;
+  left                : 11.11%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-headerbuttons .bp3-menutab .bp3-lines .bp3-menu {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : 100%;
+  width               : 92.59%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-lcstacked .bp3-headerbuttons .bp3-menutab .bp3-lines .bp3-menucopy {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : 100%;
+  width               : 92.59%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-rstacked {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 23px;
+  margin              : 0 0 0 50px;
+  width               : auto;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-rstacked .bp3-shopgroup {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 23px;
+  margin              : 0;
+  width               : 21px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-rstacked .bp3-shopgroup {
+  pointer-events      : auto;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-rstacked .bp3-shopgroup:hover {
+  transform           : translate(0, -5px);
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-rstacked .bp3-shopgroup .bp3-shop2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 23px;
+  width               : 21px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-rstacked .bp3-shopgroup .bp3-shop2 .bp3-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 23px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-rstacked .bp3-shopgroup .bp3-shop2 .bp3-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 23px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-rstacked .bp3-profileicon {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 21px;
+  margin              : 0 0 0 50px;
+  width               : 21px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-rstacked .bp3-profileicon {
+  pointer-events      : auto;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-rstacked .bp3-profileicon:hover {
+  
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-rstacked .bp3-profileicon .bp3-shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-centerstacked .bp3-rstacked .bp3-profileicon .bp3-shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-contatotablet .bp3-headertablet .bp3-stackedheader .bp3-path2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 10px 0 0 0;
+  width               : 737px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2726,7 +2313,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 100%;
-  width               : 536px;
+  width               : 535px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -2736,7 +2323,7 @@ div {
   flex-direction      : column;
   top                 : 20px;
   align-items         : center;
-  height              : 118px;
+  height              : 41px;
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -2749,37 +2336,15 @@ div {
 .bp4-contatomobile .bp4-headermobile .bp4-background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 118px;
-  width               : 536px;
+  height              : 41px;
+  width               : 535px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 113px;
-  width               : calc(100.00% - 7px);
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 113px;
-  width               : 100%;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader {
   display             : flex;
   justify-content     : flex-start;
   flex-direction      : column;
@@ -2787,728 +2352,402 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
-  width               : 529px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 {
-  background-color    : rgba(255,255,255,0.0);
-  position            : relative;
-  height              : 113px;
-  margin              : 0;
-  width               : 529px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-criadoreslogoout {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 26px;
-  width               : 242px;
+  width               : 537px;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 29px;
+  margin              : 0;
+  width               : auto;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 29px;
+  margin              : 0;
+  width               : auto;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-criadoreslogoout {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  margin              : 0;
+  width               : 276px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-criadoreslogoout .bp4-background1 {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-criadoreslogoout .bp4-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 26px;
-  width               : 242px;
+  height              : 29px;
+  width               : 276px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-criadoreslogoout .bp4-logocriadoresout {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-criadoreslogoout .bp4-logocriadoresout {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 26px;
-  width               : 235px;
+  height              : 29px;
+  width               : 268px;
   position            : absolute;
   margin              : 0;
   left                : 4px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
-  height              : 25px;
-  width               : 21px;
+  height              : 28px;
+  width               : 24px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape1 {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
-  height              : 24px;
-  width               : 20px;
+  height              : 27px;
+  width               : 23px;
   position            : absolute;
   margin              : 0;
-  left                : 22px;
+  left                : 25px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape2 {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
-  height              : 24px;
-  width               : 8px;
-  position            : absolute;
-  margin              : 0;
-  left                : 42px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 24px;
-  width               : 25px;
+  height              : 27px;
+  width               : 9px;
   position            : absolute;
   margin              : 0;
   left                : 49px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape4 {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
-  height              : 24px;
-  width               : 23px;
+  height              : 27px;
+  width               : 28px;
   position            : absolute;
   margin              : 0;
-  left                : 73px;
+  left                : 56px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape5 {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
+  height              : 27px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 84px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 109px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 27px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 138px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 27px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 161px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 28px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 181px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 8px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 203px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 9px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 203px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
   height              : 25px;
   width               : 25px;
   position            : absolute;
   margin              : 0;
-  left                : 95px;
+  left                : 214px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape6 {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape11 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 24px;
-  width               : 20px;
+  top                 : 2px;
+  height              : 25px;
+  width               : 25px;
   position            : absolute;
   margin              : 0;
-  left                : 120px;
+  left                : 214px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape7 {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-path1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 24px;
-  width               : 18px;
+  top                 : 3px;
+  height              : 19px;
+  width               : 8px;
   position            : absolute;
   margin              : 0;
-  left                : 141px;
+  left                : 258px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape8 {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-path21 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
+  top                 : 2px;
   height              : 25px;
   width               : 19px;
   position            : absolute;
   margin              : 0;
-  left                : 158px;
+  left                : 241px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-path {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 7px;
-  width               : 7px;
-  position            : absolute;
-  margin              : 0;
-  left                : 178px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape9 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 8px;
-  width               : 7px;
-  position            : absolute;
-  margin              : 0;
-  left                : 177px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape10 {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape12 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
-  height              : 22px;
-  width               : 22px;
+  height              : 25px;
+  width               : 19px;
   position            : absolute;
   margin              : 0;
-  left                : 187px;
+  left                : 241px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape11 {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape13 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
-  height              : 23px;
-  width               : 22px;
+  height              : 25px;
+  width               : 13px;
   position            : absolute;
   margin              : 0;
-  left                : 187px;
+  left                : 255px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-path1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
-  height              : 17px;
-  width               : 7px;
-  position            : absolute;
-  margin              : 0;
-  left                : 226px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-path21 {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape14 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
-  height              : 22px;
-  width               : 16px;
+  height              : 25px;
+  width               : 13px;
   position            : absolute;
   margin              : 0;
-  left                : 211px;
+  left                : 255px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape12 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 23px;
-  width               : 17px;
-  position            : absolute;
-  margin              : 0;
-  left                : 210px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape13 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 22px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 223px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-criadoreslogoout .bp4-logocriadoresout .bp4-shape14 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
-  height              : 23px;
-  width               : 11px;
-  position            : absolute;
-  margin              : 0;
-  left                : 223px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : row;
-  align-items         : flex-start;
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 0px;
-  height              : 113px;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-headerbuttons {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 113px;
-  margin              : 0;
-  width               : 426px;
-  overflow            : hidden;
+  height              : 23px;
+  margin              : 0 0 0 80px;
+  width               : 27px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-background1 {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-headerbuttons .bp4-menutab {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 113px;
-  width               : 426px;
-  position            : absolute;
+  height              : 23px;
+  width               : 27px;
+  position            : relative;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 104px;
-  width               : 402px;
-  position            : absolute;
-  margin              : 0;
-  left                : 21px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-lines {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-headerbuttons .bp4-menutab .bp4-lines {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
   top                 : 0px;
-  height              : 22px;
-  width               : 25px;
+  height              : 23px;
+  width               : 27px;
   position            : absolute;
   margin              : 0;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-lines .bp4-linecopy5 {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-headerbuttons .bp4-menutab .bp4-lines .bp4-linecopy5 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 9.09%;
-  height              : 4.55%;
-  width               : 96.00%;
+  top                 : 8.70%;
+  height              : 4.35%;
+  width               : 88.89%;
   position            : absolute;
   margin              : 0;
-  left                : -4.00%;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-lines .bp4-linecopy4 {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-headerbuttons .bp4-menutab .bp4-lines .bp4-linecopy4 {
   background-color    : rgba(255,255,255,0.0);
-  right               : 8.00%;
-  bottom              : 9.09%;
-  height              : 4.55%;
-  width               : 76.00%;
-  position            : absolute;
-  margin              : 0;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-lines .bp4-linecopy3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 47.73%;
-  height              : 4.55%;
-  width               : 84.00%;
-  position            : absolute;
-  margin              : 0;
-  left                : 8.00%;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-lines .bp4-line {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9.09%;
-  height              : 4.55%;
-  width               : 96.00%;
-  position            : absolute;
-  margin              : 0;
-  left                : -4.00%;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-lines .bp4-linecopy2 {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 8.00%;
-  bottom              : 9.09%;
-  height              : 4.55%;
-  width               : 76.00%;
+  right               : 11.11%;
+  bottom              : 8.70%;
+  height              : 4.35%;
+  width               : 70.37%;
   position            : absolute;
   margin              : 0;
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-lines .bp4-linecopy {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-headerbuttons .bp4-menutab .bp4-lines .bp4-linecopy3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 47.73%;
-  height              : 4.55%;
-  width               : 84.00%;
+  top                 : 47.83%;
+  height              : 4.35%;
+  width               : 77.78%;
   position            : absolute;
   margin              : 0;
-  left                : 8.00%;
+  left                : 11.11%;
   transform           : rotate(0deg);
   opacity             : 0.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-lines .bp4-menu {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-headerbuttons .bp4-menutab .bp4-lines .bp4-line {
   background-color    : rgba(255,255,255,0.0);
+  top                 : 8.70%;
+  height              : 4.35%;
+  width               : 88.89%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-headerbuttons .bp4-menutab .bp4-lines .bp4-linecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 11.11%;
+  bottom              : 8.70%;
+  height              : 4.35%;
+  width               : 70.37%;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-headerbuttons .bp4-menutab .bp4-lines .bp4-linecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47.83%;
+  height              : 4.35%;
+  width               : 77.78%;
+  position            : absolute;
+  margin              : 0;
+  left                : 11.11%;
+  transform           : rotate(0deg);
+  opacity             : 0.0;
+}
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-headerbuttons .bp4-menutab .bp4-lines .bp4-menu {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
   top                 : 0px;
   height              : 100%;
-  width               : 96.00%;
+  width               : 92.59%;
   position            : absolute;
   margin              : 0;
-  left                : 2.00%;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-lines .bp4-menucopy {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-lcstacked .bp4-headerbuttons .bp4-menutab .bp4-lines .bp4-menucopy {
   background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
   top                 : 0px;
   height              : 100%;
-  width               : 96.00%;
+  width               : 92.59%;
   position            : absolute;
   margin              : 0;
-  left                : 2.00%;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-rstacked {
   display             : flex;
   justify-content     : flex-start;
   flex-direction      : row;
   align-items         : flex-end;
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 0px;
-  height              : 47.12%;
-  width               : 99.00%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.89;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile {
-  background-color    : rgba(255,255,255,0.0);
-  position            : relative;
-  height              : 48px;
-  margin              : 0;
-  width               : 120px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile {
-  pointer-events      : auto;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile:hover {
-  transform           : translate(0, -5px);
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile .bp4-rectanglecopy {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile .bp4-aboutbutton {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2.08%;
-  height              : 58.33%;
-  width               : 93.33%;
-  position            : absolute;
-  margin              : 0;
-  left                : 3.33%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile .bp4-aboutbutton .bp4-aboutbutton1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile .bp4-aboutbutton .bp4-aboutbutton1 .bp4-sobre {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -10.71%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(65, 70, 75, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile .bp4-aboutbutton .bp4-aboutbutton1 .bp4-sobre1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -10.71%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(138, 140, 142, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile .bp4-aboutbutton .bp4-aboutbutton1 .bp4-ballsellection {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 10.71%;
-  width               : 12.50%;
-  position            : absolute;
-  margin              : 0;
-  left                : 43.75%;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-aboutbuttongroupmobile .bp4-aboutbutton .bp4-aboutbutton1 .bp4-background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile {
-  background-color    : rgba(255,255,255,0.0);
-  position            : relative;
-  height              : 49px;
-  margin              : 0 0 0 36px;
-  width               : 120px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile {
-  pointer-events      : auto;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile:hover {
-  transform           : translate(0, -5px);
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile .bp4-rectanglecopy2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile .bp4-pricesbutton {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6.12%;
-  height              : 55.10%;
-  width               : 93.33%;
-  position            : absolute;
-  margin              : 0;
-  left                : 3.33%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile .bp4-pricesbutton .bp4-pricesbutton1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile .bp4-pricesbutton .bp4-pricesbutton1 .bp4-pre347os {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -11.11%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(65, 70, 75, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile .bp4-pricesbutton .bp4-pricesbutton1 .bp4-pre347os1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -11.11%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(138, 140, 142, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-pricesbuttongroupmobile .bp4-pricesbutton .bp4-pricesbutton1 .bp4-background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile {
-  background-color    : rgba(255,255,255,0.0);
-  position            : relative;
-  height              : 49px;
-  margin              : 0 0 0 36px;
-  width               : 120px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile {
-  pointer-events      : auto;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile:hover {
-  transform           : translate(0, -5px);
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile .bp4-rectanglecopy3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile .bp4-contactbutton {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6.12%;
-  height              : 55.10%;
-  width               : 93.33%;
-  position            : absolute;
-  margin              : 0;
-  left                : 3.33%;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile .bp4-contactbutton .bp4-contactbutton1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile .bp4-contactbutton .bp4-contactbutton1 .bp4-contato {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -11.11%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(65, 70, 75, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile .bp4-contactbutton .bp4-contactbutton1 .bp4-contato1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : -11.11%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(138, 140, 142, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-headerbuttons .bp4-menutab .bp4-recmenutabopened .bp4-contactbuttongroupmobile .bp4-contactbutton .bp4-contactbutton1 .bp4-background2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-stackedgroup3 {
-  display             : flex;
-  justify-content     : flex-start;
-  flex-direction      : row;
-  align-items         : flex-start;
-  background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 23px;
-  margin              : 0 0 0 35px;
+  margin              : 0 0 0 50px;
   width               : auto;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-stackedgroup3 .bp4-shopgroup {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-rstacked .bp4-shopgroup {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 23px;
@@ -3518,13 +2757,13 @@ div {
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-stackedgroup3 .bp4-shopgroup {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-rstacked .bp4-shopgroup {
   pointer-events      : auto;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-stackedgroup3 .bp4-shopgroup:hover {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-rstacked .bp4-shopgroup:hover {
   transform           : translate(0, -5px);
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-stackedgroup3 .bp4-shopgroup .bp4-shop2 {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-rstacked .bp4-shopgroup .bp4-shop2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 23px;
@@ -3535,7 +2774,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-stackedgroup3 .bp4-shopgroup .bp4-shop2 .bp4-shape15 {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-rstacked .bp4-shopgroup .bp4-shop2 .bp4-shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 23px;
@@ -3546,7 +2785,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-stackedgroup3 .bp4-shopgroup .bp4-shop2 .bp4-shape16 {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-rstacked .bp4-shopgroup .bp4-shop2 .bp4-shape1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 23px;
@@ -3557,23 +2796,23 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-stackedgroup3 .bp4-profileicon {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-rstacked .bp4-profileicon {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 21px;
-  margin              : 0 0 0 26px;
+  margin              : 0 0 0 50px;
   width               : 21px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-stackedgroup3 .bp4-profileicon {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-rstacked .bp4-profileicon {
   pointer-events      : auto;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-stackedgroup3 .bp4-profileicon:hover {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-rstacked .bp4-profileicon:hover {
   
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-stackedgroup3 .bp4-profileicon .bp4-shape {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-rstacked .bp4-profileicon .bp4-shape {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 20px;
@@ -3584,7 +2823,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-stackedgroup3 .bp4-profileicon .bp4-shape1 {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-centerstacked .bp4-rstacked .bp4-profileicon .bp4-shape1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 20px;
@@ -3595,12 +2834,12 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp4-contatomobile .bp4-headermobile .bp4-header .bp4-headergroup .bp4-stackedgroup .bp4-path2 {
+.bp4-contatomobile .bp4-headermobile .bp4-stackedheader .bp4-path2 {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : auto;
-  margin              : -75px 0 0 0;
-  width               : 529px;
+  margin              : 10px 0 0 0;
+  width               : 537px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -4080,7 +3319,7 @@ div {
 .bp1-contato .bp1-header .bp1-headergroup {
   background-color    : rgba(255,255,255,0.0);
   top                 : 23px;
-  height              : 64px;
+  height              : 62px;
   width               : calc(100.00% - 15px);
   position            : absolute;
   margin              : 0;
@@ -4110,7 +3349,7 @@ div {
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 52px;
+  height              : 50px;
   margin              : 0;
   width               : auto;
   transform           : rotate(0deg);
@@ -4353,7 +3592,7 @@ div {
   align-items         : flex-end;
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 52px;
+  height              : 50px;
   margin              : 0 0 0 492px;
   width               : auto;
   transform           : rotate(0deg);
@@ -4362,17 +3601,17 @@ div {
 .bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 52px;
+  height              : 50px;
   margin              : 0;
   width               : 293px;
   overflow            : hidden;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-background2 {
+.bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-background1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 52px;
+  height              : 50px;
   width               : 293px;
   position            : absolute;
   margin              : 0;
@@ -4391,44 +3630,44 @@ div {
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-aboutbutton {
+  pointer-events      : auto;
+}
+.bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-aboutbutton:hover {
+  transform           : translate(0, -5px);
 }
 .bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-aboutbutton .bp1-aboutbutton1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
+  top                 : calc(50.00% - 20px);
+  height              : 39px;
+  width               : 50px;
   position            : relative;
   margin              : 0;
-  left                : 0px;
+  left                : calc(50.00% - 25px);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-aboutbutton .bp1-aboutbutton1 .bp1-background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : calc(100.00% - 1px);
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-aboutbutton .bp1-aboutbutton1 .bp1-sobre {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 2.00%;
+  bottom              : 0px;
   height              : 19px;
-  width               : 100%;
+  width               : 78.00%;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(65, 70, 75, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-aboutbutton .bp1-aboutbutton1 .bp1-sobre1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 2.00%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 11.00%;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Open Sans", Helvetica, Arial, serif;
@@ -4438,28 +3677,6 @@ div {
   color               : rgba(138, 140, 142, 1.0);
   text-align          : center;
   line-height         : 19.0px;
-}
-.bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-aboutbutton .bp1-aboutbutton1 .bp1-ballsellection {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 12.00%;
-  width               : 12.50%;
-  position            : absolute;
-  margin              : 0;
-  left                : 43.75%;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-}
-.bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-aboutbutton .bp1-aboutbutton1 .bp1-background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-pricesbutton {
   background-color    : rgba(255,255,255,0.0);
@@ -4472,13 +3689,31 @@ div {
   left                : 106px;
   transform           : rotate(0deg);
   opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-pricesbutton {
+  pointer-events      : auto;
+}
+.bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-pricesbutton:hover {
+  transform           : translate(0, -5px);
 }
 .bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-pricesbutton .bp1-pricesbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(50.00% - 20px);
+  height              : 39px;
+  width               : 55px;
+  position            : relative;
+  margin              : 0;
+  left                : calc(50.00% - 28px);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-pricesbutton .bp1-pricesbutton1 .bp1-background2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 100%;
   width               : 100%;
-  position            : relative;
+  position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
@@ -4486,30 +3721,12 @@ div {
 }
 .bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-pricesbutton .bp1-pricesbutton1 .bp1-pre347os {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 2.00%;
+  bottom              : 0px;
   height              : 19px;
-  width               : 100%;
+  width               : 81.82%;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(65, 70, 75, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
-}
-.bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-pricesbutton .bp1-pricesbutton1 .bp1-pre347os1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 2.00%;
-  height              : 19px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 9.09%;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Open Sans", Helvetica, Arial, serif;
@@ -4519,67 +3736,49 @@ div {
   color               : rgba(138, 140, 142, 1.0);
   text-align          : center;
   line-height         : 19.0px;
-}
-.bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-pricesbutton .bp1-pricesbutton1 .bp1-background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-contactbutton {
   background-color    : rgba(255,255,255,0.0);
   right               : 0px;
   top                 : 0px;
   height              : 50px;
-  width               : 69px;
+  width               : 70px;
   position            : absolute;
   margin              : 0;
-  left                : 224px;
+  left                : 223px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-contactbutton .bp1-contactbutton1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
+  top                 : calc(50.00% - 20px);
+  height              : 39px;
+  width               : 65px;
   position            : relative;
   margin              : 0;
-  left                : 0px;
+  left                : calc(50.00% - 33px);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-contactbutton .bp1-contactbutton1 .bp1-contato2 {
+.bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-contactbutton .bp1-contactbutton1 .bp1-background2 {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 2.00%;
-  height              : 19px;
-  width               : 100%;
+  top                 : 0px;
+  height              : 100%;
+  width               : calc(100.00% - 1px);
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
-  opacity             : 0.0;
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 800;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(65, 70, 75, 1.0);
-  text-align          : center;
-  line-height         : 19.0px;
+  opacity             : 1.0;
 }
 .bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-contactbutton .bp1-contactbutton1 .bp1-contato1 {
   background-color    : rgba(255,255,255,0.0);
-  bottom              : 2.00%;
+  bottom              : 0px;
   height              : 19px;
-  width               : 100%;
+  width               : 83.08%;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 8.46%;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Open Sans", Helvetica, Arial, serif;
@@ -4590,20 +3789,9 @@ div {
   text-align          : center;
   line-height         : 19.0px;
 }
-.bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-contactbutton .bp1-contactbutton1 .bp1-background1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
 .bp1-contato .bp1-header .bp1-headergroup .bp1-stackedgroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-headerbuttons .bp1-rectangle {
   background-color    : rgba(116, 191, 187, 1.0);
-  top                 : 19px;
+  top                 : 8px;
   height              : 7px;
   width               : 48px;
   position            : absolute;
