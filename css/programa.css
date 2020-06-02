@@ -8225,7 +8225,7 @@ div {
   top                 : 0;
   height              : 100%;
   width               : calc(100.00% - 40px);
-  justify-content     : center;
+  justify-content     : top;
   position            : fixed;
   margin              : 0;
   display             : flex;
