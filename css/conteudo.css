@@ -2301,7 +2301,7 @@ div {
   top                 : 0;
   height              : 100%;
   width               : calc(100.00% - 40px);
-  justify-content     : center;
+  justify-content     : top;
   position            : fixed;
   margin              : 0;
   display             : flex;
@@ -2701,7 +2701,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 0px;
   height              : 19px;
-  width               : 78.00%;
+  width               : 100.00%;
   position            : absolute;
   margin              : 0;
   left                : 11.00%;
@@ -5865,7 +5865,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   bottom              : 0px;
   height              : 19px;
-  width               : 78.00%;
+  width               : 100.00%;
   position            : absolute;
   margin              : 0;
   left                : 11.00%;
