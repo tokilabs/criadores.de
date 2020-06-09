@@ -175,7 +175,7 @@ div {
 }
 .bp2-conteudolq .bp2-containsservicesui .bp2-bannercomprar .bp2-sliderbannercopy2 .bp2-rectangle video {
   object-fit          : cover;
-  width               : 100%;
+  width               : auto;
   height              : 100%;
 }
 /* IE doesn't support cover  */
