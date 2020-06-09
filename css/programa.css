@@ -6751,7 +6751,7 @@ div {
   opacity             : 0.0;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container1 .bp2-container9 .bp2-stackedcontainer {
-  display             : flex;
+  display             : inside;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
@@ -6826,7 +6826,7 @@ div {
   opacity             : 0.3;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container1 .bp2-container9 .bp2-stackedcontainer .bp2-paddingdetalhescontainer .bp2-stackedgroup {
-  display             : flex;
+  display             : inside;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
@@ -6939,7 +6939,7 @@ div {
   opacity             : 0.0;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container2 .bp2-container9 .bp2-stackedcontainer {
-  display             : flex;
+  display             : inside;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
@@ -7014,7 +7014,7 @@ div {
   opacity             : 0.3;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container2 .bp2-container9 .bp2-stackedcontainer .bp2-paddingdetalhescontainer .bp2-stackedgroup {
-  display             : flex;
+  display             : inside;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
@@ -7127,7 +7127,7 @@ div {
   opacity             : 0.0;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container3 .bp2-container9 .bp2-stackedcontainer {
-  display             : flex;
+  display             : inside;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
@@ -7202,7 +7202,7 @@ div {
   opacity             : 0.3;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container3 .bp2-container9 .bp2-stackedcontainer .bp2-paddingdetalhescontainer .bp2-stackedgroup {
-  display             : flex;
+  display             : inside;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
@@ -7315,7 +7315,7 @@ div {
   opacity             : 0.0;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container4 .bp2-container9 .bp2-stackedcontainer {
-  display             : flex;
+  display             : inside;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
@@ -7390,7 +7390,7 @@ div {
   opacity             : 0.3;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container4 .bp2-container9 .bp2-stackedcontainer .bp2-paddingdetalhescontainer .bp2-stackedgroup {
-  display             : flex;
+  display             : inside;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
@@ -9716,13 +9716,13 @@ div {
   opacity             : 0.0;
 }
 .bp1-programa .bp1-containsservicesui .bp1-content .bp1-container .bp1-container9 .bp1-stackedcontainer {
-  display             : flex;
-  justify-content     : flex-start;
+  display             : inside;
+  justify-content     : center;
   flex-direction      : column;
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
-  height              : auto;
+  height              : min-content;
   width               : 450px;
   position            : absolute;
   margin              : 0;
@@ -9739,7 +9739,7 @@ div {
   border-radius       : 15px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : cover;
+  object-fit          : contain;
 }
 .bp1-programa .bp1-containsservicesui .bp1-content .bp1-container .bp1-container9 .bp1-stackedcontainer .bp1-title {
   background-color    : rgba(255,255,255,0.0);
@@ -9791,8 +9791,8 @@ div {
   opacity             : 0.3;
 }
 .bp1-programa .bp1-containsservicesui .bp1-content .bp1-container .bp1-container9 .bp1-stackedcontainer .bp1-paddingdetalhescontainer .bp1-stackedgroup {
-  display             : flex;
-  justify-content     : flex-start;
+  display             : inline-grid;
+  justify-content     : center;
   flex-direction      : column;
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
@@ -9904,8 +9904,8 @@ div {
   opacity             : 0.0;
 }
 .bp1-programa .bp1-containsservicesui .bp1-content .bp1-container1 .bp1-container9 .bp1-stackedcontainer {
-  display             : flex;
-  justify-content     : flex-start;
+  display             : inside;
+  justify-content     : center;
   flex-direction      : column;
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
@@ -9979,8 +9979,8 @@ div {
   opacity             : 0.3;
 }
 .bp1-programa .bp1-containsservicesui .bp1-content .bp1-container1 .bp1-container9 .bp1-stackedcontainer .bp1-paddingdetalhescontainer .bp1-stackedgroup {
-  display             : flex;
-  justify-content     : flex-start;
+  display             : inside;
+  justify-content     : center;
   flex-direction      : column;
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
@@ -10092,7 +10092,7 @@ div {
   opacity             : 0.0;
 }
 .bp1-programa .bp1-containsservicesui .bp1-content .bp1-container2 .bp1-container9 .bp1-stackedcontainer {
-  display             : flex;
+  display             : inside;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
@@ -10167,7 +10167,7 @@ div {
   opacity             : 0.3;
 }
 .bp1-programa .bp1-containsservicesui .bp1-content .bp1-container2 .bp1-container9 .bp1-stackedcontainer .bp1-paddingdetalhescontainer .bp1-stackedgroup {
-  display             : flex;
+  display             : inside;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
@@ -10280,7 +10280,7 @@ div {
   opacity             : 0.0;
 }
 .bp1-programa .bp1-containsservicesui .bp1-content .bp1-container3 .bp1-container9 .bp1-stackedcontainer {
-  display             : flex;
+  display             : inside;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
@@ -10355,7 +10355,7 @@ div {
   opacity             : 0.3;
 }
 .bp1-programa .bp1-containsservicesui .bp1-content .bp1-container3 .bp1-container9 .bp1-stackedcontainer .bp1-paddingdetalhescontainer .bp1-stackedgroup {
-  display             : flex;
+  display             : inside;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
@@ -10468,7 +10468,7 @@ div {
   opacity             : 0.0;
 }
 .bp1-programa .bp1-containsservicesui .bp1-content .bp1-container4 .bp1-container9 .bp1-stackedcontainer {
-  display             : flex;
+  display             : inside;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
@@ -10543,7 +10543,7 @@ div {
   opacity             : 0.3;
 }
 .bp1-programa .bp1-containsservicesui .bp1-content .bp1-container4 .bp1-container9 .bp1-stackedcontainer .bp1-paddingdetalhescontainer .bp1-stackedgroup {
-  display             : flex;
+  display             : inside;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
@@ -10656,7 +10656,7 @@ div {
   opacity             : 0.0;
 }
 .bp1-programa .bp1-containsservicesui .bp1-content .bp1-container5 .bp1-container9 .bp1-stackedcontainer {
-  display             : flex;
+  display             : inside;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
@@ -10731,7 +10731,7 @@ div {
   opacity             : 0.3;
 }
 .bp1-programa .bp1-containsservicesui .bp1-content .bp1-container5 .bp1-container9 .bp1-stackedcontainer .bp1-paddingdetalhescontainer .bp1-stackedgroup {
-  display             : flex;
+  display             : inside;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
@@ -10919,7 +10919,7 @@ div {
   opacity             : 0.3;
 }
 .bp1-programa .bp1-containsservicesui .bp1-content .bp1-container6 .bp1-container9 .bp1-stackedcontainer .bp1-paddingdetalhescontainer .bp1-stackedgroup {
-  display             : flex;
+  display             : inside;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
@@ -11107,7 +11107,7 @@ div {
   opacity             : 0.3;
 }
 .bp1-programa .bp1-containsservicesui .bp1-content .bp1-container7 .bp1-container9 .bp1-stackedcontainer .bp1-paddingdetalhescontainer .bp1-stackedgroup {
-  display             : flex;
+  display             : inside;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
@@ -11295,7 +11295,7 @@ div {
   opacity             : 0.3;
 }
 .bp1-programa .bp1-containsservicesui .bp1-content .bp1-container8 .bp1-container9 .bp1-stackedcontainer .bp1-paddingdetalhescontainer .bp1-stackedgroup {
-  display             : flex;
+  display             : inside;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;

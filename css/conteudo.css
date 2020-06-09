@@ -4,7 +4,7 @@
 .anima-overlay {
   position            : absolute;
   opacity             : 0;
-  display             : none;
+  display             : grid;
   top                 : 0;
   width               : 100%;
   height              : 100%;
@@ -42,7 +42,7 @@ div {
   width               : 100%;
   position            : absolute;
   margin              : 0;
-  display             : flex;
+  display             : inline-flex;
   left                : 0;
 }
 .bp2-conteudolq .bp2-panel-layout-container > * {
@@ -639,7 +639,7 @@ div {
   opacity             : 0.0;
 }
 .bp2-conteudolq .bp2-containsservicesui .bp2-content .bp2-container .bp2-container9 .bp2-stackedcontainer {
-  display             : flex;
+  display             : inside;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
