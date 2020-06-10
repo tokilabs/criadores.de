@@ -706,7 +706,7 @@
                                         let target_style_property = property; // width/height
                                         if (sides_containers.hasOwnProperty(property)) {
                                             target_style_property = sides_containers[
-                                            property]; //left/right/top/bottom
+                                                property]; //left/right/top/bottom
                                         }
                                         const parent_size = Math.max(1, parseInt(getComputedStyle(offsetParent)[
                                             target_style_property], 10));
@@ -901,7 +901,8 @@
                                         let selector_to_props = {};
                                         // set all old state properties back to initial
                                         Object.entries(from_state_element_state).forEach(([selector,
-                                        properties]) => {
+                                            properties
+                                        ]) => {
                                             selector_to_props[selector] = selector_to_props[selector] || {};
                                             Object.entries(properties).forEach(([property, value]) => {
                                                 selector_to_props[selector][property] =
@@ -952,7 +953,7 @@
                                                         .hasOwnProperty(selector)) {
                                                         filtered_props[selector] =
                                                             element_selector_to_changed_properties[
-                                                            selector];
+                                                                selector];
                                                         longest_animation_time_ms = Math.max(
                                                             longest_animation_time_ms, animation_specs
                                                             .delay + animation_specs.duration);
@@ -1012,27 +1013,27 @@
                                             let initial_properties = {};
                                             Object.values(anima_component.states_flow).forEach((
                                                 state_spec) => {
-                                                    Object.entries(state_spec.overrides).forEach(([
-                                                        selector, properties
-                                                    ]) => {
-                                                        initial_properties[selector] =
-                                                            initial_properties[selector] || {};
-                                                        const element = selector === "" ?
-                                                            root_element : root_element
-                                                            .querySelector(selector);
-                                                        Object.keys(properties).forEach((
-                                                            property) => {
-                                                            initial_properties[selector]
-                                                                [property] = element
-                                                                .style[property] ||
-                                                                property ===
-                                                                'transform' &&
-                                                                'rotate(0deg)' ||
-                                                                window.getComputedStyle(
-                                                                    element)[property];
-                                                        })
-                                                    });
+                                                Object.entries(state_spec.overrides).forEach(([
+                                                    selector, properties
+                                                ]) => {
+                                                    initial_properties[selector] =
+                                                        initial_properties[selector] || {};
+                                                    const element = selector === "" ?
+                                                        root_element : root_element
+                                                        .querySelector(selector);
+                                                    Object.keys(properties).forEach((
+                                                        property) => {
+                                                        initial_properties[selector]
+                                                            [property] = element
+                                                            .style[property] ||
+                                                            property ===
+                                                            'transform' &&
+                                                            'rotate(0deg)' ||
+                                                            window.getComputedStyle(
+                                                                element)[property];
+                                                    })
                                                 });
+                                            });
                                             // set properties to first state
                                             Object.entries(anima_component.states_flow[initial_state_name]
                                                 .overrides).forEach(([selector, properties]) => {
@@ -1976,7 +1977,7 @@
                                         let target_style_property = property; // width/height
                                         if (sides_containers.hasOwnProperty(property)) {
                                             target_style_property = sides_containers[
-                                            property]; //left/right/top/bottom
+                                                property]; //left/right/top/bottom
                                         }
                                         const parent_size = Math.max(1, parseInt(getComputedStyle(offsetParent)[
                                             target_style_property], 10));
@@ -2171,7 +2172,8 @@
                                         let selector_to_props = {};
                                         // set all old state properties back to initial
                                         Object.entries(from_state_element_state).forEach(([selector,
-                                        properties]) => {
+                                            properties
+                                        ]) => {
                                             selector_to_props[selector] = selector_to_props[selector] || {};
                                             Object.entries(properties).forEach(([property, value]) => {
                                                 selector_to_props[selector][property] =
@@ -2222,7 +2224,7 @@
                                                         .hasOwnProperty(selector)) {
                                                         filtered_props[selector] =
                                                             element_selector_to_changed_properties[
-                                                            selector];
+                                                                selector];
                                                         longest_animation_time_ms = Math.max(
                                                             longest_animation_time_ms, animation_specs
                                                             .delay + animation_specs.duration);
@@ -2282,27 +2284,27 @@
                                             let initial_properties = {};
                                             Object.values(anima_component.states_flow).forEach((
                                                 state_spec) => {
-                                                    Object.entries(state_spec.overrides).forEach(([
-                                                        selector, properties
-                                                    ]) => {
-                                                        initial_properties[selector] =
-                                                            initial_properties[selector] || {};
-                                                        const element = selector === "" ?
-                                                            root_element : root_element
-                                                            .querySelector(selector);
-                                                        Object.keys(properties).forEach((
-                                                            property) => {
-                                                            initial_properties[selector]
-                                                                [property] = element
-                                                                .style[property] ||
-                                                                property ===
-                                                                'transform' &&
-                                                                'rotate(0deg)' ||
-                                                                window.getComputedStyle(
-                                                                    element)[property];
-                                                        })
-                                                    });
+                                                Object.entries(state_spec.overrides).forEach(([
+                                                    selector, properties
+                                                ]) => {
+                                                    initial_properties[selector] =
+                                                        initial_properties[selector] || {};
+                                                    const element = selector === "" ?
+                                                        root_element : root_element
+                                                        .querySelector(selector);
+                                                    Object.keys(properties).forEach((
+                                                        property) => {
+                                                        initial_properties[selector]
+                                                            [property] = element
+                                                            .style[property] ||
+                                                            property ===
+                                                            'transform' &&
+                                                            'rotate(0deg)' ||
+                                                            window.getComputedStyle(
+                                                                element)[property];
+                                                    })
                                                 });
+                                            });
                                             // set properties to first state
                                             Object.entries(anima_component.states_flow[initial_state_name]
                                                 .overrides).forEach(([selector, properties]) => {
@@ -3325,7 +3327,7 @@
                                             let target_style_property = property; // width/height
                                             if (sides_containers.hasOwnProperty(property)) {
                                                 target_style_property = sides_containers[
-                                                property]; //left/right/top/bottom
+                                                    property]; //left/right/top/bottom
                                             }
                                             const parent_size = Math.max(1, parseInt(getComputedStyle(offsetParent)[
                                                 target_style_property], 10));
@@ -3356,7 +3358,7 @@
                                                     element.style[property] = new_prop_value;
                                                     element.style['margin-' + property] = 0;
                                                     element.style['margin-' + sides_opposites[property]] =
-                                                    0;
+                                                        0;
                                                     if (element.style[sides_opposites[property]]) {
                                                         element.style[sides_opposites[property]] = 'auto';
                                                     }
@@ -3516,7 +3518,7 @@
                                                         }
                                                     });
                                                     anime(
-                                                    full_params); // anime js library globally available
+                                                        full_params); // anime js library globally available
                                                 }
                                             })
                                         }
@@ -3532,7 +3534,8 @@
                                             let selector_to_props = {};
                                             // set all old state properties back to initial
                                             Object.entries(from_state_element_state).forEach(([selector,
-                                                properties]) => {
+                                                properties
+                                            ]) => {
                                                 selector_to_props[selector] = selector_to_props[selector] ||
                                                 {};
                                                 Object.entries(properties).forEach(([property, value]) => {
@@ -3542,13 +3545,14 @@
                                             });
                                             // override with new state properties
                                             Object.entries(to_state_element_state).forEach(([selector,
-                                                properties]) => {
-                                                    selector_to_props[selector] = selector_to_props[selector] ||
-                                                    {};
-                                                    Object.entries(properties).forEach(([property, value]) => {
-                                                        selector_to_props[selector][property] = value;
-                                                    });
+                                                properties
+                                            ]) => {
+                                                selector_to_props[selector] = selector_to_props[selector] ||
+                                                {};
+                                                Object.entries(properties).forEach(([property, value]) => {
+                                                    selector_to_props[selector][property] = value;
                                                 });
+                                            });
                                             return selector_to_props;
                                         }
 
@@ -3618,7 +3622,7 @@
                                                 animejs_element.id = "anime-js-script";
                                                 animejs_element.setAttribute('src',
                                                     'https://cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js'
-                                                    );
+                                                );
                                                 animejs_element.setAttribute('integrity',
                                                     'sha256-98Q574VkbV+PkxXCKSgL6jVq9mrVbS7uCdA+vt0sLS8=');
                                                 animejs_element.setAttribute('crossorigin', 'anonymous');
@@ -4695,7 +4699,7 @@
                                             let target_style_property = property; // width/height
                                             if (sides_containers.hasOwnProperty(property)) {
                                                 target_style_property = sides_containers[
-                                                property]; //left/right/top/bottom
+                                                    property]; //left/right/top/bottom
                                             }
                                             const parent_size = Math.max(1, parseInt(getComputedStyle(offsetParent)[
                                                 target_style_property], 10));
@@ -4726,7 +4730,7 @@
                                                     element.style[property] = new_prop_value;
                                                     element.style['margin-' + property] = 0;
                                                     element.style['margin-' + sides_opposites[property]] =
-                                                    0;
+                                                        0;
                                                     if (element.style[sides_opposites[property]]) {
                                                         element.style[sides_opposites[property]] = 'auto';
                                                     }
@@ -4886,7 +4890,7 @@
                                                         }
                                                     });
                                                     anime(
-                                                    full_params); // anime js library globally available
+                                                        full_params); // anime js library globally available
                                                 }
                                             })
                                         }
@@ -4902,7 +4906,8 @@
                                             let selector_to_props = {};
                                             // set all old state properties back to initial
                                             Object.entries(from_state_element_state).forEach(([selector,
-                                                properties]) => {
+                                                properties
+                                            ]) => {
                                                 selector_to_props[selector] = selector_to_props[selector] ||
                                                 {};
                                                 Object.entries(properties).forEach(([property, value]) => {
@@ -4912,13 +4917,14 @@
                                             });
                                             // override with new state properties
                                             Object.entries(to_state_element_state).forEach(([selector,
-                                                properties]) => {
-                                                    selector_to_props[selector] = selector_to_props[selector] ||
-                                                    {};
-                                                    Object.entries(properties).forEach(([property, value]) => {
-                                                        selector_to_props[selector][property] = value;
-                                                    });
+                                                properties
+                                            ]) => {
+                                                selector_to_props[selector] = selector_to_props[selector] ||
+                                                {};
+                                                Object.entries(properties).forEach(([property, value]) => {
+                                                    selector_to_props[selector][property] = value;
                                                 });
+                                            });
                                             return selector_to_props;
                                         }
 
@@ -4988,7 +4994,7 @@
                                                 animejs_element.id = "anime-js-script";
                                                 animejs_element.setAttribute('src',
                                                     'https://cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js'
-                                                    );
+                                                );
                                                 animejs_element.setAttribute('integrity',
                                                     'sha256-98Q574VkbV+PkxXCKSgL6jVq9mrVbS7uCdA+vt0sLS8=');
                                                 animejs_element.setAttribute('crossorigin', 'anonymous');

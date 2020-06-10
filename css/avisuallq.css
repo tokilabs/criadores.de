@@ -3470,15 +3470,15 @@ div {
 }
 
 .bp1-audiovisual .bp1-asset9 .bp1-asset8 {
-  background-color: rgba(255, 255, 255, 0.0);
-  top: 0px;
-  height: 1281px;
-  width: 1440px;
-  position: absolute;
-  margin: 0;
-  left: 0px;
-  transform: rotate(0deg);
-  opacity: 0.37;
+  background-color : rgba(255, 255, 255, 0.0);
+  top : 0px;
+  height : 100%;
+  width : 100%;
+  position : absolute;
+  margin : 0;
+  left : 0px;
+  transform : rotate(0deg);
+  opacity : 0.37;
 }
 
 .bp1-audiovisual .bp1-asset9 .bp1-asset8 .bp1-bitmap {
@@ -3496,7 +3496,7 @@ div {
 .bp1-audiovisual .bp1-asset9 .bp1-asset8 .bp1-rectangle {
   background-color: rgba(255, 255, 255, 0.0);
   top: 27px;
-  height: 1204px;
+  height: 100%;
   width: calc(100.04% - 30px);
   position: absolute;
   margin: 0;
@@ -4099,16 +4099,16 @@ div {
 }
 
 .bp1-audiovisual .bp1-containsservicesui .bp1-content-layout-container {
-  pointer-events: none;
-  flex-direction: column;
-  align-items: center;
-  bottom: 0px;
-  height: 1176px;
-  width: 100%;
-  position: absolute;
-  margin: 0;
-  display: flex;
-  left: 0;
+  pointer-events : none;
+  flex-direction : column;
+  align-items : center;
+  bottom : 20px;
+  height : 1176px;
+  width : 100%;
+  position : absolute;
+  margin : 20px;
+  display : flex;
+  left : 0px;
 }
 
 .bp1-audiovisual .bp1-containsservicesui .bp1-content-layout-container>* {
