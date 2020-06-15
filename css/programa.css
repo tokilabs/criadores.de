@@ -574,7 +574,7 @@ div {
   pointer-events      : none;
   flex-direction      : column;
   align-items         : center;
-  bottom              : 0px;
+  bottom              : 50px;
   height              : 1885px;
   width               : 100%;
   position            : absolute;
@@ -588,11 +588,11 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-container {
   background-color    : rgba(255,255,255,0.0);
   top                 : -22px;
-  height              : 466px;
-  width               : 470px;
+  height              : auto;
+  width               : 100%;
   position            : absolute;
   margin              : 0;
-  left                : -38px;
+  left                : -100px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
@@ -606,8 +606,8 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-container .bp3-container1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 466px;
-  width               : 470px;
+  height              : auto;
+  width               : 100%;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -617,9 +617,9 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-container .bp3-container1 .bp3-paddingbg {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
-  height              : 466px;
+  height : 100%;
   box-sizing          : border-box;
-  width               : 470px;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -636,7 +636,7 @@ div {
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
-  height              : auto;
+  height              : 466px;
   width               : 450px;
   position            : absolute;
   margin              : 0;
@@ -647,13 +647,13 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-container .bp3-container1 .bp3-stackedcontainer .bp3-picture {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : auto;
+  height : 50%;
   margin              : 0;
-  width               : 435px;
+  width : 100%;
   border-radius       : 15px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : contain;
+  object-fit          : cover;
 }
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-container .bp3-container1 .bp3-stackedcontainer .bp3-title {
   background-color    : rgba(255,255,255,0.0);
@@ -776,11 +776,11 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy {
   background-color    : rgba(255,255,255,0.0);
   top                 : -22px;
-  height              : 466px;
-  width               : 470px;
+  height              : auto;
+  width : 100%;
   position            : absolute;
   margin              : 0;
-  left                : 346px;
+  left                : 356px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
@@ -794,8 +794,8 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy .bp3-container1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 466px;
-  width               : 470px;
+  height              : auto;
+  width : 100%;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -805,9 +805,9 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy .bp3-container1 .bp3-paddingbg {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
-  height              : 466px;
+  height : 100%;
   box-sizing          : border-box;
-  width               : 470px;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -824,7 +824,7 @@ div {
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
-  height              : auto;
+  height              : 466px;
   width               : 450px;
   position            : absolute;
   margin              : 0;
@@ -835,13 +835,13 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy .bp3-container1 .bp3-stackedcontainer .bp3-picture {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : auto;
+  height : 50%;
   margin              : 0;
-  width               : 435px;
+  width : 100%;
   border-radius       : 15px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : contain;
+  object-fit          : cover;
 }
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy .bp3-container1 .bp3-stackedcontainer .bp3-title {
   background-color    : rgba(255,255,255,0.0);
@@ -964,11 +964,11 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 361px;
-  height              : 466px;
-  width               : 470px;
+  height              : auto;
+  width : 100%;
   position            : absolute;
   margin              : 0;
-  left                : -38px;
+  left : -4%;
   transform           : rotate(0deg);
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
@@ -986,16 +986,16 @@ div {
   width               : 470px;
   position            : relative;
   margin              : 0;
-  left                : 0px;
+  left                : -70px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy3 .bp3-container1 .bp3-paddingbg {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
-  height              : 466px;
+  height : 100%;
   box-sizing          : border-box;
-  width               : 470px;
+  width               : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1012,7 +1012,7 @@ div {
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
-  height              : auto;
+  height              : 466px;
   width               : 450px;
   position            : absolute;
   margin              : 0;
@@ -1023,13 +1023,13 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy3 .bp3-container1 .bp3-stackedcontainer .bp3-picture {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : auto;
+  height              : 50%;
   margin              : 0;
-  width               : 435px;
+  width               : 100%;
   border-radius       : 15px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : contain;
+  object-fit          : cover;
 }
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy3 .bp3-container1 .bp3-stackedcontainer .bp3-title {
   background-color    : rgba(255,255,255,0.0);
@@ -1152,11 +1152,11 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 361px;
-  height              : 466px;
-  width               : 470px;
+  height              : auto;
+  width               : 100%;
   position            : absolute;
   margin              : 0;
-  left                : 346px;
+  left                : 356px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
@@ -1170,8 +1170,8 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy2 .bp3-container1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 466px;
-  width               : 470px;
+  height              : auto;
+  width : 100%;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -1181,9 +1181,9 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy2 .bp3-container1 .bp3-paddingbg {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
-  height              : 466px;
+  height : 100%;
   box-sizing          : border-box;
-  width               : 470px;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1200,7 +1200,7 @@ div {
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
-  height              : auto;
+  height              : 466px;
   width               : 450px;
   position            : absolute;
   margin              : 0;
@@ -1211,13 +1211,13 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy2 .bp3-container1 .bp3-stackedcontainer .bp3-picture {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : auto;
+  height : 50%;
   margin              : 0;
-  width               : 435px;
+  width : 100%;
   border-radius       : 15px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit : contain;
+  object-fit : cover;
 }
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy2 .bp3-container1 .bp3-stackedcontainer .bp3-title {
   background-color    : rgba(255,255,255,0.0);
@@ -1399,9 +1399,9 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy7 .bp3-container1 .bp3-stackedcontainer .bp3-picture {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : auto;
+  height              : 50%;
   margin              : 0;
-  width               : 435px;
+  width               : 100%;
   border-radius       : 15px;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -1587,13 +1587,13 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy6 .bp3-container1 .bp3-stackedcontainer .bp3-picture {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : auto;
+  height              : 50%;
   margin              : 0;
-  width               : 435px;
+  width               : 100%;
   border-radius       : 15px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  object-fit          : contain;
+  object-fit          : cover;
 }
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy6 .bp3-container1 .bp3-stackedcontainer .bp3-title {
   background-color    : rgba(255,255,255,0.0);
@@ -1716,11 +1716,11 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1127px;
-  height              : 466px;
-  width               : 470px;
+  height              : auto;
+  width : 100%;
   position            : absolute;
   margin              : 0;
-  left                : -38px;
+  left : -13%;
   transform           : rotate(0deg);
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
@@ -1734,8 +1734,8 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy5 .bp3-container1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 466px;
-  width               : 470px;
+  height              : auto;
+  width               : 100%;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -1745,9 +1745,9 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy5 .bp3-container1 .bp3-paddingbg {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
-  height              : 466px;
+  height : 100%;
   box-sizing          : border-box;
-  width               : 470px;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1764,7 +1764,7 @@ div {
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
-  height              : auto;
+  height              : 466px;
   width               : 450px;
   position            : absolute;
   margin              : 0;
@@ -1775,9 +1775,9 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy5 .bp3-container1 .bp3-stackedcontainer .bp3-picture {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : auto;
+  height : 50%;
   margin              : 0;
-  width               : 435px;
+  width : 100%;
   border-radius       : 15px;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -2093,10 +2093,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1127px;
   height              : 466px;
-  width               : 470px;
+  width               : 100%;
   position            : absolute;
   margin              : 0;
-  left                : 346px;
+  left                : 356px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
@@ -2110,8 +2110,8 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy4 .bp3-container1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 466px;
-  width               : 470px;
+  height              : auto;
+  width : 100%;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -2121,9 +2121,9 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy4 .bp3-container1 .bp3-paddingbg {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
-  height              : 466px;
+  height : 100%;
   box-sizing          : border-box;
-  width               : 470px;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2140,7 +2140,7 @@ div {
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
-  height              : auto;
+  height              : 466px;
   width               : 450px;
   position            : absolute;
   margin              : 0;
@@ -2151,9 +2151,9 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy4 .bp3-container1 .bp3-stackedcontainer .bp3-picture {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : auto;
+  height : 50%;
   margin              : 0;
-  width               : 435px;
+  width : 100%;
   border-radius       : 15px;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -6507,11 +6507,11 @@ div {
   pointer-events      : none;
   flex-direction      : column;
   align-items         : center;
-  bottom              : 0px;
-  height              : 1176px;
+  bottom              : 50px;
+  height              : 1186px;
   width               : 100%;
   position            : absolute;
-  margin              : 0;
+  margin              : 0px;
   display             : flex;
   left                : 0;
 }
@@ -6521,11 +6521,11 @@ div {
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container {
   background-color    : rgba(255,255,255,0.0);
   top                 : -22px;
-  height              : 466px;
-  width               : 470px;
+  height              : auto;
+  width               : 100%;
   position            : absolute;
   margin              : 0;
-  left                : -38px;
+  left                : -100px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
@@ -6539,8 +6539,8 @@ div {
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container .bp2-container9 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 466px;
-  width               : 470px;
+  height              : auto;
+  width               : 100%;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -6550,9 +6550,9 @@ div {
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container .bp2-container9 .bp2-paddingbg {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
-  height              : 466px;
+  height              : 100%;
   box-sizing          : border-box;
-  width               : 470px;
+  width               : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6569,8 +6569,8 @@ div {
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
-  height              : auto;
-  width               : 450px;
+  height : 466px;
+  width               : 430px;
   position            : absolute;
   margin              : 0;
   left                : 10px;
@@ -6580,9 +6580,9 @@ div {
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container .bp2-container9 .bp2-stackedcontainer .bp2-picture {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : auto;
+  height              : 50%;
   margin              : 0;
-  width               : 435px;
+  width               : 100%;
   border-radius       : 15px;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -6738,9 +6738,9 @@ div {
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container1 .bp2-container9 .bp2-paddingbg {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
-  height              : 466px;
+  height              : 100%;
   box-sizing          : border-box;
-  width               : 470px;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6751,13 +6751,13 @@ div {
   opacity             : 0.0;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container1 .bp2-container9 .bp2-stackedcontainer {
-  display             : inside;
+  display             : flex;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
-  height              : auto;
+  height              : 466px;
   width               : 450px;
   position            : absolute;
   margin              : 0;
@@ -6768,9 +6768,9 @@ div {
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container1 .bp2-container9 .bp2-stackedcontainer .bp2-picture {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : auto;
+  height : 50%;
   margin              : 0;
-  width               : 435px;
+  width : 100%;
   border-radius       : 15px;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -6901,7 +6901,7 @@ div {
   width               : 470px;
   position            : absolute;
   margin              : 0;
-  left                : 638px;
+  left : 70%;
   transform           : rotate(0deg);
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
@@ -6926,9 +6926,9 @@ div {
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container2 .bp2-container9 .bp2-paddingbg {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
-  height              : 466px;
+  height : 100%;
   box-sizing          : border-box;
-  width               : 470px;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6939,14 +6939,14 @@ div {
   opacity             : 0.0;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container2 .bp2-container9 .bp2-stackedcontainer {
-  display             : inside;
+  display             : flex;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
-  height              : auto;
-  width               : 450px;
+  height              : 466px;
+  width               : 470px;
   position            : absolute;
   margin              : 0;
   left                : 10px;
@@ -6956,9 +6956,9 @@ div {
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container2 .bp2-container9 .bp2-stackedcontainer .bp2-picture {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : auto;
+  height : 50%;
   margin              : 0;
-  width               : 435px;
+  width : 100%;
   border-radius       : 15px;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -7089,7 +7089,7 @@ div {
   width               : 470px;
   position            : absolute;
   margin              : 0;
-  left                : -28px;
+  left                : -100px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
@@ -7114,9 +7114,9 @@ div {
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container3 .bp2-container9 .bp2-paddingbg {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
-  height              : 466px;
+  height : 100%;
   box-sizing          : border-box;
-  width               : 470px;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7127,14 +7127,14 @@ div {
   opacity             : 0.0;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container3 .bp2-container9 .bp2-stackedcontainer {
-  display             : inside;
+  display             : flex;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
-  height              : auto;
-  width               : 450px;
+  height : 466px;
+  width               : 470px;
   position            : absolute;
   margin              : 0;
   left                : 10px;
@@ -7144,9 +7144,9 @@ div {
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container3 .bp2-container9 .bp2-stackedcontainer .bp2-picture {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : auto;
+  height : 50%;
   margin              : 0;
-  width               : 435px;
+  width : 100%;
   border-radius       : 15px;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -7302,9 +7302,9 @@ div {
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container4 .bp2-container9 .bp2-paddingbg {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
-  height              : 466px;
+  height : 100%;
   box-sizing          : border-box;
-  width               : 470px;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7315,14 +7315,14 @@ div {
   opacity             : 0.0;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container4 .bp2-container9 .bp2-stackedcontainer {
-  display             : inside;
+  display             : flex;
   justify-content     : flex-start;
   flex-direction      : column;
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
-  height              : auto;
-  width               : 450px;
+  height              : 466px;
+  width               : 470px;
   position            : absolute;
   margin              : 0;
   left                : 10px;
@@ -7332,9 +7332,9 @@ div {
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container4 .bp2-container9 .bp2-stackedcontainer .bp2-picture {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : auto;
+  height : 50%;
   margin              : 0;
-  width               : 435px;
+  width : 100%;
   border-radius       : 15px;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -7465,7 +7465,7 @@ div {
   width               : 470px;
   position            : absolute;
   margin              : 0;
-  left                : 635px;
+  left : 70%;
   transform           : rotate(0deg);
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
@@ -7490,9 +7490,9 @@ div {
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container5 .bp2-container9 .bp2-paddingbg {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
-  height              : 466px;
+  height : 100%;
   box-sizing          : border-box;
-  width               : 470px;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7509,8 +7509,8 @@ div {
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
-  height              : auto;
-  width               : 450px;
+  height              : 466px;
+  width               : 470px;
   position            : absolute;
   margin              : 0;
   left                : 10px;
@@ -7520,9 +7520,9 @@ div {
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container5 .bp2-container9 .bp2-stackedcontainer .bp2-picture {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : auto;
+  height : 50%;
   margin              : 0;
-  width               : 435px;
+  width : 100%;
   border-radius       : 15px;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -7653,7 +7653,7 @@ div {
   width               : 470px;
   position            : absolute;
   margin              : 0;
-  left                : -28px;
+  left                : -100px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
@@ -7678,9 +7678,9 @@ div {
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container6 .bp2-container9 .bp2-paddingbg {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
-  height              : 466px;
+  height : 100%;
   box-sizing          : border-box;
-  width               : 470px;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7697,8 +7697,8 @@ div {
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
-  height              : auto;
-  width               : 450px;
+  height              : 466px;
+  width               : 470px;
   position            : absolute;
   margin              : 0;
   left                : 10px;
@@ -7708,9 +7708,9 @@ div {
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container6 .bp2-container9 .bp2-stackedcontainer .bp2-picture {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : auto;
+  height : 50%;
   margin              : 0;
-  width               : 435px;
+  width : 100%;
   border-radius       : 15px;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -7866,9 +7866,9 @@ div {
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container7 .bp2-container9 .bp2-paddingbg {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
-  height              : 466px;
+  height : 100%;
   box-sizing          : border-box;
-  width               : 470px;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7885,8 +7885,8 @@ div {
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
-  height              : auto;
-  width               : 450px;
+  height              : 466px;
+  width               : 470px;
   position            : absolute;
   margin              : 0;
   left                : 10px;
@@ -7896,9 +7896,9 @@ div {
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container7 .bp2-container9 .bp2-stackedcontainer .bp2-picture {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : auto;
+  height              : 50%;
   margin              : 0;
-  width               : 435px;
+  width : 100%;
   border-radius       : 15px;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -8047,16 +8047,16 @@ div {
   width               : 470px;
   position            : relative;
   margin              : 0;
-  left                : 0px;
+  left                : 70px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container8 .bp2-container9 .bp2-paddingbg {
   background-color    : rgba(215, 215, 215, 1.0);
   top                 : 0px;
-  height              : 466px;
+  height              : 100%;
   box-sizing          : border-box;
-  width               : 470px;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -8073,7 +8073,7 @@ div {
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
-  height              : auto;
+  height              : 466px;
   width               : 450px;
   position            : absolute;
   margin              : 0;
@@ -8084,9 +8084,9 @@ div {
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container8 .bp2-container9 .bp2-stackedcontainer .bp2-picture {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : auto;
+  height : 50%;
   margin              : 0;
-  width               : 435px;
+  width : 100%;
   border-radius       : 15px;
   transform           : rotate(0deg);
   opacity             : 1.0;
