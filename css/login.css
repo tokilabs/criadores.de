@@ -1,0 +1,1485 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:900,700,400,500,300|Poppins:600,500|Montserrat:300,700|Open+Sans:600,400|Work+Sans:500');
+
+
+.login {
+  width               : 100%;
+  min-width           : auto;
+  height              : 100vh;
+  min-height          : 856px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255,255,255,0.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+textarea:focus, input:focus {
+  outline             : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.login .bglogin {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 836px;
+  width               : 1448px;
+  border-radius       : 150px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 0.88;
+}
+.login .bglogin-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.login .bglogin-layout-container > * {
+  pointer-events      : auto;
+}
+.login .bglogin .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 836px;
+  width               : 1448px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 150px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 218px;
+  height              : 613px;
+  width               : 1438px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 0.38;
+}
+.login .bglogin .imagembglogin .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37px;
+  height              : 287px;
+  width               : 319px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1118px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 131px;
+  height              : 229px;
+  width               : 256px;
+  position            : absolute;
+  margin              : 0;
+  left                : 845px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 324px;
+  width               : 1021px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 142px;
+  height              : 182px;
+  width               : 391px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1046px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 323px;
+  height              : 289px;
+  width               : 1437px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 211px;
+  height              : 170px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1177px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 250px;
+  height              : 154px;
+  width               : 67px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1201px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 249px;
+  height              : 170px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1272px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 288px;
+  height              : 154px;
+  width               : 67px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1296px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 135px;
+  height              : 188px;
+  width               : 580px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 185px;
+  height              : 229px;
+  width               : 156px;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 238px;
+  height              : 208px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 276px;
+  height              : 185px;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 297px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 319px;
+  height              : 167px;
+  width               : 73px;
+  position            : absolute;
+  margin              : 0;
+  left                : 323px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 268px;
+  height              : 127px;
+  width               : 87px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1118px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 297px;
+  height              : 115px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1136px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 300px;
+  height              : 185px;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 193px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 342px;
+  height              : 168px;
+  width               : 73px;
+  position            : absolute;
+  margin              : 0;
+  left                : 219px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 384px;
+  height              : 146px;
+  width               : 99px;
+  position            : absolute;
+  margin              : 0;
+  left                : 435px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path17 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 418px;
+  height              : 132px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 456px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path18 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 550px;
+  height              : 62px;
+  width               : 53px;
+  position            : absolute;
+  margin              : 0;
+  left                : 434px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path19 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 442px;
+  height              : 71px;
+  width               : 86px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1326px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path20 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 404px;
+  height              : 71px;
+  width               : 86px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1231px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 413px;
+  height              : 71px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1158px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path22 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 486px;
+  height              : 71px;
+  width               : 67px;
+  position            : absolute;
+  margin              : 0;
+  left                : 297px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path23 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 510px;
+  height              : 71px;
+  width               : 67px;
+  position            : absolute;
+  margin              : 0;
+  left                : 193px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path24 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 446px;
+  height              : 71px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 97px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path25 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 463px;
+  height              : 149px;
+  width               : 151px;
+  position            : absolute;
+  margin              : 0;
+  left                : 43px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path26 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 516px;
+  height              : 96px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path27 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 428px;
+  height              : 159px;
+  width               : 81px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1356px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path28 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 465px;
+  height              : 144px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1379px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path29 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 327px;
+  height              : 62px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 678px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path30 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 338px;
+  height              : 57px;
+  width               : 51px;
+  position            : absolute;
+  margin              : 0;
+  left                : 686px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 313px;
+  height              : 62px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 529px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path32 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 323px;
+  height              : 57px;
+  width               : 51px;
+  position            : absolute;
+  margin              : 0;
+  left                : 538px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path33 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 350px;
+  height              : 48px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 636px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path34 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 358px;
+  height              : 44px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 643px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path35 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 350px;
+  height              : 48px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 738px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path36 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 358px;
+  height              : 44px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 745px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path37 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 350px;
+  height              : 48px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1050px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path38 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 358px;
+  height              : 44px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1057px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path39 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 402px;
+  height              : 26px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 640px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path40 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 380px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 540px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path41 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 395px;
+  height              : 26px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 689px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path42 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 402px;
+  height              : 26px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 742px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path43 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 402px;
+  height              : 26px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1075px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path44 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 323px;
+  height              : 289px;
+  width               : 472px;
+  position            : absolute;
+  margin              : 0;
+  left                : 827px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path45 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 398px;
+  height              : 214px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 939px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .imagembglogin .path46 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 323px;
+  height              : 74px;
+  width               : 105px;
+  position            : absolute;
+  margin              : 0;
+  left                : 834px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .estrelinhasbg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 286px;
+  width               : 1262px;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .estrelinhasbg .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : 8px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1252px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .estrelinhasbg .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 85px;
+  height              : 8px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 253px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .estrelinhasbg .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 8px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 756px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .estrelinhasbg .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 23px;
+  height              : 8px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 487px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .estrelinhasbg .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 67px;
+  height              : 8px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 78px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .estrelinhasbg .path5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 8px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .estrelinhasbg .path6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 50px;
+  height              : 8px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1037px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .estrelinhasbg .path7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 191px;
+  height              : 8px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 215px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .estrelinhasbg .path8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 163px;
+  height              : 8px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .estrelinhasbg .path9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 208px;
+  height              : 8px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1119px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .estrelinhasbg .path10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 226px;
+  height              : 8px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1222px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .bglogin .estrelinhasbg .path11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 278px;
+  height              : 8px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 993px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .loginpainel {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 673px;
+  width               : 489px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .loginpainel-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.login .loginpainel-layout-container > * {
+  pointer-events      : auto;
+}
+.login .loginpainel .backgroundpanellogin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 673px;
+  width               : 488px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .loginpainel .backgroundpanellogin .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 673px;
+  width               : 487px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.35;
+}
+.login .loginpainel .backgroundpanellogin .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 624px;
+  width               : 440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .loginpainel .backgroundpanellogin .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 328px;
+  height              : 330px;
+  width               : 440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .loginpainel .backgroundpanellogin .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 313px;
+  width               : 440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .loginpainel .userimput {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 356px;
+  height              : 46px;
+  width               : 348px;
+  position            : absolute;
+  margin              : 0;
+  left                : 69px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .loginpainel .userimput .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 348px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 9px;
+  transform           : rotate(0deg);
+  opacity             : 0.35;
+}
+.login .loginpainel .userimput .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 26px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .loginpainel .userimput .textinsiraaquioseuemaildecadastro {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 281px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(46, 50, 67, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.login .loginpainel .userimput .textinsiraaquioseuemaildecadastro::placeholder {
+  color               : rgba(46, 50, 67, 0.6);
+}
+.login .loginpainel .loginbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 530px;
+  height              : 39px;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 161px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.login .loginpainel .loginbutton {
+  pointer-events      : auto;
+}
+.login .loginpainel .loginbutton:hover {
+  transform           : translate(0, -5px);
+}
+.login .loginpainel .loginbutton .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 37px;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .loginpainel .loginbutton .entrar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 172px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.login .loginpainel .passwordimput {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 425px;
+  height              : 46px;
+  width               : 348px;
+  position            : absolute;
+  margin              : 0;
+  left                : 69px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .loginpainel .passwordimput .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 348px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 9px;
+  transform           : rotate(0deg);
+  opacity             : 0.35;
+}
+.login .loginpainel .passwordimput .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 25px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .loginpainel .passwordimput .textinsiraaquiosuasenhadecadastro {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 45px;
+  width               : 277px;
+  position            : absolute;
+  margin              : 0;
+  left                : 64px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(46, 50, 67, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.login .loginpainel .passwordimput .textinsiraaquiosuasenhadecadastro::placeholder {
+  color               : rgba(46, 50, 67, 0.6);
+}
+.login .loginpainel .rememberme {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 493px;
+  height              : 16px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 69px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .loginpainel .rememberme .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 0.35;
+}
+.login .loginpainel .rememberme .lembredemim {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 114px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 9.51px;
+  color               : rgba(19, 165, 168, 1.0);
+  text-align          : left;
+  line-height         : 11.0px;
+}
+.login .loginpainel .esqueceusuasenha {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 496px;
+  height              : auto;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 307px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 9.51px;
+  color               : rgba(19, 165, 168, 1.0);
+  text-align          : left;
+  line-height         : 11.0px;
+}
+.login .loginpainel .cadastrar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 590px;
+  height              : 48px;
+  width               : 449px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(161, 229, 225, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.login .loginpainel .cadastrar {
+  pointer-events      : auto;
+}
+.login .loginpainel .cadastrar:hover {
+  transform           : translate(0, -5px);
+}
+.login .loginpainel .bannerimagelogin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 115px;
+  height              : 217px;
+  width               : 444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .loginpainel .estrelinhas {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : 102px;
+  width               : 401px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .loginpainel .estrelinhas .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 360px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.login .loginpainel .estrelinhas .path {
+  pointer-events      : auto;
+}
+.login .loginpainel .estrelinhas .path:hover {
+  opacity             : 1;
+}
+.login .loginpainel .estrelinhas .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 22px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.login .loginpainel .estrelinhas .path1 {
+  pointer-events      : auto;
+}
+.login .loginpainel .estrelinhas .path1:hover {
+  opacity             : 1;
+}
+.login .loginpainel .estrelinhas .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 98px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 161px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.login .loginpainel .estrelinhas .path2 {
+  pointer-events      : auto;
+}
+.login .loginpainel .estrelinhas .path2:hover {
+  opacity             : 1;
+}
+.login .loginpainel .estrelinhas .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 49px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.login .loginpainel .estrelinhas .path3 {
+  pointer-events      : auto;
+}
+.login .loginpainel .estrelinhas .path3:hover {
+  opacity             : 1;
+}
+.login .loginpainel .estrelinhas .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.login .loginpainel .estrelinhas .path4 {
+  pointer-events      : auto;
+}
+.login .loginpainel .estrelinhas .path4:hover {
+  opacity             : 1;
+}
+.login .loginpainel .estrelinhas .path5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 69px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 332px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.login .loginpainel .estrelinhas .path5 {
+  pointer-events      : auto;
+}
+.login .loginpainel .estrelinhas .path5:hover {
+  opacity             : 1;
+}
+.login .loginpainel .estrelinhas .path6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 388px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.login .loginpainel .estrelinhas .path6 {
+  pointer-events      : auto;
+}
+.login .loginpainel .estrelinhas .path6:hover {
+  opacity             : 1;
+}
+.login .loginpainel .estrelinhas .path7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 48px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 397px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.login .loginpainel .estrelinhas .path7 {
+  pointer-events      : auto;
+}
+.login .loginpainel .estrelinhas .path7:hover {
+  opacity             : 1;
+}
+.login .loginpainel .estrelinhas .path8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 94px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 381px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.login .loginpainel .estrelinhas .path8 {
+  pointer-events      : auto;
+}
+.login .loginpainel .estrelinhas .path8:hover {
+  opacity             : 1;
+}
+.login .loginpainel .estrelinhas .path9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 67px;
+  height              : 2px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.login .loginpainel .estrelinhas .path9 {
+  pointer-events      : auto;
+}
+.login .loginpainel .estrelinhas .path9:hover {
+  opacity             : 1;
+}
+.login .loginpainel .estrelinhas .path10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 97px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 294px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.login .loginpainel .estrelinhas .path10 {
+  pointer-events      : auto;
+}
+.login .loginpainel .estrelinhas .path10:hover {
+  opacity             : 1;
+}
+.login .loginpainel .textcadastrese {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 85px;
+  height              : 61px;
+  width               : 275px;
+  position            : absolute;
+  margin              : 0;
+  left                : 106px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .loginpainel .textcadastrese .cadastresenonosso {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 61px;
+  width               : 277px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(77, 91, 182, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.login .loginpainel .vamoscriarjuntos {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 52px;
+  height              : 30px;
+  width               : 446px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.login .loginpainel .vamoscriarjuntos .vamoscriarjuntos1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : 445px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.login .loginpainel .exit {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 20px;
+  top                 : 3px;
+  height              : 33px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 0.46;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-valign-text-middle {
+  display             : flex;
+  flex-direction      : column;
+  justify-content     : center;
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
