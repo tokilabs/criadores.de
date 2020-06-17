@@ -28,30 +28,30 @@ div {
 .bp2-servicelq .bp2-backgroundsobre {
   background-color    : rgba(255,255,255,0.0);
   top                 : -1232px;
-  height              : calc(100.00% + 1245px);
-  width               : calc(100.00% + 341px);
+  height              : auto;
+  width : 100%;
   position            : absolute;
   margin              : 0;
-  left                : -216px;
+  left                : 0;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp2-servicelq .bp2-backgroundsobre .bp2-asset10 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1637px;
-  height              : 1125px;
-  width               : 1106px;
+  top                 : 1207px;
+  height : auto;
+  width : 100%;
   position            : absolute;
   margin              : 0;
-  left                : 167px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp2-servicelq .bp2-backgroundsobre .bp2-asset10 .bp2-rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 1125px;
-  width               : 1106px;
+  height              : auto;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -60,20 +60,20 @@ div {
 }
 .bp2-servicelq .bp2-backgroundsobre .bp2-asset9 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1634px;
-  height              : 1103px;
-  width               : 1106px;
+  top                 : 1204px;
+  height              : auto;
+  width : 120%;
   position            : absolute;
   margin              : 0;
-  left                : 167px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp2-servicelq .bp2-backgroundsobre .bp2-asset9 .bp2-group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 1103px;
-  width               : 1106px;
+  height              : auto;
+  width : 100%;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -83,8 +83,8 @@ div {
 .bp2-servicelq .bp2-backgroundsobre .bp2-asset9 .bp2-group .bp2-path {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 343px;
-  width               : 778px;
+  height              : auto;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 328px;
@@ -94,8 +94,8 @@ div {
 .bp2-servicelq .bp2-backgroundsobre .bp2-asset9 .bp2-group .bp2-path1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 343px;
-  height              : 760px;
-  width               : 1106px;
+  height              : auto;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -105,19 +105,20 @@ div {
 .bp2-servicelq .bp2-backgroundsobre .bp2-asset8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1635px;
-  height              : 1045px;
-  width               : 1105px;
+  height              : auto;
+  width : 100%;
   position            : absolute;
   margin              : 0;
-  left                : 167px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.37;
+  bottom: -20px;
 }
 .bp2-servicelq .bp2-backgroundsobre .bp2-asset8 .bp2-bitmap {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 1045px;
-  width               : 1105px;
+  height              : auto;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -127,22 +128,22 @@ div {
 .bp2-servicelq .bp2-backgroundsobre .bp2-asset8 .bp2-rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 1004px;
-  width               : 1060px;
+  height              : auto;
+  width : 100%;
   position            : absolute;
   margin              : 0;
-  left                : 16px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp2-servicelq .bp2-backgroundsobre .bp2-asset7 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2104px;
-  height              : 515px;
-  width               : 1053px;
+  top                 : 2040px;
+  height              : auto;
+  width : 100%;
   position            : absolute;
   margin              : 0;
-  left                : 183px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -150,7 +151,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 513px;
-  width               : 1053px;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -160,8 +161,8 @@ div {
 .bp2-servicelq .bp2-backgroundsobre .bp2-wave {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 2721px;
-  width               : 1373px;
+  height              : auto;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -170,9 +171,9 @@ div {
 }
 .bp2-servicelq .bp2-backgroundsobre .bp2-wavecopy {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1356px;
-  height              : 622px;
-  width               : 852px;
+  top                 : 1206px;
+  height              : auto;
+  width               : auto;
   position            : absolute;
   margin              : 0;
   left                : 521px;
@@ -1363,8 +1364,8 @@ div {
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 23px;
-  margin              : 20px 0 0 0;
+  height              : 25px;
+  margin              : 25px 0 0 0;
   width               : auto;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -1373,8 +1374,8 @@ div {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : auto;
-  margin              : 0;
-  width               : 74px;
+  margin              : 0px;
+  width               : 580px;
   transform           : rotate(0deg);
   opacity             : 0.5;
   font-family         : "Poppins", Helvetica, Arial, serif;
@@ -1390,8 +1391,8 @@ div {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : auto;
-  margin              : 0 0 0 380px;
-  width               : 82px;
+  margin              : 0 0 0 -260px;
+  width               : 150px;
   transform           : rotate(0deg);
   opacity             : 0.5;
   font-family         : "Poppins", Helvetica, Arial, serif;
@@ -4972,30 +4973,30 @@ div {
 .bp1-service .bp1-backgroundsobre .bp1-asset10 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1232px;
-  height              : 883px;
-  width               : 1448px;
+  height              : auto;
+  width               : 100%;
   position            : absolute;
   margin              : 0;
-  left                : 213px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp1-service .bp1-backgroundsobre .bp1-asset10 .bp1-rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 882px;
-  width               : 1447px;
+  height              : auto;
+  width : 100%;
   position            : absolute;
   margin              : 0;
-  left                : 1px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp1-service .bp1-backgroundsobre .bp1-asset9 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1232px;
-  height              : 869px;
-  width               : 1447px;
+  height              : auto;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 213px;
@@ -5005,8 +5006,8 @@ div {
 .bp1-service .bp1-backgroundsobre .bp1-asset9 .bp1-group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 868px;
-  width               : 1446px;
+  height              : auto;
+  width : 100%;
   position            : relative;
   margin              : 0;
   left                : 1px;
@@ -5016,8 +5017,8 @@ div {
 .bp1-service .bp1-backgroundsobre .bp1-asset9 .bp1-group .bp1-path {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 270px;
-  width               : 1017px;
+  height              : 370px;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 429px;
@@ -5027,8 +5028,8 @@ div {
 .bp1-service .bp1-backgroundsobre .bp1-asset9 .bp1-group .bp1-path1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 270px;
-  height              : 598px;
-  width               : 1446px;
+  height : 100%;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -5038,19 +5039,19 @@ div {
 .bp1-service .bp1-backgroundsobre .bp1-asset8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1232px;
-  height              : 869px;
-  width               : 1446px;
+  height              : 839px;
+  width : 100%;
   position            : absolute;
   margin              : 0;
-  left                : 214px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.37;
 }
 .bp1-service .bp1-backgroundsobre .bp1-asset8 .bp1-bitmap {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 869px;
-  width               : 1446px;
+  height : 100%;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -5060,19 +5061,19 @@ div {
 .bp1-service .bp1-backgroundsobre .bp1-asset8 .bp1-rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 20px;
-  height              : 769px;
-  width               : 1404px;
+  height              : 100%;
+  width : 100%;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp1-service .bp1-backgroundsobre .bp1-wave {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 2111px;
-  width               : 1789px;
+  height : 100%;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -5083,7 +5084,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1610px;
   height              : 387px;
-  width               : 1263px;
+  width               : calc(100% - 765px);
   position            : absolute;
   margin              : 0;
   left                : 310px;
@@ -5093,11 +5094,11 @@ div {
 .bp1-service .bp1-backgroundsobre .bp1-asset7 .bp1-path {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
-  height              : 386px;
-  width               : 1262px;
+  height              : 426px;
+  width               : 100%;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 120px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -5105,7 +5106,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1038px;
   height              : 478px;
-  width               : 1095px;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 671px;
@@ -5114,20 +5115,20 @@ div {
 }
 .bp1-service .bp1-paddingservicesfull {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 100px;
-  height              : 683px;
-  width               : calc(100.00% - 180px);
+  top                 : 140px;
+  height : 100%;
+  width : 100%;
   position            : absolute;
   margin              : 0;
-  left                : 90px;
+  left                : 200px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp1-service .bp1-paddingservicesfull .bp1-rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 683px;
-  width               : 1282px;
+  height              : calc(100% - 250px);
+  width : calc(100% - 400px);
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -5141,8 +5142,8 @@ div {
   align-items         : flex-start;
   background-color    : rgba(255,255,255,0.0);
   top                 : 16px;
-  height              : 650px;
-  width               : auto;
+  height              : auto;
+  width               : 100%;
   position            : absolute;
   margin              : 0;
   left                : 51px;
@@ -5152,9 +5153,9 @@ div {
 .bp1-service .bp1-paddingservicesfull .bp1-servicestack .bp1-servicestype {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 650px;
+  height              : auto;
   margin              : 0;
-  width               : 599px;
+  width               : 35%;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -5162,7 +5163,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 622px;
-  width               : 598px;
+  width               : auto;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -5231,9 +5232,9 @@ div {
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 23px;
+  height              : auto;
   margin              : 20px 0 0 0;
-  width               : auto;
+  width               : 80%;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -5242,7 +5243,7 @@ div {
   position            : relative;
   height              : auto;
   margin              : 0;
-  width               : 74px;
+  width               : 100%;
   transform           : rotate(0deg);
   opacity             : 0.5;
   font-family         : "Poppins", Helvetica, Arial, serif;
@@ -5258,8 +5259,8 @@ div {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : auto;
-  margin              : 0 0 0 380px;
-  width               : 82px;
+  margin              : 0 0 0 280px;
+  width               : 100%;
   transform           : rotate(0deg);
   opacity             : 0.5;
   font-family         : "Poppins", Helvetica, Arial, serif;
@@ -5449,8 +5450,8 @@ div {
 .bp1-service .bp1-paddingservicesfull .bp1-servicestack .bp1-paddingserviceexample {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 631px;
-  margin              : 0 0 0 20px;
+  height              : 100%;
+  margin              : 0 0 0 40px;
   width               : 551px;
   transform           : rotate(0deg);
   opacity             : 1.0;
