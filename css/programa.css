@@ -25,6 +25,113 @@
 div {
   -webkit-text-size-adjust: none;
 }
+.bp3-programatablet .bp3-asset10 {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 0px;
+  height: 1386px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-programatablet .bp3-asset10 .bp3-rectangle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-programatablet .bp3-asset9 {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 105px;
+  height: 1280px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-programatablet .bp3-asset9 .bp3-group {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 1px;
+  height: calc(100.00% - 1px);
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.43;
+}
+
+.bp3-programatablet .bp3-asset9 .bp3-group .bp3-path {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 356px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-programatablet .bp3-asset9 .bp3-group .bp3-path1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 398px;
+  height: 882px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-programatablet .bp3-asset9 .bp3-asset8 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.37;
+}
+
+.bp3-programatablet .bp3-asset9 .bp3-asset8 .bp3-bitmap {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 1281px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.15;
+}
+
+.bp3-programatablet .bp3-asset9 .bp3-asset8 .bp3-rectangle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 27px;
+  height: 100%;
+  width: calc(100.04% - 30px);
+  position: absolute;
+  margin: 0;
+  left: 11px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
 .bp3-programatablet .bp3-panel {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
@@ -2980,6 +3087,113 @@ div {
 }
 div {
   -webkit-text-size-adjust: none;
+}
+.bp4-programamobile .bp4-asset10 {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 0px;
+  height: 1386px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-programamobile .bp4-asset10 .bp4-rectangle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-programamobile .bp4-asset9 {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 105px;
+  height: 1280px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-programamobile .bp4-asset9 .bp4-group {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 1px;
+  height: calc(100.00% - 1px);
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.43;
+}
+
+.bp4-programamobile .bp4-asset9 .bp4-group .bp4-path {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 356px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-programamobile .bp4-asset9 .bp4-group .bp4-path1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 398px;
+  height: 882px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-programamobile .bp4-asset9 .bp4-asset8 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.37;
+}
+
+.bp4-programamobile .bp4-asset9 .bp4-asset8 .bp4-bitmap {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 1281px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.15;
+}
+
+.bp4-programamobile .bp4-asset9 .bp4-asset8 .bp4-rectangle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 27px;
+  height: 100%;
+  width: calc(100.04% - 30px);
+  position: absolute;
+  margin: 0;
+  left: 11px;
+  transform: rotate(0deg);
+  opacity: 1.0;
 }
 .bp4-programamobile .bp4-panel {
   background-color    : rgba(255,255,255,0.0);
@@ -5947,6 +6161,112 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
+.bp2-programalq .bp2-asset10 {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 0px;
+  height: 1386px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-programalq .bp2-asset10 .bp2-rectangle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+.bp2-programalq .bp2-asset9 {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 105px;
+  height: 1280px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-programalq .bp2-asset9 .bp2-group {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 1px;
+  height: calc(100.00% - 1px);
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.43;
+}
+
+.bp2-programalq .bp2-asset9 .bp2-group .bp2-path {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 356px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-programalq .bp2-asset9 .bp2-group .bp2-path1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 398px;
+  height: 882px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-programalq .bp2-asset9 .bp2-asset8 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.37;
+}
+
+.bp2-programalq .bp2-asset9 .bp2-asset8 .bp2-bitmap {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 1281px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.15;
+}
+
+.bp2-programalq .bp2-asset9 .bp2-asset8 .bp2-rectangle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 27px;
+  height: 100%;
+  width: calc(100.04% - 30px);
+  position: absolute;
+  margin: 0;
+  left: 11px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
 .bp2-programalq .bp2-panel {
   background-color    : rgba(255,255,255,0.0);
   margin-left         : 0px;
@@ -5961,7 +6281,7 @@ div {
   pointer-events      : none;
   flex-direction      : column;
   align-items         : center;
-  bottom              : -2px;
+  bottom              : 2px;
   height              : 107px;
   width               : 100%;
   position            : absolute;
@@ -6088,7 +6408,7 @@ div {
 .bp2-programalq .bp2-containsservicesui .bp2-bannercomprar .bp2-sliderbannercopy2 .bp2-rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 559px;
+  height              : 509px;
   width               : 100%;
   position            : relative;
   margin              : 0;
