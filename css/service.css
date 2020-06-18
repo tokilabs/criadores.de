@@ -60,9 +60,9 @@ div {
 }
 .bp2-servicelq .bp2-backgroundsobre .bp2-asset9 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1204px;
-  height              : auto;
-  width : 120%;
+  top                 : 904px;
+  height              : 100%;
+  width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -72,7 +72,7 @@ div {
 .bp2-servicelq .bp2-backgroundsobre .bp2-asset9 .bp2-group {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : auto;
+  height              : 100%;
   width : 100%;
   position            : relative;
   margin              : 0;
@@ -83,18 +83,18 @@ div {
 .bp2-servicelq .bp2-backgroundsobre .bp2-asset9 .bp2-group .bp2-path {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : auto;
+  height              : 100%;
   width : 100%;
   position            : absolute;
   margin              : 0;
-  left                : 328px;
+  left                : 528px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp2-servicelq .bp2-backgroundsobre .bp2-asset9 .bp2-group .bp2-path1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 343px;
-  height              : auto;
+  height              : 100%;
   width : 100%;
   position            : absolute;
   margin              : 0;
@@ -105,19 +105,18 @@ div {
 .bp2-servicelq .bp2-backgroundsobre .bp2-asset8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1635px;
-  height              : auto;
+  height              : 100%;
   width : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
   transform           : rotate(0deg);
   opacity             : 0.37;
-  bottom: -20px;
 }
 .bp2-servicelq .bp2-backgroundsobre .bp2-asset8 .bp2-bitmap {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : auto;
+  height              : 100%;
   width : 100%;
   position            : absolute;
   margin              : 0;
@@ -149,8 +148,8 @@ div {
 }
 .bp2-servicelq .bp2-backgroundsobre .bp2-asset7 .bp2-path {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 513px;
+  top                 : 0px;
+  height              : auto;
   width : 100%;
   position            : absolute;
   margin              : 0;
@@ -160,23 +159,23 @@ div {
 }
 .bp2-servicelq .bp2-backgroundsobre .bp2-wave {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : -140px;
   height              : auto;
   width : 100%;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 20px;
   transform           : rotate(0deg);
   opacity             : 0.91;
 }
 .bp2-servicelq .bp2-backgroundsobre .bp2-wavecopy {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1206px;
+  top                 : 956px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 521px;
+  left                : 621px;
   transform           : rotate(0deg);
   opacity             : 0.3;
 }
@@ -184,7 +183,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 100%;
-  width               : 1440px;
+  width               : 100%;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -193,7 +192,7 @@ div {
   flex-direction      : column;
   align-items         : center;
   bottom              : 0px;
-  height              : 112px;
+  height              : 120px;
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -216,23 +215,23 @@ div {
 }
 .bp2-servicelq .bp2-panel .bp2-tokibutton {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : -30px;
   height              : 92px;
   width               : 243px;
   position            : absolute;
   margin              : 0;
-  left                : 601px;
+  left                : 45%;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp2-servicelq .bp2-panel .bp2-tokibutton .bp2-tokilogo {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 3px;
+  top                 : 0px;
   height              : 87px;
   width               : 197px;
   position            : relative;
   margin              : 0;
-  left                : 22px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
@@ -1731,7 +1730,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1515px;
   height              : 1041px;
-  width               : 758px;
+  width               : 958px;
   position            : absolute;
   margin              : 0;
   left                : 116px;
@@ -1742,7 +1741,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 1041px;
-  width               : 758px;
+  width               : 1258px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1751,12 +1750,12 @@ div {
 }
 .bp4-servicemobile .bp4-backgroundsobre .bp4-asset9 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1512px;
-  height              : 1021px;
-  width               : 758px;
+  top                 : 812px;
+  height              : 1921px;
+  width               : 1958px;
   position            : absolute;
   margin              : 0;
-  left                : 116px;
+  left                : 316px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1764,7 +1763,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 1021px;
-  width               : 758px;
+  width               : 1258px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -1797,7 +1796,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1513px;
   height              : 967px;
-  width               : 758px;
+  width               : 1258px;
   position            : absolute;
   margin              : 0;
   left                : 116px;
@@ -1808,7 +1807,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 967px;
-  width               : 758px;
+  width               : 1258px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1819,7 +1818,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 929px;
-  width               : 727px;
+  width               : 1227px;
   position            : absolute;
   margin              : 0;
   left                : 11px;
@@ -1830,7 +1829,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1947px;
   height              : 476px;
-  width               : 722px;
+  width               : 1222px;
   position            : absolute;
   margin              : 0;
   left                : 127px;
@@ -1841,7 +1840,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 475px;
-  width               : 722px;
+  width               : 1222px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1852,7 +1851,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 2519px;
-  width               : 944px;
+  width               : 1244px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -3135,7 +3134,7 @@ div {
 .bp4-servicemobile .bp4-paddingservicesfull .bp4-servicestack .bp4-servicestype .bp4-stackedservicedetails .bp4-caixadetexto {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 536px;
+  height              : 636px;
   margin              : 20px 0 0 0;
   width               : 475px;
   transform           : rotate(0deg);
@@ -3351,7 +3350,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1637px;
   height              : 1125px;
-  width               : 899px;
+  width               : 999px;
   position            : absolute;
   margin              : 0;
   left                : 137px;
@@ -3362,7 +3361,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 1125px;
-  width               : 899px;
+  width               : 1399px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -3376,7 +3375,7 @@ div {
   width               : 899px;
   position            : absolute;
   margin              : 0;
-  left                : 137px;
+  left                : 1297px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -3384,7 +3383,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 1103px;
-  width               : 899px;
+  width               : 1299px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -3395,18 +3394,18 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 343px;
-  width               : 632px;
+  width               : 1232px;
   position            : absolute;
   margin              : 0;
-  left                : 266px;
+  left                : 466px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp3-servicetablet .bp3-backgroundsobre .bp3-asset9 .bp3-group .bp3-path1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 343px;
+  top                 : 543px;
   height              : 760px;
-  width               : 899px;
+  width               : 1299px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -3417,7 +3416,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1635px;
   height              : 1045px;
-  width               : 898px;
+  width               : 1298px;
   position            : absolute;
   margin              : 0;
   left                : 137px;
@@ -3428,7 +3427,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 1045px;
-  width               : 898px;
+  width               : 1298px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -3439,7 +3438,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 1004px;
-  width               : 861px;
+  width               : 1261px;
   position            : absolute;
   margin              : 0;
   left                : 12px;
@@ -3450,7 +3449,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2104px;
   height              : 515px;
-  width               : 856px;
+  width               : 1256px;
   position            : absolute;
   margin              : 0;
   left                : 150px;
@@ -3461,7 +3460,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
   height              : 513px;
-  width               : 856px;
+  width               : 100%;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -3472,7 +3471,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 2721px;
-  width               : 1117px;
+  width               : 1317px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -3481,9 +3480,9 @@ div {
 }
 .bp3-servicetablet .bp3-backgroundsobre .bp3-wavecopy {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1356px;
-  height              : 622px;
-  width               : 694px;
+  top                 : 856px;
+  height              : 822px;
+  width               : 994px;
   position            : absolute;
   margin              : 0;
   left                : 423px;
@@ -4603,7 +4602,7 @@ div {
   position            : relative;
   height              : auto;
   margin              : 0;
-  width               : 74px;
+  width               : 94px;
   transform           : rotate(0deg);
   opacity             : 0.5;
   font-family         : "Poppins", Helvetica, Arial, serif;
@@ -4619,7 +4618,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : auto;
-  margin              : 0 0 0 380px;
+  margin              : 0 0 0 300px;
   width               : 82px;
   transform           : rotate(0deg);
   opacity             : 0.5;

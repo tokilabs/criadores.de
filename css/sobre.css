@@ -82,12 +82,12 @@ div {
 }
 .bp2-sobrelq .bp2-backgroundsobre .bp2-asset9 .bp2-group .bp2-path {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : -150px;
   height              : 284px;
   width               : calc(100.00% - 384px);
   position            : absolute;
   margin              : 0;
-  left                : 384px;
+  left                : 584px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -175,7 +175,7 @@ div {
   width               : calc(100.00% - 310px);
   position            : absolute;
   margin              : 0;
-  left                : 420px;
+  left                : 520px;
   transform           : rotate(0deg);
   opacity             : 0.3;
 }
@@ -470,6 +470,7 @@ div {
 .bp2-sobrelq .bp2-sobrenosgroup .bp2-a1ststacktopsobre .bp2-imagem {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
+  top: 40px;
   height              : 376px;
   margin              : 0 0 0 175px;
   width               : 443px;
@@ -526,6 +527,7 @@ div {
 .bp2-sobrelq .bp2-sobrenosgroup .bp2-stackedgroup2 .bp2-stackedgroup3 .bp2-stackedgroup .bp2-cards {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
+  top : 25px;
   height              : 91px;
   margin              : 0;
   width               : 191px;
@@ -1729,7 +1731,7 @@ div {
 }
 .bp1-sobre .bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-a1ststacktopsobre .bp1-title .bp1-sobren323s {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 34px;
+  top                 : 50px;
   height              : auto;
   width               : 321px;
   position            : absolute;
@@ -1867,7 +1869,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 465px;
-  margin              : 0 0 0 200px;
+  margin              : 0 0 0 150px;
   width               : 582px;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -1921,10 +1923,11 @@ div {
 }
 .bp1-sobre .bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup .bp1-cards {
   background-color    : rgba(255,255,255,0.0);
+  top : 40px;
   position            : relative;
-  height              : 91px;
+  height              : 100px;
   margin              : 0;
-  width               : 212px;
+  width               : 240px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1961,10 +1964,10 @@ div {
   background-color    : rgba(116, 191, 187, 1.0);
   top                 : 35px;
   height              : 15px;
-  width               : 17px;
+  width               : 15px;
   position            : absolute;
   margin              : 0;
-  left                : 13px;
+  left                : 15px;
   border-radius       : 7px;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -3105,7 +3108,7 @@ div {
 }
 .bp3-sobretablet .bp3-sobrenosgroup .bp3-a1ststacktopsobre .bp3-title .bp3-sobren323s {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 22px;
+  top                 : 30px;
   height              : auto;
   width               : 300px;
   position            : absolute;
@@ -3124,7 +3127,7 @@ div {
 }
 .bp3-sobretablet .bp3-sobrenosgroup .bp3-a1ststacktopsobre .bp3-title .bp3-prazer {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 84px;
+  top                 : 80px;
   height              : auto;
   width               : 300px;
   position            : absolute;
@@ -3242,6 +3245,7 @@ div {
 .bp3-sobretablet .bp3-sobrenosgroup .bp3-a1ststacktopsobre .bp3-imagem {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
+  top : 50px;
   height              : 372px;
   margin              : 0 0 0 -55px;
   width               : 439px;
@@ -3288,7 +3292,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
-  width               : 789px;
+  width               : 760px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -3298,6 +3302,7 @@ div {
 .bp3-sobretablet .bp3-sobrenosgroup .bp3-stackedgroup2 .bp3-stackedgroup3 .bp3-stackedgroup .bp3-cards {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
+  top: 20px;
   height              : 91px;
   margin              : 0;
   width               : 186px;
@@ -4421,6 +4426,8 @@ div {
 .bp4-sobremobile .bp4-sobrenosgroup .bp4-a1ststacktopsobre .bp4-imagem {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
+  top: 70px;
+  left: 70px;
   height              : 351px;
   margin              : 0 0 0 -150px;
   width               : 413px;
@@ -4477,6 +4484,7 @@ div {
 .bp4-sobremobile .bp4-sobrenosgroup .bp4-stackedgroup2 .bp4-stackedgroup3 .bp4-stackedgroup .bp4-cards {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
+  top: 20px;
   height              : 91px;
   margin              : 0;
   width               : 182px;
