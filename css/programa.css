@@ -51,19 +51,19 @@ div {
 
 .bp3-programatablet .bp3-asset9 {
   background-color: rgba(255, 255, 255, 0.0);
-  bottom: 105px;
+  bottom: 20px;
   height: 1280px;
   width: 100%;
   position: absolute;
   margin: 0;
-  left: 0px;
+  left: 10px;
   transform: rotate(0deg);
   opacity: 1.0;
 }
 
 .bp3-programatablet .bp3-asset9 .bp3-group {
   background-color: rgba(255, 255, 255, 0.0);
-  top: 1px;
+  top: -920px;
   height: calc(100.00% - 1px);
   width: 100%;
   position: absolute;
@@ -99,7 +99,7 @@ div {
 
 .bp3-programatablet .bp3-asset9 .bp3-asset8 {
   background-color: rgba(255, 255, 255, 0.0);
-  top: 0px;
+  top: -900px;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -744,10 +744,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
   height              : 466px;
-  width               : 450px;
+  width               : 250px;
   position            : absolute;
   margin              : 0;
-  left                : 10px;
+  left                : 120px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -767,7 +767,7 @@ div {
   position            : relative;
   height              : 29px;
   margin              : 20px 0 0 0;
-  width               : 433px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -775,7 +775,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
-  width               : 434px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -786,7 +786,7 @@ div {
   font-style          : normal;
   font-size           : 24.0px;
   color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
+  text-align          : center;
   letter-spacing      : 1.33px;
   line-height         : 28.0px;
 }
@@ -795,7 +795,7 @@ div {
   position            : relative;
   height              : 58px;
   margin              : 20px 0 0 0;
-  width               : 450px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -803,7 +803,7 @@ div {
   background-color    : rgba(198, 216, 237, 1.0);
   top                 : 0px;
   height              : 58px;
-  width               : 450px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -819,7 +819,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 10px;
   height              : auto;
-  width               : 425px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 20px;
@@ -831,7 +831,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 0;
-  width               : 425px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -839,7 +839,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -858,7 +858,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 10px 0 0 0;
-  width               : 425px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -866,7 +866,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 300px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -932,10 +932,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
   height              : 466px;
-  width               : 450px;
+  width               : 250px;
   position            : absolute;
   margin              : 0;
-  left                : 10px;
+  left                : 120px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -953,9 +953,9 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy .bp3-container1 .bp3-stackedcontainer .bp3-title {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 29px;
+  height              : 28px;
   margin              : 20px 0 0 0;
-  width               : 433px;
+  width               : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -963,7 +963,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
-  width               : 434px;
+  width               : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -974,7 +974,7 @@ div {
   font-style          : normal;
   font-size           : 24.0px;
   color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
+  text-align          : center;
   letter-spacing      : 1.33px;
   line-height         : 28.0px;
 }
@@ -983,7 +983,7 @@ div {
   position            : relative;
   height              : 58px;
   margin              : 20px 0 0 0;
-  width               : 450px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -991,7 +991,7 @@ div {
   background-color    : rgba(198, 216, 237, 1.0);
   top                 : 0px;
   height              : 58px;
-  width               : 450px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1007,7 +1007,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 10px;
   height              : auto;
-  width               : 425px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 20px;
@@ -1019,7 +1019,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 0;
-  width               : 425px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1027,7 +1027,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1046,7 +1046,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 10px 0 0 0;
-  width               : 425px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1054,7 +1054,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 300px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1120,10 +1120,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
   height              : 466px;
-  width               : 450px;
+  width : 250px;
   position            : absolute;
   margin              : 0;
-  left                : 10px;
+  left                : 120px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1143,7 +1143,7 @@ div {
   position            : relative;
   height              : 29px;
   margin              : 20px 0 0 0;
-  width               : 433px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1151,7 +1151,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
-  width               : 434px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1162,7 +1162,7 @@ div {
   font-style          : normal;
   font-size           : 24.0px;
   color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
+  text-align          : center;
   letter-spacing      : 1.33px;
   line-height         : 28.0px;
 }
@@ -1171,7 +1171,7 @@ div {
   position            : relative;
   height              : 58px;
   margin              : 20px 0 0 0;
-  width               : 450px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1179,7 +1179,7 @@ div {
   background-color    : rgba(198, 216, 237, 1.0);
   top                 : 0px;
   height              : 58px;
-  width               : 450px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1195,7 +1195,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 10px;
   height              : auto;
-  width               : 425px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 20px;
@@ -1207,7 +1207,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 0;
-  width               : 425px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1215,7 +1215,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1234,7 +1234,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 10px 0 0 0;
-  width               : 425px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1242,7 +1242,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 300px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1308,10 +1308,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
   height              : 466px;
-  width               : 450px;
+  width               : 250px;
   position            : absolute;
   margin              : 0;
-  left                : 10px;
+  left                : 120px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1331,7 +1331,7 @@ div {
   position            : relative;
   height              : 29px;
   margin              : 20px 0 0 0;
-  width               : 433px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1339,7 +1339,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
-  width               : 434px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1350,7 +1350,7 @@ div {
   font-style          : normal;
   font-size           : 24.0px;
   color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
+  text-align          : center;
   letter-spacing      : 1.33px;
   line-height         : 28.0px;
 }
@@ -1359,7 +1359,7 @@ div {
   position            : relative;
   height              : 58px;
   margin              : 20px 0 0 0;
-  width               : 450px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1367,7 +1367,7 @@ div {
   background-color    : rgba(198, 216, 237, 1.0);
   top                 : 0px;
   height              : 58px;
-  width               : 450px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1383,7 +1383,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 10px;
   height              : auto;
-  width               : 425px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 20px;
@@ -1395,7 +1395,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 0;
-  width               : 425px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1403,7 +1403,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1422,7 +1422,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 10px 0 0 0;
-  width               : 425px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1430,7 +1430,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1448,10 +1448,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 744px;
   height              : 466px;
-  width               : 470px;
+  width               : 100%;
   position            : absolute;
   margin              : 0;
-  left                : -38px;
+  left : -13%;
   transform           : rotate(0deg);
   opacity             : 1.0;
   transition          : all 0.2s ease-in-out;
@@ -1496,10 +1496,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
   height              : auto;
-  width               : 450px;
+  width               : 250px;
   position            : absolute;
   margin              : 0;
-  left                : 10px;
+  left                : 120px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1519,7 +1519,7 @@ div {
   position            : relative;
   height              : 29px;
   margin              : 20px 0 0 0;
-  width               : 433px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1527,7 +1527,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
-  width               : 434px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1538,7 +1538,7 @@ div {
   font-style          : normal;
   font-size           : 24.0px;
   color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
+  text-align          : center;
   letter-spacing      : 1.33px;
   line-height         : 28.0px;
 }
@@ -1547,7 +1547,7 @@ div {
   position            : relative;
   height              : 58px;
   margin              : 20px 0 0 0;
-  width               : 450px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1555,7 +1555,7 @@ div {
   background-color    : rgba(198, 216, 237, 1.0);
   top                 : 0px;
   height              : 58px;
-  width               : 450px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1571,7 +1571,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 10px;
   height              : auto;
-  width               : 425px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 20px;
@@ -1583,7 +1583,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 0;
-  width               : 425px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1591,7 +1591,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1610,7 +1610,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 10px 0 0 0;
-  width               : 425px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1618,7 +1618,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 300px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1636,7 +1636,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 744px;
   height              : 466px;
-  width               : 470px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 346px;
@@ -1684,10 +1684,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
   height              : auto;
-  width               : 450px;
+  width               : 250px;
   position            : absolute;
   margin              : 0;
-  left                : 10px;
+  left                : 120px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1707,7 +1707,7 @@ div {
   position            : relative;
   height              : 29px;
   margin              : 20px 0 0 0;
-  width               : 433px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1715,7 +1715,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
-  width               : 434px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1726,7 +1726,7 @@ div {
   font-style          : normal;
   font-size           : 24.0px;
   color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
+  text-align          : center;
   letter-spacing      : 1.33px;
   line-height         : 28.0px;
 }
@@ -1735,7 +1735,7 @@ div {
   position            : relative;
   height              : 58px;
   margin              : 20px 0 0 0;
-  width               : 450px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1743,7 +1743,7 @@ div {
   background-color    : rgba(198, 216, 237, 1.0);
   top                 : 0px;
   height              : 58px;
-  width               : 450px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1759,7 +1759,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 10px;
   height              : auto;
-  width               : 425px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 20px;
@@ -1771,7 +1771,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 0;
-  width               : 425px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1779,7 +1779,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1798,7 +1798,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 10px 0 0 0;
-  width               : 425px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1806,7 +1806,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 300px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1872,10 +1872,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
   height              : 466px;
-  width               : 450px;
+  width               : 250px;
   position            : absolute;
   margin              : 0;
-  left                : 10px;
+  left                : 120px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1895,7 +1895,7 @@ div {
   position            : relative;
   height              : 29px;
   margin              : 20px 0 0 0;
-  width               : 433px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1903,7 +1903,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
-  width               : 434px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1914,7 +1914,7 @@ div {
   font-style          : normal;
   font-size           : 24.0px;
   color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
+  text-align          : center;
   letter-spacing      : 1.33px;
   line-height         : 28.0px;
 }
@@ -1923,7 +1923,7 @@ div {
   position            : relative;
   height              : 58px;
   margin              : 20px 0 0 0;
-  width               : 450px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1931,7 +1931,7 @@ div {
   background-color    : rgba(198, 216, 237, 1.0);
   top                 : 0px;
   height              : 58px;
-  width               : 450px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1947,7 +1947,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 10px;
   height              : auto;
-  width               : 425px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 20px;
@@ -1959,7 +1959,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 0;
-  width               : 425px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1967,7 +1967,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -1986,7 +1986,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 10px 0 0 0;
-  width               : 425px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -1994,7 +1994,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 300px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2012,7 +2012,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1510px;
   height              : 466px;
-  width               : 470px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 154px;
@@ -2059,20 +2059,20 @@ div {
   align-items         : center;
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
-  height              : auto;
-  width               : 450px;
+  height              : 230px;
+  width               : 250px;
   position            : absolute;
   margin              : 0;
-  left                : 10px;
+  left                : 120px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy8 .bp3-container1 .bp3-stackedcontainer .bp3-picture {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : auto;
+  height : 100%;
   margin              : 0;
-  width               : 435px;
+  width               : 100%;
   border-radius       : 15px;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -2083,7 +2083,7 @@ div {
   position            : relative;
   height              : 29px;
   margin              : 20px 0 0 0;
-  width               : 433px;
+  width               : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2091,7 +2091,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
-  width               : 434px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2102,7 +2102,7 @@ div {
   font-style          : normal;
   font-size           : 24.0px;
   color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
+  text-align          : center;
   letter-spacing      : 1.33px;
   line-height         : 28.0px;
 }
@@ -2111,7 +2111,7 @@ div {
   position            : relative;
   height              : 58px;
   margin              : 20px 0 0 0;
-  width               : 450px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2119,7 +2119,7 @@ div {
   background-color    : rgba(198, 216, 237, 1.0);
   top                 : 0px;
   height              : 58px;
-  width               : 450px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2135,7 +2135,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 10px;
   height              : auto;
-  width               : 425px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 20px;
@@ -2147,7 +2147,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 0;
-  width               : 425px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2155,7 +2155,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2174,7 +2174,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 10px 0 0 0;
-  width               : 425px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2182,7 +2182,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 300px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2248,10 +2248,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
   height              : 466px;
-  width               : 450px;
+  width               : 250px;
   position            : absolute;
   margin              : 0;
-  left                : 10px;
+  left                : 120px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2271,7 +2271,7 @@ div {
   position            : relative;
   height              : 29px;
   margin              : 20px 0 0 0;
-  width               : 433px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2279,7 +2279,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
-  width               : 434px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2290,7 +2290,7 @@ div {
   font-style          : normal;
   font-size           : 24.0px;
   color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
+  text-align          : center;
   letter-spacing      : 1.33px;
   line-height         : 28.0px;
 }
@@ -2307,7 +2307,7 @@ div {
   background-color    : rgba(198, 216, 237, 1.0);
   top                 : 0px;
   height              : 58px;
-  width               : 450px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2323,7 +2323,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 10px;
   height              : auto;
-  width               : 425px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 20px;
@@ -2335,7 +2335,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 0;
-  width               : 425px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2343,7 +2343,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 333px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -2362,7 +2362,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 10px 0 0 0;
-  width               : 425px;
+  width : 333px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -2370,7 +2370,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 300px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6890,10 +6890,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
   height : 466px;
-  width               : 430px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
-  left                : 10px;
+  left                : 60px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -6913,15 +6913,15 @@ div {
   position            : relative;
   height              : 29px;
   margin              : 20px 0 0 0;
-  width               : 433px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container .bp2-container9 .bp2-stackedcontainer .bp2-title .bp2-t355tulodoprodutoou {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 2px;
   height              : 28px;
-  width               : 434px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6932,16 +6932,16 @@ div {
   font-style          : normal;
   font-size           : 24.0px;
   color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
+  text-align          : center;
   letter-spacing      : 1.33px;
-  line-height         : 28.0px;
+  line-height         : 32.0px;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container .bp2-container9 .bp2-stackedcontainer .bp2-paddingdetalhescontainer {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 58px;
   margin              : 20px 0 0 0;
-  width               : 450px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -6949,7 +6949,7 @@ div {
   background-color    : rgba(198, 216, 237, 1.0);
   top                 : 0px;
   height              : 58px;
-  width               : 450px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -6965,7 +6965,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 10px;
   height              : auto;
-  width               : 425px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 20px;
@@ -6977,7 +6977,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 0;
-  width               : 425px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -6985,7 +6985,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7004,7 +7004,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 10px 0 0 0;
-  width               : 425px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -7012,7 +7012,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 300px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7078,10 +7078,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
   height              : 466px;
-  width               : 450px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
-  left                : 10px;
+  left                : 60px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -7101,15 +7101,15 @@ div {
   position            : relative;
   height              : 29px;
   margin              : 20px 0 0 0;
-  width               : 433px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container1 .bp2-container9 .bp2-stackedcontainer .bp2-title .bp2-t355tulodoprodutoou {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 2px;
   height              : 28px;
-  width               : 434px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7120,16 +7120,16 @@ div {
   font-style          : normal;
   font-size           : 24.0px;
   color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
+  text-align          : center;
   letter-spacing      : 1.33px;
-  line-height         : 28.0px;
+  line-height         : 32.0px;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container1 .bp2-container9 .bp2-stackedcontainer .bp2-paddingdetalhescontainer {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 58px;
   margin              : 20px 0 0 0;
-  width               : 450px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -7137,7 +7137,7 @@ div {
   background-color    : rgba(198, 216, 237, 1.0);
   top                 : 0px;
   height              : 58px;
-  width               : 450px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7153,7 +7153,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 10px;
   height              : auto;
-  width               : 425px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 20px;
@@ -7165,7 +7165,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 0;
-  width               : 425px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -7173,7 +7173,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7192,7 +7192,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 10px 0 0 0;
-  width               : 425px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -7200,7 +7200,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 300px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7266,10 +7266,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
   height              : 466px;
-  width               : 470px;
+  width               : 320px;
   position            : absolute;
   margin              : 0;
-  left                : 10px;
+  left                : 60px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -7287,17 +7287,17 @@ div {
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container2 .bp2-container9 .bp2-stackedcontainer .bp2-title {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 29px;
+  height              : 22px;
   margin              : 20px 0 0 0;
-  width               : 433px;
+  width               : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container2 .bp2-container9 .bp2-stackedcontainer .bp2-title .bp2-t355tulodoprodutoou {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 434px;
+  top                 : 2px;
+  height              : 22px;
+  width               : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7308,16 +7308,16 @@ div {
   font-style          : normal;
   font-size           : 24.0px;
   color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
+  text-align          : center;
   letter-spacing      : 1.33px;
-  line-height         : 28.0px;
+  line-height         : 32.0px;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container2 .bp2-container9 .bp2-stackedcontainer .bp2-paddingdetalhescontainer {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 58px;
   margin              : 20px 0 0 0;
-  width               : 450px;
+  width               : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -7325,7 +7325,7 @@ div {
   background-color    : rgba(198, 216, 237, 1.0);
   top                 : 0px;
   height              : 58px;
-  width               : 450px;
+  width               : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7341,7 +7341,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 10px;
   height              : auto;
-  width               : 425px;
+  width               : 320px;
   position            : absolute;
   margin              : 0;
   left                : 20px;
@@ -7353,7 +7353,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 0;
-  width               : 425px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -7361,7 +7361,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7380,7 +7380,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 10px 0 0 0;
-  width               : 425px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -7388,7 +7388,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 300px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7454,7 +7454,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
   height : 466px;
-  width               : 470px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 10px;
@@ -7477,7 +7477,7 @@ div {
   position            : relative;
   height              : 29px;
   margin              : 20px 0 0 0;
-  width               : 433px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -7485,7 +7485,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 28px;
-  width               : 434px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7496,7 +7496,7 @@ div {
   font-style          : normal;
   font-size           : 24.0px;
   color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
+  text-align          : center;
   letter-spacing      : 1.33px;
   line-height         : 28.0px;
 }
@@ -7505,7 +7505,7 @@ div {
   position            : relative;
   height              : 58px;
   margin              : 20px 0 0 0;
-  width               : 450px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -7513,7 +7513,7 @@ div {
   background-color    : rgba(198, 216, 237, 1.0);
   top                 : 0px;
   height              : 58px;
-  width               : 450px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7529,7 +7529,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 10px;
   height              : auto;
-  width               : 425px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 20px;
@@ -7541,7 +7541,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 0;
-  width               : 425px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -7549,7 +7549,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7576,7 +7576,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 300px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7642,10 +7642,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
   height              : 466px;
-  width               : 470px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
-  left                : 10px;
+  left                : 60px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -7665,15 +7665,15 @@ div {
   position            : relative;
   height              : 29px;
   margin              : 20px 0 0 0;
-  width               : 433px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container4 .bp2-container9 .bp2-stackedcontainer .bp2-title .bp2-t355tulodoprodutoou {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 2px;
   height              : 28px;
-  width               : 434px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7684,16 +7684,16 @@ div {
   font-style          : normal;
   font-size           : 24.0px;
   color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
+  text-align          : center;
   letter-spacing      : 1.33px;
-  line-height         : 28.0px;
+  line-height         : 32.0px;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container4 .bp2-container9 .bp2-stackedcontainer .bp2-paddingdetalhescontainer {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 58px;
   margin              : 20px 0 0 0;
-  width               : 450px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -7701,7 +7701,7 @@ div {
   background-color    : rgba(198, 216, 237, 1.0);
   top                 : 0px;
   height              : 58px;
-  width               : 450px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7717,7 +7717,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 10px;
   height              : auto;
-  width               : 425px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 20px;
@@ -7729,7 +7729,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 0;
-  width               : 425px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -7737,7 +7737,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7756,7 +7756,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 10px 0 0 0;
-  width               : 425px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -7764,7 +7764,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 300px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7800,7 +7800,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 466px;
-  width               : 470px;
+  width : 320px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -7830,10 +7830,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
   height              : 466px;
-  width               : 470px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
-  left                : 10px;
+  left                : 60px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -7851,17 +7851,17 @@ div {
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container5 .bp2-container9 .bp2-stackedcontainer .bp2-title {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
-  height              : 29px;
+  height              : 22px;
   margin              : 20px 0 0 0;
-  width               : 433px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container5 .bp2-container9 .bp2-stackedcontainer .bp2-title .bp2-t355tulodoprodutoou {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 2px;
   height              : 28px;
-  width               : 434px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7872,16 +7872,16 @@ div {
   font-style          : normal;
   font-size           : 24.0px;
   color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
+  text-align          : center;
   letter-spacing      : 1.33px;
-  line-height         : 28.0px;
+  line-height         : 32.0px;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container5 .bp2-container9 .bp2-stackedcontainer .bp2-paddingdetalhescontainer {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 58px;
   margin              : 20px 0 0 0;
-  width               : 450px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -7889,7 +7889,7 @@ div {
   background-color    : rgba(198, 216, 237, 1.0);
   top                 : 0px;
   height              : 58px;
-  width               : 450px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7908,7 +7908,7 @@ div {
   width               : 425px;
   position            : absolute;
   margin              : 0;
-  left                : 20px;
+  left                : -20px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -7917,7 +7917,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 0;
-  width               : 425px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -7925,7 +7925,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7944,7 +7944,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 10px 0 0 0;
-  width               : 425px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -7952,7 +7952,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 300px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -7988,7 +7988,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 466px;
-  width               : 470px;
+  width : 320px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -8018,7 +8018,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
   height              : 466px;
-  width               : 470px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 10px;
@@ -8041,15 +8041,15 @@ div {
   position            : relative;
   height              : 29px;
   margin              : 20px 0 0 0;
-  width               : 433px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container6 .bp2-container9 .bp2-stackedcontainer .bp2-title .bp2-t355tulodoprodutoou {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 2px;
   height              : 28px;
-  width               : 434px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -8060,16 +8060,16 @@ div {
   font-style          : normal;
   font-size           : 24.0px;
   color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
+  text-align          : center;
   letter-spacing      : 1.33px;
-  line-height         : 28.0px;
+  line-height         : 32.0px;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container6 .bp2-container9 .bp2-stackedcontainer .bp2-paddingdetalhescontainer {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 58px;
   margin              : 20px 0 0 0;
-  width               : 450px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -8077,7 +8077,7 @@ div {
   background-color    : rgba(198, 216, 237, 1.0);
   top                 : 0px;
   height              : 58px;
-  width               : 450px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -8093,7 +8093,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 10px;
   height              : auto;
-  width               : 425px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 20px;
@@ -8105,7 +8105,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 0;
-  width               : 425px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -8113,7 +8113,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -8132,7 +8132,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 10px 0 0 0;
-  width               : 425px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -8140,7 +8140,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 300px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -8176,7 +8176,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 466px;
-  width               : 470px;
+  width : 320px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -8206,7 +8206,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
   height              : 466px;
-  width               : 470px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 10px;
@@ -8229,15 +8229,15 @@ div {
   position            : relative;
   height              : 29px;
   margin              : 20px 0 0 0;
-  width               : 433px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container7 .bp2-container9 .bp2-stackedcontainer .bp2-title .bp2-t355tulodoprodutoou {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 2px;
   height              : 28px;
-  width               : 434px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -8248,16 +8248,16 @@ div {
   font-style          : normal;
   font-size           : 24.0px;
   color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
+  text-align          : center;
   letter-spacing      : 1.33px;
-  line-height         : 28.0px;
+  line-height         : 32.0px;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container7 .bp2-container9 .bp2-stackedcontainer .bp2-paddingdetalhescontainer {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 58px;
   margin              : 20px 0 0 0;
-  width               : 450px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -8265,7 +8265,7 @@ div {
   background-color    : rgba(198, 216, 237, 1.0);
   top                 : 0px;
   height              : 58px;
-  width               : 450px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -8281,7 +8281,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 10px;
   height              : auto;
-  width               : 425px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 20px;
@@ -8293,7 +8293,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 0;
-  width               : 425px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -8301,7 +8301,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -8320,7 +8320,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 10px 0 0 0;
-  width               : 425px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -8328,7 +8328,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 300px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -8394,10 +8394,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
   height              : 466px;
-  width               : 450px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
-  left                : 10px;
+  left                : 60px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -8417,15 +8417,15 @@ div {
   position            : relative;
   height              : 29px;
   margin              : 20px 0 0 0;
-  width               : 433px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container8 .bp2-container9 .bp2-stackedcontainer .bp2-title .bp2-t355tulodoprodutoou {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
+  top                 : 2px;
   height              : 28px;
-  width               : 434px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -8436,16 +8436,16 @@ div {
   font-style          : normal;
   font-size           : 24.0px;
   color               : rgba(46, 50, 67, 1.0);
-  text-align          : left;
+  text-align          : center;
   letter-spacing      : 1.33px;
-  line-height         : 28.0px;
+  line-height         : 32.0px;
 }
 .bp2-programalq .bp2-containsservicesui .bp2-content .bp2-container8 .bp2-container9 .bp2-stackedcontainer .bp2-paddingdetalhescontainer {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
   height              : 58px;
   margin              : 20px 0 0 0;
-  width               : 450px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -8453,7 +8453,7 @@ div {
   background-color    : rgba(198, 216, 237, 1.0);
   top                 : 0px;
   height              : 58px;
-  width               : 450px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -8469,7 +8469,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 10px;
   height              : auto;
-  width               : 425px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 20px;
@@ -8481,7 +8481,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 0;
-  width               : 425px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -8489,7 +8489,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 320px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -8508,7 +8508,7 @@ div {
   position            : relative;
   height              : 14px;
   margin              : 10px 0 0 0;
-  width               : 425px;
+  width : 320px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
@@ -8516,7 +8516,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 14px;
-  width               : 425px;
+  width : 300px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
