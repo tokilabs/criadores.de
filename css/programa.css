@@ -13,7 +13,7 @@
   width               : 100%;
   min-width           : 768px;
   height              : 100vh;
-  min-height          : 2707px;
+  min-height          : 2837px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -2109,6 +2109,7 @@ div {
 .bp3-programatablet .bp3-containsservicesui .bp3-content .bp3-containercopy8 .bp3-container1 .bp3-stackedcontainer .bp3-paddingdetalhescontainer {
   background-color    : rgba(255,255,255,0.0);
   position            : relative;
+  top: 30px;
   height              : 58px;
   margin              : 20px 0 0 0;
   width : 333px;
