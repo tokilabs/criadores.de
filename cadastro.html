@@ -14,10 +14,17 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js">
         </script>
         <script defer= "" src = "login.js"></script>
+         <!-- The core Firebase JS SDK is always required and must be listed first -->
+         <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+
+         <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+         <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+         <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-auth.js"></script>
         <script src="https://animaapp.s3.amazonaws.com/launchpad-static/launchpad.js">
         </script>
-        <script defer="" src="hotspots.js">
-        </script>
+        <!-- <script defer="" src="hotspots.js">
+        </script> -->
         <meta content="AnimaApp.com - Design to code, Automated." name="author"/>
     </head>
     <body style="margin: 0;
@@ -6640,7 +6647,7 @@
                         <img alt="Image" anima-src="./img/cadastro-path-24@2x.png" class="bp1-path21" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <img alt="Image" anima-src="./img/cadastro-path-25@2x.png" class="bp1-path22" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         <img alt="Image" anima-src="./img/cadastro-path-29@2x.png" class="bp1-path23" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <img alt="Image" anima-src="./img/cadastro-path-27@2x.png" class="bp1-path24" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img alt="Image" anima-src="./img/galho.svg" class="bp1-path24" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </div>
                     <div class="bp1-cadastrogrupowidget">
                         <div class="bp1-pontilhado">
@@ -6707,7 +6714,7 @@
                         <!-- <a href="javascript:animaSubmitForm('form4')"> -->
                             <!-- <a href="javascript:('login')"></a> -->
                             <!-- <a href="javascript: ('login.js')"> -->
-                        <button onclick="signIn()" id="signIn">
+                        <a button onclick="signIn()" id="signIn">
                             <div class="bp1-signupbutton anima-smart-layers-pointers ">
                                 <div class="bp1-rectangle1">
                                 </div>
@@ -6715,11 +6722,11 @@
                                     Cadastrar
                                 </div>
                             </div>
-                        </button>
+                        </a>
                         <div class="bp1-aviaozin anima-smart-layers-pointers ">
-                            <img alt="Image" anima-src="./img/cadastro-path-31@2x.png" class="bp1-path" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img alt="Image" anima-src="./img/cadastro-path-32@2x.png" class="bp1-path1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img alt="Image" anima-src="./img/cadastro-path-33@2x.png" class="bp1-path2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img alt="Image" anima-src="./img/aviaozin.svg" class="bp1-path"/>
+                            <!-- <img alt="Image" anima-src="./img/cadastro-path-32@2x.png" class="bp1-path1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                            <img alt="Image" anima-src="./img/cadastro-path-33@2x.png" class="bp1-path2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/> -->
                         </div>
                     </div>
                     <style>
@@ -9189,7 +9196,7 @@ window.onresize=anima_new_onResize;setTimeout(function(){anima_updateOnResize()}
         }
     };
         </script>
-        <script>
+        <!-- <script>
    /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
 if (!HTMLFormElement.prototype.reportValidity) {
     HTMLFormElement.prototype.reportValidity = function () {
@@ -9208,8 +9215,8 @@ function animaSubmitForm(form_name) {
         if (window.submitted) window.submitted();
     }
 }
-        </script>
-        <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+        </script> -->
+        <!-- <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
         <script>
             // Initialize Firebase
             var config = {
@@ -9224,7 +9231,7 @@ function animaSubmitForm(form_name) {
             };
             firebase.initializeApp(config);
         </script>
-        <script src="login.js"></script>
+        <script src="login.js"></script> -->
         <!-- End of Scripts -->
     </body>
 </html>
