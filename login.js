@@ -1,16 +1,16 @@
 
   // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyCoOYhqls1rJtW2DH0R2Suf32_P5fZ3dHQ",
-    authDomain: "criadores-b8998.firebaseapp.com",
-    databaseURL: "https://criadores-b8998.firebaseio.com",
-    projectId: "criadores-b8998",
-    storageBucket: "criadores-b8998.appspot.com",
-    messagingSenderId: "949964734987",
-    appId: "1:949964734987:web:dd7b980c075510decf3d0e",
-    measurementId: "G-WYVF9RLTRK"
-  };
-  firebase.initializeApp(firebaseConfig);
+//   var firebaseConfig = {
+//     apiKey: "AIzaSyCoOYhqls1rJtW2DH0R2Suf32_P5fZ3dHQ",
+//     authDomain: "criadores-b8998.firebaseapp.com",
+//     databaseURL: "https://criadores-b8998.firebaseio.com",
+//     projectId: "criadores-b8998",
+//     storageBucket: "criadores-b8998.appspot.com",
+//     messagingSenderId: "949964734987",
+//     appId: "1:949964734987:web:dd7b980c075510decf3d0e",
+//     measurementId: "G-WYVF9RLTRK"
+//   };
+//   firebase.initializeApp(firebaseConfig);
   
   const auth = firebase.auth();
   

@@ -13,7 +13,7 @@
         <link href="./css/cadastro.css" rel="stylesheet" type="text/css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js">
         </script>
-        <script defer= "" src = "login.js"></script>
+        <!-- <script defer= "" src = "login.js"></script>
          <!-- The core Firebase JS SDK is always required and must be listed first -->
          <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
 
@@ -9197,7 +9197,30 @@ window.onresize=anima_new_onResize;setTimeout(function(){anima_updateOnResize()}
     };
         </script>
         <!-- <script>
-   /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+            <!-- The core Firebase JS SDK is always required and must be listed first -->
+            <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+
+            <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+            <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+
+            <script>
+                // Your web app's Firebase configuration
+                var firebaseConfig = {
+                    apiKey: "AIzaSyCoOYhqls1rJtW2DH0R2Suf32_P5fZ3dHQ",
+                    authDomain: "criadores-b8998.firebaseapp.com",
+                    databaseURL: "https://criadores-b8998.firebaseio.com",
+                    projectId: "criadores-b8998",
+                    storageBucket: "criadores-b8998.appspot.com",
+                    messagingSenderId: "949964734987",
+                    appId: "1:949964734987:web:dd7b980c075510decf3d0e",
+                    measurementId: "G-WYVF9RLTRK"
+                };
+                // Initialize Firebase
+                firebase.initializeApp(firebaseConfig);
+                firebase.analytics();
+            </script>
+   <!-- /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
 if (!HTMLFormElement.prototype.reportValidity) {
     HTMLFormElement.prototype.reportValidity = function () {
         if (this.checkValidity()) return true;
