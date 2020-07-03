@@ -8,9 +8,11 @@
         <meta content="yes" name="mobile-web-app-capable"/>
         <meta content="default" name="apple-mobile-web-app-status-bar-style"/>
         <link href="./css/cartWidget.css" rel="stylesheet" type="text/css"/>
-        <script defer="" src="hotspots.js">
-        </script>
         <meta content="AnimaApp.com - Design to code, Automated." name="author"/>
+        <script>
+            src = "cart.js"
+            async >
+        </script>
     </head>
     <body style="margin: 0;">
         <input id="anPageName" name="page" type="hidden" value="cartwidget"/>
@@ -42,6 +44,17 @@
                         <div class="stackedgroup">
                             <div class="carrinho anima-valign-text-middle">
                                 CARRINHO
+                            </div>
+                            <div class="cart-row">
+                                <span class="cart-item cart-header cart-column">ITEM</span>
+                                <span class="cart-price cart-header cart-column">PRICE</span>
+                                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                            </div>
+                            <div class="cart-items">
+                            </div>
+                            <div class="cart-total">
+                                <strong class="cart-total-title">Total</strong>
+                                <span class="cart-total-price">$0</span>
                             </div>
                             <div class="cardempty">
                                 <div class="doronglagi">
@@ -101,6 +114,7 @@
                                     <img alt="Image" anima-src="./img/cartwidget-path-28@2x.png" class="path25" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                                 </div>
                                 <div class="seucarrinhoest341va">
+                                    
                                     Seu Carrinho está vazio
                                 </div>
                                 <div class="voc352precisaadicion">
@@ -119,6 +133,19 @@
                             </a>
                         </div>
                     </div>
+                    <!-- <h2 class="section-header">CART</h2>
+                    <div class="cart-row">
+                        <span class="cart-item cart-header cart-column">ITEM</span>
+                        <span class="cart-price cart-header cart-column">PRICE</span>
+                        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                    </div>
+                    <div class="cart-items">
+                    </div>
+                    <div class="cart-total">
+                        <strong class="cart-total-title">Total</strong>
+                        <span class="cart-total-price">$0</span>
+                    </div>
+                    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button> -->
                     <a href="javascript:animaHideOverlay('cartwidget', 'anima-animate-disappear');">
                         <img alt="Image" anima-src="./img/cartwidget-exit@2x.png" class="exit anima-smart-layers-pointers " src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </a>
