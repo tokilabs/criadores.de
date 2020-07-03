@@ -31,6 +31,8 @@
       
       var email = document.getElementsByName("textEMail");
       var password = document.getElementByName("textSuaSenha");
+      var password = document.getElementByName("textConfirmarSenha");
+
       
       const promise = auth.signInWithEmailAndPassword(email.value, password.value);
       promise.catch(e => alert(e.message));
