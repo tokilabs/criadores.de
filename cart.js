@@ -1,3 +1,5 @@
+
+
 if (document.readyState == 'loading') {
     document.addEventListener('DOMContentLoaded', ready)
 } else {
@@ -16,7 +18,8 @@ function ready() {
         var input = quantityInputs[i]
         input.addEventListener('change', quantityChanged)
     }
-
+    // var contratar = document.getElementsByClassName('bp1-contratar').innerHTML;
+    // contratar = "cookiesEnabled is " + navigator.cookieEnabled;
     var addToCartButtons = document.getElementsByClassName("bp1-contratar");
     for (var i = 0; i < addToCartButtons.length; i++) {
         var button = addToCartButtons[i]
@@ -88,7 +91,7 @@ function addItemToCart(title, price, imageSrc) {
 }
 
 function updateCartTotal() {
-    var cartItemContainer = document.getElementsByClassName('cart-items')[0]
+    var cartItemContainer = document.getElementsByClassName('cart-items')[0]; // document.getElementsByClassName('cart-items')[0]
     var cartRows = cartItemContainer.getElementsByClassName('cart-row')
     var total = 0
     for (var i = 0; i < cartRows.length; i++) {
