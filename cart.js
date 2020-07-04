@@ -17,7 +17,7 @@ function ready() {
         input.addEventListener('change', quantityChanged)
     }
 
-    var addToCartButtons = document.getElementsByClassName('shop-item-button')
+    var addToCartButtons = document.getElementsByClassName("bp1-contratar");
     for (var i = 0; i < addToCartButtons.length; i++) {
         var button = addToCartButtons[i]
         button.addEventListener('click', addToCartClicked)
@@ -51,11 +51,12 @@ function quantityChanged(event) {
 
 function addToCartClicked(event) {
     var button = event.target
-    var shopItem = button.parentElement.parentElement
-    var title = shopItem.getElementsByClassName('shop-item-title')[0].innerText
-    var price = shopItem.getElementsByClassName('shop-item-price')[0].innerText
-    var imageSrc = shopItem.getElementsByClassName('shop-item-image')[0].src
+    var shopItem = button.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement
+    var title = shopItem.getElementsByClassName("bp1-t355tulodoprodutoou")[0].innerText;
+    var price = shopItem.getElementsByClassName("bp1-earning")[0].innerText;
+    var imageSrc = shopItem.getElementsByClassName("bp1-picture")[0].src;
     addItemToCart(title, price, imageSrc)
+    alert(title + ' está em seu carrinho')
     updateCartTotal()
 }
 
@@ -66,7 +67,7 @@ function addItemToCart(title, price, imageSrc) {
     var cartItemNames = cartItems.getElementsByClassName('cart-item-title')
     for (var i = 0; i < cartItemNames.length; i++) {
         if (cartItemNames[i].innerText == title) {
-            alert('This item is already added to the cart')
+            alert('Já está em seu carrinho')
             return
         }
     }
