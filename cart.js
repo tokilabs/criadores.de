@@ -56,10 +56,18 @@ function addToCartClicked(event) {
     var button = event.target
     var shopItem = button.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement
     var title = shopItem.getElementsByClassName("bp1-t355tulodoprodutoou")[0].innerText;
+    localStorage.setItem('title', JSON.stringify(title))
     var price = shopItem.getElementsByClassName("bp1-earning")[0].innerText;
+    localStorage.setItem('price', price)
     var imageSrc = shopItem.getElementsByClassName("bp1-picture")[0].src;
-    addItemToCart(title, price, imageSrc)
-    alert(title + ' está em seu carrinho')
+    localStorage.setItem('ImageItem', imageSrc)
+
+    var ntitle = localStorage.getItem('title')
+    var nprice = localStorage.getItem('price')
+    var nimageSrc = localStorage.getItem('ImageItem')
+
+    addItemToCart(ntitle, nprice, nimageSrc)
+    alert(ntitle + ' está em seu carrinho')
     updateCartTotal()
 }
 
@@ -67,6 +75,7 @@ function addItemToCart(title, price, imageSrc) {
     var cartRow = document.createElement('div')
     cartRow.classList.add('cart-row')
     var cartItems = document.getElementsByClassName('cart-items')[0]
+
     var cartItemNames = cartItems.getElementsByClassName('cart-item-title')
     for (var i = 0; i < cartItemNames.length; i++) {
         if (cartItemNames[i].innerText == title) {
@@ -86,11 +95,25 @@ function addItemToCart(title, price, imageSrc) {
         </div>`
     cartRow.innerHTML = cartRowContents
     cartItems.append(cartRow)
+    title = localStorage.getItem('title')
+    price = localStorage.getItem('price')
+    imageSrc = localStorage.getItem('ImageItem')
+    // localStorage.setItem("div", cartRow.innerHTML)
     cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click', removeCartItem)
     cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged)
 }
 
 function updateCartTotal() {
+    //var cartItemContainer = localStorage.getItem('cart-items')[0];
+    //var cartItemContainer = localStorage.setItem('cart-items')[0];
+    // var aux;
+    // var jsonAux = JSON.stringify(aux);
+    // var setItem = JSON.parse(window.localStorage.setItem('cart-items', jsonAux)[0])
+    // var itemObj = JSON.parse(setItem);
+    // var jsonCart = window.localStorage.getItem('cart-items')[0]
+    //var cartItemContainer = JSON.parse(localStorage.getItem('cart-items')[0])
+    // var setItem = window.localStorage.setItem('cart-items', jsonAux)[0]
+    // var itemObj = JSON.parse(setItem);
     var cartItemContainer = document.getElementsByClassName('cart-items')[0]; // document.getElementsByClassName('cart-items')[0]
     var cartRows = cartItemContainer.getElementsByClassName('cart-row')
     var total = 0
