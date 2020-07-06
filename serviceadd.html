@@ -11,6 +11,7 @@
     <link href="./css/servadd.css" rel="stylesheet" type="text/css" />
     <link href="./css/service.css" rel="stylesheet" type="text/css" />
     <meta content="Criadores de Adicione Serviços" name="author" />
+    <script src="./addServ.js" async></script>
 </head>
 
 <body style="margin: 0;
@@ -54,11 +55,15 @@
         <img alt="Image" src="./img/conteudo-path-2-1.png" class="Path-2" />
         <div class="BoxRec"></div>
         <div class="BgPreview">
+            <button class="okay" type="button"> Confirmar</button>
+            <button class="apagar" type="button"> Apagar</button>
             <div class="ball"></div>
-            <div class="PreVisu">Preview Container Service:</div>
+            <div class="PreVisu">Pré-visualizar e Confirmar:</div>
             <div class="GrupoServ">
                 <img alt="Image" src="./img/picture.svg" class="Defimg" />
-                <div class="ServTitle">Título do produto ou Serviço</div>
+                <!-- <span class="ServTitle">${ntitle}</span> -->
+                <span class="ServTitle">Título do produto ou Serviço</span>
+                <span class="ServPrice">Preço</span>
                 <div class="DetailBox">
                     <div class="SoftUse">SOFTWARES E FERRAMENTAS USADAS</div>
                     <div class="DetailL">Detalhe em poucas palavras, caixa responsiva com stack e BgPadding</div>
@@ -68,7 +73,7 @@
 
         <div class="inpBox">
             <div class="Bginp">
-                <img alt="Image" src="./img/picture.svg" class="InpImg" />
+                <input type="png" name="inpImg"  img alt="Image" src="./img/picture.svg" class="InpImg">
                 <input class="inpTit" placeholder="Adicione Aqui o Título" name="AdicioneAquiTitulo" type="text">
                 <div class="DetailBoxinp">
                     <input class="SoftUse" placeholder="SOFTWARES E FERRAMENTAS USADAS" name="AdicioneAquiSoft"
@@ -80,6 +85,7 @@
 
             </div>
             <div class="ShapeButton">
+                <input class="InpPrice" placeholder="$ 00.00" name="Price" type="number">
                 <button class="contratar" type="button">Adicionar Serviço</button>
             </div>
         </div>
