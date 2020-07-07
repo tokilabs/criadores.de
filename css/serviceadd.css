@@ -1,0 +1,181 @@
+.service {
+    width: 100%;
+    min-width: 1440px;
+    height: 100vh;
+    min-height: 869px;
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgba(255, 255, 255, 1.0);
+    opacity: 1.0;
+}
+
+.service .backgroundsobre {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: -1232px;
+    height: 2115px;
+    width: calc(100.00% + 341px);
+    position: absolute;
+    margin: 0;
+    left: -216px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+}
+
+.service .backgroundsobre .asset10 {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 1232px;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+}
+
+.service .backgroundsobre .asset10 .rectangle {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+}
+
+.service .backgroundsobre .asset9 {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 1232px;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    left: 213px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+}
+
+.service .backgroundsobre .asset9 .group {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    left: 1px;
+    transform: rotate(0deg);
+    opacity: 0.43;
+}
+
+.service .backgroundsobre .asset9 .group .path {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 370px;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    left: 429px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+}
+
+.service .backgroundsobre .asset9 .group .path1 {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 270px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+}
+
+.service .backgroundsobre .asset8 {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 1232px;
+    height: 839px;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 0.37;
+}
+
+.service .backgroundsobre .asset8 .bitmap {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 0.15;
+}
+
+.service .backgroundsobre .asset8 .rectangle {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 20px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+}
+
+.service .backgroundsobre .wave {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+    transform: rotate(0deg);
+    opacity: 0.91;
+}
+
+.service .backgroundsobre .asset7 {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 1610px;
+    height: 387px;
+    width: calc(100% - 765px);
+    position: absolute;
+    margin: 0;
+    left: 310px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+}
+
+.service .backgroundsobre .asset7 .path {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 1px;
+    height: 426px;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    left: 120px;
+    transform: rotate(0deg);
+    opacity: 1.0;
+}
+
+.service .backgroundsobre .wavecopy {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 1038px;
+    height: 478px;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    left: 671px;
+    transform: rotate(0deg);
+    opacity: 0.3;
+}

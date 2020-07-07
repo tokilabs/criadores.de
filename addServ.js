@@ -3,11 +3,11 @@ if (document.readyState == 'loading') {
 } else {
     ready()
 }
-document.onreadystatechange = Init () {
-    if (document.readyState === "complete") {
-        ready();
-    }
-}
+// document.onreadystatechange = Init () {
+//     if (document.readyState === "complete") {
+//         ready();
+//     }
+// }
 
 // ready();
 
