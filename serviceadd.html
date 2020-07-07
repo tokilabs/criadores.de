@@ -73,7 +73,15 @@
 
         <div class="inpBox">
             <div class="Bginp">
-                <input type="png" name="inpImg"  img alt="Image" src="./img/picture.svg" class="InpImg">
+                <input type="file" id="file-selector" multiple>
+                <script>
+                    const fileSelector = document.getElementById('file-selector');
+                    fileSelector.addEventListener('change', (event) => {
+                        const fileList = event.target.files;
+                        console.log(fileList);
+                    });
+                </script>
+                <input type="image" name="inpImg" alt="Submit" src="./img/picture.svg" class="InpImg">
                 <input class="inpTit" placeholder="Adicione Aqui o Título" name="AdicioneAquiTitulo" type="text">
                 <div class="DetailBoxinp">
                     <input class="SoftUse" placeholder="SOFTWARES E FERRAMENTAS USADAS" name="AdicioneAquiSoft"
@@ -84,6 +92,7 @@
                 <img alt="Image" src="./img/picture.svg" class="InpImg" />
 
             </div>
+            <div class="previewserv"></div>
             <div class="ShapeButton">
                 <input class="InpPrice" placeholder="$ 00.00" name="Price" type="number">
                 <button class="contratar" type="button">Adicionar Serviço</button>
