@@ -32,7 +32,7 @@ function purchaseClicked() {
 
 function removeCartItem(event) {
     var buttonClicked = event.target
-    buttonClicked.parentElement.parentElement.remove()
+    buttonClicked.parentElement.parentElement.parentElement.remove()
     updateCartTotal()
 }
 
@@ -51,7 +51,7 @@ function addToCartClicked(event) {
     var imageSrc = localStorage.getItem('ImageItem')
 
     addItemToCart(title, price, imageSrc)
-    alert(title + ' está em seu carrinho')
+    alert(title + ' serviço adicionado')
     updateCartTotal()
 }
 
@@ -68,22 +68,43 @@ function addItemToCart(title, price, imageSrc) {
         }
     }
     var cartRowContents =
-        `<div class="serv" >
-            <button class="okay" type="button"> Confirmar</button>
-            <button class="apagar" type="button"> Apagar</button>
-            <div class="ball"></div>
-            <div class="PreVisu">Pré-visualizar e Confirmar:</div>
-            <div class="GrupoServ">
-                <img alt="Image" src=${imageSrc} class="Defimg" />
-                <span class = "ServTitle" >${title}</span>
+        `
+        <div class="servgroup">
+            <div class="BoxView"></div>
+            <div class="bgServ">
+                <div class="BoxServ"></div>
+                <div class="paddingBG">
+                    <img alt="Image" src=${imageSrc} class="Defimg" />
+                    <span class = "ServTitle" >${title}</span>
+                    <div class="DetailBox">
+                        <div class="SoftUse">SOFTWARES E FERRAMENTAS USADAS</div>
+                        <div class="DetailL">Detalhe em poucas palavras, caixa responsiva com stack e BgPadding</div>
+                    </div>
+                </div>
+                <div class="apagarbtn">
+                    <button class="apagar" type="button"> Apagar</button>
+                </div>
+                <div class="BtnAdd">
+                    <button class="okay" type="button">Confirmar</button>
+                </div>
+            </div>
+            <div class="bgDetail">
+                <div class="detalhes"> Detalhes </div>
+                <div class="categoria"> Categoria </div>
+                <div class="valor">Valor </div>
+                <div class="linei"></div>
+                <div class="bolota"></div>
+                <div class="categnname">ilustração </div>
+                <div class="Real"> R$ </div>
                 <span class="ServPrice">${price}</span>
-                <div class="DetailBox">
-                    <div class="SoftUse">SOFTWARES E FERRAMENTAS USADAS</div>
-                    <div class="DetailL">Detalhe em poucas palavras, caixa responsiva com stack e BgPadding</div>
+                <div class="lineii"></div>
+                <div class="dialogbg">
+                    <textarea class="inpdialog" cols="2" rows="10" placeholder="Escreva um texto explicando este serviço" name="AdicioneAquiLog" type="text" style="border: none;">
+                     Escreva um texto explicando este serviço ...</textarea>
                 </div>
             </div>
         </div>
-        `
+    `
     cartRow.innerHTML = cartRowContents
     cartItems.append(cartRow)
     title = localStorage.getItem('title')

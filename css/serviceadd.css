@@ -464,6 +464,7 @@
     border-radius: 8px;
     background-color: #ff8b8b;
 }
+
 .BoxRec .DetailGroup .servcat {
     position: absolute;
     top: 103px;
@@ -498,10 +499,10 @@
     border-image-source: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0.04));
     border-image-slice: 1;
     background-image: linear-gradient(to bottom, #ffffff, #ffffff),
-    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0.04));
+        linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0.04));
     background-origin: border-box;
     background-clip: content-box,
-    border-box
+        border-box
 }
 
 .BoxRec .DetailGroup .dialogbg .inpdialog {
@@ -538,39 +539,75 @@
 
 .BoxRec .DetailGroup .dialogbg .inpdialog::-webkit-scrollbar-thumb {
     color: #ff8b8b;
-    background-color:#ff8b8b;
+    background-color: #ff8b8b;
     border: solid 3px #ff8b8b6b;
     border-radius: 30px;
 }
 
-.BoxRec .DetailGroup .dialogbg .inpdialog::-webkit-resizer{
+.BoxRec .DetailGroup .dialogbg .inpdialog::-webkit-resizer {
     resize: none;
     display: initial;
     width: 0px;
     height: 0px;
 }
 
-/* .overlaypv {
+.servgroup {
     position: absolute;
+    top: 0px;
+    left: 0px;
+
     width: 100%;
     height: 100%;
-    top: 0px;
-    right: 0px;
-} */
-
-.overlaypv .GrupoServ {
-    position: absolute;
-    top: 120px;
-    left: 30px;
-    width: 470px;
-    height: 466px;
-    border-radius: 35px;
-    /* opacity: 0; */
-    /* border: solid 1px #979797; */
-    background-color: rgba(255, 255, 255, 0.24);
 }
 
-.overlaypv .GrupoServ .Defimg {
+.servgroup .BoxView {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* bottom: 40px; */
+    /* right: initial; */
+    width: 100%;
+    height: 100%;
+    /* opacity: 0.4; */
+    border-radius: 60px;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.16);
+    /* border: solid 1px #d7d8d8; */
+    /* border: solid 1px #4d5bb6; */
+    background-color: #2e324370;
+}
+
+.servgroup .bgServ {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    width: 531px;
+    height: Calc(100% - 40px);
+    border-radius: 97px;
+    background-color: #4d5bb600;
+}
+
+.servgroup .bgServ .BoxServ {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 551px;
+    height: Calc(100% - 20px);
+    border-radius: 97px;
+    background-color: #4d5bb6;
+}
+
+.servgroup .bgServ .paddingBG {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 470px;
+    height: 466px;
+    opacity: 1;
+    border: solid 1px #97979700;
+    background-color: #d8d8d800;
+}
+
+.servgroup .bgServ .paddingBG .Defimg {
     position: absolute;
     top: 15px;
     left: 18px;
@@ -578,10 +615,10 @@
     height: 304px;
     border-radius: 15px;
     /* background-color: #b9d9ec; */
-    object-fit: fill;
+    object-fit: contain;
 }
 
-.overlaypv .GrupoServ .ServTitle {
+.servgroup .bgServ .paddingBG .ServTitle {
     position: absolute;
     top: 339px;
     left: 18px;
@@ -599,7 +636,7 @@
     color: #2e3243;
 }
 
-.overlaypv .GrupoServ .DetailBox {
+.servgroup .bgServ .paddingBG .DetailBox {
     position: absolute;
     top: 380px;
     left: 18px;
@@ -611,7 +648,7 @@
     background-color: rgba(111, 161, 236, 0.199);
 }
 
-.overlaypv .GrupoServ .DetailBox .SoftUse {
+.servgroup .bgServ .paddingBG .DetailBox .SoftUse {
     position: absolute;
     top: 10px;
     left: 20px;
@@ -627,7 +664,7 @@
     color: #2e3243;
 }
 
-.overlaypv .GrupoServ .DetailBox .DetailL {
+.servgroup .bgServ .paddingBG .DetailBox .DetailL {
     position: absolute;
     top: 34px;
     left: 20px;
@@ -641,4 +678,289 @@
     line-height: normal;
     letter-spacing: normal;
     color: #2e3243;
+}
+
+.servgroup .bgServ .apagarbtn {
+    position: absolute;
+    bottom: 70px;
+    left: 50px;
+    width: 190px;
+    height: 71px;
+    /* opacity: 0.25; */
+    background-color: #ff8b8bbd;
+    border-radius: 50px;
+}
+
+.servgroup .bgServ .apagarbtn .apagar {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 190px;
+    height: 71px;
+    background-color: #ffffff00;
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-top-color: #061058;
+    border-left-color: #061058;
+    border-bottom-color: #4d5bb6;
+    border-right-color: #4d5bb6;
+    border-radius: 50px;
+}
+
+.servgroup .bgServ .BtnAdd {
+    position: absolute;
+    bottom: 70px;
+    right: 50px;
+    width: 220px;
+    height: 71px;
+    /* opacity: 0.25; */
+    background-color: #ff8b8b00;
+    border-radius: 50px;
+}
+
+.servgroup .bgServ .BtnAdd .okay {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 220px;
+    height: 71px;
+    background-color: #ffffff00;
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-top-color: #24033a;
+    border-left-color: #24033a;
+    border-bottom-color: #4d5bb6;
+    border-right-color: #4d5bb6;
+    border-radius: 50px;
+}
+
+.servgroup .bgDetail {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 598px;
+    height: 625px;
+    border-radius: 32px;
+    background-image: linear-gradient(to top, #e6edfa, #ffffff);
+
+}
+
+.servgroup .bgDetail .detalhes {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 482px;
+    height: 23px;
+    opacity: 0.3;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    color: #061058;
+}
+
+.servgroup .bgDetail .categoria {
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    width: 75px;
+    height: 23px;
+    opacity: 0.5;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.77px;
+    color: #061058;
+}
+
+.servgroup .bgDetail .valor {
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    width: 83px;
+    height: 23px;
+    opacity: 0.5;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.77px;
+    text-align: right;
+    color: #061058;
+
+}
+
+.servgroup .bgDetail .linei {
+    position: absolute;
+    top: 90px;
+    right: 40px;
+    width: 528px;
+    height: 1px;
+    background-color: #4d5bb6;
+
+}
+
+.servgroup .bgDetail .bolota {
+    position: absolute;
+    top: 105px;
+    left: 30px;
+    width: 16px;
+    height: 16px;
+    /* color: #061058; */
+    border-radius: 8px;
+    border: solid 3 #ff8b8b;
+    background-color: #ff8b8b;
+
+}
+
+.servgroup .bgDetail .categnname {
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    width: 92px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ff8b8b;
+
+}
+
+.servgroup .bgDetail .Real {
+    position: absolute;
+    top: 100px;
+    right: 120px;
+    width: 89px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #061058;
+
+}
+
+.servgroup .bgDetail .ServPrice {
+    position: absolute;
+    top: 100px;
+    right: 60px;
+    width: 89px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #061058;
+
+}
+
+.servgroup .bgDetail .lineii {
+    position: absolute;
+    top: 150px;
+    right: 40px;
+    width: 528px;
+    height: 1px;
+    background-color: #4d5bb6;
+}
+
+.servgroup .bgDetail .dialogbg {
+    position: absolute;
+    bottom: 50px;
+    right: 40px;
+    width: 521px;
+    height: 392px;
+    opacity: 0.8;
+    border-radius: 80px;
+    box-shadow: 0 24px 24px 0 rgba(0, 0, 0, 0.3);
+    border-style: solid;
+    border-width: 0.5px;
+    border-image-source: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0.04));
+    border-image-slice: 1;
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0.04));
+    background-origin: border-box;
+    background-clip: content-box,
+    border-box;
+}
+
+.servgroup .bgDetail .dialogbg .inpdialog {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: Calc(100% - 100px);
+    height: 85%;
+    font-family: Roboto;
+    font-size: 12px;
+    text-overflow: initial;
+    /* text-orientation: upright; */
+    text-align: start;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: justify;
+    border: none #74bfbb00;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.servgroup .bgDetail .dialogbg .inpdialog::-webkit-scrollbar {
+    color: #ff8b8b;
+    background-color: #ffffff00;
+    border: solid 1px #29229450;
+    border-radius: 10px;
+    display: flexbox;
+    resize: none;
+    columns: auto;
+    row-gap: initial;
+}
+
+.servgroup .bgDetail .dialogbg .inpdialog::-webkit-scrollbar-thumb {
+    color: #ff8b8b;
+    background-color: #ff8b8b;
+    border: solid 3px #ff8b8b6b;
+    border-radius: 30px;
+}
+
+.servgroup .bgDetail .dialogbg .inpdialog::-webkit-resizer {
+    resize: none;
+    display: initial;
+    width: 0px;
+    height: 0px;
 }
