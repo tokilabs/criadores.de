@@ -488,8 +488,8 @@
     position: absolute;
     top: 170px;
     left: 20px;
-    width: 521px;
-    height: 392px;
+    width: Calc(100% - 40px);
+    height: Calc(100% - 200px);
     opacity: 0.8;
     border-radius: 80px;
     box-shadow: 0 24px 24px 0 rgba(0, 0, 0, 0.3);
