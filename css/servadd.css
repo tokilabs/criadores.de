@@ -369,3 +369,11 @@
     background-color: rgba(119, 138, 194, 0);
     border-bottom-style: solid 1px #babcc5;
     }
+
+.overlaypv {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+}

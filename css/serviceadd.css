@@ -512,13 +512,133 @@
     height: 85%;
     font-family: Roboto;
     font-size: 12px;
-    text-align: center;
+    text-overflow: initial;
+    /* text-orientation: upright; */
+    text-align: start;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 2;
     letter-spacing: normal;
     text-align: justify;
-    border: #74bfbb00;
+    border: none #74bfbb00;
     color: rgba(0, 0, 0, 0.54);
+}
+
+.BoxRec .DetailGroup .dialogbg .inpdialog::-webkit-scrollbar {
+    color: #ff8b8b;
+    background-color: #ffffff00;
+    border: solid 1px #29229450;
+    border-radius: 10px;
+    display: flexbox;
+    resize: none;
+    columns: auto;
+    row-gap: initial;
+}
+
+.BoxRec .DetailGroup .dialogbg .inpdialog::-webkit-scrollbar-thumb {
+    color: #ff8b8b;
+    background-color:#ff8b8b;
+    border: solid 3px #ff8b8b6b;
+    border-radius: 30px;
+}
+
+.BoxRec .DetailGroup .dialogbg .inpdialog::-webkit-resizer{
+    resize: none;
+    display: initial;
+    width: 0px;
+    height: 0px;
+}
+
+/* .overlaypv {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+} */
+
+.overlaypv .GrupoServ {
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    width: 470px;
+    height: 466px;
+    border-radius: 35px;
+    /* opacity: 0; */
+    /* border: solid 1px #979797; */
+    background-color: rgba(255, 255, 255, 0.24);
+}
+
+.overlaypv .GrupoServ .Defimg {
+    position: absolute;
+    top: 15px;
+    left: 18px;
+    width: 435px;
+    height: 304px;
+    border-radius: 15px;
+    /* background-color: #b9d9ec; */
+    object-fit: fill;
+}
+
+.overlaypv .GrupoServ .ServTitle {
+    position: absolute;
+    top: 339px;
+    left: 18px;
+    width: 433px;
+    height: 28px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.33px;
+    color: #2e3243;
+}
+
+.overlaypv .GrupoServ .DetailBox {
+    position: absolute;
+    top: 380px;
+    left: 18px;
+    width: 440px;
+    height: 70px;
+    /* opacity: 0.3; */
+    border-radius: 29.2px;
+    /* background-color: #c6d8ed; */
+    background-color: rgba(111, 161, 236, 0.199);
+}
+
+.overlaypv .GrupoServ .DetailBox .SoftUse {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 425px;
+    height: 16px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2e3243;
+}
+
+.overlaypv .GrupoServ .DetailBox .DetailL {
+    position: absolute;
+    top: 34px;
+    left: 20px;
+    width: 425px;
+    height: 16px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2e3243;
 }

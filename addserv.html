@@ -11,7 +11,7 @@
     <!-- <link href="./css/servadd.css" rel="stylesheet" type="text/css" /> -->
     <link href="./css/serviceadd.css" rel="stylesheet" type="text/css" />
     <meta content="Criadores de Adicione Serviços" name="author" />
-    <!-- <script src="./addServ.js" async></script> -->
+    <script src="./addServ.js" async></script>
 </head>
 
 <body style="margin: 0;
@@ -73,17 +73,14 @@
                 <script type="text/javascript">
                     function HandleBrowseClick(hidden_input_image) {
                         var fileinputElement = document.getElementById(hidden_input_image);
-                        localStorage.clear()
+                        //localStorage.clear()
                         fileinputElement.click();
                     }
-                    var imgset = document.getElementsByClassName('picture')[0].src;
-                    localStorage.setItem('ImageSet', imgset)
+                    //var imgset = document.getElementsByClassName('picture')[0].src;
+                    //localStorage.setItem('ImageSet', imgset)
                 </script>
-                <script type="text/javascript">
-                    var imgset = document.getElementsByClassName('picture')[0].src;
-                    localStorage.setItem('ImageSet', imgset)
-                </script>
-                <input class="pricebtn" placeholder="$ 00.00" name="Price" type="number">
+
+                <input class="pricebtn" placeholder="$ 00.00" name="Price" type="text">
                 
                 <div class="ShapeButton">
                     <button class="contratar" type="button">Adicionar Serviço</button>
@@ -94,10 +91,13 @@
                 <div class="llball"></div>
                 <input class="servcat" placeholder="Categoria do Serviço" name="AdicioneAquiCat" type="text">
                 <div class="dialogbg">
-                    <input class="inpdialog" placeholder="Escreva um texto explicando este serviço"
-                        name="AdicioneAquiLog" type="text" >
+                    <!-- <textarea style="border: none;" class="inpdialog">Test</textarea> -->
+                    <textarea class="inpdialog" cols="2" rows="10"
+                        placeholder="Escreva um texto explicando este serviço"
+                        name="AdicioneAquiLog" type="text" style="border: none;"> Escreva um texto explicando este serviço ...</textarea>
                 </div>
             </div>
+            <div class="overlaypv"></div>
             <!-- <img class="cart-item-image" src="${imagePut}" width="100" height="100"> -->
         </div>
         <img alt="Image" src="./img/programa-bitmap-1@2x.png" class="Toki" />
