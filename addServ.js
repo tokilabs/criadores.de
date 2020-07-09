@@ -41,21 +41,35 @@ function addToCartClicked(event) {
     var shopItem = button.parentElement.parentElement.parentElement.parentElement.parentElement
     var title = shopItem.getElementsByClassName("inpTit")[0].value;
     localStorage.setItem('title', JSON.stringify(title))
+    var softused = shopItem.getElementsByClassName("SoftUse")[0].value;
+    localStorage.setItem('softused', softused)
+    var detailused = shopItem.getElementsByClassName("DetailUse")[0].value;
+    localStorage.setItem('detailused', detailused)
     var price = shopItem.getElementsByClassName("pricebtn")[0].value;
     localStorage.setItem('price', price)
     var imageSrc = shopItem.getElementsByClassName("picture")[0].src;
     localStorage.setItem('ImageItem', imageSrc)
+    var servcatg = shopItem.getElementsByClassName("servcat")[0].value;
+    localStorage.setItem('servcatg', servcatg)
+    var boxtext = shopItem.getElementsByClassName("inpdialog")[0].value;
+    // localStorage.boxtext[0].value = "boxdtext";
+    localStorage.setItem('boxdtext', boxtext)
 
     var title = localStorage.getItem('title')
+    var softused = localStorage.getItem('softused')
+    var detailused = localStorage.getItem('detailused')
     var price = localStorage.getItem('price')
     var imageSrc = localStorage.getItem('ImageItem')
+    var servcatg = localStorage.getItem('servcatg')
+    var boxtext = localStorage.getItem('boxdtext')
 
-    addItemToCart(title, price, imageSrc)
+
+    addItemToCart(title, softused, detailused, price, imageSrc, servcatg, boxtext)
     alert(title + ' serviço adicionado')
     updateCartTotal()
 }
 
-function addItemToCart(title, price, imageSrc) {
+function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, boxtext) {
     var cartRow = document.createElement('div')
     cartRow.classList.add('serv')
     var cartItems = document.getElementsByClassName('overlaypv')[0]
@@ -75,10 +89,10 @@ function addItemToCart(title, price, imageSrc) {
                 <div class="BoxServ"></div>
                 <div class="paddingBG">
                     <img alt="Image" src=${imageSrc} class="Defimg" />
-                    <span class = "ServTitle" >${title}</span>
+                    <span class="ServTitle" >${title}</span>
                     <div class="DetailBox">
-                        <div class="SoftUse">SOFTWARES E FERRAMENTAS USADAS</div>
-                        <div class="DetailL">Detalhe em poucas palavras, caixa responsiva com stack e BgPadding</div>
+                        <div class="SoftUse">${softused}</div>
+                        <div class="DetailL">${detailused}</div>
                     </div>
                 </div>
                 <div class="apagarbtn">
@@ -94,13 +108,13 @@ function addItemToCart(title, price, imageSrc) {
                 <div class="valor">Valor </div>
                 <div class="linei"></div>
                 <div class="bolota"></div>
-                <div class="categnname">ilustração </div>
+                <div class="categnname">${servcatg}</div>
                 <div class="Real"> R$ </div>
                 <span class="ServPrice">${price}</span>
                 <div class="lineii"></div>
                 <div class="dialogbg">
-                    <textarea class="inpdialog" cols="2" rows="10" placeholder="Escreva um texto explicando este serviço" name="AdicioneAquiLog" type="text" style="border: none;">
-                     Escreva um texto explicando este serviço ...</textarea>
+                    <textarea class="inpdialog" cols="2" rows="10"
+                    name="AdicioneAquiLog" type="text" style="border: none;">"${boxtext}"</textarea>
                 </div>
             </div>
         </div>
