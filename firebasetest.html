@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Hot dogs == sandwiches?</title>
+         <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+         <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-firestore.js"></script>
+    </head>
+
+    <body>
+        <h1 id="hotDogOutput">Hot dog status:</h1>
+        <img id="image-preview" class="picture" src="./img/UploadImagePnng@4x.png" width="120px" height="120px">
+        <input style="display:none" id="input-image-hidden"
+            onchange="document.getElementById('image-preview').src = window.URL.createObjectURL(this.files[0])"
+            type="file" accept="image/jpeg, image/png">
+        <button class="uppImgbtn" onclick="HandleBrowseClick('input-image-hidden');">UPLOAD IMAGE</button>
+        <script type="text/javascript">
+            function HandleBrowseClick(hidden_input_image) {
+                var fileinputElement = document.getElementById(hidden_input_image);
+                //localStorage.clear()
+                fileinputElement.click();
+            }
+            //var imgset = document.getElementsByClassName('picture')[0].src;
+            //localStorage.setItem('ImageSet', imgset)
+        </script>
+        <input type="textfield" id="latestHotDogStatus" />
+        <button id="saveButton">Save</button>
+        <button id="loadButton">Load</button>
+        <script src="./init-firebase.js"></script>
+    </body>
+</html>
