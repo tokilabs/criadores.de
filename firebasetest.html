@@ -3,10 +3,11 @@
         <title>Hot dogs == sandwiches?</title>
          <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
          <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-firestore.js"></script>
+         <script src="./init-firebase.js"></script>
     </head>
 
     <body>
-        <h1 id="hotDogOutput">Hot dog status:</h1>
+        <h1 id="hotDogOutput">Teste Firebase:</h1>
         <img id="image-preview" class="picture" src="./img/UploadImagePnng@4x.png" width="120px" height="120px">
         <input style="display:none" id="input-image-hidden"
             onchange="document.getElementById('image-preview').src = window.URL.createObjectURL(this.files[0])"
@@ -24,6 +25,6 @@
         <input type="textfield" id="latestHotDogStatus" />
         <button id="saveButton">Save</button>
         <button id="loadButton">Load</button>
-        <script src="./init-firebase.js"></script>
+        <script src="./fireteststorage.js"></script>
     </body>
 </html>

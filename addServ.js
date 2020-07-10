@@ -18,11 +18,20 @@ function ready() {
         button.addEventListener('click', addToCartClicked)
     }
 
-    // document.getElementsByClassName('okay')[0].addEventListener('click', purchaseClicked)
+    //  document.getElementsByClassName('okay')[0].addEventListener('click', purchaseClicked)
 }
 
 function purchaseClicked() {
-    alert('Thank you for your purchase')
+    alert('Obrigado por contribuir com a nossa plataforma')
+    var firestore = firebase.firestore();
+
+    var docRef = firestore.collection("addserv").doc(i); // .doc("samples/servdata");
+    var doclist = docRef.length;
+    for (i = 0; i < doclist; i++){
+        i = document.getElementsByClassName('ServTitle')[i];
+        i++;
+    }
+
     var cartItems = document.getElementsByClassName('serv')[0]
     while (cartItems.hasChildNodes()) {
         cartItems.removeChild(cartItems.firstChild)
@@ -65,16 +74,16 @@ function addToCartClicked(event) {
 
 
     addItemToCart(title, softused, detailused, price, imageSrc, servcatg, boxtext)
-    alert(title + ' serviço adicionado')
+    alert(title + ' serviço adicionado, por favor, revise antes de confirmar')
     updateCartTotal()
 }
 
 function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, boxtext) {
     var cartRow = document.createElement('div')
     cartRow.classList.add('serv')
-    var cartItems = document.getElementsByClassName('overlaypv')[0]
+    var cartItems = document.getElementsByClassName('overlaypv')[0];
 
-    var cartItemNames = cartItems.getElementsByClassName('ServTitle')
+    var cartItemNames = cartItems.getElementsByClassName('ServTitle');
     for (var i = 0; i < cartItemNames.length; i++) {
         if (cartItemNames[i].innerText == title) {
             alert('Confirme Serviço')
@@ -88,7 +97,7 @@ function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, b
             <div class="bgServ">
                 <div class="BoxServ"></div>
                 <div class="paddingBG">
-                    <img alt="Image" src=${imageSrc} class="Defimg" />
+                    <img id="nomeserv" alt="Image" src=${imageSrc} class="Defimg" />
                     <span class="ServTitle" >${title}</span>
                     <div class="DetailBox">
                         <div class="SoftUse">${softused}</div>
@@ -99,7 +108,7 @@ function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, b
                     <button class="apagar" type="button"> Apagar</button>
                 </div>
                 <div class="BtnAdd">
-                    <button class="okay" type="button">Confirmar</button>
+                    <button id="confirm" class="okay" type="button">Confirmar</button>
                 </div>
             </div>
             <div class="bgDetail">
@@ -118,6 +127,7 @@ function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, b
                 </div>
             </div>
         </div>
+        <script type="text/javascript" src="./addtostorage.js"></script>
     `
     cartRow.innerHTML = cartRowContents
     cartItems.append(cartRow)
@@ -127,6 +137,37 @@ function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, b
     // localStorage.setItem("div", cartRow.innerHTML)
     cartRow.getElementsByClassName('apagar')[0].addEventListener('click', removeCartItem)
     // cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged)
+
+    var firestore = firebase.firestore();
+    var docRef = firestore.collection("addserv").doc(title);
+    console.log(docRef);
+    console.log(title);
+
+    const saveserv = document.querySelector("#confirm");
+
+    saveserv.addEventListener("click", function () {
+        console.log(title);
+        console.log(imageSrc);
+        console.log(softused);
+        console.log(detailused);
+        console.log(price);
+        console.log(servcatg);
+        console.log(boxtext);
+        docRef.set({
+            nome: title,
+            image: imageSrc,
+            soft: softused,
+            detail: detailused,
+            preco: price,
+            categ: servcatg,
+            text: boxtext,
+        }).then(function () {
+            console.log("Status salvo");
+        }).catch(function (error) {
+            console.log("error:", error);
+        });
+    });
+    alert(title + ' serviço adicionado ao site, agradecemos!')
 }
 
 function updateCartTotal() {

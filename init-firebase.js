@@ -13,68 +13,57 @@ const firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
-var firestore = firebase.firestore();
+// var firestore = firebase.firestore();
 
-const docRef = firestore.doc("samples/servdata");
+// const docRef = firestore.doc("samples/servdata");
 
-const outputHeader = document.querySelector("#hotDogOutput");
-const inputTextField = document.querySelector("#latestHotDogStatus");
+// const outputHeader = document.querySelector("#hotDogOutput");
+// const inputTextField = document.querySelector("#latestHotDogStatus");
 
+// // var inputimage = document.getElementsByClassName("picture")[0].src;
 
-// const imageSrc = document.querySelector("#input-image-hidden");
-// localStorage.setItem('Image', imageSrc)
-// const inputimage = localStorage.getItem('Image')
-// const imgtst = document.querySelector("#input-image-hidden");
-// localStorage.setItem('imagemtest', imgtst.src)
-// console.log("Estou salvando" + imgtst.src );
+// const savebtn = document.querySelector("#saveButton");
+// const loadButton = document.querySelector("#loadButton");
 
-// var imgupdt = document.getElementsByClassName("picture")[0].src;
-// localStorage.setItem('img', imgupdt)
+// savebtn.addEventListener("click", function () {
+//     const saveText = inputTextField.value;
+//     var saveimage = document.getElementsByClassName("picture")[0].src;;
+//     console.log("Estou salvando" + saveText + " no firestore");
+//     console.log("Estou salvando" + saveimage + " no firestore");
+//     docRef.set({
+//         hotDogStatus: saveText,
+//         hotDogImage: saveimage,
+//     }).then(function () {
+//         console.log("Status salvo");
+//     }).catch(function (error) {
+//         console.log("error:", error);
+//     });
+// });
 
-const inputimage = document.getElementsByClassName("picture")[0].src;
+// loadButton.addEventListener("click", function () {
+//     docRef.get().then(function (doc) {
+//         if (doc && doc.exists) {
+//             const myData = doc.data();
 
-const savebtn = document.querySelector("#saveButton");
-const loadButton = document.querySelector("#loadButton");
+//             var cartRow = document.createElement('div')
+//             cartRow.classList.add('serv')
 
-savebtn.addEventListener("click", function () {
-    const saveText = inputTextField.value;
-    const saveimage = inputimage;
-    console.log("Estou salvando" + saveText + " no firestore");
-    console.log("Estou salvando" + saveimage + " no firestore");
-    docRef.set({
-        hotDogStatus: saveText,
-        hotDogImage: saveimage,
-    }).then(function () {
-        console.log("Status salvo");
-    }).catch(function (error) {
-        console.log("error:", error);
-    });
-});
+//             var imageSrc = myData.hotDogImage;
+//             var title = myData.hotDogStatus;
 
-loadButton.addEventListener("click", function () {
-    docRef.get().then(function (doc) {
-        if (doc && doc.exists) {
-            const myData = doc.data();
-
-            var cartRow = document.createElement('div')
-            cartRow.classList.add('serv')
-
-            var imageSrc = myData.hotDogImage;
-            var title = myData.hotDogStatus;
-
-            var cartRowContents =
-                `
-                 <div class="servgroup">
-                    <img alt="Image" src=${imageSrc} class="Defimg" width="120px" height="120px" />
-                    <span class="ServTitle" >${title}</span>
-                 </div>
-            `
-            cartRow.innerHTML = cartRowContents
-            outputHeader.append(cartRow)
-            // outputHeader.innerHTML = cartRowContents;
-            // outputHeader.innerText = "Hot dog status: " + myData.hotDogStatus + myData.hotDogImage;
-        }
-    }).catch(function (error) {
-        console.log("error:", error);
-    });
-});
+//             var cartRowContents =
+//                 `
+//                  <div class="servgroup">
+//                     <img alt="Image" src=${imageSrc} class="Defimg" width="120px" height="120px" />
+//                     <span class="ServTitle" >${title}</span>
+//                  </div>
+//             `
+//             cartRow.innerHTML = cartRowContents
+//             outputHeader.append(cartRow)
+//             // outputHeader.innerHTML = cartRowContents;
+//             // outputHeader.innerText = "Hot dog status: " + myData.hotDogStatus + myData.hotDogImage;
+//         }
+//     }).catch(function (error) {
+//         console.log("error:", error);
+//     });
+// });
