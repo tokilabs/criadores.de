@@ -134,12 +134,14 @@ function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, b
     title = localStorage.getItem('title')
     price = localStorage.getItem('price')
     imageSrc = localStorage.getItem('ImageItem')
-    // localStorage.setItem("div", cartRow.innerHTML)
     cartRow.getElementsByClassName('apagar')[0].addEventListener('click', removeCartItem)
-    // cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged)
 
     var firestore = firebase.firestore();
     var docRef = firestore.collection("addserv").doc(title);
+    // var storageRef = firebase.app().storage("gs://criadores-b8998.appspot.com");
+    // storageRef.put(imageSrc).then(function (snapshot) {
+    //     console.log('Uploaded a blob or file!');
+    // });
     console.log(docRef);
     console.log(title);
 
