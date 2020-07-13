@@ -1,7 +1,6 @@
 
 const firestore = firebase.firestore();
 
-var fstorage = firebase.storage();
 
 
 async function getAll() {
@@ -93,8 +92,8 @@ function getserv(title, softused, detailused, price, imageSrc, servcatg, boxtext
         console.log(detailused);
         price = myData.preco;
         console.log(price);
-        imageSrc = fstorage.ref('gs://criadores-b8998.appspot.com/images/ServiceAdd.png');
-        // imageSrc = myData.image;
+        // imageSrc = fstorage.ref('gs://criadores-b8998.appspot.com/images/ServiceAdd.png');
+         imageSrc = myData.image;
         console.log(imageSrc);
         servcatg = myData.categ;
         console.log(servcatg);
