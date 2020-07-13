@@ -1,7 +1,10 @@
-
 const firestore = firebase.firestore();
 
+var docRef = Array();
 
+
+
+var alldocs = Array();
 
 async function getAll() {
     // [START get_all]
@@ -15,7 +18,7 @@ async function getAll() {
         var idstring = JSON.stringify(doc.id);
 
 
-        localStorage.setItem(idstring, docid);
+        // localStorage.setItem(idstring, docid);
 
         // localStorage.clear();
 
@@ -23,62 +26,48 @@ async function getAll() {
 
         console.log(idstring);
 
-        allDocs(idstring);
+        docRef = [...docRef, firestore.doc("addserv/" + "\"" + idstring + "\"" )];
+
+
+        allDocs(docid);
 
 
     });
+
+    // docRef = firestore.collection("addserv/");
+    // console.log(docRef[0]);
+
+
     // [END get_all]
 }
 
-function allStorage() {
 
-    var values = [],
-        keys = Object.keys(localStorage),
-        i = keys.length;
-
-    while (i--) {
-        values.push(localStorage.getItem(keys[i]));
-    }
-
-    return values;
-}
-
-function allDocs(idstring){
-    var alldocs = Array();
+function allDocs(docid) {
     // alldocs.fill(idstring, 0, alldocs.length);
-    for (var i = 0; i < alldocs.length; i++){
-        alldocs[i] = i;
-        // i++;
-        // alldocs.push(i);
-    }
-    console.log(idstring);
+    alldocs = [...alldocs, docid];
+
+
+    console.log(docid);
     console.log(alldocs.length);
+
+    console.log(alldocs[0]);
+
+    return alldocs;
 }
 
 getAll();
 
- var docid = allStorage();
 
- console.log(docid);
+// console.log(alldocs.length);
 
- var allservs = docid.length;
+  const docRefok = firestore.doc("addserv/\"teste quatro no ar\"");
 
-//  allservs.push(docid.split());
+// const docRef = firestore.collection("addserv/").doc(alldocs.length)
 
- console.log(allservs);
+// console.log(docRef);
 
- console.log(allservs[3]);
-
- console.log(JSON.stringify(docid[1]));
-
-const servRef = firestore.collection("addserv").doc(docid[0]);
-
-const docRef = firestore.doc("addserv/\"teste quatro no ar\"");
-
-console.log(docRef);
-
-function getserv(title, softused, detailused, price, imageSrc, servcatg, boxtext) {
-    servRef.get().then(function (doc) {
+ function getserv(title, softused, detailused, price, imageSrc, servcatg, boxtext) {
+    docRefok.get().then(function (doc) {
         const myData = doc.data();
         console.log(myData);
         // var data = myData;
@@ -93,7 +82,7 @@ function getserv(title, softused, detailused, price, imageSrc, servcatg, boxtext
         price = myData.preco;
         console.log(price);
         // imageSrc = fstorage.ref('gs://criadores-b8998.appspot.com/images/ServiceAdd.png');
-         imageSrc = myData.image;
+        imageSrc = myData.image;
         console.log(imageSrc);
         servcatg = myData.categ;
         console.log(servcatg);
@@ -107,7 +96,6 @@ function getserv(title, softused, detailused, price, imageSrc, servcatg, boxtext
 }
 
 getserv();
-// console.log(getserv(data));
 
 function addToPage(title, softused, detailused, price, imageSrc, servcatg, boxtext) {
     var addedserv = document.createElement("div");
