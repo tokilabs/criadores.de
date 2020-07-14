@@ -25,18 +25,47 @@ function purchaseClicked() {
     alert('Obrigado por contribuir com a nossa plataforma')
     var firestore = firebase.firestore();
 
-    var docRef = firestore.collection("addserv").doc(i); // .doc("samples/servdata");
-    var doclist = docRef.length;
-    for (i = 0; i < doclist; i++){
-        i = document.getElementsByClassName('ServTitle')[i];
-        i++;
-    }
+    var storage = firebase.storage();
+
+
+    var uploader = document.getElementById('uploader');
+    var fileButton = document.querySelector("input-image-hidden");
+
+    fileButton.addEventListener("change", function (e) {
+        var file = e.target.files[0];
+        console.log(file);
+
+        var storageRef = storage.ref('images/' + file.name);
+
+        var task = storageRef.put(file);
+
+        task.on('state_changed',
+
+            function progress(snapshot) {
+                var percent = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+                uploader.value = percent;
+            },
+            function error(err) {
+
+            },
+            function complete() {
+                alert('uploaded' + file.name);
+            }
+        );
+    })
+
+    // var docRef = firestore.collection("addserv").doc(i); // .doc("samples/servdata");
+    // var doclist = docRef.length;
+    // for (i = 0; i < doclist; i++) {
+    //     i = document.getElementsByClassName('ServTitle')[i];
+    //     i++;
+    // }
 
     var cartItems = document.getElementsByClassName('serv')[0]
     while (cartItems.hasChildNodes()) {
         cartItems.removeChild(cartItems.firstChild)
     }
-    updateCartTotal()
+    // updateCartTotal()
 }
 
 function removeCartItem(event) {
@@ -93,6 +122,7 @@ function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, b
     var cartRowContents =
         `
         <div class="servgroup">
+        
             <div class="BoxView"></div>
             <div class="bgServ">
                 <div class="BoxServ"></div>
@@ -111,6 +141,7 @@ function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, b
                     <button id="confirm" class="okay" type="button">Confirmar</button>
                 </div>
             </div>
+            
             <div class="bgDetail">
                 <div class="detalhes"> Detalhes </div>
                 <div class="categoria"> Categoria </div>
@@ -126,8 +157,9 @@ function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, b
                     name="AdicioneAquiLog" type="text" style="border: none;">"${boxtext}"</textarea>
                 </div>
             </div>
+            <progress value="0" max="100" id="uploader">0%</progress>
         </div>
-        <script type="text/javascript" src="./addtostorage.js"></script>
+        
     `
     cartRow.innerHTML = cartRowContents
     cartItems.append(cartRow)
@@ -137,17 +169,19 @@ function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, b
     cartRow.getElementsByClassName('apagar')[0].addEventListener('click', removeCartItem)
 
     var firestore = firebase.firestore();
+    
     var docRef = firestore.collection("addserv").doc(title);
-    // var storageRef = firebase.app().storage("gs://criadores-b8998.appspot.com");
-    // storageRef.put(imageSrc).then(function (snapshot) {
-    //     console.log('Uploaded a blob or file!');
-    // });
-    console.log(docRef);
+
+    // var file = imageSrc;
+    console.log(imageSrc);
     console.log(title);
 
-    const saveserv = document.querySelector("#confirm");
+    var saveserv = document.querySelector("#confirm");
+
+    // var storageRef = storage.ref('images/' + file);
 
     saveserv.addEventListener("click", function () {
+        // storageRef.child('images/' + file.value).put(file);
         console.log(title);
         console.log(imageSrc);
         console.log(softused);
@@ -164,12 +198,18 @@ function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, b
             categ: servcatg,
             text: boxtext,
         }).then(function () {
+            // var percent = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+            // uploader.value = percent;
             console.log("Status salvo");
         }).catch(function (error) {
             console.log("error:", error);
         });
+        // alert('uploaded' + file.name);
     });
+
+    purchaseClicked();
     alert(title + ' serviço adicionado ao site, agradecemos!')
+
 }
 
 function updateCartTotal() {
