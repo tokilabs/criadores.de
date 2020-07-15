@@ -4,7 +4,37 @@ if (document.readyState == 'loading') {
     ready()
 }
 
-function ready() {
+async function ready() {
+
+    var storage = firebase.storage();
+
+    var uploader = document.querySelector("#uploader");
+    var fileButton = document.querySelector("#input-image-hidden");
+
+    fileButton.addEventListener("change", function (e) {
+        var file = e.target.files[0];
+        console.log(file);
+
+        var storageRef = storage.ref('images/' + file.name);
+
+        var task = storageRef.put(file);
+
+        task.on('state_changed',
+
+            async function progress(snapshot) {
+                var percent = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+                uploader.value = percent;
+            },
+            function error(err) {
+
+            },
+            async function complete() {
+                localStorage.setItem('fileImage', file.name);
+                alert('uploaded' + file.name);
+            }
+        );
+    });
+
     var removeCartItemButtons = document.getElementsByClassName('apagar')
     for (var i = 0; i < removeCartItemButtons.length; i++) {
         var button = removeCartItemButtons[i]
@@ -23,43 +53,6 @@ function ready() {
 
 function purchaseClicked() {
     alert('Obrigado por contribuir com a nossa plataforma')
-    var firestore = firebase.firestore();
-
-    var storage = firebase.storage();
-
-
-    var uploader = document.getElementById('uploader');
-    var fileButton = document.querySelector("input-image-hidden");
-
-    fileButton.addEventListener("change", function (e) {
-        var file = e.target.files[0];
-        console.log(file);
-
-        var storageRef = storage.ref('images/' + file.name);
-
-        var task = storageRef.put(file);
-
-        task.on('state_changed',
-
-            function progress(snapshot) {
-                var percent = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
-                uploader.value = percent;
-            },
-            function error(err) {
-
-            },
-            function complete() {
-                alert('uploaded' + file.name);
-            }
-        );
-    })
-
-    // var docRef = firestore.collection("addserv").doc(i); // .doc("samples/servdata");
-    // var doclist = docRef.length;
-    // for (i = 0; i < doclist; i++) {
-    //     i = document.getElementsByClassName('ServTitle')[i];
-    //     i++;
-    // }
 
     var cartItems = document.getElementsByClassName('serv')[0]
     while (cartItems.hasChildNodes()) {
@@ -68,7 +61,26 @@ function purchaseClicked() {
     // updateCartTotal()
 }
 
+// function fbRemove(imgNamefb, title) {
+//         var storage = firebase.storage();
+//         var pathRef = storage.ref('images/' + imgNamefb);
+//         var storageRef = storage.doc('addserv/' + title);
+
+//         pathRef.delete().then(function () {
+//             console.log("File deleted successfully");
+//         }).catch(function (error) {
+//             // Uh-oh, an error occurred!
+//         });
+
+//         storageRef.delete().then(function () {
+//             console.log("Document successfully deleted!");
+//         }).catch(function (error) {
+//             console.error("Error removing document: ", error);
+//         });
+// }
+
 function removeCartItem(event) {
+
     var buttonClicked = event.target
     buttonClicked.parentElement.parentElement.parentElement.remove()
     updateCartTotal()
@@ -85,32 +97,59 @@ function addToCartClicked(event) {
     localStorage.setItem('detailused', detailused)
     var price = shopItem.getElementsByClassName("pricebtn")[0].value;
     localStorage.setItem('price', price)
-    var imageSrc = shopItem.getElementsByClassName("picture")[0].src;
-    localStorage.setItem('ImageItem', imageSrc)
+    // var imageSrc = shopItem.getElementsByClassName("picture")[0].src;
+    // localStorage.setItem('ImageItem', imageSrc)
     var servcatg = shopItem.getElementsByClassName("servcat")[0].value;
     localStorage.setItem('servcatg', servcatg)
     var boxtext = shopItem.getElementsByClassName("inpdialog")[0].value;
     // localStorage.boxtext[0].value = "boxdtext";
     localStorage.setItem('boxdtext', boxtext)
 
-    var title = localStorage.getItem('title')
-    var softused = localStorage.getItem('softused')
-    var detailused = localStorage.getItem('detailused')
-    var price = localStorage.getItem('price')
-    var imageSrc = localStorage.getItem('ImageItem')
-    var servcatg = localStorage.getItem('servcatg')
-    var boxtext = localStorage.getItem('boxdtext')
+
+    var imgNamefb = localStorage.getItem('fileImage');
+    console.log(imgNamefb);
+
+    var storage = firebase.storage();
+    var pathReference = storage.ref('images/' + imgNamefb);
+    var getImgUrl = pathReference.getDownloadURL().then(async function (url) {
+        console.log(url);
+        localStorage.setItem(imgNamefb, url);
+    }).catch(function (error) {
+        console.error(error)
+    });
+
+    var imgUrl = localStorage.getItem(imgNamefb);
+
+    console.log(pathReference);
+
+    console.log(getImgUrl);
+
+    console.log(imgUrl);
+
+    var title = localStorage.getItem('title');
+    var softused = localStorage.getItem('softused');
+    var detailused = localStorage.getItem('detailused');
+    var price = localStorage.getItem('price');
+    // var imageSrc = localStorage.getItem('ImageItem');
+    var servcatg = localStorage.getItem('servcatg');
+    var boxtext = localStorage.getItem('boxdtext');
+
+    var imageSrc = JSON.stringify(imgUrl);
 
 
-    addItemToCart(title, softused, detailused, price, imageSrc, servcatg, boxtext)
-    alert(title + ' serviço adicionado, por favor, revise antes de confirmar')
-    updateCartTotal()
+
+    addItemToCart(title, softused, detailused, price, imageSrc, servcatg, boxtext, imgNamefb)
+    alert(title + ' Por favor, revise antes de confirmar')
+    // updateCartTotal()
 }
 
-function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, boxtext) {
+function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, boxtext, imgNamefb) {
     var cartRow = document.createElement('div')
     cartRow.classList.add('serv')
     var cartItems = document.getElementsByClassName('overlaypv')[0];
+
+    // imageSrc = localStorage.getItem(imgNamefb);
+    console.log(imageSrc);
 
     var cartItemNames = cartItems.getElementsByClassName('ServTitle');
     for (var i = 0; i < cartItemNames.length; i++) {
@@ -122,7 +161,7 @@ function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, b
     var cartRowContents =
         `
         <div class="servgroup">
-        
+
             <div class="BoxView"></div>
             <div class="bgServ">
                 <div class="BoxServ"></div>
@@ -141,7 +180,7 @@ function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, b
                     <button id="confirm" class="okay" type="button">Confirmar</button>
                 </div>
             </div>
-            
+
             <div class="bgDetail">
                 <div class="detalhes"> Detalhes </div>
                 <div class="categoria"> Categoria </div>
@@ -157,19 +196,18 @@ function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, b
                     name="AdicioneAquiLog" type="text" style="border: none;">"${boxtext}"</textarea>
                 </div>
             </div>
-            <progress value="0" max="100" id="uploader">0%</progress>
         </div>
-        
+
     `
     cartRow.innerHTML = cartRowContents
     cartItems.append(cartRow)
-    title = localStorage.getItem('title')
-    price = localStorage.getItem('price')
-    imageSrc = localStorage.getItem('ImageItem')
-    cartRow.getElementsByClassName('apagar')[0].addEventListener('click', removeCartItem)
+    // title = localStorage.getItem('title')
+    // price = localStorage.getItem('price')
+
+    cartRow.getElementsByClassName('apagar')[0].addEventListener('click', removeCartItem);
 
     var firestore = firebase.firestore();
-    
+
     var docRef = firestore.collection("addserv").doc(title);
 
     // var file = imageSrc;
@@ -198,17 +236,15 @@ function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, b
             categ: servcatg,
             text: boxtext,
         }).then(function () {
-            // var percent = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
-            // uploader.value = percent;
             console.log("Status salvo");
+
         }).catch(function (error) {
             console.log("error:", error);
         });
-        // alert('uploaded' + file.name);
-    });
 
-    purchaseClicked();
-    alert(title + ' serviço adicionado ao site, agradecemos!')
+    });
+    // purchaseClicked();
+    // alert(title + ' serviço adicionado ao site, agradecemos!')
 
 }
 

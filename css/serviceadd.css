@@ -968,16 +968,44 @@
 
 #uploader {
     -webkit-appearance: none;
-    top: 10px;
+    top: 5px;
     left: 25%;
     width: 50%;
-    height: 20px;
-    border: solid 1px #ff8b8b1e;
-    border-radius: 50px;
+    height: 30px;
+    text-align: center;
+    /* border: solid 1px #ff8b8b1e; */
+    /* border-radius: 90px; */
     justify-content: center;
     position: absolute;
+    /* animation: progressAnimationStrike 6s; */
+}
+
+#uploader::-webkit-progress-bar{
+    border: solid 1px #ff8b8b52;
+    border-radius: 120px;
+    background-color: #1f2d975e;
+    object-fit: contain;
+}
+
+#uploader::-webkit-progress-value {
+    color: #061058;
+    border: solid 1px #ff8b8b00;
+    border-radius: 120px;
+    background-color: #ff8b8b9f;
     align-items: center;
     margin-bottom: 10px;
+    object-fit: fill;
+}
+
+#uploader::-webkit-progress-inner-element{
+    color: #74bfbb;
+    border: solid 1px #ff8b8b00;
+    border-radius: 50px;
+    object-fit: fill;
+}
+
+#text{
+    object-fit: contain;
     font-family: Roboto;
     font-size: 12px;
     text-overflow: initial;
@@ -986,21 +1014,7 @@
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 2;
+    line-height: 1;
     letter-spacing: normal;
     text-align: justify;
-    animation: progressAnimationStrike 6s;
-}
-
-#uploader::-webkit-progress-bar{
-    border: solid 1px #ff8b8b52;
-    border-radius: 50px;
-    background-color: #0c17668a;
-}
-
-#uploader::-webkit-progress-value {
-    color: #061058;
-    border: solid 1px #ff8b8b00;
-    border-radius: 50px;
-    background-color: #ff8b8b52;
 }
