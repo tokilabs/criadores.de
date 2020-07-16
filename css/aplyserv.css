@@ -994,7 +994,7 @@
     /* animation: progressAnimationStrike 6s; */
 }
 
-#uploader::-webkit-progress-bar{
+#uploader::-webkit-progress-bar {
     border: solid 1px #ff8b8b52;
     border-radius: 120px;
     background-color: #1f2d975e;
@@ -1011,14 +1011,14 @@
     object-fit: fill;
 }
 
-#uploader::-webkit-progress-inner-element{
+#uploader::-webkit-progress-inner-element {
     color: #74bfbb;
     border: solid 1px #ff8b8b00;
     border-radius: 50px;
     object-fit: fill;
 }
 
-#text{
+#text {
     object-fit: contain;
     font-family: Roboto;
     font-size: 12px;

@@ -11,7 +11,7 @@ async function ready() {
     var uploader = document.querySelector("#uploader");
     var fileButton = document.querySelector("#input-image-hidden");
 
-    fileButton.addEventListener("change", function (e) {
+    fileButton.addEventListener("change",async function (e) {
         var file = e.target.files[0];
         console.log(file);
 
@@ -30,7 +30,7 @@ async function ready() {
             },
             async function complete() {
                 localStorage.setItem('fileImage', file.name);
-                alert('uploaded' + file.name);
+                alert('uploaded ' + file.name);
             }
         );
     });
@@ -58,32 +58,30 @@ function purchaseClicked() {
     while (cartItems.hasChildNodes()) {
         cartItems.removeChild(cartItems.firstChild)
     }
-    // updateCartTotal()
 }
 
-// function fbRemove(imgNamefb, title) {
-//         var storage = firebase.storage();
-//         var pathRef = storage.ref('images/' + imgNamefb);
-//         var storageRef = storage.doc('addserv/' + title);
+function fbRemove(imgNamefb, title, docRef) {
+        var storage = firebase.storage();
+        var pathRef = storage.ref('images/' + imgNamefb);
+        // var storageRef = storage.doc('addserv/' + title);
 
-//         pathRef.delete().then(function () {
-//             console.log("File deleted successfully");
-//         }).catch(function (error) {
-//             // Uh-oh, an error occurred!
-//         });
+        pathRef.delete().then(function () {
+            console.log("File deleted successfully");
+        }).catch(function (error) {
+            // Uh-oh, an error occurred!
+        });
 
-//         storageRef.delete().then(function () {
-//             console.log("Document successfully deleted!");
-//         }).catch(function (error) {
-//             console.error("Error removing document: ", error);
-//         });
-// }
+        docRef.delete().then(function () {
+            console.log("Document successfully deleted!");
+        }).catch(function (error) {
+            console.error("Error removing document: ", error);
+        });
+}
 
 function removeCartItem(event) {
 
     var buttonClicked = event.target
     buttonClicked.parentElement.parentElement.parentElement.remove()
-    updateCartTotal()
 }
 
 function addToCartClicked(event) {
@@ -140,7 +138,6 @@ function addToCartClicked(event) {
 
     addItemToCart(title, softused, detailused, price, imageSrc, servcatg, boxtext, imgNamefb)
     alert(title + ' Por favor, revise antes de confirmar')
-    // updateCartTotal()
 }
 
 function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, boxtext, imgNamefb) {
@@ -214,6 +211,13 @@ function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, b
     console.log(imageSrc);
     console.log(title);
 
+    var delserv = cartRow.getElementsByClassName('apagar')[0];
+
+    delserv.addEventListener("click", function () {
+        console.log(imgNamefb, title, docRef);
+        fbRemove(imgNamefb, title, docRef);
+    });
+
     var saveserv = document.querySelector("#confirm");
 
     // var storageRef = storage.ref('images/' + file);
@@ -246,21 +250,4 @@ function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, b
     // purchaseClicked();
     // alert(title + ' serviço adicionado ao site, agradecemos!')
 
-}
-
-function updateCartTotal() {
-
-    var cartItemContainer = document.getElementsByClassName('overlaypv')[0]; // document.getElementsByClassName('cart-items')[0]
-    var cartRows = cartItemContainer.getElementsByClassName('overlaypv')
-    // var total = 0
-    // for (var i = 0; i < cartRows.length; i++) {
-    //     var cartRow = cartRows[i]
-    //     var priceElement = cartRow.getElementsByClassName('InpPrice')[0]
-    //     var quantityElement = cartRow.getElementsByClassName('cart-quantity-input')[0]
-    //     var price = parseFloat(priceElement.innerText.replace('$', ''))
-    //     var quantity = quantityElement.value
-    //     total = total + (price * quantity)
-    // }
-    // total = Math.round(total * 100) / 100
-    // document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total
 }

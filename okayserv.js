@@ -118,7 +118,7 @@ function addToPage(title, softused, detailused, price, imageSrc, servcatg, boxte
                     <button class="apagar" type="button"> Apagar</button>
                 </div>
                 <div class="BtnAdd">
-                    <button id="confirm" class="okay" type="button">Confirmar</button>
+                    <button id="confirm" class="okay" type="button">Próximo</button>
                 </div>
             </div>
             <div class="bgDetail">
@@ -140,6 +140,10 @@ function addToPage(title, softused, detailused, price, imageSrc, servcatg, boxte
     `
     addedserv.innerHTML = servContents;
     itensserv.append(addedserv);
+
+    var alllayServs = Array();
+    alllayServs = [...alllayServs, itensserv.children];
+    console.log(alllayServs);
 
 
 }
