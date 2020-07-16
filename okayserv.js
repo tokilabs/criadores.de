@@ -50,7 +50,7 @@ function paraCada(alldocs) {
     console.log(alldocs);
     var i = 0;
 
-    for (var item in alldocs){
+    for (var item in alldocs) {
         i = item;
     }
 
@@ -64,7 +64,7 @@ function paraCada(alldocs) {
     getserv(servsRef);
 }
 
- function getserv(servsRef) {
+function getserv(servsRef) {
     servsRef.get().then(function (doc) {
         const myData = doc.data();
         console.log(myData);
@@ -117,9 +117,9 @@ function addToPage(title, softused, detailused, price, imageSrc, servcatg, boxte
                 <div class="apagarbtn">
                     <button class="apagar" type="button"> Apagar</button>
                 </div>
-                <div class="BtnAdd">
-                    <button id="confirm" class="okay" type="button">Próximo</button>
-                </div>
+                 <button id="Btnpok" class="Btnpok" type="button">Próximo</button>
+                <button id="Btnnxtok" class="Btnnxtok" type="button">Anterior</button>
+                
             </div>
             <div class="bgDetail">
                 <div class="detalhes"> Detalhes </div>
@@ -141,12 +141,55 @@ function addToPage(title, softused, detailused, price, imageSrc, servcatg, boxte
     addedserv.innerHTML = servContents;
     itensserv.append(addedserv);
 
+    console.log(itensserv.children[2]);
+
+    itensserv.style.display = "block";
+
+
     var alllayServs = Array();
-    alllayServs = [...alllayServs, itensserv.children];
-    console.log(alllayServs);
+    alllayServs = itensserv.children;
+
+
+    console.log(alllayServs[2]);
+
+    alllayServs[0].style.display = "block";
+    alllayServs[1].style.display = "none";
+    alllayServs[2].style.display = "none";
+    alllayServs[3].style.display = "none";
+
+    var nxtbtn = itensserv.getElementsByClassName('Btnpok')[0];
+
+    var cont = 0;
+
+    nxtbtn.addEventListener("click", function () {
+        if(cont > 0){
+            for (var i = 0; i < alllayServs.length; i++){
+                alllayServs[i] = i;
+            }
+            console.log(alllayServs[i]);
+        }
+    });
+
+    // for (var i = 0; i < nxtbtn.length; i++) {
+    //     // alllayServs[i] = nxtbtn[i];
+    //     var nxt = nxtbtn[i];
+    //     nxt.addEventListener('click', function () {
+
+    //         for (var ii = 0; ii < alllayServs.length; ii++){
+    //             alllayServs[ii];
+    //             var prox = ii ++;
+    //             var ant = ii --;
+    //             console.log(prox, ant)
+    //             alllayServs[ant].style.display = "none";
+    //             alllayServs[prox].style.display = "block";
+    //             return alllayServs[ii];
+    //         }
+
+    //     });
+
+    // }
 
 
 }
 
 getAll();
-

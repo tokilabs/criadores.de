@@ -583,12 +583,16 @@
     /* right: initial; */
     width: 100%;
     height: 100%;
-    /* opacity: 0.4; */
     border-radius: 60px;
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.16);
+    border: solid 1px #d7d8d823;
+    background-color: #2e32433d;
+    /* opacity: 0.4; */
+    /* border-radius: 60px; */
+    /* box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.16); */
     /* border: solid 1px #d7d8d8; */
     /* border: solid 1px #4d5bb6; */
-    background-color: #2e324370;
+    /* background-color: #2e32433a; */
 }
 
 .servgroup .bgServ {
@@ -598,7 +602,10 @@
     width: 531px;
     height: Calc(100% - 40px);
     border-radius: 97px;
-    background-color: #4d5bb600;
+    background-color: #4d5bb670;
+    
+    /* border-radius: 97px; */
+    /* background-color: #4d5bb600; */
 }
 
 .servgroup .bgServ .BoxServ {
@@ -608,7 +615,7 @@
     width: 551px;
     height: Calc(100% - 20px);
     border-radius: 97px;
-    background-color: #4d5bb6;
+    background-color: #4d5bb600;
 }
 
 .servgroup .bgServ .paddingBG {
@@ -660,7 +667,7 @@
     /* opacity: 0.3; */
     border-radius: 29.2px;
     /* background-color: #c6d8ed; */
-    background-color: rgba(111, 161, 236, 0.199);
+    background-color: rgba(111, 161, 236, 0.233);
 }
 
 .servgroup .bgServ .paddingBG .DetailBox .SoftUse {
@@ -730,22 +737,34 @@
     border-radius: 50px;
 }
 
-.servgroup .bgServ .BtnAdd {
+.servgroup .bgServ .Btnpok {
     position: absolute;
     bottom: 70px;
     right: 50px;
-    width: 220px;
+    width: 100px;
     height: 71px;
-    /* opacity: 0.25; */
-    background-color: #ff8b8b00;
+    background-color: #ffffff00;
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-top-color: #24033a;
+    border-left-color: #24033a;
+    border-bottom-color: #4d5bb6;
+    border-right-color: #4d5bb6;
     border-radius: 50px;
 }
-
-.servgroup .bgServ .BtnAdd .okay {
+.servgroup .bgServ .Btnnxtok {
     position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: 220px;
+    bottom: 70px;
+    left: 260px;
+    width: 110px;
     height: 71px;
     background-color: #ffffff00;
     font-family: Roboto;
@@ -769,10 +788,10 @@
     position: absolute;
     top: 20px;
     left: 20px;
-    width: 598px;
+    width: Calc(100% - 630px);
     height: 625px;
     border-radius: 32px;
-    background-image: linear-gradient(to top, #e6edfa, #ffffff);
+    background-image: linear-gradient(to top, #e6edfad5, #ffffffad);
 
 }
 
@@ -833,7 +852,7 @@
     position: absolute;
     top: 90px;
     right: 40px;
-    width: 528px;
+    width: Calc(100% - 60px);
     height: 1px;
     background-color: #4d5bb6;
 
@@ -909,7 +928,7 @@
     position: absolute;
     top: 150px;
     right: 40px;
-    width: 528px;
+    width: Calc(100% - 60px);
     height: 1px;
     background-color: #4d5bb6;
 }
@@ -918,7 +937,7 @@
     position: absolute;
     bottom: 50px;
     right: 40px;
-    width: 521px;
+    width: Calc(100% - 60px);
     height: 392px;
     opacity: 0.8;
     border-radius: 80px;
