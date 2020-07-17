@@ -1,10 +1,10 @@
 const firestore = firebase.firestore();
 
-var docRef = Array();
+// var docRef = Array();
 
 var alldocs = Array();
 
-const docRefok = firestore.doc("addserv/\"teste quatro no ar\"");
+// const docRefok = firestore.doc("addserv/\"teste quatro no ar\"");
 
 // const docRef = firestore.collection("addserv/").doc(alldocs.length)
 
@@ -14,19 +14,26 @@ async function getAll() {
     const tst = firestore.collection('addserv');
     const snapshot = await tst.get();
     console.log(snapshot);
+    if (snapshot.size == 0) {
+        console.log("null");
+        alert("Nenhum Documento, adicione em chiadores.de/addserv.html e retorne a esta página");
+    }else{
+    // snapshot
     snapshot.forEach(doc => {
-        // console.log(doc.id, '=>', doc.data());
 
-        var docid = doc.id;
-        var idstring = JSON.stringify(doc.id);
+        if (doc.exists) { 
+            // console.log(doc.id, '=>', doc.data());
 
-        // console.log(docid);
+            var docid = doc.id;
+            var idstring = JSON.stringify(doc.id);
 
-        // console.log(idstring);
+            // console.log(docid);
 
-        allDocs(docid);
+            // console.log(idstring);
 
-    });
+            allDocs(docid);
+        }else{ console.log("Nenhum Documento")}
+    });}
     // [END get_all]
 }
 
@@ -62,6 +69,15 @@ function paraCada(alldocs) {
     console.log(alldocs[i]);
     var servsRef = firestore.collection('addserv/').doc(alldocs[i]);
     getserv(servsRef);
+}
+
+function firebaseRemove(title) {
+    docRef = firestore.collection('addserv/').doc(title);
+    docRef.delete().then(function () {
+        console.log("Document successfully deleted!");
+    }).catch(function (error) {
+        console.error("Error removing document: ", error);
+    });
 }
 
 function getserv(servsRef) {
@@ -153,18 +169,25 @@ function addToPage(title, softused, detailused, price, imageSrc, servcatg, boxte
     console.log(alllayServs[2]);
 
     alllayServs[0].style.display = "block";
-    alllayServs[1].style.display = "none";
-    alllayServs[2].style.display = "none";
-    alllayServs[3].style.display = "none";
+
+    for (var i = 0; i < alllayServs.length; i++) {
+        // if (alllayServs < 0)
+    }
 
     var nxtbtn = itensserv.getElementsByClassName('Btnpok');
     var prevbtn = itensserv.getElementsByClassName('Btnnxtok');
+    var deletar = itensserv.getElementsByClassName('apagar');
 
     var cont = 0;
 
-    var nn = 0;
+    for (var xx = 0; xx < deletar.length; xx++) {
+        deletar.length = alllayServs.length;
+        deletar[xx].addEventListener("click", function () {
+            firebaseRemove(title);
+        })
+    }
 
-    for ( nn = 0; nn < nxtbtn.length; nn++) {
+    for (var nn = 0; nn < nxtbtn.length; nn++) {
         nxtbtn.length = alllayServs.length;
         // nxtbtn[nn] = 0;
         nxtbtn[nn].addEventListener("click", function () {
@@ -175,8 +198,9 @@ function addToPage(title, softused, detailused, price, imageSrc, servcatg, boxte
                 for (var i = 0; i < alllayServs.length; i++) {
                     // i = alllayServs[cont];
                     // i++;
-                    if (cont > alllayServs.length) {
-                        alllayServs[i].style.display = "none";
+                    if (cont >= alllayServs.length) {
+                        alllayServs[cont] = 0;
+                        // alllayServs[cont].style.display = "none";
                         // alllayServs.style.display = "none";
                         // JSON.parse(alllayServs[cont].style).display = "none";
                         cont = 0;
@@ -214,7 +238,7 @@ function addToPage(title, softused, detailused, price, imageSrc, servcatg, boxte
                         // maxserv = JSON.parse(maxserv);
                         console.log(maxserv);
                         alllayServs[maxserv].style.display = "none";
-                        cont --;
+                        cont--;
                     } else {
                         i = alllayServs[cont];
                         i--;
@@ -229,12 +253,6 @@ function addToPage(title, softused, detailused, price, imageSrc, servcatg, boxte
         });
     }
 
-    // prevbtn.addEventListener("click", function () {
-    //     if (cont >= 0) {
-    //         cont--;
-    //         console.log(cont);
-    //     }
-    // });
 
 }
 
