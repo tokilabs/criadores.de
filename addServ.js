@@ -11,7 +11,7 @@ async function ready() {
     var uploader = document.querySelector("#uploader");
     var fileButton = document.querySelector("#input-image-hidden");
 
-    fileButton.addEventListener("change",async function (e) {
+    fileButton.addEventListener("change", async function (e) {
         var file = e.target.files[0];
         console.log(file);
 
@@ -22,16 +22,17 @@ async function ready() {
         task.on('state_changed',
 
             async function progress(snapshot) {
-                var percent = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
-                uploader.value = percent;
-            },
-            function error(err) {
+                    var percent = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+                    uploader.value = percent;
+                },
+                function error(err) {
 
-            },
-            async function complete() {
-                localStorage.setItem('fileImage', file.name);
-                alert('uploaded ' + file.name);
-            }
+                },
+                async function complete() {
+                    localStorage.clear();
+                    localStorage.setItem('fileImage', file.name);
+                    alert('uploaded ' + file.name);
+                }
         );
     });
 
@@ -48,34 +49,26 @@ async function ready() {
         button.addEventListener('click', addToCartClicked)
     }
 
-    //  document.getElementsByClassName('okay')[0].addEventListener('click', purchaseClicked)
+
 }
 
 function purchaseClicked() {
     alert('Obrigado por contribuir com a nossa plataforma')
+    var buttonClicked = event.target
+    buttonClicked.parentElement.parentElement.parentElement.remove()
 
-    var cartItems = document.getElementsByClassName('serv')[0]
-    while (cartItems.hasChildNodes()) {
-        cartItems.removeChild(cartItems.firstChild)
-    }
 }
 
-function fbRemove(imgNamefb, title, docRef) {
-        var storage = firebase.storage();
-        var pathRef = storage.ref('images/' + imgNamefb);
-        // var storageRef = storage.doc('addserv/' + title);
+function fbRemove(imgNamefb) {
+    var storage = firebase.storage();
+    var pathRef = storage.ref('images/' + imgNamefb);
 
-        pathRef.delete().then(function () {
-            console.log("File deleted successfully");
-        }).catch(function (error) {
-            // Uh-oh, an error occurred!
-        });
+    pathRef.delete().then(function () {
+        console.log("File deleted successfully");
+    }).catch(function (error) {
+        // Uh-oh, an error occurred!
+    });
 
-        docRef.delete().then(function () {
-            console.log("Document successfully deleted!");
-        }).catch(function (error) {
-            console.error("Error removing document: ", error);
-        });
 }
 
 function removeCartItem(event) {
@@ -84,24 +77,21 @@ function removeCartItem(event) {
     buttonClicked.parentElement.parentElement.parentElement.remove()
 }
 
-function addToCartClicked(event) {
-    var button = event.target
-    var shopItem = button.parentElement.parentElement.parentElement.parentElement.parentElement
+async function addToCartClicked(event) {
+    var button = event.target;
+    var shopItem = button.parentElement.parentElement.parentElement.parentElement.parentElement;
     var title = shopItem.getElementsByClassName("inpTit")[0].value;
-    localStorage.setItem('title', JSON.stringify(title))
+    localStorage.setItem('title', JSON.stringify(title));
     var softused = shopItem.getElementsByClassName("SoftUse")[0].value;
-    localStorage.setItem('softused', softused)
+    localStorage.setItem('softused', softused);
     var detailused = shopItem.getElementsByClassName("DetailUse")[0].value;
     localStorage.setItem('detailused', detailused)
     var price = shopItem.getElementsByClassName("pricebtn")[0].value;
-    localStorage.setItem('price', price)
-    // var imageSrc = shopItem.getElementsByClassName("picture")[0].src;
-    // localStorage.setItem('ImageItem', imageSrc)
+    localStorage.setItem('price', price);
     var servcatg = shopItem.getElementsByClassName("servcat")[0].value;
-    localStorage.setItem('servcatg', servcatg)
+    localStorage.setItem('servcatg', servcatg);
     var boxtext = shopItem.getElementsByClassName("inpdialog")[0].value;
-    // localStorage.boxtext[0].value = "boxdtext";
-    localStorage.setItem('boxdtext', boxtext)
+    localStorage.setItem('boxdtext', boxtext);
 
 
     var imgNamefb = localStorage.getItem('fileImage');
@@ -111,7 +101,9 @@ function addToCartClicked(event) {
     var pathReference = storage.ref('images/' + imgNamefb);
     var getImgUrl = pathReference.getDownloadURL().then(async function (url) {
         console.log(url);
+        // return url;
         localStorage.setItem(imgNamefb, url);
+        return url;
     }).catch(function (error) {
         console.error(error)
     });
@@ -128,7 +120,6 @@ function addToCartClicked(event) {
     var softused = localStorage.getItem('softused');
     var detailused = localStorage.getItem('detailused');
     var price = localStorage.getItem('price');
-    // var imageSrc = localStorage.getItem('ImageItem');
     var servcatg = localStorage.getItem('servcatg');
     var boxtext = localStorage.getItem('boxdtext');
 
@@ -198,8 +189,6 @@ function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, b
     `
     cartRow.innerHTML = cartRowContents
     cartItems.append(cartRow)
-    // title = localStorage.getItem('title')
-    // price = localStorage.getItem('price')
 
     cartRow.getElementsByClassName('apagar')[0].addEventListener('click', removeCartItem);
 
@@ -207,23 +196,19 @@ function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, b
 
     var docRef = firestore.collection("addserv").doc(title);
 
-    // var file = imageSrc;
     console.log(imageSrc);
     console.log(title);
 
     var delserv = cartRow.getElementsByClassName('apagar')[0];
 
     delserv.addEventListener("click", function () {
-        console.log(imgNamefb, title, docRef);
-        fbRemove(imgNamefb, title, docRef);
+        console.log(imgNamefb);
+        fbRemove(imgNamefb);
     });
 
     var saveserv = document.querySelector("#confirm");
 
-    // var storageRef = storage.ref('images/' + file);
-
     saveserv.addEventListener("click", function () {
-        // storageRef.child('images/' + file.value).put(file);
         console.log(title);
         console.log(imageSrc);
         console.log(softused);
@@ -245,9 +230,8 @@ function addItemToCart(title, softused, detailused, price, imageSrc, servcatg, b
         }).catch(function (error) {
             console.log("error:", error);
         });
+        purchaseClicked();
 
     });
-    // purchaseClicked();
-    // alert(title + ' serviço adicionado ao site, agradecemos!')
 
 }
