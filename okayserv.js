@@ -157,38 +157,84 @@ function addToPage(title, softused, detailused, price, imageSrc, servcatg, boxte
     alllayServs[2].style.display = "none";
     alllayServs[3].style.display = "none";
 
-    var nxtbtn = itensserv.getElementsByClassName('Btnpok')[0];
+    var nxtbtn = itensserv.getElementsByClassName('Btnpok');
+    var prevbtn = itensserv.getElementsByClassName('Btnnxtok');
 
     var cont = 0;
 
-    nxtbtn.addEventListener("click", function () {
-        if(cont > 0){
-            for (var i = 0; i < alllayServs.length; i++){
-                alllayServs[i] = i;
+    var nn = 0;
+
+    for ( nn = 0; nn < nxtbtn.length; nn++) {
+        nxtbtn.length = alllayServs.length;
+        // nxtbtn[nn] = 0;
+        nxtbtn[nn].addEventListener("click", function () {
+            if (cont >= 0) {
+                // cont.length = alllayServs.length;
+                cont++;
+                nn = cont;
+                for (var i = 0; i < alllayServs.length; i++) {
+                    // i = alllayServs[cont];
+                    // i++;
+                    if (cont > alllayServs.length) {
+                        alllayServs[i].style.display = "none";
+                        // alllayServs.style.display = "none";
+                        // JSON.parse(alllayServs[cont].style).display = "none";
+                        cont = 0;
+                        nn = cont;
+                        // var maxserv = alllayServs.length;
+                        // maxserv = JSON.parse(maxserv);
+                        // console.log(maxserv);
+                        // alllayServs[maxserv].style.display = "none";
+                        // return;
+                        // cont++;
+                    } else {
+                        i = alllayServs[cont];
+                        i++;
+                        // console.log(cont);
+                        console.log(alllayServs[cont]);
+                        alllayServs[cont].style.display = "block";
+                        alllayServs[cont - 1].style.display = "none";
+                    }
+                }
+                console.log(nn);
+                console.log(cont);
             }
-            console.log(alllayServs[i]);
-        }
-    });
+        });
+    }
 
-    // for (var i = 0; i < nxtbtn.length; i++) {
-    //     // alllayServs[i] = nxtbtn[i];
-    //     var nxt = nxtbtn[i];
-    //     nxt.addEventListener('click', function () {
+    for (var pp = 0; pp < prevbtn.length; pp++) {
+        prevbtn.length = alllayServs.length;
+        prevbtn[pp].addEventListener("click", function () {
+            if (cont > 0) {
+                // cont.length = alllayServs.length;
+                cont--;
+                for (var i = 0; i < alllayServs.length; i++) {
+                    if (cont >= alllayServs.length) {
+                        var maxserv = alllayServs.length;
+                        // maxserv = JSON.parse(maxserv);
+                        console.log(maxserv);
+                        alllayServs[maxserv].style.display = "none";
+                        cont --;
+                    } else {
+                        i = alllayServs[cont];
+                        i--;
+                        console.log(cont);
+                        console.log(alllayServs[cont]);
+                        alllayServs[cont].style.display = "block";
+                        alllayServs[cont + 1].style.display = "none";
+                    }
+                    pp++;
+                }
+            }
+        });
+    }
 
-    //         for (var ii = 0; ii < alllayServs.length; ii++){
-    //             alllayServs[ii];
-    //             var prox = ii ++;
-    //             var ant = ii --;
-    //             console.log(prox, ant)
-    //             alllayServs[ant].style.display = "none";
-    //             alllayServs[prox].style.display = "block";
-    //             return alllayServs[ii];
-    //         }
-
-    //     });
-
-    // }
-
+    // prevbtn.addEventListener("click", function () {
+    //     if (cont >= 0) {
+    //         cont--;
+    //         console.log(cont);
+    //     }
+    // });
 
 }
 
