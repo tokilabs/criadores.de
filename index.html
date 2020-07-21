@@ -12,12 +12,13 @@
         <link href="./css/menuTabMobileOverlay.css" rel="stylesheet" type="text/css"/>
         <link href="./css/index.css" rel="stylesheet" type="text/css"/>
         <link href="./css/cartadd.css" rel="stylesheet" type="text/css" />
+        <link href="./css/cartWidget.css" rel="stylesheet" type="text/css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js">
         </script>
         <script src="https://animaapp.s3.amazonaws.com/launchpad-static/launchpad.js">
         </script>
         <meta content="AnimaApp.com - Design to code, Automated." name="author"/>
-        <script src="cart.js" async></script>
+        <script src="carrinho.js" async></script>
     </head>
     <body style="margin: 0;
  background: rgba(255, 255, 255, 1.0);">
@@ -3976,14 +3977,14 @@
 })();
                                     </script>
                                     <div class="bp1-stackedgroup4">
-                                        <a href="javascript:animaShowOverlay('cartwidget', 'anima-animate-appear'); anima_loadAsyncSrc(); ">
+                                        <!-- <a href="javascript:animaShowOverlay('cartwidget', 'anima-animate-appear'); anima_loadAsyncSrc(); "> -->
                                             <div class="bp1-shopgroup anima-smart-layers-pointers ">
-                                                <div class="bp1-shop2">
+                                                <div class="bp1-shop2" id="shopBtn">
                                                     <img alt="Image" anima-src="./img/homemobile-shape-1@2x.png" class="bp1-shape15" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                                                     <img alt="Image" anima-src="./img/conteudo-shape-23@2x.png" class="bp1-shape16" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                                                 </div>
                                             </div>
-                                        </a>
+                                        <!-- </a> -->
                                         <a href="javascript:animaShowOverlay('login', 'anima-animate-appear'); anima_loadAsyncSrc(); ">
                                             <div class="bp1-profileicon anima-smart-layers-pointers ">
                                                 <img alt="Image" anima-src="./img/programa-shape-24@2x.png" class="bp1-shape" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
@@ -3991,13 +3992,16 @@
                                             </div>
                                         </a>
                                     </div>
+                                    
                                 </div>
                             </div>
                             <img alt="Image" anima-src="./img/conteudo-path-2-1.png" class="bp1-path2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         </div>
                     </div>
                 </div>
+                <div class="cartover"></div>
             </div>
+            
         </div>
         <div class="bp2-homemobile anima-word-break " id="None">
             <img alt="Image" anima-src="./img/homemobile-wave.png" class="bp2-wave" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
@@ -8006,7 +8010,7 @@
                         <div class="cart">
                             <div class="stackedgroup">
                               <!-- <section class="container content-section"> -->
-                              <h2 class="section-header">CART</h2>
+                              <!-- <h2 class="section-header">CART</h2>
                               <div class="cart-row">
                                 <span class="cart-item cart-header cart-column">ITEM</span>
                                 <span class="cart-price cart-header cart-column">PRICE</span>
@@ -8018,7 +8022,7 @@
                                 <strong class="cart-total-title">Total</strong>
                                 <span class="cart-total-price">$0</span>
                               </div>
-                              <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+                              <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button> -->
                               <!-- </section> -->
                                 <div class="carrinho anima-valign-text-middle">
                                     CARRINHO

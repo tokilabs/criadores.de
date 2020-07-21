@@ -4,6 +4,7 @@ if (document.readyState == 'loading') {
     ready()
 }
 
+
 async function ready() {
 
     var storage = firebase.storage();
@@ -31,18 +32,30 @@ async function ready() {
                 async function complete() {
                     localStorage.clear();
                     localStorage.setItem('fileImage', file.name);
+                    var recebeFile = file.name;
+
+                    var pathReference = storage.ref('images/' + recebeFile);
+
+                    var getImgUrl = pathReference.getDownloadURL().then(function (url) {
+                        console.log(url);
+                        // return url;
+                        localStorage.setItem(recebeFile, url);
+                        // return url;
+                    }).catch(function (error) {
+                        console.error(error)
+                    });
+
                     alert('uploaded ' + file.name);
                 }
         );
     });
+
 
     var removeCartItemButtons = document.getElementsByClassName('apagar')
     for (var i = 0; i < removeCartItemButtons.length; i++) {
         var button = removeCartItemButtons[i]
         button.addEventListener('click', removeCartItem)
     }
-    // var contratar = document.getElementsByClassName('bp1-contratar').innerHTML;
-    // contratar = "cookiesEnabled is " + navigator.cookieEnabled;
     var addToCartButtons = document.getElementsByClassName("contratar");
     for (var i = 0; i < addToCartButtons.length; i++) {
         var button = addToCartButtons[i]
@@ -77,7 +90,7 @@ function removeCartItem(event) {
     buttonClicked.parentElement.parentElement.parentElement.remove()
 }
 
-async function addToCartClicked(event) {
+function addToCartClicked(event) {
     var button = event.target;
     var shopItem = button.parentElement.parentElement.parentElement.parentElement.parentElement;
     var title = shopItem.getElementsByClassName("inpTit")[0].value;
@@ -96,23 +109,26 @@ async function addToCartClicked(event) {
 
     var imgNamefb = localStorage.getItem('fileImage');
     console.log(imgNamefb);
+    // console.log(guardaImg());
 
     var storage = firebase.storage();
     var pathReference = storage.ref('images/' + imgNamefb);
-    var getImgUrl = pathReference.getDownloadURL().then(async function (url) {
-        console.log(url);
-        // return url;
-        localStorage.setItem(imgNamefb, url);
-        return url;
-    }).catch(function (error) {
-        console.error(error)
-    });
+    // var getImgUrl = pathReference.getDownloadURL().then(function (url) {
+    //     console.log(url);
+    //     // return url;
+    //     localStorage.setItem(imgNamefb, url);
+    //     // return url;
+    // }).catch(function (error) {
+    //     console.error(error)
+    // });
+
+    // console.log(url);
 
     var imgUrl = localStorage.getItem(imgNamefb);
 
     console.log(pathReference);
 
-    console.log(getImgUrl);
+    // console.log(getImgUrl.innerHTML);
 
     console.log(imgUrl);
 

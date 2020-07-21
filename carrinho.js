@@ -1,21 +1,24 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link href="./img/favicon.png" rel="shortcut icon"/>
-        <meta charset="utf-8"/>
-        <meta content="width=1440, maximum-scale=1.0" name="viewport"/>
-        <meta content="yes" name="apple-mobile-web-app-capable"/>
-        <meta content="yes" name="mobile-web-app-capable"/>
-        <meta content="default" name="apple-mobile-web-app-status-bar-style"/>
-        <link href="./css/cartWidget.css" rel="stylesheet" type="text/css"/>
-        <link href="./css/cartadd.css" rel="stylesheet" type="text/css" />
-        <meta content="AnimaApp.com - Design to code, Automated." name="author"/>
-        <script src="cart.js" async></script>
-    </head>
-    <body style="margin: 0;">
-        <input id="anPageName" name="page" type="hidden" value="cartwidget"/>
-        <div class="cartwidget anima-word-break ">
-            <div class="backgroundcadastro">
+var cartIcon = 'shopBtn';
+
+var cartBtn = document.querySelector('#shopBtn');
+
+cartBtn.addEventListener('click', function(){
+    console.log('clicado');
+
+    var cartRow = document.createElement('div');
+    cartRow.classList.add('cartrow');
+
+    var cartItems = document.getElementsByClassName('cartover')[0];
+
+    // var cartItemNames = cartItems.getElementsByClassName('cart-item-title')
+    // for (var i = 0; i < cartItemNames.length; i++) {
+    //     if (cartItemNames[i].innerText == title) {
+    //         alert('Já está em seu carrinho')
+    //         return
+    //     }
+    // }
+    var cartRowContents = `
+        <div class="backgroundcadastro">
                 <div class="asset10">
                     <img alt="Image" anima-src="./img/sobre-rectangle.png" class="rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 </div>
@@ -119,85 +122,8 @@
                     <a href="javascript:animaHideOverlay('cartwidget', 'anima-animate-disappear');">
                         <img alt="Image" anima-src="./img/cartwidget-exit@2x.png" class="exit anima-smart-layers-pointers " src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </a>
-                </div>
-            </div>
-        </div>
-        <!-- Scripts -->
-        <script>
-            anima_isHidden = function(e) {
-                if (!(e instanceof HTMLElement)) return !1;
-                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
-                return !1;
-            };
-            anima_loadAsyncSrcForTag = function(tag) {
-                var elements = document.getElementsByTagName(tag);
-                var toLoad = [];
-                for (var i = 0; i < elements.length; i++) {
-                    var e = elements[i];
-                    var src = e.getAttribute("src");
-                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
-                    if (loaded) continue;
-                    var asyncSrc = e.getAttribute("anima-src");
-                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
-                    if (anima_isHidden(e)) continue;
-                    toLoad.push(e);
-                }
-                toLoad.sort(function(a, b) {
-                    return anima_getTop(a) - anima_getTop(b);
-                });
-                for (var i = 0; i < toLoad.length; i++) {
-                    var e = toLoad[i];
-                    var asyncSrc = e.getAttribute("anima-src");
-                    e.setAttribute("src", asyncSrc);
-                }
-            };
-            anima_pauseHiddenVideos = function(tag) {
-                var elements = document.getElementsByTagName("video");
-                for (var i = 0; i < elements.length; i++) {
-                    var e = elements[i];
-                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
-                    var isHidden = anima_isHidden(e);
-                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
-                        e.play();
-                    } else if (isPlaying && isHidden) {
-                        e.pause();
-                    }
-                }
-            };
-            anima_loadAsyncSrc = function(tag) {
-                anima_loadAsyncSrcForTag("img");
-                anima_loadAsyncSrcForTag("iframe");
-                anima_loadAsyncSrcForTag("video");
-                anima_pauseHiddenVideos();
-            };
-            var anima_getTop = function(e) {
-                var top = 0;
-                do {
-                    top += e.offsetTop || 0;
-                    e = e.offsetParent;
-                } while (e);
-                return top;
-            };
-            anima_loadAsyncSrc();
-            anima_old_onResize = window.onresize;
-            anima_new_onResize = undefined;
-            anima_updateOnResize = function() {
-                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
-                    anima_new_onResize = function(x) {
-                        if (anima_old_onResize != undefined) anima_old_onResize(x);
-                        anima_loadAsyncSrc();
-                    };
-                    window.onresize = anima_new_onResize;
-                    setTimeout(function() {
-                        anima_updateOnResize();
-                    }, 3000);
-                }
-            };
-            anima_updateOnResize();
-            setTimeout(function() {
-                anima_loadAsyncSrc();
-            }, 200);
-        </script>
-        <!-- End of Scripts -->
-    </body>
-</html>
+                </div>`;
+
+    cartRow.innerHTML = cartRowContents;
+    cartItems.append(cartRow);
+});

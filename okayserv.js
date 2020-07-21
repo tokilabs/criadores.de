@@ -13,27 +13,31 @@ async function getAll() {
     // [START get_all]
     const tst = firestore.collection('addserv');
     const snapshot = await tst.get();
-    console.log(snapshot);
+    console.log(snapshot.size);
     if (snapshot.size == 0) {
         console.log("null");
         alert("Nenhum Documento, adicione em chiadores.de/addserv.html e retorne a esta página");
-    }else{
-    // snapshot
-    snapshot.forEach(doc => {
+    } else {
+        // snapshot
+        snapshot.forEach(doc => {
 
-        if (doc.exists) { 
-            // console.log(doc.id, '=>', doc.data());
+            if (doc.exists) {
+                // console.log(doc.id, '=>', doc.data());
 
-            var docid = doc.id;
-            var idstring = JSON.stringify(doc.id);
+                var docid = doc.id;
+                var idstring = JSON.stringify(doc.id);
 
-            // console.log(docid);
+                // console.log(docid);
 
-            // console.log(idstring);
+                // console.log(idstring);
 
-            allDocs(docid);
-        }else{ console.log("Nenhum Documento")}
-    });}
+                allDocs(docid);
+            } else {
+                console.log("Nenhum Documento");
+                alert("Nenhum Documento, adicione em chiadores.de/addserv.html e retorne a esta página");
+            }
+        });
+    }
     // [END get_all]
 }
 
@@ -61,11 +65,6 @@ function paraCada(alldocs) {
         i = item;
     }
 
-    // for (i= 0; i < alldocs.length; i++){
-    //     alldocs[i] = i;
-    //     // i++;
-    //     // return i;
-    // }
     console.log(alldocs[i]);
     var servsRef = firestore.collection('addserv/').doc(alldocs[i]);
     getserv(servsRef);
@@ -75,6 +74,8 @@ function firebaseRemove(title) {
     docRef = firestore.collection('addserv/').doc(title);
     docRef.delete().then(function () {
         console.log("Document successfully deleted!");
+        alert(title + "  deletado");
+        // window.location.reload(true);
     }).catch(function (error) {
         console.error("Error removing document: ", error);
     });
@@ -135,7 +136,6 @@ function addToPage(title, softused, detailused, price, imageSrc, servcatg, boxte
                 </div>
                  <button id="Btnpok" class="Btnpok" type="button">Próximo</button>
                 <button id="Btnnxtok" class="Btnnxtok" type="button">Anterior</button>
-                
             </div>
             <div class="bgDetail">
                 <div class="detalhes"> Detalhes </div>
@@ -157,31 +157,39 @@ function addToPage(title, softused, detailused, price, imageSrc, servcatg, boxte
     addedserv.innerHTML = servContents;
     itensserv.append(addedserv);
 
-    console.log(itensserv.children[2]);
-
-    itensserv.style.display = "block";
-
 
     var alllayServs = Array();
     alllayServs = itensserv.children;
 
 
-    console.log(alllayServs[2]);
-
-    alllayServs[0].style.display = "block";
-
-    for (var i = 0; i < alllayServs.length; i++) {
-        // if (alllayServs < 0)
-    }
+    console.log(alllayServs.length);
 
     var nxtbtn = itensserv.getElementsByClassName('Btnpok');
     var prevbtn = itensserv.getElementsByClassName('Btnnxtok');
     var deletar = itensserv.getElementsByClassName('apagar');
-
     var cont = 0;
 
+    for (var serv = 0; serv < alllayServs.length; serv++) {
+        console.log(alllayServs.length);
+        console.log(alllayServs[serv]);
+        if (alllayServs.length <= 0) {
+            alert('Adicione Algum Serviço');
+        } else {
+            // serv = alllayServs[serv];
+            console.log(alllayServs[serv]);
+            alllayServs[serv].style.display = 'none';
+            alllayServs[0].style.display = 'block';
+        }
+        serv++;
+        var objAllserv = alllayServs[serv];
+        objAllserv.style.display = 'none';
+        console.log(alllayServs[serv]);
+
+    }
+
+
     for (var xx = 0; xx < deletar.length; xx++) {
-        deletar.length = alllayServs.length;
+        // deletar.length = alllayServs.length;
         deletar[xx].addEventListener("click", function () {
             firebaseRemove(title);
         })
@@ -189,39 +197,37 @@ function addToPage(title, softused, detailused, price, imageSrc, servcatg, boxte
 
     for (var nn = 0; nn < nxtbtn.length; nn++) {
         nxtbtn.length = alllayServs.length;
-        // nxtbtn[nn] = 0;
         nxtbtn[nn].addEventListener("click", function () {
             if (cont >= 0) {
                 // cont.length = alllayServs.length;
                 cont++;
-                nn = cont;
                 for (var i = 0; i < alllayServs.length; i++) {
-                    // i = alllayServs[cont];
-                    // i++;
-                    if (cont >= alllayServs.length) {
-                        alllayServs[cont] = 0;
-                        // alllayServs[cont].style.display = "none";
-                        // alllayServs.style.display = "none";
-                        // JSON.parse(alllayServs[cont].style).display = "none";
-                        cont = 0;
-                        nn = cont;
+                    if (cont > alllayServs.length) {
                         // var maxserv = alllayServs.length;
                         // maxserv = JSON.parse(maxserv);
                         // console.log(maxserv);
-                        // alllayServs[maxserv].style.display = "none";
-                        // return;
+                        i = alllayServs[cont];
+                        alllayServs[cont].style.display = "block";
+                        nn = cont;
+                        window.location.reload(true);
                         // cont++;
                     } else {
                         i = alllayServs[cont];
-                        i++;
-                        // console.log(cont);
+                        console.log(cont);
                         console.log(alllayServs[cont]);
+                        if (cont >= 4) {
+                            console.log('passou');
+                            alert('Todos mostrados, vamos voltar ao começo.');
+                            window.location.reload(true);
+                        }
                         alllayServs[cont].style.display = "block";
                         alllayServs[cont - 1].style.display = "none";
+                        i++;
+                        // nn = cont;
                     }
+                    nn++;
+                    
                 }
-                console.log(nn);
-                console.log(cont);
             }
         });
     }
@@ -238,7 +244,7 @@ function addToPage(title, softused, detailused, price, imageSrc, servcatg, boxte
                         // maxserv = JSON.parse(maxserv);
                         console.log(maxserv);
                         alllayServs[maxserv].style.display = "none";
-                        cont--;
+                        // cont--;
                     } else {
                         i = alllayServs[cont];
                         i--;
