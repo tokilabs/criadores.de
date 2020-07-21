@@ -1,0 +1,25 @@
+
+.BgCart {
+    position: absolute;
+    top: 0;
+}
+.CartGroup {
+    position: absolute;
+}
+.BgCart .Asset-8 {
+    position: absolute;
+    top: 0;
+    width: 1440px;
+    height: 856px;
+    object-fit: contain;
+    opacity: 0.37;
+}
+
+
+.BgCart .Asset-7 {
+    top: 0;
+    position: absolute;
+    width: 1440px;
+    height: 569px;
+    object-fit: contain;
+}
