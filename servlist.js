@@ -2,7 +2,7 @@
 
  var allDocs = Array();
 
- async function pegarTodos(){
+ async function pegarTodos() {
      const colect = db.collection('addserv');
      const snapshot = await colect.get();
 
@@ -28,7 +28,7 @@
                  todosServs(docid);
              } else {
                  console.log("Nenhum Documento");
-                //  alert("Nenhum Documento, adicione em chiadores.de/addserv.html e retorne a esta página");
+                 //  alert("Nenhum Documento, adicione em chiadores.de/addserv.html e retorne a esta página");
              }
          });
      }
@@ -44,7 +44,7 @@
 
  }
 
- function cadaServ(allDocs){
+ function cadaServ(allDocs) {
      console.log(allDocs.length);
 
      for (var item in allDocs) {
@@ -57,6 +57,27 @@
      servicesFstore(servRef);
  }
 
- function servicesFstore(servRef){}
+ function servicesFstore(servRef) {
+     servRef.get().then(function (doc) {
+
+         const myData = doc.data();
+         console.log(myData);
+
+         var title = myData.nome;
+         console.log(title);
+         var softused = myData.soft;
+         console.log(softused);
+         var detailused = myData.detail;
+         console.log(detailused);
+         var price = myData.preco;
+         console.log(price);
+         var imageSrc = myData.image;
+         console.log(imageSrc);
+         var servcatg = myData.categ;
+         console.log(servcatg);
+         var boxtext = myData.text;
+         console.log(boxtext);
+     });
+ }
 
  pegarTodos();

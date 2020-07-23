@@ -96,7 +96,6 @@ function getserv(servsRef) {
         console.log(detailused);
         var price = myData.preco;
         console.log(price);
-        // imageSrc = fstorage.ref('gs://criadores-b8998.appspot.com/images/ServiceAdd.png');
         var imageSrc = myData.image;
         console.log(imageSrc);
         var servcatg = myData.categ;
@@ -104,7 +103,7 @@ function getserv(servsRef) {
         var boxtext = myData.text;
         console.log(boxtext);
 
-        // return title, softused, detailused, price, imageSrc, servcatg, boxtext;
+        
         addToPage(title, softused, detailused, price, imageSrc, servcatg, boxtext);
 
     });
