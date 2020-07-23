@@ -77,7 +77,71 @@
          console.log(servcatg);
          var boxtext = myData.text;
          console.log(boxtext);
+
+         adicionarNaPagina(title, softused, detailused, price, imageSrc, servcatg, boxtext);
      });
  }
 
+ function adicionarNaPagina(title, softused, detailused, price, imageSrc, servcatg, boxtext) {
+
+     var layServ = document.createElement('div');
+     layServ.classList.add('services');
+
+     var itenserv = document.getElementsByClassName("servicescontainer")[0];
+
+
+
+     var conteudoServ = `
+                        <a href="service.html">
+                            <div class="servconnteudo">
+                                    <img alt="Image" src=${imageSrc} class="servimg"/>
+                                    <div class="servtitle"> ${title} </div>
+                                    <div class="detaleConteudo">
+                                        <div class="servsoft">
+                                        ${softused}</div>
+                                        <div class="servDetail">
+                                        ${detailused}</div>
+                                    </div>
+                            </div>
+                        </a>
+    `;
+
+     layServ.innerHTML = conteudoServ;
+     itenserv.append(layServ);
+
+     var itemServCont = itenserv.children;
+     console.log(layServ);
+     console.log(itemServCont.length);
+
+      var nxtBtn = document.getElementsByClassName("proximoServ")[0];
+      var prevBtn = document.getElementsByClassName("anteriorServ")[0];
+
+      nxtBtn.addEventListener("click", function () {
+          console.log('nnxt bbtn apertado');
+          console.log(itemServCont.length);
+
+          for (var nxtitem = 0; nxtitem < itemServCont.length; nxtitem++) {
+              itemServCont[nxtitem];
+              console.log(itemServCont[nxtitem]);
+              console.log(nxtitem);
+
+          }
+
+      });
+      prevBtn.addEventListener("click", function () {
+          console.log('prevBtn apertado');
+      });
+
+
+     for (var i = 0; i < itemServCont.length; i++) {
+         itemServCont[i];
+         console.log(itemServCont[i]);
+         if (i >= 6) {
+             itemServCont[i].style.display = "none";
+         }
+     }
+
+ }
+
  pegarTodos();
+
