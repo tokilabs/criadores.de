@@ -1,6 +1,6 @@
 // var cartIcon = 'shopBtn';
 
-var cartBtn = document.querySelector('#shopBtn');
+var cartBtn = document.querySelector('#shopBtn1');
 
 
 var cartHtml = document.getElementById("myHtml");
@@ -13,7 +13,8 @@ cartBtn.addEventListener('click', function(){
     // cartItems.style.display = 'block';
     cartHtml.style.width = '100%';
     cartHtml.style.height = '100%';
-    // cartHtml.style.position = 'absolute';
+    cartHtml.style.top = '0px';
+    cartHtml.style.position = 'absolute';
     
 
     cartHtml.style.display = 'block';
