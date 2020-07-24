@@ -113,35 +113,65 @@
      console.log(layServ);
      console.log(itemServCont.length);
 
-      var nxtBtn = document.getElementsByClassName("proximoServ")[0];
-      var prevBtn = document.getElementsByClassName("anteriorServ")[0];
 
-      nxtBtn.addEventListener("click", function () {
-          console.log('nnxt bbtn apertado');
-          console.log(itemServCont.length);
+     var prevBtn = document.getElementsByClassName("anteriorServ")[0];
 
-          for (var nxtitem = 0; nxtitem < itemServCont.length; nxtitem++) {
-              itemServCont[nxtitem];
-              console.log(itemServCont[nxtitem]);
-              console.log(nxtitem);
+     var nxtBtn = document.getElementsByClassName("proximoServ")[0];
 
-          }
-
-      });
-      prevBtn.addEventListener("click", function () {
-          console.log('prevBtn apertado');
-      });
+     prevBtn.style.display = "none";
+     nxtBtn.style.display = "none";
 
 
+
+     newFunction(itemServCont, prevBtn, nxtBtn);
+
+     prevBtn.addEventListener("click", function () {
+         prevServ(prevBtn.length, itemServCont);
+     });
+     nxtBtn.addEventListener("click", function () {
+         nxtServ(nxtBtn, itemServCont);
+     });
+     //  return itemServCont;
+
+ }
+
+ function newFunction(itemServCont, prevBtn, nxtBtn) {
      for (var i = 0; i < itemServCont.length; i++) {
          itemServCont[i];
          console.log(itemServCont[i]);
          if (i >= 6) {
              itemServCont[i].style.display = "none";
+             prevBtn.style.display = "none";
+             nxtBtn.style.display = "block";
+         } else if (i < 6) {
+             prevBtn.style.display = "none";
+             nxtBtn.style.display = "none";
          }
+     }
+ }
+
+ function prevServ(prevBtn, itemServCont) {
+     console.log("apertado");
+     console.log(itemServCont.length);
+     console.log(prevBtn);
+ }
+
+ function nxtServ(n, itemServCont) {
+     console.log("nxtServ apertado");
+     console.log(itemServCont);
+
+     console.log(novoArray);
+
+     for (var i = 0; i < itemServCont.length; i++) {
+         itemServCont[i];
+         console.log(itemServCont[i]);
+
+         var novoArray = Array();
+        novoArray = itemServCont; // .slice(i, i + 3);
+         console.log(novoArray);
+
      }
 
  }
 
  pegarTodos();
-

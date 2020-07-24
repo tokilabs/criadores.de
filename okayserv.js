@@ -191,7 +191,7 @@ function addToPage(title, softused, detailused, price, imageSrc, servcatg, boxte
         // deletar.length = alllayServs.length;
         deletar[xx].addEventListener("click", function () {
             firebaseRemove(title);
-        })
+        });
     }
 
     for (var nn = 0; nn < nxtbtn.length; nn++) {
