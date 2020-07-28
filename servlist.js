@@ -97,10 +97,8 @@
                                     <img alt="Image" src=${imageSrc} class="servimg"/>
                                     <div class="servtitle"> ${title} </div>
                                     <div class="detaleConteudo">
-                                        <div class="servsoft">
-                                        ${softused}</div>
-                                        <div class="servDetail">
-                                        ${detailused}</div>
+                                        <div class="servsoft">${softused}</div>
+                                        <div class="servDetail">${detailused}</div>
                                     </div>
                             </div>
                         </a>
@@ -152,24 +150,20 @@
 
  function prevServ(prevBtn, itemServCont) {
      console.log("apertado");
-     console.log(itemServCont.length);
-     console.log(prevBtn);
+    //  console.log(itemServCont.length);
+    //  console.log(prevBtn);
  }
 
  function nxtServ(n, itemServCont) {
-     console.log("nxtServ apertado");
-     console.log(itemServCont);
+    //  console.log("nxtServ apertado");
+    //  console.log(itemServCont);
 
-     console.log(novoArray);
+    //  console.log(novoArray);
 
      for (var i = 0; i < itemServCont.length; i++) {
          itemServCont[i];
-         console.log(itemServCont[i]);
-
-         var novoArray = Array();
-        novoArray = itemServCont; // .slice(i, i + 3);
-         console.log(novoArray);
-
+         let newArray = itemServCont.slice(i, i + 3);
+         console.log(newArray);
      }
 
  }
