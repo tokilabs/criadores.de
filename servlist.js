@@ -2,6 +2,56 @@
 
  var allDocs = Array();
 
+ var prevBtn = document.getElementsByClassName("anteriorServ");
+ var nxtBtn = document.getElementsByClassName("proximoServ");
+
+ var itenserv = document.getElementsByClassName("servicescontainer");
+
+ if (document.readyState == 'loading') {
+     document.addEventListener('DOMContentLoaded', leiaApagina)
+ } else {
+     leiaApagina();
+ }
+
+ function leiaApagina() {
+
+     pegarTodos();
+      console.log(itenserv);
+
+     var itemServCont = itenserv[0].children;
+
+     var it = 0;
+
+     for (var item in itemServCont){
+         it = item;
+     }
+
+     console.log(itemServCont[it]);
+
+     for (var i = 0; i < itemServCont.length; i++) {
+        //  itemServCont[i];
+         console.log(itemServCont[i]);
+         if (i >= 6) {
+             itemServCont[i].style.display = "none";
+             prevBtn[0].style.display = "none";
+             nxtBtn[0].style.display = "block";
+         } else if (i < 6) {
+             prevBtn[0].style.display = "none";
+             nxtBtn[0].style.display = "none";
+         }
+     }
+
+
+     //botoes da pagina
+     prevBtn[0].addEventListener("click", function () {
+         prevServ();
+     });
+     nxtBtn[0].addEventListener("click", function () {
+         nxtServ()
+     });
+ }
+
+
  async function pegarTodos() {
      const colect = db.collection('addserv');
      const snapshot = await colect.get();
@@ -87,10 +137,6 @@
      var layServ = document.createElement('div');
      layServ.classList.add('services');
 
-     var itenserv = document.getElementsByClassName("servicescontainer")[0];
-
-
-
      var conteudoServ = `
                         <a href="service.html">
                             <div class="servconnteudo">
@@ -105,67 +151,20 @@
     `;
 
      layServ.innerHTML = conteudoServ;
-     itenserv.append(layServ);
-
-     var itemServCont = itenserv.children;
      console.log(layServ);
-     console.log(itemServCont.length);
+     itenserv[0].append(layServ);
+     //  console.log(layServ);
 
-
-     var prevBtn = document.getElementsByClassName("anteriorServ")[0];
-
-     var nxtBtn = document.getElementsByClassName("proximoServ")[0];
-
-     prevBtn.style.display = "none";
-     nxtBtn.style.display = "none";
-
-
-
-     newFunction(itemServCont, prevBtn, nxtBtn);
-
-     prevBtn.addEventListener("click", function () {
-         prevServ(prevBtn.length, itemServCont);
-     });
-     nxtBtn.addEventListener("click", function () {
-         nxtServ(nxtBtn, itemServCont);
-     });
-     //  return itemServCont;
+     var itemService = itenserv[0].children;
+     console.log(itemService);
 
  }
 
- function newFunction(itemServCont, prevBtn, nxtBtn) {
-     for (var i = 0; i < itemServCont.length; i++) {
-         itemServCont[i];
-         console.log(itemServCont[i]);
-         if (i >= 6) {
-             itemServCont[i].style.display = "none";
-             prevBtn.style.display = "none";
-             nxtBtn.style.display = "block";
-         } else if (i < 6) {
-             prevBtn.style.display = "none";
-             nxtBtn.style.display = "none";
-         }
-     }
- }
-
- function prevServ(prevBtn, itemServCont) {
+ function prevServ() {
      console.log("apertado");
-    //  console.log(itemServCont.length);
-    //  console.log(prevBtn);
  }
 
- function nxtServ(n, itemServCont) {
-    //  console.log("nxtServ apertado");
-    //  console.log(itemServCont);
-
-    //  console.log(novoArray);
-
-     for (var i = 0; i < itemServCont.length; i++) {
-         itemServCont[i];
-         let newArray = itemServCont.slice(i, i + 3);
-         console.log(newArray);
-     }
+ function nxtServ() {
+     console.log("nxtServ apertado");
 
  }
-
- pegarTodos();
