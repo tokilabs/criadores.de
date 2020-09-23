@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1578px" height="937px" viewBox="0 0 1578 937" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>wave</title>
+    <defs>
+        <linearGradient x1="96.748656%" y1="11.3962819%" x2="96.748656%" y2="11.3962819%" id="linearGradient-1">
+            <stop stop-color="#2E3243" offset="33.9289485%"></stop>
+            <stop stop-color="#4D5BB6" offset="80.3183066%"></stop>
+        </linearGradient>
+        <path d="M0,0 L1401.69717,0 C1688.70593,223.61686 1762.16503,471.343564 1622.07447,743.180114 C1411.93865,1150.93494 1087.74548,800.504137 877.859436,1214.81246 C737.935404,1491.01801 445.315592,1532.90723 0,1340.4801 L0,0 Z" id="path-2"></path>
+        <filter x="-0.5%" y="-0.3%" width="101.1%" height="101.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Criadores" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="wave" transform="translate(-113.000000, -522.000000)">
+            <g transform="translate(845.500000, 729.500000) scale(-1, 1) translate(-845.500000, -729.500000) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>

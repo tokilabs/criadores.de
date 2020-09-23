@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1105px" height="315px" viewBox="0 0 1105 315" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>wave copy</title>
+    <defs>
+        <path d="M590,362 L1502.63666,362 C1689.50634,433.269253 1737.33512,512.222589 1646.123,598.860009 C1509.30482,728.816139 1298.22459,617.129831 1161.56904,749.174637 C1070.46533,837.204508 879.942322,850.555079 590,789.22635 L590,362 Z" id="path-1"></path>
+        <filter x="-0.8%" y="-1.1%" width="101.6%" height="104.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Criadores" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.304873512">
+        <g id="general-bg" transform="translate(-473.000000, 0.000000)">
+            <g transform="translate(-113.000000, -522.000000)" id="wave-copy">
+                <g transform="translate(1140.500000, 594.500000) scale(-1, 1) translate(-1140.500000, -594.500000) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#4D5BB6" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
